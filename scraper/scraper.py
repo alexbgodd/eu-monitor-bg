@@ -162,6 +162,7 @@ def parse_isun(soup, source):
                 entry = make_entry(code, title, source, '')
                 entry['url'] = url
                 entry['category'] = get_category(title)
+                entry['code'] = code
                 programs.append(entry)
     return programs
 

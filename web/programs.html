@@ -120,14 +120,20 @@ function renderPrograms() {
 
     document.getElementById('programs-list').innerHTML = filtered.map(p => `
         <div class="program-card">
-            <h3>${p.title}</h3>
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
+                <h3 style="margin:0;flex:1;">${p.title}</h3>
+                <span style="flex-shrink:0;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;background:#dcfce7;color:#166534;">● АКТИВНА</span>
+            </div>
+            ${p.code ? `<div style="font-size:12px;color:#64748b;margin:4px 0 8px;">Код: <b>${p.code}</b></div>` : ''}
             <div class="program-meta">
                 <span class="tag source">${p.source}</span>
                 <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
-                ${p.deadline ? `<span class="tag deadline">⏰ ${p.deadline}</span>` : ''}
-                <span style="font-size:12px;color:#94a3b8;">Намерена: ${p.found_at}</span>
+                ${p.deadline ? `<span class="tag deadline">⏰ Краен срок: ${p.deadline}</span>` : '<span style="font-size:12px;color:#94a3b8;">Краен срок: уточнява се</span>'}
             </div>
-            ${p.url ? `<a href="${p.url}" target="_blank" class="program-link">Виж програмата →</a>` : ''}
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;">
+                ${p.url ? `<a href="${p.url}" target="_blank" class="program-link">Виж програмата →</a>` : '<span></span>'}
+                <span style="font-size:11px;color:#cbd5e1;">Намерена: ${p.found_at}</span>
+            </div>
         </div>
     `).join('');
 }
