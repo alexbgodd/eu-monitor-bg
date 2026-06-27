@@ -24,6 +24,13 @@ SOURCES = [
         "base_url": "https://www.mig.government.bg"
     },
     {
+        "name": "ИСУН 2020 — Отворени процедури",
+        "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
+        "category": "общи",
+        "parser": "isun",
+        "base_url": "https://eumis2020.government.bg"
+    },
+    {
         "name": "ЕСФ България",
         "url": "https://esf.bg/proceduri/",
         "category": "социални",
@@ -115,6 +122,48 @@ def make_entry(uid, title, source, deadline):
         "deadline": deadline,
         "found_at": datetime.now().strftime("%Y-%m-%d %H:%M")
     }
+
+def parse_isun(soup, source):
+    """ИСУН 2020 — пълен списък отворени EU процедури в България."""
+    programs = []
+    if not soup:
+        return programs
+    seen = set()
+
+    def get_category(text):
+        t = text.lower()
+        if any(w in t for w in ['иновац', 'дигитал', 'конкурентоспособ', 'предприят', 'цифров']):
+            return 'бизнес'
+        if any(w in t for w in ['образован', 'обучен', 'училищ', 'висше', 'професионал', 'еразъм']):
+            return 'образование'
+        if any(w in t for w in ['социал', 'заетост', 'труд', 'здрав', 'деца', 'семейст', 'човешки ресурс']):
+            return 'социални'
+        if any(w in t for w in ['земедел', 'рибарств', 'аквакулт', 'морско дел', 'храни']):
+            return 'земеделие'
+        if any(w in t for w in ['околна среда', 'природ', 'биологично', 'натура', 'води', 'климат']):
+            return 'екология'
+        if any(w in t for w in ['регион', 'градск', 'общин', 'инфраструктур']):
+            return 'общини'
+        return 'общи'
+
+    # Процедурите са в list items — търсим по код BG...
+    import re
+    for li in soup.select('li'):
+        text = li.get_text(strip=True)
+        # Процедурите имат формат BG + цифри
+        if re.match(r'^BG\d+', text) and len(text) > 15:
+            if text not in seen:
+                seen.add(text)
+                # Извличаме код и заглавие
+                parts = text.split(' - ', 1)
+                code = parts[0].strip()
+                title = parts[1].strip() if len(parts) > 1 else text
+                url = f"https://eumis2020.government.bg/bg/s/Procedure/Active"
+                entry = make_entry(code, title, source, '')
+                entry['url'] = url
+                entry['category'] = get_category(title)
+                programs.append(entry)
+    return programs
 
 def parse_mig(soup, source):
     """Министерство на иновациите и растежа."""
@@ -347,6 +396,7 @@ def parse_ncf(soup, source):
     return programs
 
 PARSERS = {
+    "isun": parse_isun,
     "mig": parse_mig,
     "opic": parse_opic,
     "esf": parse_esf,
