@@ -40,6 +40,34 @@ SOURCES = [
         "category": "култура",
         "parser": "mc",
         "base_url": "https://mc.government.bg"
+    },
+    {
+        "name": "Държавен фонд Земеделие",
+        "url": "https://www.dfz.bg/bg/open-support-procedures",
+        "category": "земеделие",
+        "parser": "dfz",
+        "base_url": "https://www.dfz.bg"
+    },
+    {
+        "name": "ЦРЧР — Еразъм+ и младеж",
+        "url": "https://hrdc.bg/",
+        "category": "образование",
+        "parser": "hrdc",
+        "base_url": "https://hrdc.bg"
+    },
+    {
+        "name": "НПО портал — Финансиране",
+        "url": "https://www.ngobg.info/bg/financing.html",
+        "category": "социални",
+        "parser": "ngobg",
+        "base_url": "https://www.ngobg.info"
+    },
+    {
+        "name": "Национален фонд Култура",
+        "url": "https://ncf.bg/bg/programs",
+        "category": "култура",
+        "parser": "ncf",
+        "base_url": "https://ncf.bg"
     }
 ]
 
@@ -200,12 +228,95 @@ def parse_mc(soup, source):
             programs.append(make_entry(full_url, text, source, ''))
     return programs
 
+def parse_dfz(soup, source):
+    """Държавен фонд Земеделие — отворени процедури."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.dfz.bg')
+    seen = set()
+    keywords = ['схем', 'мярк', 'процедур', 'подпомаг', 'интервенц', 'програм', 'финансир']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if (text and 10 < len(text) < 250 and text not in seen and
+                any(w in text.lower() for w in keywords)):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+def parse_hrdc(soup, source):
+    """ЦРЧР — Еразъм+ покани и програми."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://hrdc.bg')
+    seen = set()
+    keywords = ['покан', 'програм', 'еразъм', 'кандидатстван', 'грант', 'финансир', 'младеж', 'мобилност']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if (text and 10 < len(text) < 200 and text not in seen and
+                any(w in text.lower() for w in keywords)):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+def parse_ngobg(soup, source):
+    """НПО портал — списък с отворени програми за финансиране."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.ngobg.info')
+    seen = set()
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if (text and 10 < len(text) < 200 and text not in seen and
+                '/financing/' in href or '/bg/financing' in href):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+def parse_ncf(soup, source):
+    """Национален фонд Култура."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://ncf.bg')
+    seen = set()
+    keywords = ['програм', 'конкурс', 'грант', 'финансир', 'стипенд', 'покан']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if (text and 8 < len(text) < 200 and text not in seen and
+                any(w in text.lower() for w in keywords)):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
 PARSERS = {
     "opic": parse_opic,
     "esf": parse_esf,
     "eufunds": parse_eufunds,
     "mzh": parse_mzh,
     "mc": parse_mc,
+    "dfz": parse_dfz,
+    "hrdc": parse_hrdc,
+    "ngobg": parse_ngobg,
+    "ncf": parse_ncf,
 }
 
 def scrape_all():
