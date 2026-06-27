@@ -1,7 +1,6 @@
 import json
 import os
-
-USERS_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'users.json')
+import urllib.request
 
 CATEGORY_MAP = {
     "бизнес":     ["бизнес", "иновации", "общи"],
@@ -16,13 +15,36 @@ CATEGORY_MAP = {
 }
 
 def load_users():
-    if os.path.exists(USERS_FILE):
-        with open(USERS_FILE, 'r', encoding='utf-8') as f:
-            try:
-                return json.load(f)
-            except:
-                return []
-    return []
+    """Зарежда потребители от Supabase."""
+    from dotenv import load_dotenv
+    load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
+    url = os.getenv('SUPABASE_URL')
+    key = os.getenv('SUPABASE_SECRET_KEY')
+
+    if not url or not key:
+        print("Няма SUPABASE_URL / SUPABASE_SECRET_KEY в .env")
+        return []
+
+    try:
+        req = urllib.request.Request(
+            f"{url}/rest/v1/registrations?select=*",
+            headers={
+                'apikey': key,
+                'Authorization': f'Bearer {key}'
+            }
+        )
+        with urllib.request.urlopen(req) as response:
+            users = json.loads(response.read().decode())
+            # Конвертираме interests от string към list
+            for u in users:
+                if isinstance(u.get('interests'), str):
+                    u['interests'] = [i.strip() for i in u['interests'].split(',')]
+            print(f"  Заредени {len(users)} потребители от Supabase.")
+            return users
+    except Exception as e:
+        print(f"  Грешка при зареждане от Supabase: {e}")
+        return []
 
 def match_users_to_program(program, users):
     """Връща списък с имейли на потребители, за които програмата е релевантна."""

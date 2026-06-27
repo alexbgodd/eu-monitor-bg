@@ -1,3 +1,6 @@
+const SUPABASE_URL = 'https://jrbmhftixkwcgyjuijji.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_p2RG_e2n7Dm-D6cnzCGrbg_oZAibpIY';
+
 document.getElementById('register-form').addEventListener('submit', async function(e) {
     e.preventDefault();
 
@@ -25,25 +28,27 @@ document.getElementById('register-form').addEventListener('submit', async functi
     btn.textContent = 'Регистриране...';
 
     try {
-        const res = await fetch('https://formspree.io/f/mykqwrky', {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/registrations`, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+                'Content-Type': 'application/json',
+                'apikey': SUPABASE_KEY,
+                'Authorization': `Bearer ${SUPABASE_KEY}`
+            },
             body: JSON.stringify({
                 name,
                 email,
                 org_type,
-                interests: interests.join(', '),
-                _subject: `Нова регистрация: ${name} (${org_type})`
+                interests: interests.join(', ')
             })
         });
 
-        const data = await res.json();
-
-        if (res.ok) {
-            showMessage('✓ ' + data.message, 'success');
+        if (res.ok || res.status === 201) {
+            showMessage('✓ Регистрацията е успешна! Ще получаваш имейл alerts.', 'success');
             document.getElementById('register-form').reset();
         } else {
-            showMessage(data.error || 'Грешка. Опитай отново.', 'error');
+            const data = await res.json();
+            showMessage(data.message || 'Грешка. Опитай отново.', 'error');
         }
     } catch (err) {
         showMessage('Грешка при свързване. Опитай отново.', 'error');

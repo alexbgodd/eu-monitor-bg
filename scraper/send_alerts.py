@@ -111,5 +111,20 @@ def run_alerts():
 
     print(f"\n✓ Готово! Изпратени: {sent} имейла.")
 
+def test_email():
+    """Тестов имейл с примерна програма"""
+    test_programs = [{
+        "title": "Тестова програма — EU Monitor работи!",
+        "source": "EU Monitor BG",
+        "url": "https://tools.gdprcheck.bg",
+        "deadline": ""
+    }]
+    print("Изпращане на тестов имейл...")
+    send_email(SMTP_USER, "Alex", test_programs)
+
 if __name__ == "__main__":
-    run_alerts()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "test":
+        test_email()
+    else:
+        run_alerts()
