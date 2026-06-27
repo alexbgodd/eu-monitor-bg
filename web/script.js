@@ -25,10 +25,16 @@ document.getElementById('register-form').addEventListener('submit', async functi
     btn.textContent = 'Регистриране...';
 
     try {
-        const res = await fetch('/api/register', {
+        const res = await fetch('https://formspree.io/f/mykqwrky', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, org_type, interests })
+            body: JSON.stringify({
+                name,
+                email,
+                org_type,
+                interests: interests.join(', '),
+                _subject: `Нова регистрация: ${name} (${org_type})`
+            })
         });
 
         const data = await res.json();
