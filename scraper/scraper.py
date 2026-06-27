@@ -10,10 +10,18 @@ DATA_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'programs.json
 
 SOURCES = [
     {
-        "name": "ОПИК - Иновации и конкурентоспособност",
-        "url": "https://www.opic.bg/proceduri-za-kandidatstvane/otvoreni-proceduri",
+        "name": "Министерство на иновациите и растежа",
+        "url": "https://www.mig.government.bg/otvoreni-proceduri/",
         "category": "бизнес",
-        "parser": "opic"
+        "parser": "mig",
+        "base_url": "https://www.mig.government.bg"
+    },
+    {
+        "name": "ПНИИДИТ — Иновации и дигитализация",
+        "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/",
+        "category": "бизнес",
+        "parser": "mig",
+        "base_url": "https://www.mig.government.bg"
     },
     {
         "name": "ЕСФ България",
@@ -107,6 +115,29 @@ def make_entry(uid, title, source, deadline):
         "deadline": deadline,
         "found_at": datetime.now().strftime("%Y-%m-%d %H:%M")
     }
+
+def parse_mig(soup, source):
+    """Министерство на иновациите и растежа."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.mig.government.bg')
+    seen = set()
+    keywords = ['процедур', 'програм', 'покан', 'финансир', 'грант', 'иновац', 'дигитал', 'конкурентоспособ']
+    skip = ['начало', 'контакти', 'за нас', 'новини', 'english']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if text.lower() in skip or len(text) < 12:
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if (text and len(text) < 250 and text not in seen and
+                any(w in text.lower() for w in keywords)):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
 
 def parse_opic(soup, source):
     """ОПИК листва процедури в div-ове с клас или в таблица."""
@@ -316,6 +347,7 @@ def parse_ncf(soup, source):
     return programs
 
 PARSERS = {
+    "mig": parse_mig,
     "opic": parse_opic,
     "esf": parse_esf,
     "eufunds": parse_eufunds,

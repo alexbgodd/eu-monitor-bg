@@ -1,5 +1,131 @@
 [
   {
+    "id": "https://www.mig.government.bg/category/inovaczii-i-rastezh/",
+    "title": "ИНОВАЦИИ И РАСТЕЖ",
+    "source": "Министерство на иновациите и растежа",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/category/inovaczii-i-rastezh/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/politiki-i-instrumenti/politika_v_oblastta_na_inovacziite/",
+    "title": "ПОЛИТИКА В ОБЛАСТТА НА ИНОВАЦИИТЕ",
+    "source": "Министерство на иновациите и растежа",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/politiki-i-instrumenti/politika_v_oblastta_na_inovacziite/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/dopalvastho-finansirane-na-izbrani-ot-ek-evropejski-czifrovi-inovaczionni-habove/",
+    "title": "BG16RFPR002-1.001 Допълващо финансиране на избрани от Европейската комисия Европейски цифрови иновационни хъбове (ЕЦИХ)",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/dopalvastho-finansirane-na-izbrani-ot-ek-evropejski-czifrovi-inovaczionni-habove/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-1-002-finansirane-na-izbrani-ot-evropejskata-komisiya-evropejski-czifrovi-inovaczionni-habove-otlicheni-s-pechat-za-visoki-postizheniya/",
+    "title": "BG16RFPR002-1.002 Финансиране на избрани от Европейската комисия Европейски цифрови иновационни хъбове, отличени с „Печат за високи постижения“",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-1-002-finansirane-na-izbrani-ot-evropejskata-komisiya-evropejski-czifrovi-inovaczionni-habove-otlicheni-s-pechat-za-visoki-postizheniya/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/podkrepa-za-razvitie-na-sasthestvuvasthi-inovaczionni-klasteri/",
+    "title": "BG16RFPR002-1.003 Подкрепа за развитие на съществуващи иновационни клъстери",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/podkrepa-za-razvitie-na-sasthestvuvasthi-inovaczionni-klasteri/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/malki-inovativni-grantove-za-msp/",
+    "title": "BG16RFPR002-1.005 Малки иновативни грантове за малки и средни предприятия (МСП)",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/malki-inovativni-grantove-za-msp/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/podkrepa-za-balgarski-inovaczionni-predpriyatiya-s-proekti-poluchili-pechat-za-visoki-postizheniya/",
+    "title": "BG16RFPR002-1.018 Подкрепа за български иновационни предприятия с проекти, получили \"Печат за високи постижения\"",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/podkrepa-za-balgarski-inovaczionni-predpriyatiya-s-proekti-poluchili-pechat-za-visoki-postizheniya/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-1-020-dopalvastho-finansirane-na-odobreni-ot-evropejskata-komisiya-proekti-po-programa-czifrova-evropa/",
+    "title": "BG16RFPR002-1.020 Допълващо финансиране на одобрени от Европейската комисия проекти по програма „Цифрова Европа“",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-1-020-dopalvastho-finansirane-na-odobreni-ot-evropejskata-komisiya-proekti-po-programa-czifrova-evropa/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-3-001-osiguryavane-na-tehnicheska-pomosth/",
+    "title": "BG16RFPR002-3.001 Осигуряване на техническа помощ за успешното изпълнение на програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ за периода 2021-2027 г.",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/novini-proczeduri-po-pniidit/bg16rfpr002-3-001-osiguryavane-na-tehnicheska-pomosth/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/indikativna-godishna-rabotna-programa-igrp-pniidit/",
+    "title": "Индикативна годишна работна програма (ИГРП) на ПНИИДИТ",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/indikativna-godishna-rabotna-programa-igrp-pniidit/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/izpalnenie-na-programa-pniidit/",
+    "title": "Изпълнение на програмата",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/izpalnenie-na-programa-pniidit/",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://www.mig.government.bg/wp-content/uploads/2022/12/pniidit_2021_2027_ver.1.1.pdf",
+    "title": "Линк към Програмата",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/wp-content/uploads/2022/12/pniidit_2021_2027_ver.1.1.pdf",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://ec.europa.eu/info/research-and-innovation_bg",
+    "title": "Европейски програми за бизнеса „Научни изследвания и иновации“",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://ec.europa.eu/info/research-and-innovation_bg",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
+    "id": "https://ec.europa.eu/info/business-economy-euro_bg",
+    "title": "Европейски програми за бизнеса „Бизнес, икономика, евро“",
+    "source": "ПНИИДИТ — Иновации и дигитализация",
+    "category": "бизнес",
+    "url": "https://ec.europa.eu/info/business-economy-euro_bg",
+    "deadline": "",
+    "found_at": "2026-06-27 19:11"
+  },
+  {
     "id": "https://hrdc.bg/%d0%b8%d0%b7%d0%b3%d1%80%d0%b0%d0%b6%d0%b4%d0%b0%d0%bd%d0%b5-%d0%bd%d0%b0-%d0%ba%d0%b0%d0%bf%d0%b0%d1%86%d0%b8%d1%82%d0%b5%d1%82-%d0%b2-%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d1%82%d0%b0-%d0%bd%d0%b0/",
     "title": "Изграждане на капацитет в областта на младежта",
     "source": "ЦРЧР — Еразъм+ и младеж",
