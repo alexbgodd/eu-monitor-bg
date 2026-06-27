@@ -275,14 +275,19 @@ def parse_ngobg(soup, source):
         return programs
     base = source.get('base_url', 'https://www.ngobg.info')
     seen = set()
+    # Изключваме навигационни и нерелевантни текстове
+    skip_words = ['добави финансиране', 'виж архив', 'финансиране', 'архив', 'назад', 'напред']
+    keywords = ['програм', 'финансир', 'грант', 'фонд', 'конкурс', 'покан', 'процедур', 'отворен']
     for a in soup.select('a'):
         text = a.get_text(strip=True)
         href = a.get('href', '')
         if not href or href.startswith('#') or href.startswith('mailto'):
             continue
+        if text.lower() in skip_words or len(text) < 15:
+            continue
         full_url = (base + href) if href.startswith('/') else href
-        if (text and 10 < len(text) < 200 and text not in seen and
-                '/financing/' in href or '/bg/financing' in href):
+        if (text and len(text) < 200 and text not in seen and
+                any(w in text.lower() for w in keywords)):
             seen.add(text)
             programs.append(make_entry(full_url, text, source, ''))
     return programs
@@ -294,14 +299,17 @@ def parse_ncf(soup, source):
         return programs
     base = source.get('base_url', 'https://ncf.bg')
     seen = set()
+    skip_words = ['архив програми', 'кандидатствай по програма', 'архив', 'начало', 'контакти']
     keywords = ['програм', 'конкурс', 'грант', 'финансир', 'стипенд', 'покан']
     for a in soup.select('a'):
         text = a.get_text(strip=True)
         href = a.get('href', '')
         if not href or href.startswith('#') or href.startswith('mailto'):
             continue
+        if text.lower() in skip_words or len(text) < 12:
+            continue
         full_url = (base + href) if href.startswith('/') else href
-        if (text and 8 < len(text) < 200 and text not in seen and
+        if (text and len(text) < 200 and text not in seen and
                 any(w in text.lower() for w in keywords)):
             seen.add(text)
             programs.append(make_entry(full_url, text, source, ''))
