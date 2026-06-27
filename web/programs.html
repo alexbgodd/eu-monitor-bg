@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Monitor BG — Програми за финансиране</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .programs-grid { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+        .program-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px 24px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            border-left: 4px solid #2563eb;
+        }
+        .program-card h3 { font-size: 16px; margin-bottom: 8px; color: #1e293b; }
+        .program-meta { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+        .tag {
+            font-size: 12px; padding: 3px 10px; border-radius: 20px;
+            background: #eff6ff; color: #1d4ed8; font-weight: 600;
+        }
+        .tag.source { background: #f0fdf4; color: #166534; }
+        .tag.deadline { background: #fff7ed; color: #9a3412; }
+        .program-link { font-size: 13px; color: #2563eb; text-decoration: none; margin-top: 6px; display: inline-block; }
+        .program-link:hover { text-decoration: underline; }
+        .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+        .filter-btn {
+            padding: 6px 16px; border-radius: 20px; border: 1.5px solid #d1d5db;
+            background: white; cursor: pointer; font-size: 14px; transition: all 0.15s;
+        }
+        .filter-btn.active, .filter-btn:hover { background: #2563eb; color: white; border-color: #2563eb; }
+        .count { color: #94a3b8; font-size: 14px; margin-bottom: 16px; }
+        .back-link { display: inline-flex; align-items: center; gap: 6px; color: #2563eb; text-decoration: none; font-size: 14px; margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">🇪🇺 EU Monitor BG</div>
+        <p class="tagline">Автоматичен мониторинг на EU програми за финансиране</p>
+    </div>
+</header>
+
+<section style="padding: 40px 0;">
+    <div class="container">
+        <a href="/" class="back-link">← Обратно към регистрация</a>
+        <h1 style="font-size:26px;margin-bottom:8px;">Намерени програми</h1>
+        <p class="count" id="count">Зареждане...</p>
+
+        <div class="filter-bar" id="filters"></div>
+        <div class="programs-grid" id="programs-list"></div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 EU Monitor BG &nbsp;|&nbsp; Безплатна услуга &nbsp;|&nbsp; <a href="mailto:alexbgodd@gmail.com">Контакт</a></p>
+    </div>
+</footer>
+
+<script>
+const CATEGORY_LABELS = {
+    "общи": "🌐 Общи",
+    "бизнес": "💼 Бизнес",
+    "земеделие": "🌾 Земеделие",
+    "култура": "🎭 Култура",
+    "социални": "👥 Социални",
+    "образование": "📚 Образование",
+    "туризъм": "🏨 Туризъм",
+    "екология": "🌿 Екология",
+    "ит": "💻 ИТ"
+};
+
+let allPrograms = [];
+let activeFilter = 'all';
+
+async function loadPrograms() {
+    try {
+        const res = await fetch('/data/programs.json');
+        allPrograms = await res.json();
+        renderFilters();
+        renderPrograms();
+    } catch(e) {
+        document.getElementById('programs-list').innerHTML =
+            '<p style="color:#ef4444">Грешка при зареждане на програмите.</p>';
+    }
+}
+
+function renderFilters() {
+    const categories = ['all', ...new Set(allPrograms.map(p => p.category))];
+    const bar = document.getElementById('filters');
+    bar.innerHTML = categories.map(cat => `
+        <button class="filter-btn ${cat === activeFilter ? 'active' : ''}"
+                onclick="setFilter('${cat}')">
+            ${cat === 'all' ? '📋 Всички' : (CATEGORY_LABELS[cat] || cat)}
+        </button>
+    `).join('');
+}
+
+function setFilter(cat) {
+    activeFilter = cat;
+    renderFilters();
+    renderPrograms();
+}
+
+function renderPrograms() {
+    const filtered = activeFilter === 'all'
+        ? allPrograms
+        : allPrograms.filter(p => p.category === activeFilter);
+
+    document.getElementById('count').textContent = `${filtered.length} програми намерени`;
+
+    if (filtered.length === 0) {
+        document.getElementById('programs-list').innerHTML =
+            '<p style="color:#64748b">Няма програми в тази категория.</p>';
+        return;
+    }
+
+    document.getElementById('programs-list').innerHTML = filtered.map(p => `
+        <div class="program-card">
+            <h3>${p.title}</h3>
+            <div class="program-meta">
+                <span class="tag source">${p.source}</span>
+                <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
+                ${p.deadline ? `<span class="tag deadline">⏰ ${p.deadline}</span>` : ''}
+                <span style="font-size:12px;color:#94a3b8;">Намерена: ${p.found_at}</span>
+            </div>
+            ${p.url ? `<a href="${p.url}" target="_blank" class="program-link">Виж програмата →</a>` : ''}
+        </div>
+    `).join('');
+}
+
+loadPrograms();
+</script>
+</body>
+</html>
