@@ -112,6 +112,35 @@ def load_existing():
                 return []
     return []
 
+def expire_old(programs):
+    """
+    Изчиства стари записи:
+    - ЦАИС ЕОП поръчки (type=tender): премахва след 30 дни
+    - EU фондове (type=fund): премахва след 180 дни
+    Записите без дата се запазват.
+    """
+    today = date.today()
+    kept, removed = [], 0
+    for p in programs:
+        found_str = p.get('found_at', '')[:10]
+        if not found_str:
+            kept.append(p)
+            continue
+        try:
+            found_date = date.fromisoformat(found_str)
+        except ValueError:
+            kept.append(p)
+            continue
+        age = (today - found_date).days
+        limit = 30 if p.get('type') == 'tender' else 180
+        if age <= limit:
+            kept.append(p)
+        else:
+            removed += 1
+    if removed:
+        print(f"  [Изтекли] Премахнати {removed} стари записа.")
+    return kept
+
 def save_programs(programs):
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
@@ -670,11 +699,16 @@ def scrape_all():
     except Exception as e:
         print(f"    Грешка ЦАИС ЕОП: {e}")
 
+    # Изчисти изтеклите записи
+    all_programs = new_programs + existing
+    all_programs = expire_old(all_programs)
+
     if new_programs:
-        save_programs(new_programs + existing)
-        print(f"\n✓ Записани {len(new_programs)} нови програми в data/programs.json")
+        save_programs(all_programs)
+        print(f"\n✓ Записани {len(new_programs)} нови. Общо активни: {len(all_programs)}")
     else:
-        print(f"\n— Няма нови програми.")
+        save_programs(all_programs)
+        print(f"\n— Няма нови програми. Активни: {len(all_programs)}")
 
     return new_programs
 

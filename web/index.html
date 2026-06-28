@@ -3,37 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EU Monitor BG — Следи EU финансиране</title>
+    <title>EU Monitor BG — Следи EU финансиране и обществени поръчки</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .how-it-works {
+            background: white;
+            padding: 48px 0 40px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .how-it-works h2 {
+            text-align: center;
+            font-size: 22px;
+            color: #1e293b;
+            margin-bottom: 32px;
+        }
+        .steps {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 24px;
+        }
+        .step {
+            text-align: center;
+            padding: 8px;
+        }
+        .step-num {
+            width: 44px; height: 44px;
+            background: #eff6ff;
+            color: #2563eb;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: 800;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 14px;
+        }
+        .step h4 { font-size: 15px; color: #1e293b; margin-bottom: 6px; }
+        .step p { font-size: 13px; color: #64748b; line-height: 1.5; }
+        .alert-preview {
+            background: #f0fdf4;
+            border: 1.5px solid #bbf7d0;
+            border-radius: 10px;
+            padding: 14px 18px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #166534;
+        }
+        .alert-preview strong { display: block; margin-bottom: 6px; font-size: 15px; }
+        .alert-preview ul { padding-left: 18px; }
+        .alert-preview li { margin-bottom: 4px; }
+        .sources-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 14px;
+        }
+        .sources-grid li {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 14px;
+            list-style: none;
+            color: #374151;
+        }
+        @media (max-width: 520px) {
+            .steps { grid-template-columns: 1fr; gap: 16px; }
+            .sources-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
 
 <header>
     <div class="container">
         <div class="logo">🇪🇺 EU Monitor BG</div>
-        <p class="tagline">Автоматичен мониторинг на EU програми за финансиране</p>
+        <p class="tagline">Автоматичен мониторинг на EU програми и обществени поръчки</p>
     </div>
 </header>
 
 <section class="hero">
     <div class="container">
-        <h1>Не пропускай нито една EU програма</h1>
-        <p>Регистрирай се безплатно и получавай имейл alert при всяка нова програма, която пасва на твоя профил.</p>
+        <h1>Не пропускай нито една EU програма или обществена поръчка</h1>
+        <p>Регистрирай профила си веднъж — получавай персонализирани имейл alerts с директни линкове при всяка нова възможност, която пасва на твоите интереси.</p>
         <div class="stats">
-            <div class="stat"><span>5+</span><small>Източника</small></div>
-            <div class="stat"><span>Безплатно</span><small>Завинаги</small></div>
+            <div class="stat"><span>13+</span><small>Източника</small></div>
+            <div class="stat"><span>649+</span><small>Активни</small></div>
             <div class="stat"><span>24/7</span><small>Мониторинг</small></div>
         </div>
-        <a href="/programs" style="display:inline-block;margin-top:24px;padding:10px 24px;background:white;color:#1d4ed8;border-radius:8px;font-weight:700;text-decoration:none;">
-            📋 Виж намерените програми →
+        <a href="/programs" style="display:inline-block;margin-top:28px;padding:12px 28px;background:white;color:#1d4ed8;border-radius:8px;font-weight:700;text-decoration:none;font-size:15px;">
+            📋 Виж всички активни програми и поръчки →
         </a>
     </div>
 </section>
 
+<!-- Как работи -->
+<section class="how-it-works">
+    <div class="container">
+        <h2>Как работи?</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h4>Попълни профила си</h4>
+                <p>Избери интересите и типа на организацията си. Отнема под 1 минута.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h4>Системата следи автоматично</h4>
+                <p>Сканираме 13+ официални български и EU източници всеки ден — ИСУН, ЦАИС ЕОП, ДФЗ и още.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h4>Получаваш имейл alert</h4>
+                <p>При нова програма или поръчка, която пасва на профила ти — получаваш имейл с директен линк и детайли.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Форма -->
 <section class="form-section">
     <div class="container">
         <div class="card">
-            <h2>Регистрирай се за alerts</h2>
+            <h2>Регистрирай се за безплатни alerts</h2>
 
             <form id="register-form">
                 <div class="field">
@@ -73,21 +162,41 @@
                 </div>
 
                 <button type="submit" id="submit-btn">
-                    Регистрирай се безплатно
+                    Регистрирай се безплатно →
                 </button>
+
+                <!-- Обяснение какво получават -->
+                <div class="alert-preview">
+                    <strong>📧 Какво ще получиш на имейл:</strong>
+                    <ul>
+                        <li>Заглавие и кратко описание на новата програма / поръчка</li>
+                        <li>Директен линк към официалния документ</li>
+                        <li>Краен срок за кандидатстване (ако е наличен)</li>
+                        <li>Само програми, които пасват на избраните от теб интереси</li>
+                    </ul>
+                </div>
 
                 <div id="message" class="message hidden"></div>
             </form>
         </div>
 
+        <!-- Източници -->
         <div class="sources">
             <h3>Следим в реално време:</h3>
-            <ul>
-                <li>🔵 ОПИК — Иновации и конкурентоспособност</li>
-                <li>🔵 ЕСФ — Европейски социален фонд</li>
+            <ul class="sources-grid">
+                <li>🔵 ИСУН 2020 — EU процедури</li>
+                <li>🔵 ЦАИС ЕОП — Обществени поръчки</li>
+                <li>🔵 Министерство на иновациите</li>
+                <li>🔵 Държавен фонд Земеделие</li>
+                <li>🔵 ЕСФ България</li>
+                <li>🔵 ЦРЧР — Еразъм+</li>
+                <li>🔵 Министерство на културата</li>
+                <li>🔵 Национален фонд Култура</li>
+                <li>🔵 НПО портал</li>
                 <li>🔵 Еврофондове.бг</li>
                 <li>🔵 Министерство на земеделието</li>
-                <li>🔵 Министерство на културата</li>
+                <li>🔵 finansirane.org</li>
+                <li>🔵 ИПУП</li>
             </ul>
         </div>
     </div>
