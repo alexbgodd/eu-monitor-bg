@@ -21,6 +21,7 @@
     { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/data/:path*", "destination": "/data/:path*" },
     { "source": "/style.css", "destination": "/web/style.css" },
+    { "source": "/water.min.css", "destination": "/web/water.min.css" },
     { "source": "/script.js", "destination": "/web/script.js" },
     { "source": "/programs", "destination": "/web/programs.html" },
     { "source": "/privacy", "destination": "/web/privacy.html" },
