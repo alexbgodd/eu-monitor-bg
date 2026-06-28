@@ -2,7 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-from datetime import datetime
+from datetime import datetime, date, timedelta
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -150,7 +153,7 @@ def fetch_page(url):
         print(f"  Грешка: {e}")
         return None
 
-def make_entry(uid, title, source, deadline):
+def make_entry(uid, title, source, deadline, entry_type="fund"):
     return {
         "id": uid,
         "title": title,
@@ -158,8 +161,129 @@ def make_entry(uid, title, source, deadline):
         "category": source["category"],
         "url": uid if uid.startswith('http') else '',
         "deadline": deadline,
+        "type": entry_type,
         "found_at": datetime.now().strftime("%Y-%m-%d %H:%M")
     }
+
+
+# ── ЦАИС ЕОП open-data S3 ──────────────────────────────────────────────────
+
+EOP_BASE = "https://storage.eop.bg"
+EOP_UA   = "eu-monitor-bg/1.0 (+https://github.com)"
+
+def _eop_list_bucket(day_iso):
+    """Връща S3 ключовете за даден ден или None."""
+    url = f"{EOP_BASE}/open-data-{day_iso}/"
+    req = urllib.request.Request(url, headers={"User-Agent": EOP_UA})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            root = ET.fromstring(r.read())
+        ns = "{http://s3.amazonaws.com/doc/2006-03-01/}"
+        return [el.text for el in root.iter(f"{ns}Key")]
+    except Exception:
+        return None
+
+def _eop_fetch_json(day_iso, key):
+    """Изтегля JSON файл от S3 bucket."""
+    url = f"{EOP_BASE}/open-data-{day_iso}/{urllib.parse.quote(key)}"
+    req = urllib.request.Request(url, headers={"User-Agent": EOP_UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+    except Exception:
+        return None
+
+def fetch_eop_tenders(days_back=7):
+    """
+    Чете договори от storage.eop.bg за последните days_back дни.
+    Файловете се казват 'договори' на български.
+    Връща списък [(day_iso, record), ...].
+    """
+    results = []
+    today = date.today()
+    for offset in range(1, days_back + 1):
+        day = today - timedelta(days=offset)
+        day_iso = day.isoformat()
+        keys = _eop_list_bucket(day_iso)
+        if not keys:
+            continue
+        # Файлът с договори/поръчки — търсим по bulgarian keywords
+        contract_key = next(
+            (k for k in keys if "договор" in k.lower()),
+            None
+        )
+        if not contract_key:
+            continue
+        data = _eop_fetch_json(day_iso, contract_key)
+        if not data:
+            continue
+        records = data if isinstance(data, list) else data.get("contracts", data.get("items", []))
+        for rec in records:
+            results.append((day_iso, rec))
+    return results
+
+def parse_eop(records, existing_ids):
+    """
+    Преобразува записи от ЦАИС ЕОП договори в обекти за programs.json.
+    Полета от реалния формат: uniqueProcurementNumber, tenderName,
+    buyerName, tenderMainCpvDescription, publicationDate, noticeId, tenderId
+    """
+    programs = []
+    seen = set()
+
+    for day_iso, rec in records:
+        # Реални имена на полетата от storage.eop.bg
+        uid = str(rec.get("uniqueProcurementNumber") or rec.get("noticeId") or "")
+        title = (rec.get("tenderName") or rec.get("contractSubject") or "")
+        authority = rec.get("buyerName") or ""
+        cpv_desc = rec.get("tenderMainCpvDescription") or ""
+        cpv_code = str(rec.get("tenderMainCpv") or "")
+        notice_id = rec.get("noticeId") or rec.get("tenderId") or ""
+        pub_date = (rec.get("publicationDate") or day_iso)[:10]
+
+        if not title or not uid:
+            continue
+        if uid in seen or uid in existing_ids:
+            continue
+        seen.add(uid)
+
+        category = _eop_category(title + " " + cpv_desc, cpv_code)
+        full_url = (f"https://app.eop.bg/en-BG/notice/0/{notice_id}"
+                    if notice_id else "https://app.eop.bg/today")
+
+        programs.append({
+            "id": uid,
+            "title": title[:200],
+            "source": "ЦАИС ЕОП — Обществени поръчки",
+            "category": category,
+            "url": full_url,
+            "deadline": "",
+            "type": "tender",
+            "authority": authority[:100],
+            "found_at": pub_date,
+            "code": uid,
+        })
+    return programs
+
+def _eop_category(title, cpv=""):
+    t = (title + " " + cpv).lower()
+    if any(w in t for w in ["иновац", "дигитал", "ит ", "софтуер", "информацион", "технолог"]):
+        return "бизнес"
+    if any(w in t for w in ["образован", "обучен", "училищ", "детск"]):
+        return "образование"
+    if any(w in t for w in ["социал", "здрав", "болниц", "медицин"]):
+        return "социални"
+    if any(w in t for w in ["земедел", "горск", "рибарств", "храни"]):
+        return "земеделие"
+    if any(w in t for w in ["строител", "пътищ", "инфраструктур", "ремонт", "реконструкц"]):
+        return "инфраструктура"
+    if any(w in t for w in ["природ", "околна среда", "отпадъц", "вод"]):
+        return "екология"
+    if any(w in t for w in ["култур", "изкуств", "театър", "музей"]):
+        return "култура"
+    if any(w in t for w in ["общин", "кметств", "район"]):
+        return "общини"
+    return "търгове"
 
 def parse_isun(soup, source):
     """ИСУН 2020 — пълен списък отворени EU процедури в България."""
@@ -464,15 +588,22 @@ def parse_ippm(soup, source):
     base = source.get('base_url', 'https://www.ippm-bg.org')
     seen = set()
     keywords = ['процедур', 'програм', 'покан', 'грант', 'финансир', 'конкурс', 'отворен']
+    # Шум — навигационни текстове без конкретна програма
+    noise = ['програмии проекти', 'програми и проекти', 'начало', 'контакти',
+             'за нас', 'новини', 'english', 'bg', 'търсене']
     for a in soup.select('a'):
         text = a.get_text(strip=True)
         href = a.get('href', '')
         if not href or href.startswith('#') or href.startswith('mailto'):
             continue
-        if len(text) < 15 or text in seen:
+        if len(text) < 20 or text in seen:
+            continue
+        if text.lower() in noise or text.lower().startswith('програмии'):
             continue
         full_url = (base + '/' + href) if not href.startswith('http') else href
-        if any(w in text.lower() for w in keywords):
+        # Само линкове към конкретни покани (не навигация към обща страница)
+        if (any(w in text.lower() for w in keywords) and
+                not full_url.endswith('proekti.html')):
             seen.add(text)
             programs.append(make_entry(full_url, text, source, ''))
     return programs
@@ -519,6 +650,25 @@ def scrape_all():
                 print(f"    Няма нови.")
         else:
             print(f"    Неуспешно зареждане.")
+
+    # ── ЦАИС ЕОП (storage.eop.bg S3 open-data) ────────────────────────────
+    print(f"\n>>> ЦАИС ЕОП — Обществени поръчки (последните 7 дни)")
+    try:
+        eop_records = fetch_eop_tenders(days_back=7)
+        if eop_records:
+            eop_programs = parse_eop(eop_records, existing_ids)
+            count = 0
+            for p in eop_programs:
+                if p['id'] not in existing_ids:
+                    new_programs.append(p)
+                    existing_ids.add(p['id'])
+                    count += 1
+                    print(f"    НОВО: {p['title'][:80]}")
+            print(f"    {'Няма нови.' if count == 0 else f'{count} нови търга.'}")
+        else:
+            print(f"    Няма данни от storage.eop.bg (проверете връзката).")
+    except Exception as e:
+        print(f"    Грешка ЦАИС ЕОП: {e}")
 
     if new_programs:
         save_programs(new_programs + existing)
