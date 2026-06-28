@@ -59,10 +59,13 @@
         .sources-grid li {
             background: #f8fafc;
             border-radius: 8px;
-            padding: 8px 12px;
-            font-size: 14px;
+            padding: 9px 12px;
+            font-size: 13px;
             list-style: none;
             color: #374151;
+            display: flex;
+            align-items: center;
+            border: 1px solid #f1f5f9;
         }
         @media (max-width: 520px) {
             .steps { grid-template-columns: 1fr; gap: 16px; }
@@ -150,14 +153,14 @@
                 <div class="field">
                     <label>Интереси * <small>(избери поне един)</small></label>
                     <div class="checkboxes">
-                        <label class="check"><input type="checkbox" value="бизнес"> 💼 Бизнес / Иновации</label>
-                        <label class="check"><input type="checkbox" value="земеделие"> 🌾 Земеделие</label>
-                        <label class="check"><input type="checkbox" value="култура"> 🎭 Култура</label>
-                        <label class="check"><input type="checkbox" value="социални"> 👥 Социални</label>
-                        <label class="check"><input type="checkbox" value="образование"> 📚 Образование</label>
-                        <label class="check"><input type="checkbox" value="туризъм"> 🏨 Туризъм</label>
-                        <label class="check"><input type="checkbox" value="екология"> 🌿 Екология</label>
-                        <label class="check"><input type="checkbox" value="ит"> 💻 ИТ / Дигитализация</label>
+                        <label class="check"><input type="checkbox" value="бизнес"><span class="cat-dot" style="background:#3b82f6"></span> Бизнес / Иновации</label>
+                        <label class="check"><input type="checkbox" value="земеделие"><span class="cat-dot" style="background:#16a34a"></span> Земеделие</label>
+                        <label class="check"><input type="checkbox" value="култура"><span class="cat-dot" style="background:#7c3aed"></span> Култура</label>
+                        <label class="check"><input type="checkbox" value="социални"><span class="cat-dot" style="background:#e11d48"></span> Социални</label>
+                        <label class="check"><input type="checkbox" value="образование"><span class="cat-dot" style="background:#ea580c"></span> Образование</label>
+                        <label class="check"><input type="checkbox" value="туризъм"><span class="cat-dot" style="background:#0891b2"></span> Туризъм</label>
+                        <label class="check"><input type="checkbox" value="екология"><span class="cat-dot" style="background:#059669"></span> Екология</label>
+                        <label class="check"><input type="checkbox" value="ит"><span class="cat-dot" style="background:#4f46e5"></span> ИТ / Дигитализация</label>
                     </div>
                 </div>
 
@@ -184,19 +187,19 @@
         <div class="sources">
             <h3>Следим в реално време:</h3>
             <ul class="sources-grid">
-                <li>🔵 ИСУН 2020 — EU процедури</li>
-                <li>🔵 ЦАИС ЕОП — Обществени поръчки</li>
-                <li>🔵 Министерство на иновациите</li>
-                <li>🔵 Държавен фонд Земеделие</li>
-                <li>🔵 ЕСФ България</li>
-                <li>🔵 ЦРЧР — Еразъм+</li>
-                <li>🔵 Министерство на културата</li>
-                <li>🔵 Национален фонд Култура</li>
-                <li>🔵 НПО портал</li>
-                <li>🔵 Еврофондове.бг</li>
-                <li>🔵 Министерство на земеделието</li>
-                <li>🔵 finansirane.org</li>
-                <li>🔵 ИПУП</li>
+                <li><span class="src-badge eu">EU</span> ИСУН 2020 — EU процедури</li>
+                <li><span class="src-badge op">ОП</span> ЦАИС ЕОП — Поръчки</li>
+                <li><span class="src-badge gov">МИ</span> Мин. на иновациите</li>
+                <li><span class="src-badge agri">ДФЗ</span> Държавен фонд Земеделие</li>
+                <li><span class="src-badge eu">ЕСФ</span> ЕСФ България</li>
+                <li><span class="src-badge edu">ЕР</span> ЦРЧР — Еразъм+</li>
+                <li><span class="src-badge cult">МК</span> Министерство на културата</li>
+                <li><span class="src-badge cult">НФК</span> Национален фонд Култура</li>
+                <li><span class="src-badge gov">НПО</span> НПО портал</li>
+                <li><span class="src-badge eu">ЕФ</span> Еврофондове.бг</li>
+                <li><span class="src-badge agri">МЗ</span> Мин. на земеделието</li>
+                <li><span class="src-badge gov">ФИН</span> finansirane.org</li>
+                <li><span class="src-badge gov">ИП</span> ИПУП</li>
             </ul>
         </div>
     </div>
