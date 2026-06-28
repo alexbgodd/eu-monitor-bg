@@ -17,13 +17,13 @@
       ]
     }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
-    { "src": "/data/(.*)", "dest": "/data/$1" },
-    { "src": "/style.css", "dest": "/web/style.css" },
-    { "src": "/script.js", "dest": "/web/script.js" },
-    { "src": "/programs", "dest": "/web/programs.html" },
-    { "src": "/privacy", "dest": "/web/privacy.html" },
-    { "src": "/(.*)", "dest": "/web/index.html" }
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/:path*" },
+    { "source": "/data/:path*", "destination": "/data/:path*" },
+    { "source": "/style.css", "destination": "/web/style.css" },
+    { "source": "/script.js", "destination": "/web/script.js" },
+    { "source": "/programs", "destination": "/web/programs.html" },
+    { "source": "/privacy", "destination": "/web/privacy.html" },
+    { "source": "/", "destination": "/web/index.html" }
   ]
 }
