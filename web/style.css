@@ -251,5 +251,4 @@ footer a {
     .hero h1 { font-size: 24px; }
     .checkboxes { grid-template-columns: 1fr; }
     .stats { gap: 24px; }
-    .card { padding: 24px 18px; }
-}
+    .card { 

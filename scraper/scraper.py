@@ -115,13 +115,28 @@ def load_existing():
 def expire_old(programs):
     """
     Изчиства стари записи:
-    - ЦАИС ЕОП поръчки (type=tender): премахва след 30 дни
+    - Активни покани (type=tender) с краен срок: премахва когато срокът изтече
+    - Активни покани без краен срок: премахва след 30 дни от намирането
     - EU фондове (type=fund): премахва след 180 дни
     Записите без дата се запазват.
     """
     today = date.today()
     kept, removed = [], 0
     for p in programs:
+        # За тендери с изричен краен срок — изтича когато срокът мине
+        if p.get('type') == 'tender' and p.get('deadline'):
+            try:
+                dl = date.fromisoformat(p['deadline'][:10])
+                if dl < today:
+                    removed += 1
+                    continue
+                else:
+                    kept.append(p)
+                    continue
+            except (ValueError, TypeError):
+                pass  # ако форматът е грешен, падаме към обичайната логика
+
+        # Иначе — по дата на намиране
         found_str = p.get('found_at', '')[:10]
         if not found_str:
             kept.append(p)
@@ -131,9 +146,12 @@ def expire_old(programs):
         except ValueError:
             kept.append(p)
             continue
+        # EU фондове — не изтичат по found_at (само тендери без срок изтичат след 30 дни)
+        if p.get('type') != 'tender':
+            kept.append(p)
+            continue
         age = (today - found_date).days
-        limit = 30 if p.get('type') == 'tender' else 180
-        if age <= limit:
+        if age <= 30:
             kept.append(p)
         else:
             removed += 1
@@ -224,9 +242,9 @@ def _eop_fetch_json(day_iso, key):
 
 def fetch_eop_tenders(days_back=7):
     """
-    Чете договори от storage.eop.bg за последните days_back дни.
-    Файловете се казват 'договори' на български.
-    Връща списък [(day_iso, record), ...].
+    Чете OCDS обявления (активни покани) от storage.eop.bg за последните days_back дни.
+    Файлът се казва 'обявления' и е в OCDS 1.1 формат (пакет с releases).
+    Връща списък [(day_iso, release), ...] само за активни тендери.
     """
     results = []
     today = date.today()
@@ -236,39 +254,47 @@ def fetch_eop_tenders(days_back=7):
         keys = _eop_list_bucket(day_iso)
         if not keys:
             continue
-        # Файлът с договори/поръчки — търсим по bulgarian keywords
-        contract_key = next(
-            (k for k in keys if "договор" in k.lower()),
-            None
-        )
-        if not contract_key:
+        # OCDS обявления файл
+        ocds_key = next((k for k in keys if "обявлени" in k.lower()), None)
+        if not ocds_key:
             continue
-        data = _eop_fetch_json(day_iso, contract_key)
+        data = _eop_fetch_json(day_iso, ocds_key)
         if not data:
             continue
-        records = data if isinstance(data, list) else data.get("contracts", data.get("items", []))
-        for rec in records:
-            results.append((day_iso, rec))
+        # OCDS package: {"releases": [...], ...}
+        releases = data.get("releases", []) if isinstance(data, dict) else data
+        for rel in releases:
+            tag = rel.get("tag", [])
+            tender = rel.get("tender", {})
+            status = tender.get("status", "")
+            # Вземаме само активни покани (не резултати от класиране, не отменени)
+            if "tender" in tag or status == "active":
+                results.append((day_iso, rel))
     return results
 
 def parse_eop(records, existing_ids):
     """
-    Преобразува записи от ЦАИС ЕОП договори в обекти за programs.json.
-    Полета от реалния формат: uniqueProcurementNumber, tenderName,
-    buyerName, tenderMainCpvDescription, publicationDate, noticeId, tenderId
+    Преобразува OCDS releases от ЦАИС ЕОП в обекти за programs.json.
+    OCDS полета: ocid, tender.title, tender.tenderPeriod.endDate,
+                 buyer.name, tender.mainProcurementCategory
     """
     programs = []
     seen = set()
 
-    for day_iso, rec in records:
-        # Реални имена на полетата от storage.eop.bg
-        uid = str(rec.get("uniqueProcurementNumber") or rec.get("noticeId") or "")
-        title = (rec.get("tenderName") or rec.get("contractSubject") or "")
-        authority = rec.get("buyerName") or ""
-        cpv_desc = rec.get("tenderMainCpvDescription") or ""
-        cpv_code = str(rec.get("tenderMainCpv") or "")
-        notice_id = rec.get("noticeId") or rec.get("tenderId") or ""
-        pub_date = (rec.get("publicationDate") or day_iso)[:10]
+    for day_iso, rel in records:
+        ocid = rel.get("ocid", "")
+        tender = rel.get("tender", {})
+        buyer = rel.get("buyer", {})
+
+        title = tender.get("title") or tender.get("description") or ""
+        authority = buyer.get("name") or ""
+        uid = ocid or tender.get("id") or rel.get("id") or ""
+
+        # Краен срок от tenderPeriod.endDate
+        deadline = ""
+        end_date = tender.get("tenderPeriod", {}).get("endDate", "")
+        if end_date:
+            deadline = end_date[:10]  # YYYY-MM-DD
 
         if not title or not uid:
             continue
@@ -276,21 +302,27 @@ def parse_eop(records, existing_ids):
             continue
         seen.add(uid)
 
-        category = _eop_category(title + " " + cpv_desc, cpv_code)
-        full_url = (f"https://app.eop.bg/en-BG/notice/0/{notice_id}"
-                    if notice_id else "https://app.eop.bg/today")
+        cpv = str(tender.get("mainProcurementCategory", ""))
+        category = _eop_category(title, cpv)
+
+        # URL: tender.id е обикновено номерът на поръчката (напр. "00-00-2026-0001234")
+        tender_id = tender.get("id", "")
+        if tender_id:
+            full_url = f"https://app.eop.bg/bg-BG/notice/0/{urllib.parse.quote(tender_id)}"
+        else:
+            full_url = "https://app.eop.bg/today"
 
         programs.append({
             "id": uid,
             "title": title[:200],
-            "source": "ЦАИС ЕОП — Обществени поръчки",
+            "source": "ЦАИС ЕОП — Обявления",
             "category": category,
             "url": full_url,
-            "deadline": "",
+            "deadline": deadline,
             "type": "tender",
             "authority": authority[:100],
-            "found_at": pub_date,
-            "code": uid,
+            "found_at": day_iso,
+            "code": tender_id or uid,
         })
     return programs
 
@@ -548,7 +580,6 @@ def parse_ngobg(soup, source):
         return programs
     base = source.get('base_url', 'https://www.ngobg.info')
     seen = set()
-    # Изключваме навигационни и нерелевантни текстове
     skip_words = ['добави финансиране', 'виж архив', 'финансиране', 'архив', 'назад', 'напред']
     keywords = ['програм', 'финансир', 'грант', 'фонд', 'конкурс', 'покан', 'процедур', 'отворен']
     for a in soup.select('a'):
@@ -617,7 +648,6 @@ def parse_ippm(soup, source):
     base = source.get('base_url', 'https://www.ippm-bg.org')
     seen = set()
     keywords = ['процедур', 'програм', 'покан', 'грант', 'финансир', 'конкурс', 'отворен']
-    # Шум — навигационни текстове без конкретна програма
     noise = ['програмии проекти', 'програми и проекти', 'начало', 'контакти',
              'за нас', 'новини', 'english', 'bg', 'търсене']
     for a in soup.select('a'):
@@ -630,7 +660,6 @@ def parse_ippm(soup, source):
         if text.lower() in noise or text.lower().startswith('програмии'):
             continue
         full_url = (base + '/' + href) if not href.startswith('http') else href
-        # Само линкове към конкретни покани (не навигация към обща страница)
         if (any(w in text.lower() for w in keywords) and
                 not full_url.endswith('proekti.html')):
             seen.add(text)
@@ -655,12 +684,17 @@ PARSERS = {
 
 def scrape_all():
     existing = load_existing()
+    # Изчистваме старите сключени договори (заменени с активни обявления)
+    old_contracts_src = "ЦАИС ЕОП — Обществени поръчки"
+    old_count = sum(1 for p in existing if p.get("source") == old_contracts_src)
+    if old_count:
+        existing = [p for p in existing if p.get("source") != old_contracts_src]
+        print(f"  [Cleanup] Премахнати {old_count} стари договора (заменено с активни обявления).")
     existing_ids = {p['id'] for p in existing}
     new_programs = []
 
     for source in SOURCES:
         print(f"\n>>> {source['name']}")
-        # ИСУН изисква специален fetch
         if source['parser'] == 'isun':
             soup = fetch_isun()
         else:
@@ -680,8 +714,8 @@ def scrape_all():
         else:
             print(f"    Неуспешно зареждане.")
 
-    # ── ЦАИС ЕОП (storage.eop.bg S3 open-data) ────────────────────────────
-    print(f"\n>>> ЦАИС ЕОП — Обществени поръчки (последните 7 дни)")
+    # ЦАИС ЕОП (storage.eop.bg S3 open-data — OCDS обявления)
+    print(f"\n>>> ЦАИС ЕОП — Активни обявления (последните 7 дни)")
     try:
         eop_records = fetch_eop_tenders(days_back=7)
         if eop_records:
@@ -693,7 +727,7 @@ def scrape_all():
                     existing_ids.add(p['id'])
                     count += 1
                     print(f"    НОВО: {p['title'][:80]}")
-            print(f"    {'Няма нови.' if count == 0 else f'{count} нови търга.'}")
+            print(f"    {'Няма нови.' if count == 0 else f'{count} нови обявления.'}")
         else:
             print(f"    Няма данни от storage.eop.bg (проверете връзката).")
     except Exception as e:
