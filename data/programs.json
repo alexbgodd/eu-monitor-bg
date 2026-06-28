@@ -1,453 +1,12 @@
 [
   {
-    "id": "BG05SFPR001-1.002",
-    "title": "Достъп до образование за всяко дете",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-1.009",
-    "title": "Създаване на условия за достъп до образование чрез преодоляване на демографски, социални и културни бариери (допълващо финансиране на подхода ВОМР)",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-1.012",
-    "title": "Комплексни програми на общинско ниво за десегрегация на училищата, превенция на вторичната сегрегация и против дискриминацията (чрез прилагане на подхода ИТИ-2)",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-2.005",
-    "title": "Подкрепа за ученици с таланти-2",
-    "source": "ИСУН 2020 — Отворени процедури",
+    "id": "https://eumis2020.government.bg/bg/s/Procedure/Active",
+    "title": "Отворени процедури",
+    "source": "Еврофондове.бг",
     "category": "общи",
     "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
     "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-3.003",
-    "title": "Достъп на уязвими групи и непедагогически персонал до висше образование",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-3.010",
-    "title": "Развитие на дуалната система на обучение в ПОО (чрез прилагане на подхода ИТИ-2)",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR001-4.001",
-    "title": "Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-1.024",
-    "title": "Активиране, обучение и заетост на безработни и неактивни лица по подхода ИТИ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "образование",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-1.025",
-    "title": "Разработване, тестване и прилагане на нови подходи и финансови инструменти за насърчаване на ученето през целия живот в България",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-1.029",
-    "title": "Подкрепа за активен живот на възрастните хора в пенсионна възраст и остаряване в добро здраве по подхода ИТИ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "социални",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-1.030",
-    "title": "РАЗВИТИЕ НА ПРЕДПРИЕМАЧЕСТВОТО И СОЦИАЛНАТА ИКОНОМИКА ПО ПОДХОДА ИТИ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "социални",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-1.034",
-    "title": "Подобряване на уменията на заетите и условията на труд в предприятията по подход ИТИ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "бизнес",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-2.014",
-    "title": "Подкрепа за деца и семейства по подхода ИТИ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "социални",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-2.015",
-    "title": "\"Интеграция на маргинализирани общности като ромите, достъп до здравеопазване и подкрепа на уязвими групи по подхода ИТИ\"",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "социални",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR002-5.001",
-    "title": "Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG05SFPR003-2.001",
-    "title": "Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG14MFPR001-1.001",
-    "title": "Контрол и правоприлагане",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG14MFPR001-1.002",
-    "title": "Събиране и обработване на данни за управление на рибарството и аквакултурите и за научни цели",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "земеделие",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG14MFPR001-4.001",
-    "title": "Морско наблюдение",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG14MFPR001-5.001",
-    "title": "Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-1.001",
-    "title": "Развитие на железопътната инфраструктура по „основната“ и „широкообхватната“ Трансевропейска транспортна мрежа – Инвестиционни проекти",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-1.002",
-    "title": "Развитие на железопътната инфраструктура по „основната“ и „широкообхватната“ Трансевропейска транспортна мрежа – Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-2.001",
-    "title": "Развитие на пътната инфраструктура по „основната“  Трансевропейска транспортна мрежа и пътни връзки – Инвестиционни проекти",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-2.002",
-    "title": "Развитие на пътната инфраструктура по „основната“  Трансевропейска транспортна мрежа и пътни връзки – Техническа помощ”",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-3.001",
-    "title": "„Подобряване на интермодалността, иновации, модернизирани системи за управление на трафика, подобряване на сигурността и безопасността на транспорта“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "бизнес",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-3.004",
-    "title": "Зарядна инфраструктура за електрически превозни средства по пътищата - втора",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-4.001",
-    "title": "Интермодалност в градски условия",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-5.001",
-    "title": "Техническа помощ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR001-5.002",
-    "title": "Бюджетни линии",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-1.008",
-    "title": "Подкрепа за актуализирането на ПУРБ в Черноморски район за басейново управление 2028-2033 г.",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-2.005",
-    "title": "Рекултивация на регионални депа / клетки на регионални депа за битови отпадъци - втора",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-3.017",
-    "title": "Изпълнение на мярка 71 от Националната рамка за приоритетни действия за Натура 2000",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "екология",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-3.019",
-    "title": "Изпълнение на мерки 26, 29, 33 и 60 от Националната рамка за приоритетни действия за Натура 2000",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "екология",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-3.020",
-    "title": "Осигуряване на условия за опазване на застрашени видове ex situ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-3.024",
-    "title": "Информационни кампании – БИОЛОГИЧНО РАЗНООБРАЗИЕ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "екология",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-3.026",
-    "title": "Подкрепа за спасителни центрове",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-4.003",
-    "title": "Мониторинг и прилагане на мерки за превенция и защита при неблагоприятни геодинамични процеси",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR002-6.001",
-    "title": "Техническа помощ за управление и изпълнение на Програма \"Околна среда\" за периода 2021 – 2027 г.",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "екология",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR003-1.001",
-    "title": "Подкрепа за интегрирано градско развитие в 10-те градски общини – основни центрове на растеж",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR003-2.002",
-    "title": "Подкрепа за  интегрирано градско развитие в 40 градски общини",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16FFPR003-2.004",
-    "title": "Подкрепа за  интегрирано градско развитие в 40 градски общини - 2",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общини",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFPR001-3.001",
-    "title": "„Осигуряване на техническа помощ за успешното изпълнение на програма „Конкурентоспособност и иновации в предприятията“ за периода 2021-2027 г.“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "бизнес",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFPR002-1.011",
-    "title": "Участие на български организации в институционализирани европейски партньорства",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFPR002-1.020",
-    "title": "Допълващо финансиране на одобрени от Европейската комисия проекти по програма „Цифрова Европа“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "бизнес",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFPR002-2.017",
-    "title": "Изграждане на Правителствен комуникационен център и Компетентен орган в България за сигурни сателитни комуникации и наблюдение на Земята",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFPR002-3.001",
-    "title": "Осигуряване на техническа помощ за успешното изпълнение на ПНИИДИТ",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG16RFTA001-1.004",
-    "title": "Ефективна координация при изпълнение на политиката на сближаване в България",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG65AMPR001-1.005",
-    "title": "Процедура №1\nСпецифична цел 1 „Обща Европейска система за убежище“\nСпецифична цел 2 „Законна миграция и интеграция“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG65BVPR001-1.010",
-    "title": "Процедура № 2, Специфична цел 1 „Европейско интегрирано управление на границите“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
-  },
-  {
-    "id": "BG65ISPR001-1.002",
-    "title": "Процедура № 2 „Специфична цел 1 „Подобряване и улесняване на обмена на информация между и в рамките на компетентните органи и съответните органи, служби и агенции на Съюза и, когато е приложимо, с трети държави и международни организации“ и Специфична цел 3 „Подкрепа за укрепването на капацитета на държавите членки за предотвратяване и борба с престъпността, тероризма и радикализацията, както и за управление на свързани със сигурността инциденти, рискове и кризи, включително чрез засилено сътрудничество между публичните органи, съответните органи, служби или агенции на Съюза, гражданското общество и частните партньори в различните държави членки“",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "социални",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 19:21"
+    "found_at": "2026-06-27 19:31"
   },
   {
     "id": "https://eumis2020.government.bg/bg/s/Procedure/Groups",
@@ -500,15 +59,6 @@
     "source": "ИСУН 2020 — Отворени процедури",
     "category": "общи",
     "url": "https://eumis2020.government.bg/bg/s/Procedure/PublicDiscussion",
-    "deadline": "",
-    "found_at": "2026-06-27 19:20"
-  },
-  {
-    "id": "https://eumis2020.government.bg/bg/s/Procedure/ArchivedPublicDiscussion",
-    "title": "Архив обществено обсъждане",
-    "source": "ИСУН 2020 — Отворени процедури",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/ArchivedPublicDiscussion",
     "deadline": "",
     "found_at": "2026-06-27 19:20"
   },
@@ -972,15 +522,6 @@
     "found_at": "2026-06-27 14:47"
   },
   {
-    "id": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "title": "Отворени процедури",
-    "source": "Еврофондове.бг",
-    "category": "общи",
-    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
-    "deadline": "",
-    "found_at": "2026-06-27 14:47"
-  },
-  {
     "id": "https://www.eufunds.bg/bg/tender-procedures",
     "title": "Процедури за избор на изпълнител",
     "source": "Еврофондове.бг",
@@ -1132,5 +673,315 @@
     "url": "https://www.mzh.government.bg/bg/politiki-i-programi/programi-za-finansirane/programa-za-morsko-delo-i-ribarstvo/",
     "deadline": "",
     "found_at": "2026-06-27 14:47"
+  },
+  {
+    "id": "BG05SFPR001-1.002",
+    "title": "Достъп до образование за всяко дете",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-1.002",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-1.002"
+  },
+  {
+    "id": "BG05SFPR001-1.009",
+    "title": "Достъп до образование чрез преодоляване на демографски, социални и културни бариери",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-1.009",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-1.009"
+  },
+  {
+    "id": "BG05SFPR001-1.012",
+    "title": "Комплексни програми за десегрегация на училищата и против дискриминацията",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-1.012",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-1.012"
+  },
+  {
+    "id": "BG05SFPR001-2.005",
+    "title": "Подкрепа за ученици с таланти-2",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-2.005",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-2.005"
+  },
+  {
+    "id": "BG05SFPR001-3.003",
+    "title": "Достъп на уязвими групи и непедагогически персонал до висше образование",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-3.003",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-3.003"
+  },
+  {
+    "id": "BG05SFPR001-3.010",
+    "title": "Развитие на дуалната система на обучение в ПОО",
+    "source": "ИСУН 2020",
+    "category": "образование",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR001-3.010",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR001-3.010"
+  },
+  {
+    "id": "BG05SFPR002-1.024",
+    "title": "Активиране, обучение и заетост на безработни и неактивни лица",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-1.024",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-1.024"
+  },
+  {
+    "id": "BG05SFPR002-1.025",
+    "title": "Нови подходи за насърчаване на ученето през целия живот в България",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-1.025",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-1.025"
+  },
+  {
+    "id": "BG05SFPR002-1.029",
+    "title": "Подкрепа за активен живот на възрастните хора в пенсионна възраст",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-1.029",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-1.029"
+  },
+  {
+    "id": "BG05SFPR002-1.030",
+    "title": "Развитие на предприемачеството и социалната икономика",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-1.030",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-1.030"
+  },
+  {
+    "id": "BG05SFPR002-1.034",
+    "title": "Подобряване на уменията на заетите и условията на труд в предприятията",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-1.034",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-1.034"
+  },
+  {
+    "id": "BG05SFPR002-2.014",
+    "title": "Подкрепа за деца и семейства по подхода ИТИ",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-2.014",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-2.014"
+  },
+  {
+    "id": "BG05SFPR002-2.015",
+    "title": "Интеграция на маргинализирани общности, достъп до здравеопазване и подкрепа на уязвими групи",
+    "source": "ИСУН 2020",
+    "category": "социални",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG05SFPR002-2.015",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG05SFPR002-2.015"
+  },
+  {
+    "id": "BG14MFPR001-1.001",
+    "title": "Контрол и правоприлагане (Морско дело и рибарство)",
+    "source": "ИСУН 2020",
+    "category": "земеделие",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG14MFPR001-1.001",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG14MFPR001-1.001"
+  },
+  {
+    "id": "BG14MFPR001-1.002",
+    "title": "Събиране и обработване на данни за управление на рибарството и аквакултурите",
+    "source": "ИСУН 2020",
+    "category": "земеделие",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG14MFPR001-1.002",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG14MFPR001-1.002"
+  },
+  {
+    "id": "BG14MFPR001-4.001",
+    "title": "Морско наблюдение",
+    "source": "ИСУН 2020",
+    "category": "земеделие",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG14MFPR001-4.001",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG14MFPR001-4.001"
+  },
+  {
+    "id": "BG16FFPR002-1.008",
+    "title": "Подкрепа за актуализирането на ПУРБ в Черноморски район 2028-2033",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-1.008",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-1.008"
+  },
+  {
+    "id": "BG16FFPR002-2.005",
+    "title": "Рекултивация на регионални депа за битови отпадъци - втора",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-2.005",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-2.005"
+  },
+  {
+    "id": "BG16FFPR002-3.017",
+    "title": "Изпълнение на мярка 71 от Националната рамка за приоритетни действия за Натура 2000",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-3.017",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-3.017"
+  },
+  {
+    "id": "BG16FFPR002-3.019",
+    "title": "Изпълнение на мерки 26, 29, 33 и 60 от Националната рамка за Натура 2000",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-3.019",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-3.019"
+  },
+  {
+    "id": "BG16FFPR002-3.020",
+    "title": "Осигуряване на условия за опазване на застрашени видове ex situ",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-3.020",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-3.020"
+  },
+  {
+    "id": "BG16FFPR002-3.024",
+    "title": "Информационни кампании - Биологично разнообразие",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-3.024",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-3.024"
+  },
+  {
+    "id": "BG16FFPR002-3.026",
+    "title": "Подкрепа за спасителни центрове",
+    "source": "ИСУН 2020",
+    "category": "екология",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR002-3.026",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR002-3.026"
+  },
+  {
+    "id": "BG16FFPR003-1.001",
+    "title": "Подкрепа за интегрирано градско развитие в 10-те градски общини",
+    "source": "ИСУН 2020",
+    "category": "общини",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR003-1.001",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR003-1.001"
+  },
+  {
+    "id": "BG16FFPR003-2.002",
+    "title": "Подкрепа за интегрирано градско развитие в 40 градски общини",
+    "source": "ИСУН 2020",
+    "category": "общини",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR003-2.002",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR003-2.002"
+  },
+  {
+    "id": "BG16FFPR003-2.004",
+    "title": "Подкрепа за интегрирано градско развитие в 40 градски общини - 2",
+    "source": "ИСУН 2020",
+    "category": "общини",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16FFPR003-2.004",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16FFPR003-2.004"
+  },
+  {
+    "id": "BG16RFPR001-3.004",
+    "title": "Зарядна инфраструктура за електрически превозни средства по пътищата - втора",
+    "source": "ИСУН 2020",
+    "category": "общи",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16RFPR001-3.004",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16RFPR001-3.004"
+  },
+  {
+    "id": "BG16RFPR001-4.001",
+    "title": "Интермодалност в градски условия",
+    "source": "ИСУН 2020",
+    "category": "общи",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16RFPR001-4.001",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16RFPR001-4.001"
+  },
+  {
+    "id": "BG16RFPR002-1.011",
+    "title": "Участие на български организации в институционализирани европейски партньорства",
+    "source": "ИСУН 2020",
+    "category": "бизнес",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16RFPR002-1.011",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16RFPR002-1.011"
+  },
+  {
+    "id": "BG16RFPR002-1.020",
+    "title": "Допълващо финансиране по програма Цифрова Европа",
+    "source": "ИСУН 2020",
+    "category": "бизнес",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16RFPR002-1.020",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16RFPR002-1.020"
+  },
+  {
+    "id": "BG16RFPR002-2.017",
+    "title": "Изграждане на Правителствен комуникационен център за сигурни сателитни комуникации",
+    "source": "ИСУН 2020",
+    "category": "бизнес",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Details/BG16RFPR002-2.017",
+    "deadline": "",
+    "found_at": "2026-06-27 19:21",
+    "code": "BG16RFPR002-2.017"
   }
 ]

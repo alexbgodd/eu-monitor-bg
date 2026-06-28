@@ -31,6 +31,20 @@ SOURCES = [
         "base_url": "https://eumis2020.government.bg"
     },
     {
+        "name": "finansirane.org — Отворени процедури",
+        "url": "https://finansirane.org/fin/open",
+        "category": "общи",
+        "parser": "finansirane",
+        "base_url": "https://finansirane.org"
+    },
+    {
+        "name": "ИПУП — Отворени покани",
+        "url": "https://www.ippm-bg.org/otvoreni-pokani-za-finansirane1.html",
+        "category": "общи",
+        "parser": "ippm",
+        "base_url": "https://www.ippm-bg.org"
+    },
+    {
         "name": "ЕСФ България",
         "url": "https://esf.bg/proceduri/",
         "category": "социални",
@@ -100,6 +114,30 @@ def save_programs(programs):
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(programs, f, ensure_ascii=False, indent=2)
 
+def fetch_isun():
+    """Специален fetch за ИСУН — използва Session с пълни browser headers."""
+    try:
+        session = requests.Session()
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+            'Accept-Language': 'bg-BG,bg;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
+        # Първо зареждаме началната страница за cookies
+        session.get('https://eumis2020.government.bg/bg/s/Default/Index',
+                   headers=headers, timeout=20, verify=False)
+        # После зареждаме процедурите
+        r = session.get('https://eumis2020.government.bg/bg/s/Procedure/Active',
+                       headers=headers, timeout=20, verify=False)
+        r.encoding = 'utf-8'
+        return BeautifulSoup(r.text, 'html.parser')
+    except Exception as e:
+        print(f"  Грешка ИСУН: {e}")
+        return None
+
 def fetch_page(url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0'
@@ -146,24 +184,25 @@ def parse_isun(soup, source):
             return 'общини'
         return 'общи'
 
-    # Процедурите са в list items — търсим по код BG...
     import re
-    for li in soup.select('li'):
-        text = li.get_text(strip=True)
-        # Процедурите имат формат BG + цифри
-        if re.match(r'^BG\d+', text) and len(text) > 15:
-            if text not in seen:
-                seen.add(text)
-                # Извличаме код и заглавие
-                parts = text.split(' - ', 1)
-                code = parts[0].strip()
-                title = parts[1].strip() if len(parts) > 1 else text
-                url = f"https://eumis2020.government.bg/bg/s/Procedure/Active"
-                entry = make_entry(code, title, source, '')
-                entry['url'] = url
-                entry['category'] = get_category(title)
-                entry['code'] = code
-                programs.append(entry)
+    # Процедурите са линкове с код BG... в текста
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not re.match(r'^BG\d+', text):
+            continue
+        if text in seen:
+            continue
+        seen.add(text)
+        parts = text.split(' - ', 1)
+        code = parts[0].strip()
+        title = parts[1].strip() if len(parts) > 1 else text
+        full_url = (base + href) if href.startswith('/') else href
+        entry = make_entry(code, title, source, '')
+        entry['url'] = full_url
+        entry['category'] = get_category(title)
+        entry['code'] = code
+        programs.append(entry)
     return programs
 
 def parse_mig(soup, source):
@@ -396,6 +435,48 @@ def parse_ncf(soup, source):
             programs.append(make_entry(full_url, text, source, ''))
     return programs
 
+def parse_finansirane(soup, source):
+    """finansirane.org — агрегатор на отворени EU процедури."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://finansirane.org')
+    seen = set()
+    keywords = ['процедур', 'програм', 'покан', 'грант', 'финансир', 'конкурс']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if len(text) < 15 or text in seen:
+            continue
+        full_url = (base + href) if href.startswith('/') else href
+        if any(w in text.lower() for w in keywords):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+def parse_ippm(soup, source):
+    """ИПУП — Институт за управление на програми и проекти."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.ippm-bg.org')
+    seen = set()
+    keywords = ['процедур', 'програм', 'покан', 'грант', 'финансир', 'конкурс', 'отворен']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if len(text) < 15 or text in seen:
+            continue
+        full_url = (base + '/' + href) if not href.startswith('http') else href
+        if any(w in text.lower() for w in keywords):
+            seen.add(text)
+            programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
 PARSERS = {
     "isun": parse_isun,
     "mig": parse_mig,
@@ -408,6 +489,8 @@ PARSERS = {
     "hrdc": parse_hrdc,
     "ngobg": parse_ngobg,
     "ncf": parse_ncf,
+    "finansirane": parse_finansirane,
+    "ippm": parse_ippm,
 }
 
 def scrape_all():
@@ -417,7 +500,11 @@ def scrape_all():
 
     for source in SOURCES:
         print(f"\n>>> {source['name']}")
-        soup = fetch_page(source['url'])
+        # ИСУН изисква специален fetch
+        if source['parser'] == 'isun':
+            soup = fetch_isun()
+        else:
+            soup = fetch_page(source['url'])
         parser = PARSERS.get(source['parser'])
         if parser and soup:
             found = parser(soup, source)
