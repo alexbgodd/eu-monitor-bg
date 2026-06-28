@@ -181,14 +181,17 @@ input:focus, select:focus {
     accent-color: #2563eb;
 }
 
-/* Цветна точка за категория */
-.cat-dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+/* Иконка за категория */
+.cat-icon {
+    display: inline-flex;
+    align-items: center;
     flex-shrink: 0;
-    margin-right: 2px;
+    margin-right: 4px;
+}
+.cat-icon svg {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2;
 }
 
 /* Badges за източници */
