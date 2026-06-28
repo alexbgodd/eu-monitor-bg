@@ -2,6 +2,9 @@ import smtplib
 import json
 import os
 import sys
+import hmac
+import hashlib
+import urllib.parse
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
@@ -14,6 +17,16 @@ SMTP_USER = os.getenv("EMAIL_USER")
 SMTP_PASS = os.getenv("EMAIL_PASS")
 SITE_NAME = "EU Monitor BG"
 SITE_URL  = "https://tools.gdprcheck.bg"
+
+
+def make_unsub_token(email: str) -> str:
+    secret = os.getenv('SUPABASE_SECRET_KEY', 'fallback-secret')
+    return hmac.new(secret.encode(), email.lower().encode(), hashlib.sha256).hexdigest()
+
+
+def unsub_url(email: str) -> str:
+    token = make_unsub_token(email)
+    return f"{SITE_URL}/unsubscribe?email={urllib.parse.quote(email)}&token={token}"
 
 def send_email(to_email, to_name, programs):
     if not SMTP_USER or not SMTP_PASS:
@@ -39,8 +52,10 @@ def send_email(to_email, to_name, programs):
     html = f"""
     <html><body style="font-family:Arial,sans-serif;max-width:600px;margin:auto;color:#222;">
         <div style="background:#2563eb;padding:20px;border-radius:8px 8px 0 0;">
-            <h2 style="color:white;margin:0;">🇪🇺 {SITE_NAME}</h2>
-            <p style="color:#bfdbfe;margin:4px 0 0;">Мониторинг на EU финансиране</p>
+            <a href="{SITE_URL}/programs" style="text-decoration:none;">
+                <h2 style="color:white;margin:0;">🇪🇺 {SITE_NAME}</h2>
+                <p style="color:#bfdbfe;margin:4px 0 0;">Мониторинг на EU финансиране</p>
+            </a>
         </div>
         <div style="padding:24px;border:1px solid #e5e7eb;border-top:none;border-radius:0 0 8px 8px;">
             <p>Здравей, <b>{to_name}</b>!</p>
@@ -49,8 +64,12 @@ def send_email(to_email, to_name, programs):
             {programs_html}
             <hr style="border:none;border-top:1px solid #e5e7eb;margin:24px 0;">
             <p style="color:#888;font-size:13px;">
-                Получаваш този имейл, защото се регистрира на {SITE_URL}<br>
-                За отписване отговори с "Отпиши" на този имейл.
+                Получаваш този имейл, защото се регистрира на
+                <a href="{SITE_URL}" style="color:#6b7280;">{SITE_URL}</a><br><br>
+                <a href="{unsub_url(to_email)}"
+                   style="color:#ef4444;text-decoration:underline;font-size:12px;">
+                   Отпиши се от alerts
+                </a>
             </p>
         </div>
     </body></html>
