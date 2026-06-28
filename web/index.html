@@ -74,7 +74,7 @@
 
 <header>
     <div class="container">
-        <div class="logo">📊 ОП + Фондове БГ</div>
+        <div class="logo">ОП + Фондове БГ</div>
         <p class="tagline">Обществени поръчки и EU финансиране на едно място</p>
     </div>
 </header>
@@ -88,8 +88,8 @@
             <div class="stat"><span>649+</span><small>Активни</small></div>
             <div class="stat"><span>24/7</span><small>Мониторинг</small></div>
         </div>
-        <a href="/programs" style="display:inline-block;margin-top:28px;padding:12px 28px;background:white;color:#1d4ed8;border-radius:8px;font-weight:700;text-decoration:none;font-size:15px;">
-            📋 Виж всички активни програми и поръчки →
+        <a href="/programs" style="display:inline-block;margin-top:8px;padding:14px 32px;background:white;color:#1d4ed8;border-radius:10px;font-weight:700;text-decoration:none;font-size:15px;letter-spacing:0.2px;box-shadow:0 4px 20px rgba(0,0,0,0.18);transition:transform 0.15s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform=''">
+            Виж всички активни програми и поръчки →
         </a>
     </div>
 </section>
@@ -125,4 +125,89 @@
             <h2>Регистрирай се за безплатни alerts</h2>
 
             <form id="register-form">
-                <div class="fiel
+                <div class="field">
+                    <label>Имe и фамилия *</label>
+                    <input type="text" id="name" placeholder="Иван Иванов" required>
+                </div>
+
+                <div class="field">
+                    <label>Имейл адрес *</label>
+                    <input type="email" id="email" placeholder="ivan@firma.bg" required>
+                </div>
+
+                <div class="field">
+                    <label>Тип организация</label>
+                    <select id="org_type">
+                        <option value="">-- Избери --</option>
+                        <option value="НПО">НПО / Сдружение</option>
+                        <option value="Фирма">Фирма</option>
+                        <option value="Община">Община</option>
+                        <option value="Земеделец">Земеделски производител</option>
+                        <option value="Физическо лице">Физическо лице</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Интереси * <small>(избери поне един)</small></label>
+                    <div class="checkboxes">
+                        <label class="check"><input type="checkbox" value="бизнес"> 💼 Бизнес / Иновации</label>
+                        <label class="check"><input type="checkbox" value="земеделие"> 🌾 Земеделие</label>
+                        <label class="check"><input type="checkbox" value="култура"> 🎭 Култура</label>
+                        <label class="check"><input type="checkbox" value="социални"> 👥 Социални</label>
+                        <label class="check"><input type="checkbox" value="образование"> 📚 Образование</label>
+                        <label class="check"><input type="checkbox" value="туризъм"> 🏨 Туризъм</label>
+                        <label class="check"><input type="checkbox" value="екология"> 🌿 Екология</label>
+                        <label class="check"><input type="checkbox" value="ит"> 💻 ИТ / Дигитализация</label>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit-btn">
+                    Регистрирай се безплатно →
+                </button>
+
+                <!-- Обяснение какво получават -->
+                <div class="alert-preview">
+                    <strong>📧 Какво ще получиш на имейл:</strong>
+                    <ul>
+                        <li>Заглавие и кратко описание на новата програма / поръчка</li>
+                        <li>Директен линк към официалния документ</li>
+                        <li>Краен срок за кандидатстване (ако е наличен)</li>
+                        <li>Само програми, които пасват на избраните от теб интереси</li>
+                    </ul>
+                </div>
+
+                <div id="message" class="message hidden"></div>
+            </form>
+        </div>
+
+        <!-- Източници -->
+        <div class="sources">
+            <h3>Следим в реално време:</h3>
+            <ul class="sources-grid">
+                <li>🔵 ИСУН 2020 — EU процедури</li>
+                <li>🔵 ЦАИС ЕОП — Обществени поръчки</li>
+                <li>🔵 Министерство на иновациите</li>
+                <li>🔵 Държавен фонд Земеделие</li>
+                <li>🔵 ЕСФ България</li>
+                <li>🔵 ЦРЧР — Еразъм+</li>
+                <li>🔵 Министерство на културата</li>
+                <li>🔵 Национален фонд Култура</li>
+                <li>🔵 НПО портал</li>
+                <li>🔵 Еврофондове.бг</li>
+                <li>🔵 Министерство на земеделието</li>
+                <li>🔵 finansirane.org</li>
+                <li>🔵 ИПУП</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 ОП + Фондове БГ &nbsp;|&nbsp; Безплатна услуга &nbsp;|&nbsp; <a href="mailto:alexbgodd@gmail.com">Контакт</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
