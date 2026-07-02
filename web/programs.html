@@ -102,6 +102,23 @@
 </footer>
 
 <script>
+const SOURCE_SLUGS = {
+    "Министерство на иновациите и растежа": "mig",
+    "ПНИИДИТ — Иновации и дигитализация": "pniidit",
+    "ИСУН 2020 — Отворени процедури": "isun-2020",
+    "finansirane.org — Отворени процедури": "finansirane-org",
+    "ИПУП — Отворени покани": "ippm",
+    "ЕСФ България": "esf-bg",
+    "Еврофондове.бг": "evrofondove-bg",
+    "Министерство на земеделието": "mzh",
+    "Министерство на културата": "mc",
+    "Държавен фонд Земеделие": "dfz",
+    "ЦРЧР — Еразъм+ и младеж": "hrdc-erasmus",
+    "НПО портал — Финансиране": "ngobg-finansirane",
+    "Национален фонд Култура": "ncf",
+    "ЦАИС ЕОП — Обявления": "tsais-eop",
+};
+
 const CATEGORY_LABELS = {
     "общи": "🌐 Общи",
     "бизнес": "💼 Бизнес",
@@ -262,7 +279,9 @@ function renderPrograms() {
             ${p.code ? `<div style="font-size:12px;color:#64748b;margin:4px 0 4px;">Код: <b>${p.code}</b></div>` : ''}
             ${authority}
             <div class="program-meta">
-                <span class="${sourceClass}">${p.source}</span>
+                ${SOURCE_SLUGS[p.source]
+                    ? `<a href="/institucii/${SOURCE_SLUGS[p.source]}" class="${sourceClass}" style="text-decoration:none;">${p.source}</a>`
+                    : `<span class="${sourceClass}">${p.source}</span>`}
                 <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
                 ${deadlineHtml}
             </div>

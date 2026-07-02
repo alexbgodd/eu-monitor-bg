@@ -26,6 +26,7 @@
     { "source": "/unsubscribe", "destination": "/api/unsubscribe.py" },
     { "source": "/programs", "destination": "/web/programs.html" },
     { "source": "/privacy", "destination": "/web/privacy.html" },
+    { "source": "/institucii/:slug", "destination": "/web/institucii/:slug.html" },
     { "source": "/", "destination": "/web/index.html" }
   ]
 }
