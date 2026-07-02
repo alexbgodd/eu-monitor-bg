@@ -11,10 +11,11 @@ from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
-SMTP_HOST = "smtp.gmail.com"
-SMTP_PORT = 587
-SMTP_USER = os.getenv("EMAIL_USER")
-SMTP_PASS = os.getenv("EMAIL_PASS")
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp-relay.brevo.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_LOGIN = os.getenv("SMTP_LOGIN")
+SMTP_KEY = os.getenv("SMTP_KEY")
+EMAIL_FROM = os.getenv("EMAIL_FROM", "info@gdprcheck.bg")
 SITE_NAME = "EU Monitor BG"
 SITE_URL  = "https://tools.gdprcheck.bg"
 
@@ -29,8 +30,8 @@ def unsub_url(email: str) -> str:
     return f"{SITE_URL}/unsubscribe?email={urllib.parse.quote(email)}&token={token}"
 
 def send_email(to_email, to_name, programs):
-    if not SMTP_USER or not SMTP_PASS:
-        print("ГРЕШКА: Няма EMAIL_USER / EMAIL_PASS в .env файла!")
+    if not SMTP_LOGIN or not SMTP_KEY:
+        print("ГРЕШКА: Няма SMTP_LOGIN / SMTP_KEY в .env файла!")
         return False
 
     subject = f"[{SITE_NAME}] {len(programs)} нов{'а програма' if len(programs)==1 else 'и програми'} за теб"
@@ -77,15 +78,15 @@ def send_email(to_email, to_name, programs):
 
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
-    msg['From'] = f"{SITE_NAME} <{SMTP_USER}>"
+    msg['From'] = f"{SITE_NAME} <{EMAIL_FROM}>"
     msg['To'] = to_email
     msg.attach(MIMEText(html, 'html', 'utf-8'))
 
     try:
         with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
             server.starttls()
-            server.login(SMTP_USER, SMTP_PASS)
-            server.sendmail(SMTP_USER, to_email, msg.as_string())
+            server.login(SMTP_LOGIN, SMTP_KEY)
+            server.sendmail(EMAIL_FROM, to_email, msg.as_string())
         print(f"  ✓ Изпратен на {to_email}")
         return True
     except Exception as e:
@@ -139,7 +140,7 @@ def test_email():
         "deadline": ""
     }]
     print("Изпращане на тестов имейл...")
-    send_email(SMTP_USER, "Alex", test_programs)
+    send_email("alexbgodd@gmail.com", "Alex", test_programs)
 
 if __name__ == "__main__":
     import sys
