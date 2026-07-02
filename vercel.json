@@ -29,6 +29,8 @@
     { "source": "/institucii/:slug", "destination": "/web/institucii/:slug.html" },
     { "source": "/googleaf2fb16ab37a2df7.html", "destination": "/web/googleaf2fb16ab37a2df7.html" },
     { "source": "/sitemap.xml", "destination": "/web/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/web/robots.txt" },
+    { "source": "/favicon.svg", "destination": "/web/favicon.svg" },
     { "source": "/", "destination": "/web/index.html" }
   ]
 }
