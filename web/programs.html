@@ -226,4 +226,62 @@ function renderPrograms() {
     if (activeDeadline === '7') {
         filtered = filtered.filter(p => {
             const d = daysLeftFor(p);
-            return d 
+            return d !== null && d >= 0 && d <= 7;
+        });
+    } else if (activeDeadline === '30') {
+        filtered = filtered.filter(p => {
+            const d = daysLeftFor(p);
+            return d !== null && d >= 0 && d <= 30;
+        });
+    } else if (activeDeadline === 'none') {
+        filtered = filtered.filter(p => !p.deadline);
+    }
+
+    // Сортиране
+    filtered = [...filtered].sort((a, b) => {
+        if (activeSort === 'deadline') {
+            const da = daysLeftFor(a);
+            const db = daysLeftFor(b);
+            if (da === null && db === null) return 0;
+            if (da === null) return 1;
+            if (db === null) return -1;
+            return da - db;
+        }
+        return new Date(b.found_at) - new Date(a.found_at);
+    });
+
+    document.getElementById('count').textContent = `${filtered.length} програми`;
+
+    const list = document.getElementById('programs-list');
+    if (filtered.length === 0) {
+        list.innerHTML = '<p style="color:#94a3b8;">Няма програми, отговарящи на филтъра.</p>';
+        return;
+    }
+
+    list.innerHTML = filtered.map(p => {
+        const slug = SOURCE_SLUGS[p.source];
+        const isTender = p.type === 'tender';
+        const sourceHtml = slug
+            ? `<a href="/institucii/${slug}" class="tag source ${isTender ? 'tender-src' : ''}">${p.source}</a>`
+            : `<span class="tag source ${isTender ? 'tender-src' : ''}">${p.source}</span>`;
+        const deadlineHtml = p.deadline
+            ? `<span class="tag deadline">Краен срок: ${p.deadline}</span>`
+            : '';
+        return `
+            <div class="program-card ${isTender ? 'tender' : ''}">
+                <h3>${p.title}</h3>
+                <div class="program-meta">
+                    ${sourceHtml}
+                    <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
+                    ${deadlineHtml}
+                </div>
+                ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener" class="program-link">Виж детайли →</a>` : ''}
+            </div>
+        `;
+    }).join('');
+}
+
+loadPrograms();
+</script>
+</body>
+</html> 
