@@ -53,8 +53,10 @@ document.getElementById('register-form').addEventListener('submit', async functi
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, org_type, interests: interests.join(', ') })
             }).catch(() => {});
+        } else if (res.status === 409) {
+            showMessage('Този имейл вече е регистриран за alerts.', 'error');
         } else {
-            const data = await res.json();
+            const data = await res.json().catch(() => ({}));
             showMessage(data.message || 'Грешка. Опитай отново.', 'error');
         }
     } catch (err) {
