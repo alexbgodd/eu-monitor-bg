@@ -48,7 +48,7 @@ document.getElementById('register-form').addEventListener('submit', async functi
             document.getElementById('register-form').reset();
 
             // Известяваме админа за новата регистрация (best effort, не блокира UI)
-            fetch('/api/notify_registration', {
+            fetch('/api/notify_registration.py', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, org_type, interests: interests.join(', ') })
