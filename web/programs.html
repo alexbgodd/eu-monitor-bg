@@ -42,6 +42,16 @@
             border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.15s;
         }
         .type-tab.active { color: #2563eb; border-bottom-color: #2563eb; }
+        .deadline-bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+        .deadline-bar .filter-btn { font-size: 13px; padding: 5px 14px; }
+        .sort-select {
+            margin-left: auto; font-size: 13px; padding: 6px 10px;
+            border-radius: 8px; border: 1.5px solid #d1d5db; background: white; color: #334155;
+        }
+        @media (max-width: 560px) {
+            .deadline-bar { flex-direction: column; align-items: stretch; }
+            .sort-select { margin-left: 0; }
+        }
     </style>
 </head>
 <body>
@@ -69,6 +79,18 @@
 
         <p class="count" id="count">Зареждане...</p>
         <div class="filter-bar" id="filters"></div>
+
+        <div class="deadline-bar">
+            <button class="filter-btn active" id="dl-all" onclick="setDeadlineFilter('all')">Всички срокове</button>
+            <button class="filter-btn" id="dl-7" onclick="setDeadlineFilter('7')">⏰ До 7 дни</button>
+            <button class="filter-btn" id="dl-30" onclick="setDeadlineFilter('30')">До 30 дни</button>
+            <button class="filter-btn" id="dl-none" onclick="setDeadlineFilter('none')">Без обявен срок</button>
+            <select class="sort-select" id="sort-select" onchange="setSort(this.value)">
+                <option value="found">Подреди по: Най-нови</option>
+                <option value="deadline">Подреди по: Най-скоро изтичащи</option>
+            </select>
+        </div>
+
         <div class="programs-grid" id="programs-list"></div>
     </div>
 </section>
@@ -98,6 +120,28 @@ const CATEGORY_LABELS = {
 let allPrograms = [];
 let activeType = 'fund';   // 'fund' | 'tender' | 'all'
 let activeCategory = 'all';
+let activeDeadline = 'all'; // 'all' | '7' | '30' | 'none'
+let activeSort = 'found';   // 'found' | 'deadline'
+
+function daysLeftFor(p) {
+    if (!p.deadline) return null;
+    const dl = new Date(p.deadline);
+    const today = new Date();
+    return Math.ceil((dl - today) / 86400000);
+}
+
+function setDeadlineFilter(val) {
+    activeDeadline = val;
+    ['all', '7', '30', 'none'].forEach(v => {
+        document.getElementById('dl-' + v).classList.toggle('active', v === val);
+    });
+    renderPrograms();
+}
+
+function setSort(val) {
+    activeSort = val;
+    renderPrograms();
+}
 
 async function loadPrograms() {
     try {
@@ -150,9 +194,35 @@ function setCategoryFilter(cat) {
 
 function renderPrograms() {
     const visible = getVisible();
-    const filtered = activeCategory === 'all'
+    let filtered = activeCategory === 'all'
         ? visible
         : visible.filter(p => p.category === activeCategory);
+
+    // Филтър по краен срок
+    if (activeDeadline === '7') {
+        filtered = filtered.filter(p => {
+            const d = daysLeftFor(p);
+            return d !== null && d >= 0 && d <= 7;
+        });
+    } else if (activeDeadline === '30') {
+        filtered = filtered.filter(p => {
+            const d = daysLeftFor(p);
+            return d !== null && d >= 0 && d <= 30;
+        });
+    } else if (activeDeadline === 'none') {
+        filtered = filtered.filter(p => !p.deadline);
+    }
+
+    // Подредба
+    if (activeSort === 'deadline') {
+        filtered = [...filtered].sort((a, b) => {
+            const da = daysLeftFor(a), db = daysLeftFor(b);
+            if (da === null && db === null) return 0;
+            if (da === null) return 1;   // без срок — накрая
+            if (db === null) return -1;
+            return da - db;
+        });
+    }
 
     const typeLabel = activeType === 'fund' ? 'фонда' : activeType === 'tender' ? 'поръчки' : 'резултата';
     document.getElementById('count').textContent = `${filtered.length} ${typeLabel} намерени`;

@@ -73,6 +73,62 @@
             .steps { grid-template-columns: 1fr; gap: 16px; }
             .sources-grid { grid-template-columns: 1fr; }
         }
+        .email-mock {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .email-mock-topbar {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .email-mock-topbar span {
+            width: 9px; height: 9px; border-radius: 50%; background: #cbd5e1;
+        }
+        .email-mock-meta {
+            padding: 12px 16px 8px;
+            font-size: 12px;
+            color: #94a3b8;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .email-mock-meta b { color: #334155; }
+        .email-mock-subject {
+            padding: 10px 16px 0;
+            font-size: 14px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .email-mock-body { padding: 4px 16px 16px; }
+        .email-mock-greet { font-size: 13px; color: #475569; margin: 8px 0 10px; }
+        .email-mock-card {
+            border-left: 4px solid #2563eb;
+            background: #f8faff;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            font-size: 12.5px;
+        }
+        .email-mock-card b { display: block; font-size: 13.5px; color: #1e293b; margin-bottom: 3px; }
+        .email-mock-card .src { color: #64748b; }
+        .email-mock-card .dl { color: #9a3412; font-weight: 600; }
+        .email-mock-card a { color: #2563eb; text-decoration: none; }
+        .email-mock-label {
+            font-size: 12px;
+            font-weight: 700;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            margin: 0 0 6px;
+        }
+        @media (max-width: 520px) {
+            .email-mock-card { font-size: 12px; }
+        }
     </style>
 </head>
 <body>
@@ -173,14 +229,27 @@
                 </button>
 
                 <!-- Обяснение какво получават -->
-                <div class="alert-preview">
-                    <strong>📧 Какво ще получиш на имейл:</strong>
-                    <ul>
-                        <li>Заглавие и кратко описание на новата програма / поръчка</li>
-                        <li>Директен линк към официалния документ</li>
-                        <li>Краен срок за кандидатстване (ако е наличен)</li>
-                        <li>Само програми, които пасват на избраните от теб интереси</li>
-                    </ul>
+                <p class="email-mock-label" style="margin-top:20px;">📧 Ето какво реално получаваш на имейл:</p>
+                <div class="email-mock">
+                    <div class="email-mock-topbar"><span></span><span></span><span></span></div>
+                    <div class="email-mock-meta">От: <b>ОП + Фондове БГ</b> &nbsp;·&nbsp; До: ivan@firma.bg</div>
+                    <div class="email-mock-subject">[ОП + Фондове БГ] 2 нови програми за теб</div>
+                    <div class="email-mock-body">
+                        <p class="email-mock-greet">Здравей, <b>Иван</b>! Намерихме 2 нови програми, които може да те интересуват:</p>
+                        <div class="email-mock-card">
+                            <b>BG16RFPR002-1.001 Допълващо финансиране на цифрови иновационни хъбове</b>
+                            <span class="src">Източник: ПНИИДИТ — Иновации и дигитализация</span><br>
+                            <span class="dl">Краен срок: 15.08.2026</span><br>
+                            <a href="#" onclick="return false;">Виж пълните детайли →</a>
+                        </div>
+                        <div class="email-mock-card">
+                            <b>Открита процедура за доставка на обучителни материали</b>
+                            <span class="src">Източник: ЦАИС ЕОП — Обявления</span><br>
+                            <span class="dl">Краен срок: 22.07.2026</span><br>
+                            <a href="#" onclick="return false;">Виж пълните детайли →</a>
+                        </div>
+                        <p style="font-size:11px;color:#94a3b8;margin-top:4px;">Получаваш само програми, които пасват на избраните от теб интереси. Отписване с 1 клик.</p>
+                    </div>
                 </div>
 
                 <div id="message" class="message hidden"></div>
