@@ -46,6 +46,13 @@ document.getElementById('register-form').addEventListener('submit', async functi
         if (res.ok || res.status === 201) {
             showMessage('✓ Регистрацията е успешна! Ще получаваш имейл alerts.', 'success');
             document.getElementById('register-form').reset();
+
+            // Известяваме админа за новата регистрация (best effort, не блокира UI)
+            fetch('/api/notify_registration', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, email, org_type, interests: interests.join(', ') })
+            }).catch(() => {});
         } else {
             const data = await res.json();
             showMessage(data.message || 'Грешка. Опитай отново.', 'error');
