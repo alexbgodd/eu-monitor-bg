@@ -1,6 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 import json
 import os
+import re
 import smtplib
 import hmac
 import hashlib
@@ -13,7 +14,9 @@ SMTP_LOGIN = os.getenv("SMTP_LOGIN")
 SMTP_KEY = os.getenv("SMTP_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM", "info@gdprcheck.bg")
 NOTIFY_TO = os.getenv("NOTIFY_TO", "info@gdprcheck.bg")
+SITE_API_KEY = os.getenv("SITE_API_KEY", "")
 SITE_URL = "https://tools.gdprcheck.bg"
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
 def unsub_url(email: str) -> str:
@@ -27,6 +30,11 @@ class handler(BaseHTTPRequestHandler):
         content_length = int(self.headers.get('Content-Length', 0))
         body = self.rfile.read(content_length)
 
+        # Защита от директни/чужди извиквания на endpoint-a
+        if not SITE_API_KEY or self.headers.get('X-Site-Key') != SITE_API_KEY:
+            self._respond(403, {"ok": False, "error": "forbidden"})
+            return
+
         try:
             data = json.loads(body.decode('utf-8'))
             name      = data.get('name', '').strip()
@@ -35,6 +43,10 @@ class handler(BaseHTTPRequestHandler):
             interests = data.get('interests', '')
             if isinstance(interests, list):
                 interests = ', '.join(interests)
+
+            if not email or not EMAIL_RE.match(email):
+                self._respond(400, {"ok": False, "error": "invalid email"})
+                return
 
             self._send_notification(name, email, org_type, interests)
             self._send_welcome(name, email)

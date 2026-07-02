@@ -1,5 +1,6 @@
 const SUPABASE_URL = 'https://jrbmhftixkwcgyjuijji.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_p2RG_e2n7Dm-D6cnzCGrbg_oZAibpIY';
+const SITE_KEY = '24777194066bc45d01a03f2b843380229262dbd75718bcef';
 
 document.getElementById('register-form').addEventListener('submit', async function(e) {
     e.preventDefault();
@@ -50,7 +51,7 @@ document.getElementById('register-form').addEventListener('submit', async functi
             // Известяваме админа за новата регистрация (best effort, не блокира UI)
             fetch('/api/notify_registration.py', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: { 'Content-Type': 'application/json', 'X-Site-Key': SITE_KEY },
                 body: JSON.stringify({ name, email, org_type, interests: interests.join(', ') })
             }).catch(() => {});
         } else if (res.status === 409) {
