@@ -2,6 +2,9 @@ from http.server import BaseHTTPRequestHandler
 import json
 import os
 import smtplib
+import hmac
+import hashlib
+import urllib.parse
 from email.mime.text import MIMEText
 
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp-relay.brevo.com")
@@ -10,6 +13,13 @@ SMTP_LOGIN = os.getenv("SMTP_LOGIN")
 SMTP_KEY = os.getenv("SMTP_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM", "info@gdprcheck.bg")
 NOTIFY_TO = os.getenv("NOTIFY_TO", "info@gdprcheck.bg")
+SITE_URL = "https://tools.gdprcheck.bg"
+
+
+def unsub_url(email: str) -> str:
+    secret = os.getenv('SUPABASE_SECRET_KEY', 'fallback-secret')
+    token = hmac.new(secret.encode(), email.lower().encode(), hashlib.sha256).hexdigest()
+    return f"{SITE_URL}/unsubscribe?email={urllib.parse.quote(email)}&token={token}"
 
 
 class handler(BaseHTTPRequestHandler):
@@ -27,6 +37,7 @@ class handler(BaseHTTPRequestHandler):
                 interests = ', '.join(interests)
 
             self._send_notification(name, email, org_type, interests)
+            self._send_welcome(name, email)
             self._respond(200, {"ok": True})
         except Exception as e:
             # Никога не чупим регистрацията заради неуспешен имейл — само логваме
@@ -52,6 +63,28 @@ class handler(BaseHTTPRequestHandler):
             server.starttls()
             server.login(SMTP_LOGIN, SMTP_KEY)
             server.sendmail(EMAIL_FROM, NOTIFY_TO, msg.as_string())
+
+    def _send_welcome(self, name, email):
+        if not SMTP_LOGIN or not SMTP_KEY or not email:
+            return
+
+        body = (
+            f"Здравей, {name or 'приятел'}!\n\n"
+            f"Регистрацията ти в ОП + Фондове БГ е успешна.\n"
+            f"От сега нататък ще получаваш имейл известия на този адрес, когато се появи "
+            f"нова обществена поръчка или EU програма, съответстваща на избраните от теб интереси.\n\n"
+            f"Разгледай всички активни програми: {SITE_URL}/programs\n\n"
+            f"Ако искаш да се отпишеш по всяко време: {unsub_url(email)}\n"
+        )
+        msg = MIMEText(body, 'plain', 'utf-8')
+        msg['Subject'] = "Добре дошъл в ОП + Фондове БГ — регистрацията е успешна"
+        msg['From'] = f"EU Monitor BG <{EMAIL_FROM}>"
+        msg['To'] = email
+
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=8) as server:
+            server.starttls()
+            server.login(SMTP_LOGIN, SMTP_KEY)
+            server.sendmail(EMAIL_FROM, email, msg.as_string())
 
     def do_OPTIONS(self):
         self.send_response(200)
