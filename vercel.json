@@ -27,6 +27,8 @@
     { "source": "/programs", "destination": "/web/programs.html" },
     { "source": "/privacy", "destination": "/web/privacy.html" },
     { "source": "/institucii/:slug", "destination": "/web/institucii/:slug.html" },
+    { "source": "/googleaf2fb16ab37a2df7.html", "destination": "/web/googleaf2fb16ab37a2df7.html" },
+    { "source": "/sitemap.xml", "destination": "/web/sitemap.xml" },
     { "source": "/", "destination": "/web/index.html" }
   ]
 }

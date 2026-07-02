@@ -219,6 +219,45 @@ def generate():
 
     print(f"\n✓ Готово. Генерирани {written} institution страници в web/institucii/")
 
+    generate_sitemap()
+
+
+SITE_URL = "https://tools.gdprcheck.bg"
+
+
+def generate_sitemap():
+    """Генерира web/sitemap.xml — статични + institution страници."""
+    import datetime
+    today = datetime.date.today().isoformat()
+
+    urls = [
+        (f"{SITE_URL}/", "daily", "1.0"),
+        (f"{SITE_URL}/programs", "daily", "0.9"),
+        (f"{SITE_URL}/privacy", "yearly", "0.3"),
+    ]
+    for meta in SOURCE_META.values():
+        urls.append((f"{SITE_URL}/institucii/{meta['slug']}", "daily", "0.7"))
+
+    entries = "\n".join(
+        f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>{freq}</changefreq>
+    <priority>{prio}</priority>
+  </url>"""
+        for loc, freq, prio in urls
+    )
+
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{entries}
+</urlset>
+"""
+    out_path = os.path.join(BASE_DIR, 'web', 'sitemap.xml')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(xml)
+    print(f"✓ sitemap.xml генериран ({len(urls)} URL адреса).")
+
 
 if __name__ == "__main__":
     generate()
