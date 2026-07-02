@@ -69,7 +69,7 @@ class handler(BaseHTTPRequestHandler):
 
         if not email or not token:
             self._html(400, ERROR_HTML.format(
-                message='Линкът е непълен. Моля пиши на <a href="mailto:alexbgodd@gmail.com">alexbgodd@gmail.com</a> за отписване.',
+                message='Линкът е непълен. Моля пиши на <a href="mailto:info@gdprcheck.bg">info@gdprcheck.bg</a> за отписване.',
                 site_url=SITE_URL
             ))
             return
@@ -98,7 +98,7 @@ class handler(BaseHTTPRequestHandler):
             self._html(200, SUCCESS_HTML.format(email=email, site_url=SITE_URL))
         except Exception as e:
             self._html(500, ERROR_HTML.format(
-                message=f'Техническа грешка. Пиши на <a href="mailto:alexbgodd@gmail.com">alexbgodd@gmail.com</a>.',
+                message=f'Техническа грешка. Пиши на <a href="mailto:info@gdprcheck.bg">info@gdprcheck.bg</a>.',
                 site_url=SITE_URL
             ))
 
