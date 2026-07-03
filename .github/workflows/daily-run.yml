@@ -2,7 +2,7 @@ name: Daily scrape and alerts
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 06:00 UTC ≈ 08:00/09:00 бг. време
+    - cron: '17 6 * * *'   # 06:17 UTC (не кръгъл час, за да избегнем пикови забавяния)
   workflow_dispatch: {}    # позволява ръчно пускане от Actions таба, за тест
 
 permissions:
