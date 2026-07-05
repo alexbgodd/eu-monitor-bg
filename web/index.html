@@ -166,6 +166,19 @@
     </div>
 </section>
 
+<!-- Категории по брояч -->
+<section id="cat-section" style="background:#f8fafc;padding:32px 0 28px;border-bottom:1px solid #e2e8f0;">
+    <div class="container">
+        <p style="text-align:center;font-size:13px;color:#94a3b8;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;">Активни програми и поръчки по категория</p>
+        <div id="cat-grid" style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;">
+            <span style="color:#94a3b8;font-size:14px;">Зареждане...</span>
+        </div>
+        <p style="text-align:center;margin-top:18px;">
+            <a href="/programs" style="font-size:14px;color:#2563eb;text-decoration:none;font-weight:600;">Виж всички →</a>
+        </p>
+    </div>
+</section>
+
 <!-- Как работи -->
 <section class="how-it-works">
     <div class="container">
@@ -295,6 +308,45 @@
 
 <script src="script.js"></script>
 <script>lucide.createIcons();</script>
+<script>
+(async () => {
+    const ICONS = {
+        'бизнес':'💼','земеделие':'🌾','култура':'🎭','социални':'👥',
+        'образование':'📚','туризъм':'🏨','екология':'🌿','ит':'💻',
+        'общи':'🌐','инфраструктура':'🏗️','общини':'🏘️','търгове':'🏛️'
+    };
+    const LABELS = {
+        'бизнес':'Бизнес','земеделие':'Земеделие','култура':'Култура',
+        'социални':'Социални','образование':'Образование','туризъм':'Туризъм',
+        'екология':'Екология','ит':'ИТ','общи':'Общи',
+        'инфраструктура':'Инфраструктура','общини':'Общини','търгове':'Поръчки'
+    };
+    try {
+        const res = await fetch('/data/programs.json');
+        const programs = await res.json();
+        const counts = {};
+        programs.forEach(p => {
+            const cat = p.category || 'общи';
+            counts[cat] = (counts[cat] || 0) + 1;
+        });
+        const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+        const grid = document.getElementById('cat-grid');
+        grid.innerHTML = sorted.map(([cat, n]) => `
+            <a href="/programs" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:white;border:1.5px solid #e2e8f0;border-radius:20px;text-decoration:none;color:#374151;font-size:14px;font-weight:500;transition:border-color 0.15s;"
+               onmouseover="this.style.borderColor='#2563eb'" onmouseout="this.style.borderColor='#e2e8f0'">
+                <span>${ICONS[cat]||'📋'}</span>
+                <span>${LABELS[cat]||cat}</span>
+                <span style="background:#eff6ff;color:#2563eb;font-size:12px;font-weight:700;padding:1px 8px;border-radius:12px;">${n}</span>
+            </a>`).join('');
+        // Обнови и брояча в hero
+        document.querySelectorAll('.stat span').forEach((el,i) => {
+            if (i === 1) el.textContent = programs.length + '+';
+        });
+    } catch(e) {
+        document.getElementById('cat-section').style.display='none';
+    }
+})();
+</script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
