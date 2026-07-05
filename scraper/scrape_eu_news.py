@@ -11,12 +11,13 @@ import xml.etree.ElementTree as ET
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
 OUTPUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'eu-news.json')
-MAX_ITEMS = 80  # максимум статии в JSON
+MAX_ITEMS = 200  # горна граница (филтърът по дата е основното ограничение)
 MAX_DESC  = 300  # символи от описанието
+DAYS_BACK = 2    # само днес и вчера
 
 EU_KEYWORDS = [
     'европейск', 'european', 'еврофонд', 'eu ', ' eu', 'cohesion',
@@ -39,32 +40,55 @@ def get_topic(title: str, desc: str, source: str) -> str:
 # RSS ИЗТОЧНИЦИ — само публични, официални или лицензирани за синдикация
 # -----------------------------------------------------------------------
 FEEDS = [
-    # Google News RSS — публична услуга, надежден, без scraping
+    # --- Google News (публична услуга, без scraping) ---
     {
         "name": "Google News BG",
         "url": "https://news.google.com/rss/search?q=EU+финансиране+България&hl=bg&gl=BG&ceid=BG:bg",
-        "lang": "bg",
-        "filter": None,
+        "lang": "bg", "filter": None,
     },
     {
         "name": "Google News EN",
         "url": "https://news.google.com/rss/search?q=EU+Bulgaria+funding+grants&hl=en&gl=BG&ceid=BG:en",
-        "lang": "en",
-        "filter": None,
+        "lang": "en", "filter": None,
     },
-    # Работещ официален EC feed
+    # --- EU официални ---
     {
         "name": "European Commission",
         "url": "https://ec.europa.eu/commission/presscorner/api/rss",
         "lang": "en",
         "filter": ["bulgar", "cohesion", "structural fund", "recovery", "regional"],
     },
-    # Български медии с EU покритие
+    # --- БТА (държавна агенция, предназначена за разпространение) ---
+    {
+        "name": "БТА",
+        "url": "https://www.bta.bg/bg/rss.xml",
+        "lang": "bg",
+        "filter": ["европейски", "ес ", " ес", "еврофонд", "финансиране", "програма", "поръчка"],
+    },
+    # --- Български медии ---
     {
         "name": "Dnevnik.bg",
         "url": "https://www.dnevnik.bg/rss/",
         "lang": "bg",
         "filter": ["ес", "европейски", "еврофонд", "финансиране", "оп ", "програма"],
+    },
+    {
+        "name": "Capital.bg",
+        "url": "https://www.capital.bg/rss/",
+        "lang": "bg",
+        "filter": ["ес", "европейски", "еврофонд", "финансиране", "програма", "фонд"],
+    },
+    {
+        "name": "Investor.bg",
+        "url": "https://www.investor.bg/rss/news",
+        "lang": "bg",
+        "filter": ["ес", "европейски", "еврофонд", "финансиране", "програма", "поръчка"],
+    },
+    {
+        "name": "Mediapool.bg",
+        "url": "https://mediapool.bg/rss/",
+        "lang": "bg",
+        "filter": ["европейски", "еврофонд", "финансиране", "програма", "ес "],
     },
 ]
 
@@ -230,6 +254,12 @@ def run():
             if item["url"] not in seen_urls:
                 seen_urls.add(item["url"])
                 all_items.append(item)
+
+    # Филтър: само последните DAYS_BACK дни
+    cutoff = (datetime.now() - timedelta(days=DAYS_BACK)).strftime('%Y-%m-%d')
+    before = len(all_items)
+    all_items = [i for i in all_items if (i.get("date") or "9999") >= cutoff]
+    print(f"  Филтър {DAYS_BACK} дни: {before} → {len(all_items)} статии")
 
     # Сортираме по дата (най-нови първи)
     all_items.sort(key=lambda x: x["date"] or "0000", reverse=True)
