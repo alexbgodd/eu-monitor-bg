@@ -58,13 +58,6 @@ FEEDS = [
         "lang": "en",
         "filter": ["bulgar", "cohesion", "structural fund", "recovery", "regional"],
     },
-    # --- БТА (държавна агенция, предназначена за разпространение) ---
-    {
-        "name": "БТА",
-        "url": "https://www.bta.bg/bg/rss.xml",
-        "lang": "bg",
-        "filter": ["европейски", "ес ", " ес", "еврофонд", "финансиране", "програма", "поръчка"],
-    },
     # --- Български медии ---
     {
         "name": "Dnevnik.bg",
@@ -83,12 +76,6 @@ FEEDS = [
         "url": "https://www.investor.bg/rss/news",
         "lang": "bg",
         "filter": ["ес", "европейски", "еврофонд", "финансиране", "програма", "поръчка"],
-    },
-    {
-        "name": "Mediapool.bg",
-        "url": "https://mediapool.bg/rss/",
-        "lang": "bg",
-        "filter": ["европейски", "еврофонд", "финансиране", "програма", "ес "],
     },
 ]
 
