@@ -3,238 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EU новини за България — ОП + Фондове БГ</title>
-    <meta name="description" content="Последни новини от Европейската комисия, Евро парламента и EU медии за финансиране и програми за България.">
+    <title>Новини — ОП + Фондове БГ</title>
+    <meta name="description" content="Последни новини за EU финансиране и програми за България.">
     <link rel="canonical" href="https://tools.gdprcheck.bg/eu-news">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="stylesheet" href="water.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        .news-grid {
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f4f4; color: #1a1a1a; }
+
+        .news-header {
+            background: #c0392b;
+            color: white;
+            padding: 0;
+        }
+        .news-header-top {
             display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 24px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            max-width: 860px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            gap: 8px;
         }
-        .news-card {
+        .news-header-top a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .news-header-top a:hover { color: white; }
+        .news-title-bar {
+            background: #a93226;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            padding: 14px 20px;
+        }
+        .news-title-bar .inner {
+            max-width: 860px;
+            margin: 0 auto;
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+        }
+        .news-title-bar h1 {
+            font-size: 26px;
+            font-weight: 800;
+            color: white;
+            letter-spacing: -0.3px;
+        }
+        .news-title-bar .updated {
+            font-size: 12px;
+            color: rgba(255,255,255,0.65);
+        }
+
+        .filter-bar {
+            background: #222;
+            padding: 0 20px;
+        }
+        .filter-bar .inner {
+            max-width: 860px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0;
+        }
+        .filter-btn {
+            background: none;
+            border: none;
+            color: #aaa;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 10px 16px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.15s;
+            letter-spacing: 0.2px;
+        }
+        .filter-btn:hover { color: white; }
+        .filter-btn.active { color: white; border-bottom-color: #c0392b; }
+
+        .main {
+            max-width: 860px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .news-list { display: flex; flex-direction: column; }
+
+        .news-item {
             background: white;
-            border-radius: 10px;
-            padding: 18px 22px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            border-left: 4px solid #2563eb;
-            transition: box-shadow 0.15s;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 16px 20px;
+            transition: background 0.1s;
         }
-        .news-card:hover {
-            box-shadow: 0 4px 16px rgba(0,0,0,0.10);
-        }
-        .news-card.lang-en { border-left-color: #7c3aed; }
+        .news-item:first-child { border-radius: 6px 6px 0 0; }
+        .news-item:last-child { border-bottom: none; border-radius: 0 0 6px 6px; }
+        .news-item:hover { background: #fafafa; }
+
         .news-meta {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 8px;
-            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 6px;
         }
-        .news-source {
-            font-size: 11px;
+        .source-tag {
+            font-size: 10px;
             font-weight: 700;
-            padding: 2px 8px;
-            border-radius: 10px;
-            background: #eff6ff;
-            color: #1d4ed8;
+            padding: 2px 7px;
+            border-radius: 3px;
+            background: #c0392b;
+            color: white;
             text-transform: uppercase;
-            letter-spacing: 0.3px;
+            letter-spacing: 0.4px;
         }
-        .news-source.en {
-            background: #f5f3ff;
-            color: #6d28d9;
-        }
+        .source-tag.en { background: #2c3e50; }
         .news-date {
             font-size: 12px;
-            color: #94a3b8;
+            color: #888;
         }
-        .news-lang {
-            font-size: 10px;
-            padding: 1px 6px;
-            border-radius: 8px;
-            background: #f1f5f9;
-            color: #64748b;
-        }
-        .news-card h3 {
+        .news-item h3 {
             font-size: 15px;
-            color: #1e293b;
-            margin: 0 0 6px;
+            font-weight: 700;
             line-height: 1.4;
+            margin-bottom: 5px;
         }
-        .news-card h3 a {
-            color: #1e293b;
+        .news-item h3 a {
+            color: #1a1a1a;
             text-decoration: none;
         }
-        .news-card h3 a:hover {
-            color: #2563eb;
-            text-decoration: underline;
-        }
+        .news-item h3 a:hover { color: #c0392b; }
         .news-desc {
             font-size: 13px;
-            color: #64748b;
-            line-height: 1.55;
-            margin: 0 0 10px;
+            color: #555;
+            line-height: 1.5;
         }
-        .news-link {
-            font-size: 12px;
-            color: #2563eb;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .news-link:hover { text-decoration: underline; }
-        .filter-bar {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-top: 16px;
-        }
-        .filter-btn {
-            padding: 6px 14px;
-            border-radius: 20px;
-            border: 1.5px solid #e2e8f0;
-            background: white;
-            font-size: 13px;
-            cursor: pointer;
-            color: #374151;
-            transition: all 0.15s;
-        }
-        .filter-btn.active, .filter-btn:hover {
-            border-color: #2563eb;
-            background: #eff6ff;
-            color: #1d4ed8;
-        }
-        .updated-note {
-            font-size: 12px;
-            color: #94a3b8;
-            margin-top: 6px;
-        }
+
+        .empty { text-align: center; padding: 60px 20px; color: #888; }
         .disclaimer {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 12px 16px;
-            font-size: 12px;
-            color: #64748b;
-            margin-top: 24px;
+            font-size: 11px;
+            color: #999;
+            margin-top: 16px;
+            text-align: center;
             line-height: 1.6;
         }
+
         @media (max-width: 520px) {
-            .news-card { padding: 14px 16px; }
+            .news-item { padding: 14px 14px; }
+            .news-title-bar h1 { font-size: 20px; }
         }
     </style>
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <a href="/" class="logo-box">
-            <div class="logo">ОП + Фондове БГ</div>
-            <p class="tagline">Обществени поръчки и EU финансиране на едно място</p>
-        </a>
+<div class="news-header">
+    <div class="news-header-top">
+        <a href="/">← ОП + Фондове БГ</a>
+        <span id="updated-note" style="font-size:12px;color:rgba(255,255,255,0.6);">Зареждане...</span>
     </div>
-</header>
-
-<section style="padding: 40px 0 0;">
-    <div class="container">
-        <a href="/" style="color:#2563eb;text-decoration:none;font-size:14px;">← Обратно</a>
-        <h1 style="font-size:28px;margin:16px 0 4px;color:#1e293b;">🇪🇺 EU новини за България</h1>
-        <p style="color:#64748b;font-size:15px;margin-bottom:4px;">
-            Последни публикации от Европейската комисия, Европейски парламент и водещи EU медии.
-        </p>
-        <p class="updated-note" id="updated-note">Зареждане...</p>
-
-        <div class="filter-bar">
-            <button class="filter-btn active" onclick="filterNews('all', this)">Всички</button>
-            <button class="filter-btn" onclick="filterNews('bg', this)">🇧🇬 На български</button>
-            <button class="filter-btn" onclick="filterNews('en', this)">🇬🇧 На английски</button>
+    <div class="news-title-bar">
+        <div class="inner">
+            <h1>Новини</h1>
         </div>
     </div>
-</section>
+</div>
 
-<section style="padding: 16px 0 48px;">
-    <div class="container">
-        <div class="news-grid" id="news-grid">
-            <p style="color:#94a3b8;text-align:center;padding:40px 0;">Зареждане на новини...</p>
-        </div>
-
-        <div class="disclaimer">
-            📌 <strong>Бележка:</strong> Новините са агрегирани от публични RSS feeds на официални EU институции и лицензирани медии.
-            Всяка статия принадлежи на съответния издател — следвайте линковете за пълното съдържание.
-            Ние показваме само заглавие, кратко резюме и линк към оригинала.
-        </div>
+<div class="filter-bar">
+    <div class="inner">
+        <button class="filter-btn active" onclick="filterNews('all', this)">Всички</button>
+        <button class="filter-btn" onclick="filterNews('bg', this)">На български</button>
+        <button class="filter-btn" onclick="filterNews('en', this)">In English</button>
     </div>
-</section>
+</div>
 
-<footer>
-    <div class="container">
-        <p>© 2026 ОП + Фондове БГ &nbsp;|&nbsp; <a href="/privacy">Поверителност</a> &nbsp;|&nbsp; <a href="mailto:alexbgodd@gmail.com">Контакт</a></p>
+<div class="main">
+    <div class="news-list" id="news-list">
+        <div class="empty">Зареждане...</div>
     </div>
-</footer>
+    <p class="disclaimer">
+        Новините са агрегирани от публични RSS feeds. Цялото съдържание принадлежи на съответните издатели — следвайте линковете за пълния текст.
+    </p>
+</div>
 
 <script>
 let allNews = [];
 
 async function loadNews() {
-    const grid = document.getElementById('news-grid');
     try {
         const res = await fetch('/data/eu-news.json');
-        if (!res.ok) throw new Error('not found');
+        if (!res.ok) throw new Error();
         const data = await res.json();
         allNews = data.items || [];
-
-        const note = document.getElementById('updated-note');
-        note.textContent = `Обновено: ${data.updated || '—'} · ${allNews.length} статии`;
-
+        document.getElementById('updated-note').textContent =
+            `Обновено: ${data.updated || '—'} · ${allNews.length} статии`;
         renderNews(allNews);
     } catch(e) {
-        grid.innerHTML = `
-            <div style="text-align:center;padding:40px 0;color:#94a3b8;">
-                <p>Данните не са налични.</p>
-                <p style="font-size:13px;">Пусни <code>python scrape_eu_news.py</code> за да генерираш eu-news.json</p>
-            </div>`;
+        document.getElementById('news-list').innerHTML =
+            '<div class="empty">Данните не са налични. Пусни <code>python scrape_eu_news.py</code></div>';
     }
 }
 
 function renderNews(items) {
-    const grid = document.getElementById('news-grid');
+    const list = document.getElementById('news-list');
     if (!items.length) {
-        grid.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px 0;">Няма намерени статии.</p>';
+        list.innerHTML = '<div class="empty">Няма статии.</div>';
         return;
     }
-    grid.innerHTML = items.map(item => `
-        <div class="news-card ${item.lang === 'en' ? 'lang-en' : ''}">
+    list.innerHTML = items.map(item => `
+        <div class="news-item">
             <div class="news-meta">
-                <span class="news-source ${item.lang === 'en' ? 'en' : ''}">${item.source}</span>
-                ${item.date ? `<span class="news-date">${formatDate(item.date)}</span>` : ''}
-                <span class="news-lang">${item.lang === 'bg' ? '🇧🇬 BG' : '🇬🇧 EN'}</span>
+                <span class="source-tag ${item.lang === 'en' ? 'en' : ''}">${esc(item.source)}</span>
+                ${item.date ? `<span class="news-date">${fmtDate(item.date)}</span>` : ''}
             </div>
-            <h3><a href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escHtml(item.title)}</a></h3>
-            ${item.desc ? `<p class="news-desc">${escHtml(item.desc)}${item.desc.length >= 299 ? '…' : ''}</p>` : ''}
-            <a href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer" class="news-link">Прочети в ${escHtml(item.source)} →</a>
+            <h3><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h3>
+            ${item.desc ? `<p class="news-desc">${esc(item.desc)}${item.desc.length >= 299 ? '…' : ''}</p>` : ''}
         </div>`).join('');
 }
 
 function filterNews(lang, btn) {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const filtered = lang === 'all' ? allNews : allNews.filter(n => n.lang === lang);
-    renderNews(filtered);
+    renderNews(lang === 'all' ? allNews : allNews.filter(n => n.lang === lang));
 }
 
-function formatDate(iso) {
+function fmtDate(iso) {
     if (!iso || iso.length < 10) return iso;
     const [y, m, d] = iso.split('-');
-    const months = ['яну','фев','мар','апр','май','юни','юли','авг','сеп','окт','ное','дек'];
-    return `${parseInt(d)} ${months[parseInt(m)-1]} ${y}`;
+    const mo = ['яну','фев','мар','апр','май','юни','юли','авг','сеп','окт','ное','дек'];
+    return `${parseInt(d)} ${mo[parseInt(m)-1]} ${y}`;
 }
 
-function escHtml(str) {
-    return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+function esc(s) {
+    return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 loadNews();
