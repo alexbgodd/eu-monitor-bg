@@ -169,8 +169,9 @@
 <div class="filter-bar">
     <div class="inner">
         <button class="filter-btn active" onclick="filterNews('all', this)">Всички</button>
-        <button class="filter-btn" onclick="filterNews('bg', this)">На български</button>
-        <button class="filter-btn" onclick="filterNews('en', this)">In English</button>
+        <button class="filter-btn" onclick="filterNews('eu', this)">🇪🇺 EU за България</button>
+        <button class="filter-btn" onclick="filterNews('вътрешни', this)">🇧🇬 Вътрешни</button>
+        <button class="filter-btn" onclick="filterNews('en', this)">EN</button>
     </div>
 </div>
 
@@ -218,10 +219,12 @@ function renderNews(items) {
         </div>`).join('');
 }
 
-function filterNews(lang, btn) {
+function filterNews(filter, btn) {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    renderNews(lang === 'all' ? allNews : allNews.filter(n => n.lang === lang));
+    if (filter === 'all') renderNews(allNews);
+    else if (filter === 'en') renderNews(allNews.filter(n => n.lang === 'en'));
+    else renderNews(allNews.filter(n => n.topic === filter));
 }
 
 function fmtDate(iso) {

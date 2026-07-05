@@ -15,8 +15,25 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 OUTPUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'eu-news.json')
-MAX_ITEMS = 60  # максимум статии в JSON
+MAX_ITEMS = 80  # максимум статии в JSON
 MAX_DESC  = 300  # символи от описанието
+
+EU_KEYWORDS = [
+    'европейск', 'european', 'еврофонд', 'eu ', ' eu', 'cohesion',
+    'structural fund', 'финансиране', 'програма', 'оп ', 'european commission',
+    'еврокомисия', 'european parliament', 'европейски парламент',
+    'recovery', 'nextgeneration', 'multiannual', 'исун', 'еафрдр',
+    'еврофондов', 'евросредства', 'european union', 'европейски съюз',
+]
+
+def get_topic(title: str, desc: str, source: str) -> str:
+    """EU за България или Вътрешни."""
+    if source in ('European Commission', 'Google News EN'):
+        return 'eu'
+    combined = (title + ' ' + desc).lower()
+    if any(kw in combined for kw in EU_KEYWORDS):
+        return 'eu'
+    return 'вътрешни'
 
 # -----------------------------------------------------------------------
 # RSS ИЗТОЧНИЦИ — само публични, официални или лицензирани за синдикация
@@ -116,6 +133,7 @@ def _parse_bs4_entries(entries, feed: dict) -> list:
             "date":   date,
             "source": feed["name"],
             "lang":   feed["lang"],
+            "topic":  get_topic(title, desc, feed["name"]),
         })
     return items
 
@@ -194,6 +212,7 @@ def fetch_feed(feed: dict) -> list:
             "date":    date,
             "source":  feed["name"],
             "lang":    feed["lang"],
+            "topic":   get_topic(title, desc, feed["name"]),
         })
 
     print(f"  ✓ {feed['name']}: {len(items)} статии")
