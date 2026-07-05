@@ -100,6 +100,14 @@ SOURCES = [
         "category": "култура",
         "parser": "ncf",
         "base_url": "https://ncf.bg"
+    },
+    {
+        "name": "Фонд Научни изследвания",
+        "url": "https://www.fni.bg/?q=node/562",
+        "category": "бизнес",
+        "parser": "fni",
+        "base_url": "https://www.fni.bg",
+        "keywords": ["конкурс", "програм", "покан", "финансир", "грант", "изследван"]
     }
 ]
 
@@ -666,6 +674,65 @@ def parse_ippm(soup, source):
             programs.append(make_entry(full_url, text, source, ''))
     return programs
 
+def parse_fni(soup, source):
+    """Фонд Научни изследвания — само отворени конкурси, без навигация и новини."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.fni.bg')
+    seen = set()
+    # Изключваме навигационни и приключили елементи
+    exclude = ['приключил', 'предстоящ', 'наръчник', 'представи', 'архив', 'новини', 'контакти']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if not text or len(text) < 20 or len(text) > 250:
+            continue
+        if text in seen:
+            continue
+        tl = text.lower()
+        if any(w in tl for w in exclude):
+            continue
+        if not any(w in tl for w in ['конкурс', 'програм', 'покан', 'финансир', 'грант']):
+            continue
+        seen.add(text)
+        full_url = href if href.startswith('http') else base + href
+        programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+
+def parse_generic_links(soup, source):
+    """Generic parser — сканира всички линкове по ключови думи от source config."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', '')
+    keywords = source.get('keywords', ['програм', 'финансир', 'покан', 'грант', 'конкурс'])
+    seen = set()
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if not text or len(text) < 10 or len(text) > 250:
+            continue
+        if text in seen:
+            continue
+        if not any(w in text.lower() for w in keywords):
+            continue
+        seen.add(text)
+        if href.startswith('http'):
+            full_url = href
+        elif href.startswith('/'):
+            full_url = base + href
+        else:
+            full_url = base + '/' + href
+        programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+
 PARSERS = {
     "isun": parse_isun,
     "mig": parse_mig,
@@ -680,6 +747,8 @@ PARSERS = {
     "ncf": parse_ncf,
     "finansirane": parse_finansirane,
     "ippm": parse_ippm,
+    "generic_links": parse_generic_links,
+    "fni": parse_fni,
 }
 
 def scrape_all():
