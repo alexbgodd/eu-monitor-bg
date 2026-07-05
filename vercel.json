@@ -24,6 +24,7 @@
     { "source": "/water.min.css", "destination": "/web/water.min.css" },
     { "source": "/script.js", "destination": "/web/script.js" },
     { "source": "/unsubscribe", "destination": "/api/unsubscribe.py" },
+    { "source": "/eu-news", "destination": "/web/eu-news.html" },
     { "source": "/programs", "destination": "/web/programs.html" },
     { "source": "/privacy", "destination": "/web/privacy.html" },
     { "source": "/institucii/:slug", "destination": "/web/institucii/:slug.html" },
