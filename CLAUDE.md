@@ -238,7 +238,9 @@ git push
 ## Известни проблеми / TODO
 
 - [ ] `robots.txt` — добави `Disallow: /data/` и `Disallow: /api/`
-- [ ] Task Scheduler за автоматичен daily scrape (Windows) — СЛЕДВАЩО
+- [x] Task Scheduler — "EU Monitor Weekly Alerts" — всеки понеделник 08:00
+  - Команда: `python C:\Users\User\eu-monitor-bg\scraper\send_alerts.py`
+  - Прави: scrape + match + изпраща само НОВИ програми до засегнатите абонати
 - [ ] Rate limiting на `/api/register` и `/api/unsubscribe`
 - [ ] `/eu-news` — премахни keyword филтър за BG медии, добави повече категории
 - [ ] Намери правилни домейни за Creative Europe Desk BG и АУЕР
