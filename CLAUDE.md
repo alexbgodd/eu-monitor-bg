@@ -87,8 +87,13 @@ UNSUBSCRIBE_SECRET=random_string     # за HMAC токени при unsubscribe
 | НПО | НПО Портал (ngobg.info) | `ngobg` |
 | ПНИИДИТ | ПНИИДИТ | `pniidit` |
 | ЕОП | ЦАИС ЕОП — Обявления | `eop_notices` |
+| ФНИ | Фонд Научни изследвания (fni.bg) | `fni` |
 
 **ВАЖНО: ИСУН не се премахва — дава най-много резултати.**
+
+### Мъртви sources за programs (не добавяй без проверка)
+- cedesk.bg — DNS не резолвира
+- auer.bg — DNS не резолвира
 
 ### CATEGORY_MAP (matcher.py)
 
@@ -233,10 +238,19 @@ git push
 ## Известни проблеми / TODO
 
 - [ ] `robots.txt` — добави `Disallow: /data/` и `Disallow: /api/`
-- [ ] Task Scheduler за автоматичен daily scrape (Windows)
+- [ ] Task Scheduler за автоматичен daily scrape (Windows) — СЛЕДВАЩО
 - [ ] Rate limiting на `/api/register` и `/api/unsubscribe`
-- [ ] `/eu-news` новини — премахни keyword филтър за BG медии, добави повече категории
-- [ ] programs.json понякога се truncate при scrape — провери преди push с `tail -3`
+- [ ] `/eu-news` — премахни keyword филтър за BG медии, добави повече категории
+- [ ] Намери правилни домейни за Creative Europe Desk BG и АУЕР
+- [ ] programs.json понякога се truncate при scrape — провери с `Get-Content data/programs.json -Tail 3`
+- [x] FNI parser добавен (fni.bg) — специфичен parser, изключва навигация
+- [x] eu-news.html — новини страница с RSS агрегатор
+- [x] Новини банер на homepage между email preview и "Следим в реално време"
+
+### PowerShell бележки (Windows)
+- `tail` не работи → използвай `Get-Content file -Tail 3`
+- `git diff HEAD -w --stat` → реални промени без whitespace
+- Преди push: `git diff HEAD -w --stat` + `python -c "import json; json.load(open('data/programs.json'))"` за валидация
 
 ---
 
