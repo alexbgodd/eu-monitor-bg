@@ -10,26 +10,6 @@
     "found_at": "2026-07-10 10:43"
   },
   {
-    "id": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/naczionalni-programi-2025/",
-    "title": "Национални програми 2025",
-    "source": "МОН — Национални програми",
-    "category": "образование",
-    "url": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/naczionalni-programi-2025/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
-    "id": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/godishna-programa-za-poddarzhane-remont-rekonstrukcziya-czyalostno-obnovyavane-ili-sazdavane-na-novi-sportni-obekti-i-ili-sportni-saorazheniya-v-darzhavnite-i-obsthinskite-uchilistha-za-2024-g/",
-    "title": "Годишна програма за поддържане, ремонт, реконструкция, цялостно обновяване или създаване на нови спортни обекти и/или спортни съоръжения в държавните и общинските училища за 2024 г.",
-    "source": "МОН — Национални програми",
-    "category": "образование",
-    "url": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/godishna-programa-za-poddarzhane-remont-rekonstrukcziya-czyalostno-obnovyavane-ili-sazdavane-na-novi-sportni-obekti-i-ili-sportni-saorazheniya-v-darzhavnite-i-obsthinskite-uchilistha-za-2024-g/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
     "id": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/programa-za-izgrazhdane-i-osnoven-remont-na-sportni-ploshtadki-i-fizkulturni-saloni-v-darzhavnite-i-obshtinskite-uchilishta-za-perioda-2024-2027-g/",
     "title": "Програма за изграждане и основен ремонт на спортни площадки и физкултурни салони в държавните и общинските училища за периода 2024 - 2027 г.",
     "source": "МОН — Национални програми",
@@ -55,26 +35,6 @@
     "source": "МОН — Национални програми",
     "category": "образование",
     "url": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/programa-za-sanirane-remont-i-obzavezhdane-na-studentskite-obshtezhitiya-predostaveni-za-upravlenie-na-darzhavnite-visshi-uchilishta-i-studentski-stolove-i-obshtezhitiya-ead-2024-2027-g/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
-    "id": "https://www.mon.bg/mon/ministerstvo/regionalni-upravleniya-na-obrazovanieto/",
-    "title": "Регионални управления на образованието",
-    "source": "МОН — Национални програми",
-    "category": "образование",
-    "url": "https://www.mon.bg/mon/ministerstvo/regionalni-upravleniya-na-obrazovanieto/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
-    "id": "https://www.moew.government.bg/bg/ministerstvo/programi-i-proekti/",
-    "title": "Програми и проекти",
-    "source": "МОСВ — Програми и проекти",
-    "category": "екология",
-    "url": "https://www.moew.government.bg/bg/ministerstvo/programi-i-proekti/",
     "deadline": "",
     "type": "fund",
     "found_at": "2026-07-10 10:43"
@@ -135,16 +95,6 @@
     "source": "МОСВ — Програми и проекти",
     "category": "екология",
     "url": "https://www.moew.government.bg/bg/ministerstvo/programi-i-proekti/programa-life/proekt-capta-bg/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
-    "id": "https://www.moew.government.bg/bg/ministerstvo/evropejski-i-mejdunarodni-proekti/programa-ispa-kf-reglament-1164-94/status-na-proektite-po-programa-ispa-kf-reglament-1164-94/",
-    "title": "Статус на проектите по програма ИСПА/КФ (регламент 1164/94)",
-    "source": "МОСВ — Програми и проекти",
-    "category": "екология",
-    "url": "https://www.moew.government.bg/bg/ministerstvo/evropejski-i-mejdunarodni-proekti/programa-ispa-kf-reglament-1164-94/status-na-proektite-po-programa-ispa-kf-reglament-1164-94/",
     "deadline": "",
     "type": "fund",
     "found_at": "2026-07-10 10:43"
@@ -215,16 +165,6 @@
     "source": "МОСВ — Програми и проекти",
     "category": "екология",
     "url": "https://ecofund-bg.org/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-10 10:43"
-  },
-  {
-    "id": "https://swiss-contribution.bg/",
-    "title": "Българо-Швейцарска програма за сътрудничество",
-    "source": "МОСВ — Програми и проекти",
-    "category": "екология",
-    "url": "https://swiss-contribution.bg/",
     "deadline": "",
     "type": "fund",
     "found_at": "2026-07-10 10:43"
@@ -4297,16 +4237,6 @@
     "code": "595737"
   },
   {
-    "id": "https://hrdc.bg/erasmus-hei-coordinators-training-2-july-2026-varna/",
-    "title": "Годишната среща на „Еразъм+“ координаторите във висшите училища събра във Варна представители на 23 университета",
-    "source": "ЦРЧР — Еразъм+ и младеж",
-    "category": "образование",
-    "url": "https://hrdc.bg/erasmus-hei-coordinators-training-2-july-2026-varna/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-06 11:04"
-  },
-  {
     "id": "https://www.ngobg.info/bg/financing/2307-отворена-е-нова-процедура-за-финансиране-на-информационни-кампан.html",
     "title": "Отворена е нова процедура за финансиране на информационни кампании за битови отпадъци",
     "source": "НПО портал — Финансиране",
@@ -6367,16 +6297,6 @@
     "authority": "ОБЩИНА ПЛОВДИВ",
     "found_at": "2026-07-02",
     "code": "595008"
-  },
-  {
-    "id": "https://hrdc.bg/hrdc_razshiryava_mrejata_ot_partnyorstva_cherna_gora/",
-    "title": "ЦРЧР разширява мрежата от партньорства в Западните Балкани чрез сключен Меморандум за сътрудничество с „Еразъм“ офиса на Черна гора",
-    "source": "ЦРЧР — Еразъм+ и младеж",
-    "category": "образование",
-    "url": "https://hrdc.bg/hrdc_razshiryava_mrejata_ot_partnyorstva_cherna_gora/",
-    "deadline": "",
-    "type": "fund",
-    "found_at": "2026-07-02 18:55"
   },
   {
     "id": "https://www.ngobg.info/bg/financing/2306-о-издание-на-дарителската-програма-на-обб-избери-за-да-помогнеш.html",
