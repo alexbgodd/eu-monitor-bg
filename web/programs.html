@@ -90,6 +90,13 @@
             За да намерите поръчката, потърсете заглавието в <a href="https://www.google.com/search?q=site:app.eop.bg" target="_blank" style="color:#92400e;">Google</a> или в <a href="https://app.eop.bg/today" target="_blank" style="color:#92400e;">app.eop.bg</a>.
         </div>
 
+        <!-- Търсачка -->
+        <div style="margin-bottom:16px;">
+            <input type="search" id="search-input" placeholder="🔍 Търсете по заглавие..."
+                oninput="setSearch(this.value)"
+                style="width:100%; padding:10px 14px; font-size:15px; border:1.5px solid #d1d5db; border-radius:10px; outline:none; box-sizing:border-box;">
+        </div>
+
         <p class="count" id="count">Зареждане...</p>
         <div class="filter-bar" id="filters"></div>
 
@@ -152,6 +159,7 @@ let activeType = 'fund';   // 'fund' | 'tender' | 'all'
 let activeCategory = 'all';
 let activeDeadline = 'all'; // 'all' | '7' | '30' | 'none'
 let activeSort = 'found';   // 'found' | 'deadline'
+let activeSearch = '';      // текстово търсене
 
 function daysLeftFor(p) {
     if (!p.deadline) return null;
@@ -170,6 +178,11 @@ function setDeadlineFilter(val) {
 
 function setSort(val) {
     activeSort = val;
+    renderPrograms();
+}
+
+function setSearch(val) {
+    activeSearch = val.toLowerCase().trim();
     renderPrograms();
 }
 
@@ -229,6 +242,14 @@ function renderPrograms() {
     let filtered = activeCategory === 'all'
         ? visible
         : visible.filter(p => p.category === activeCategory);
+
+    // Текстово търсене
+    if (activeSearch) {
+        filtered = filtered.filter(p =>
+            p.title.toLowerCase().includes(activeSearch) ||
+            (p.source && p.source.toLowerCase().includes(activeSearch))
+        );
+    }
 
     // Филтър по краен срок
     if (activeDeadline === '7') {
