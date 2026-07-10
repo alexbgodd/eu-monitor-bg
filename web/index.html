@@ -179,6 +179,54 @@
     </div>
 </section>
 
+<!-- Последно добавени -->
+<section style="padding:40px 0;background:#f8fafc;border-top:1px solid #e2e8f0;">
+    <div class="container">
+        <h2 style="font-size:20px;color:#1e293b;margin-bottom:6px;">🆕 Последно добавени</h2>
+        <p style="font-size:14px;color:#64748b;margin-bottom:20px;">Актуализира се при всеки scrape</p>
+        <div id="recent-list" style="display:flex;flex-direction:column;gap:10px;">
+            <p style="color:#94a3b8;font-size:14px;">Зареждане...</p>
+        </div>
+        <p style="text-align:center;margin-top:20px;">
+            <a href="/programs" style="font-size:14px;color:#2563eb;text-decoration:none;font-weight:600;">Виж всички →</a>
+        </p>
+    </div>
+</section>
+<script>
+fetch('/data/programs.json')
+    .then(r => r.json())
+    .then(programs => {
+        const sorted = programs
+            .filter(p => p.found_at)
+            .sort((a, b) => b.found_at.localeCompare(a.found_at))
+            .slice(0, 5);
+        const el = document.getElementById('recent-list');
+        el.innerHTML = sorted.map(p => {
+            const isTender = p.type === 'tender';
+            const badge = isTender
+                ? '<span style="font-size:11px;background:#f5f3ff;color:#5b21b6;padding:2px 8px;border-radius:10px;font-weight:600;">Поръчка</span>'
+                : '<span style="font-size:11px;background:#eff6ff;color:#1d4ed8;padding:2px 8px;border-radius:10px;font-weight:600;">Фонд</span>';
+            const deadline = p.deadline
+                ? `<span style="font-size:12px;color:#9a3412;margin-left:8px;">⏰ ${p.deadline}</span>`
+                : '';
+            const link = p.url
+                ? `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:#2563eb;margin-left:8px;">Виж →</a>`
+                : '';
+            return `<div style="background:white;border-radius:8px;padding:14px 16px;border-left:3px solid ${isTender ? '#7c3aed' : '#2563eb'};box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+                <div style="font-size:14px;font-weight:600;color:#1e293b;margin-bottom:6px;">${p.title}</div>
+                <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+                    ${badge}
+                    <span style="font-size:12px;color:#64748b;margin-left:4px;">${p.source}</span>
+                    ${deadline}${link}
+                </div>
+            </div>`;
+        }).join('');
+    })
+    .catch(() => {
+        document.getElementById('recent-list').innerHTML = '<p style="color:#94a3b8;">Неуспешно зареждане.</p>';
+    });
+</script>
+
 <!-- Как работи -->
 <section class="how-it-works">
     <div class="container">
