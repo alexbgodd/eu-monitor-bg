@@ -182,8 +182,8 @@
 <!-- Последно добавени -->
 <section style="padding:40px 0;background:#f8fafc;border-top:1px solid #e2e8f0;">
     <div class="container">
-        <h2 style="font-size:20px;color:#1e293b;margin-bottom:6px;">🆕 Последно добавени</h2>
-        <p style="font-size:14px;color:#64748b;margin-bottom:20px;">Актуализира се при всеки scrape</p>
+        <h2 style="font-size:20px;color:#1e293b;margin-bottom:6px;">🆕 Последно обявени поръчки</h2>
+        <p style="font-size:14px;color:#64748b;margin-bottom:20px;">Нови обществени поръчки от последните дни</p>
         <div id="recent-list" style="display:flex;flex-direction:column;gap:10px;">
             <p style="color:#94a3b8;font-size:14px;">Зареждане...</p>
         </div>
@@ -196,8 +196,10 @@
 fetch('/data/programs.json')
     .then(r => r.json())
     .then(programs => {
+        // Показваме само EOP тендери — наистина нови всеки ден
+        // Фондове от МОН/МОСВ се добавят наведнъж и изглеждат стари
         const sorted = programs
-            .filter(p => p.found_at)
+            .filter(p => p.found_at && p.type === 'tender')
             .sort((a, b) => b.found_at.localeCompare(a.found_at))
             .slice(0, 5);
         const el = document.getElementById('recent-list');
