@@ -108,6 +108,20 @@ SOURCES = [
         "parser": "fni",
         "base_url": "https://www.fni.bg",
         "keywords": ["конкурс", "програм", "покан", "финансир", "грант", "изследван"]
+    },
+    {
+        "name": "МОН — Национални програми",
+        "url": "https://www.mon.bg/dokumentatsiya/programi-i-proekti/",
+        "category": "образование",
+        "parser": "mon",
+        "base_url": "https://www.mon.bg"
+    },
+    {
+        "name": "МОСВ — Програми и проекти",
+        "url": "https://www.moew.government.bg/bg/ministerstvo/programi-i-proekti/",
+        "category": "екология",
+        "parser": "moew",
+        "base_url": "https://www.moew.government.bg"
     }
 ]
 
@@ -154,12 +168,11 @@ def expire_old(programs):
         except ValueError:
             kept.append(p)
             continue
-        # EU фондове — не изтичат по found_at (само тендери без срок изтичат след 30 дни)
-        if p.get('type') != 'tender':
-            kept.append(p)
-            continue
         age = (today - found_date).days
-        if age <= 30:
+        # Тендери без срок — изтичат след 30 дни
+        # EU фондове — изтичат след 90 дни
+        max_age = 30 if p.get('type') == 'tender' else 90
+        if age <= max_age:
             kept.append(p)
         else:
             removed += 1
@@ -562,23 +575,35 @@ def parse_dfz(soup, source):
     return programs
 
 def parse_hrdc(soup, source):
-    """ЦРЧР — Еразъм+ покани и програми."""
+    """ЦРЧР — само реални покани за кандидатстване по Еразъм+."""
     programs = []
     if not soup:
         return programs
     base = source.get('base_url', 'https://hrdc.bg')
     seen = set()
-    keywords = ['покан', 'програм', 'еразъм', 'кандидатстван', 'грант', 'финансир', 'младеж', 'мобилност']
+    # Само реални покани — изисква поне едно от тези
+    must_have = ['покан', 'кандидатстван', 'насоки за', 'мобилност', 'изграждане на капацитет']
+    # Новини, съобщения и архив — изключваме
+    skip = ['отбелязв', 'напредък', 'шатра', 'отчита', 'резултат',
+            'популяризир', 'конференц', '2014', '2020 >', 'информационна',
+            'съобщен', 'новина', 'събитие']
     for a in soup.select('a'):
         text = a.get_text(strip=True)
         href = a.get('href', '')
         if not href or href.startswith('#') or href.startswith('mailto'):
             continue
+        if not text or len(text) < 15 or len(text) > 200:
+            continue
+        if text in seen:
+            continue
+        tl = text.lower()
+        if any(w in tl for w in skip):
+            continue
+        if not any(w in tl for w in must_have):
+            continue
+        seen.add(text)
         full_url = (base + href) if href.startswith('/') else href
-        if (text and 10 < len(text) < 200 and text not in seen and
-                any(w in text.lower() for w in keywords)):
-            seen.add(text)
-            programs.append(make_entry(full_url, text, source, ''))
+        programs.append(make_entry(full_url, text, source, ''))
     return programs
 
 def parse_ngobg(soup, source):
@@ -703,6 +728,62 @@ def parse_fni(soup, source):
     return programs
 
 
+def parse_mon(soup, source):
+    """МОН — Национални програми за образование."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.mon.bg')
+    seen = set()
+    skip = ['архив', 'изпълнителна агенция', 'програми и проекти']
+    keywords = ['програм', 'покан', 'финансир', 'грант', 'конкурс', 'ремонт', 'изграждан', 'обновяван', 'санир', 'управлен']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if not text or len(text) < 15 or len(text) > 200:
+            continue
+        if text in seen:
+            continue
+        tl = text.lower()
+        if any(w in tl for w in skip):
+            continue
+        if not any(w in tl for w in keywords):
+            continue
+        seen.add(text)
+        full_url = (base + href) if href.startswith('/') else href
+        programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
+def parse_moew(soup, source):
+    """МОСВ — Програми и проекти за околна среда."""
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.moew.government.bg')
+    seen = set()
+    skip = ['приключил', 'архив', '2010', 'нормативни документи', 'обща информация']
+    keywords = ['програм', 'финансир', 'покан', 'грант', 'конкурс', 'процедур', 'проект', 'фонд', 'life']
+    for a in soup.select('a'):
+        text = a.get_text(strip=True)
+        href = a.get('href', '')
+        if not href or href.startswith('#') or href.startswith('mailto'):
+            continue
+        if not text or len(text) < 15 or len(text) > 200:
+            continue
+        if text in seen:
+            continue
+        tl = text.lower()
+        if any(w in tl for w in skip):
+            continue
+        if not any(w in tl for w in keywords):
+            continue
+        seen.add(text)
+        full_url = (base + href) if href.startswith('/') else href
+        programs.append(make_entry(full_url, text, source, ''))
+    return programs
+
 def parse_generic_links(soup, source):
     """Generic parser — сканира всички линкове по ключови думи от source config."""
     programs = []
@@ -749,6 +830,8 @@ PARSERS = {
     "ippm": parse_ippm,
     "generic_links": parse_generic_links,
     "fni": parse_fni,
+    "mon": parse_mon,
+    "moew": parse_moew,
 }
 
 def scrape_all():
