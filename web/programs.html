@@ -84,6 +84,12 @@
             <button class="type-tab" id="tab-all" onclick="setTypeFilter('all')">📋 Всички</button>
         </div>
 
+        <!-- Бележка за ЦАИС ЕОП линкове — показва се само при таб Обществени поръчки -->
+        <div id="tender-note" style="display:none; background:#fffbeb; border:1px solid #fcd34d; border-radius:8px; padding:10px 14px; margin-bottom:16px; font-size:13px; color:#92400e;">
+            ℹ️ Линковете към ЦАИС ЕОП изискват регистрация или може да не отворят директно.
+            За да намерите поръчката, потърсете заглавието в <a href="https://www.google.com/search?q=site:app.eop.bg" target="_blank" style="color:#92400e;">Google</a> или в <a href="https://app.eop.bg/today" target="_blank" style="color:#92400e;">app.eop.bg</a>.
+        </div>
+
         <p class="count" id="count">Зареждане...</p>
         <div class="filter-bar" id="filters"></div>
 
@@ -188,6 +194,8 @@ function setTypeFilter(type) {
     ['fund','tender','all'].forEach(t => {
         document.getElementById('tab-' + t).classList.toggle('active', t === type);
     });
+    // Показваме бележката само при Обществени поръчки
+    document.getElementById('tender-note').style.display = (type === 'tender') ? 'block' : 'none';
     renderFilters();
     renderPrograms();
 }
