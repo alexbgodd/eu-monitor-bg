@@ -175,8 +175,10 @@ def expire_old(programs):
 
 def save_programs(programs):
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+    data = json.dumps(programs, ensure_ascii=False, indent=2)
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(programs, f, ensure_ascii=False, indent=2)
+        f.write(data)
+        f.truncate()  # изрично отрязва остатъка ако файлът е бил по-голям
 
 def fetch_isun():
     """Специален fetch за ИСУН — използва Session с пълни browser headers."""
