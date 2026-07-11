@@ -19,13 +19,8 @@ SOURCES = [
         "parser": "mig",
         "base_url": "https://www.mig.government.bg"
     },
-    {
-        "name": "ПНИИДИТ — Иновации и дигитализация",
-        "url": "https://www.mig.government.bg/programa-nauchni-izsledvaniya-inovaczii-i-digitalizacziya-za-inteligentna-transformacziya/",
-        "category": "бизнес",
-        "parser": "mig",
-        "base_url": "https://www.mig.government.bg"
-    },
+    # ПНИИДИТ source премахнат — страницата изброява ВСИЧКИ процедури (активни + изтекли)
+    # и изтеклите са маркирани само с JS (requests не ги вижда). ИСУН покрива отворените.
     {
         "name": "ИСУН 2020 — Отворени процедури",
         "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
@@ -406,6 +401,15 @@ def parse_isun(soup, source):
         programs.append(entry)
     return programs
 
+def mig_is_expired(url):
+    """Проверява дали МИГ процедура е маркирана като изтекла."""
+    try:
+        r = requests.get(url, timeout=8, verify=False,
+                         headers={'User-Agent': 'Mozilla/5.0'})
+        return 'изтекъл срок за кандидатстване' in r.text.lower()
+    except Exception:
+        return False
+
 def parse_mig(soup, source):
     """Министерство на иновациите и растежа."""
     programs = []
@@ -426,6 +430,9 @@ def parse_mig(soup, source):
         if (text and len(text) < 250 and text not in seen and
                 any(w in text.lower() for w in keywords)):
             seen.add(text)
+            # Проверяваме индивидуалната страница за "изтекъл срок"
+            if mig_is_expired(full_url):
+                continue
             programs.append(make_entry(full_url, text, source, ''))
     return programs
 
