@@ -21,13 +21,8 @@ SOURCES = [
     },
     # ПНИИДИТ source премахнат — страницата изброява ВСИЧКИ процедури (активни + изтекли)
     # и изтеклите са маркирани само с JS (requests не ги вижда). ИСУН покрива отворените.
-    {
-        "name": "OpenProcurements — Обществени поръчки",
-        "url": "https://bg.openprocurements.com/",
-        "category": "общини",
-        "parser": "openprocurements",
-        "type": "tender"
-    },
+    # OpenProcurements премахнат — wrapper около TED, линкове водят към тяхна страница (не ЦАИС ЕОП).
+    # ЦАИС ЕОП покрива BG тендерите директно и по-пълно.
     {
         "name": "ИСУН 2020 — Отворени процедури",
         "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
@@ -901,55 +896,4 @@ def scrape_all():
     for source in SOURCES:
         print(f"\n>>> {source['name']}")
         if source['parser'] == 'isun':
-            soup = fetch_isun()
-        else:
-            soup = fetch_page(source['url'])
-        parser = PARSERS.get(source['parser'])
-        if parser and soup:
-            found = parser(soup, source)
-            count = 0
-            for p in found:
-                if p['id'] not in existing_ids:
-                    new_programs.append(p)
-                    existing_ids.add(p['id'])
-                    count += 1
-                    print(f"    НОВО: {p['title'][:80]}")
-            if count == 0:
-                print(f"    Няма нови.")
-        else:
-            print(f"    Неуспешно зареждане.")
-
-    # ЦАИС ЕОП (storage.eop.bg S3 open-data — OCDS обявления)
-    print(f"\n>>> ЦАИС ЕОП — Активни обявления (последните 7 дни)")
-    try:
-        eop_records = fetch_eop_tenders(days_back=7)
-        if eop_records:
-            eop_programs = parse_eop(eop_records, existing_ids)
-            count = 0
-            for p in eop_programs:
-                if p['id'] not in existing_ids:
-                    new_programs.append(p)
-                    existing_ids.add(p['id'])
-                    count += 1
-                    print(f"    НОВО: {p['title'][:80]}")
-            print(f"    {'Няма нови.' if count == 0 else f'{count} нови обявления.'}")
-        else:
-            print(f"    Няма данни от storage.eop.bg (проверете връзката).")
-    except Exception as e:
-        print(f"    Грешка ЦАИС ЕОП: {e}")
-
-    # Изчисти изтеклите записи
-    all_programs = new_programs + existing
-    all_programs = expire_old(all_programs)
-
-    if new_programs:
-        save_programs(all_programs)
-        print(f"\n✓ Записани {len(new_programs)} нови. Общо активни: {len(all_programs)}")
-    else:
-        save_programs(all_programs)
-        print(f"\n— Няма нови програми. Активни: {len(all_programs)}")
-
-    return new_programs
-
-if __name__ == "__main__":
-    scrape_all()
+            soup = fetc
