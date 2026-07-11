@@ -116,13 +116,6 @@ SOURCES = [
         "parser": "mon",
         "base_url": "https://www.mon.bg"
     },
-    {
-        "name": "МОСВ — Програми и проекти",
-        "url": "https://www.moew.government.bg/bg/ministerstvo/programi-i-proekti/",
-        "category": "екология",
-        "parser": "moew",
-        "base_url": "https://www.moew.government.bg"
-    }
 ]
 
 def load_existing():
