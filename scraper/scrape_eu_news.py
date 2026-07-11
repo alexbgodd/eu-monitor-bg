@@ -43,12 +43,12 @@ FEEDS = [
     # --- Google News (публична услуга, без scraping) ---
     {
         "name": "Google News BG",
-        "url": "https://news.google.com/rss/search?q=EU+финансиране+България&hl=bg&gl=BG&ceid=BG:bg",
+        "url": "https://news.google.com/rss/search?q=EU+финансиране+България+when:3d&hl=bg&gl=BG&ceid=BG:bg",
         "lang": "bg", "filter": None,
     },
     {
         "name": "Google News EN",
-        "url": "https://news.google.com/rss/search?q=EU+Bulgaria+funding+grants&hl=en&gl=BG&ceid=BG:en",
+        "url": "https://news.google.com/rss/search?q=EU+Bulgaria+funding+grants+when:3d&hl=en&gl=BG&ceid=BG:en",
         "lang": "en", "filter": None,
     },
     # --- EU официални ---
@@ -63,19 +63,25 @@ FEEDS = [
         "name": "Dnevnik.bg",
         "url": "https://www.dnevnik.bg/rss/",
         "lang": "bg",
-        "filter": ["ес", "европейски", "еврофонд", "финансиране", "оп ", "програма"],
+        "filter": ["еврофонд", "еврокомисия", "европейска комисия", "европейски средства",
+                   "европейски пари", "оперативна програма", "структурен фонд",
+                   "кохезионен", "европейско финансиране", "еврофинансиране"],
     },
     {
         "name": "Capital.bg",
         "url": "https://www.capital.bg/rss/",
         "lang": "bg",
-        "filter": ["ес", "европейски", "еврофонд", "финансиране", "програма", "фонд"],
+        "filter": ["еврофонд", "еврокомисия", "европейска комисия", "европейски средства",
+                   "европейски пари", "оперативна програма", "структурен фонд",
+                   "кохезионен", "европейско финансиране", "еврофинансиране"],
     },
     {
         "name": "Investor.bg",
         "url": "https://www.investor.bg/rss/news",
         "lang": "bg",
-        "filter": ["ес", "европейски", "еврофонд", "финансиране", "програма", "поръчка"],
+        "filter": ["еврофонд", "еврокомисия", "европейска комисия", "европейски средства",
+                   "европейски пари", "оперативна програма", "структурен фонд",
+                   "кохезионен", "европейско финансиране", "еврофинансиране"],
     },
 ]
 
