@@ -22,16 +22,18 @@ eu-monitor-bg/
 │   ├── register.py          # POST /api/register → записва в Supabase
 │   └── unsubscribe.py       # GET /unsubscribe?email=&token= → изтрива от Supabase
 ├── scraper/
-│   ├── scraper.py           # Главен scraper — 13+ източници
+│   ├── scraper.py           # Главен scraper — 15+ източника
 │   ├── matcher.py           # Matching потребители ↔ програми по категория
-│   ├── send_alerts.py       # Изпращане на имейли (Resend API)
+│   ├── send_alerts.py       # Изпращане на имейли (Brevo SMTP)
 │   ├── blast_existing.py    # Еднократен blast към съществуващи абонати
 │   ├── generate_seo_pages.py # Генерира institucii/*.html SEO страници
 │   ├── check_deadlines.py   # Анализ на крайни срокове в programs.json
-│   └── scrape_eu_news.py    # RSS агрегатор за новини (нов — юли 2026)
+│   ├── scrape_eu_news.py    # RSS агрегатор за новини (нов — юли 2026)
+│   └── test_new_sources.py  # Тест скрипт за нови потенциални източници
 ├── data/
-│   ├── programs.json        # ~906 активни програми и поръчки
-│   └── eu-news.json         # Последни новини (2 дни, ~46 статии)
+│   ├── programs.json        # ~1230 активни програми и поръчки
+│   ├── eu-news.json         # Последни новини (2 дни, ~46 статии)
+│   └── sent_log.json        # Лог на изпратените имейли (дедупликация)
 ├── web/
 │   ├── index.html           # Начална страница
 │   ├── programs.html        # Списък с всички програми
@@ -55,6 +57,11 @@ SUPABASE_URL=https://xxxx.supabase.co
 SUPABASE_SECRET_KEY=eyJ...           # service_role ключ
 RESEND_API_KEY=re_...
 UNSUBSCRIBE_SECRET=random_string     # за HMAC токени при unsubscribe
+SMTP_HOST=smtp-relay.brevo.com
+SMTP_PORT=587
+SMTP_LOGIN=...
+SMTP_KEY=...
+EMAIL_FROM=info@gdprcheck.bg
 ```
 
 **.env е в .gitignore — никога не се commit-ва.**
@@ -65,35 +72,54 @@ UNSUBSCRIBE_SECRET=random_string     # за HMAC токени при unsubscribe
 
 - Таблица: `registrations`
 - Колони: `id, email, name, org_type, interests (text[]), created_at`
-- ~4 записа (2 реални, 2 тестови) към юли 2026
+- ~37 реални абоната към юли 2026 (дошли органично от Facebook)
 - Python достъп: директни REST API заявки с `urllib.request` (без supabase-py)
+- `alexbgodd@gmail.com` НЕ е регистриран като абонат в Supabase
+- allmarinkov@abv.bg има corrupted name в Supabase — провери и поправи ръчно
 
 ---
 
 ## Scraper — източници (scraper.py)
 
-13+ активни източници:
+15+ активни източници:
 
 | Badge | Източник | Parser |
 |-------|----------|--------|
 | EU | ИСУН 2020 — EU процедури | `isun` |
 | ОП | ЦАИС ЕОП — Поръчки | `eop` |
-| МИ | Мин. на иновациите | `mi` |
+| МИ | Мин. на иновациите | `mig` |
 | ДФЗ | Държавен фонд Земеделие | `dfz` |
 | ЕСФ | ЕСФ България | `esf` |
-| ЕР | ЦРЧР — Еразъм+ | `erasmus` |
-| МК | Министерство на културата | `kultura` |
-| НФК | Национален фонд Култура | `nfk` |
+| ЕР | ЦРЧР — Еразъм+ | `hrdc` |
+| МК | Министерство на културата | `mc` |
+| НФК | Национален фонд Култура | `ncf` |
 | НПО | НПО Портал (ngobg.info) | `ngobg` |
-| ПНИИДИТ | ПНИИДИТ | `pniidit` |
-| ЕОП | ЦАИС ЕОП — Обявления | `eop_notices` |
+| ПНИИДИТ | ПНИИДИТ | `mig` |
+| ЕОП | ЦАИС ЕОП — Обявления | `eop` (S3) |
 | ФНИ | Фонд Научни изследвания (fni.bg) | `fni` |
+| МОН | МОН — Национални програми | `mon` |
+| МОСВ | МОСВ — Програми и проекти | `moew` |
 
 **ВАЖНО: ИСУН не се премахва — дава най-много резултати.**
 
-### Мъртви sources за programs (не добавяй без проверка)
+### Мъртви sources (не добавяй без проверка)
 - cedesk.bg — DNS не резолвира
 - auer.bg — DNS не резолвира
+- ИАНМСП (iiam.government.bg) — DNS не резолвира
+- Предприемачески фонд (entrepreneurshipfund.bg) — DNS не резолвира
+- Агенция по заетостта — SSL DH key too small (слаб SSL)
+- МТСП — само новини и стари процедури, не е полезен
+- Интеррег България-Румъния (interregrobg.eu) — 404
+
+### parse_hrdc — строги филтри (само реални покани)
+- must_have: `['покан', 'кандидатстван', 'насоки за', 'мобилност', 'изграждане на капацитет']`
+- skip: новини, срещи, меморандуми, резултати, координатори
+
+### parse_mon — филтри
+- skip: архив, 2020, 2021-2023, "за 2024 г", "за 2025 г", регионални управления
+
+### parse_moew — филтри
+- skip: приключил, архив, ИСПА, Швейцарска, "обща информация", "програми и проекти"
 
 ### CATEGORY_MAP (matcher.py)
 
@@ -136,12 +162,6 @@ UNSUBSCRIBE_SECRET=random_string     # за HMAC токени при unsubscribe
 ### Настройки
 - `DAYS_BACK = 2` — само последните 2 дни
 - `MAX_ITEMS = 200` (реално ~40-60 след date филтър)
-- Категории: `eu` (EU за България) / `вътрешни`
-- Категоризация: по ключови думи в `get_topic()`
-
-### Изход
-- Записва в `data/eu-news.json`
-- Формат: `{ updated, count, items: [{title, desc, url, date, source, lang, topic}] }`
 
 ---
 
@@ -159,60 +179,70 @@ UNSUBSCRIBE_SECRET=random_string     # за HMAC токени при unsubscribe
 **CSP header:** `connect-src 'self' https://*.supabase.co`
 → Ако добавяш нов external fetch от JS, трябва да се добави тук.
 
-**Vercel Analytics:** `<script defer src="/_vercel/insights/script.js"></script>` — вече е добавен в index.html, programs.html, eu-news.html.
-
----
-
-## Дизайн токени
-
-```css
---blue-dark:   #1d4ed8   /* header, primary */
---blue-mid:    #2563eb   /* links, buttons */
---blue-hero:   #1e40af   /* hero gradient */
---red-news:    #c0392b   /* новини банер */
---gray-text:   #1e293b
---gray-sub:    #64748b
---bg-light:    #f8fafc
-```
-
-**Logo:** `.logo-box` — glassmorphism рамка, кликаема, линк към `/`
-
-**Hero stat counter:** динамичен — JS чете programs.json и обновява "906+"
-
-**Категории с брояч:** секция между hero и "Как работи" — pills по категория с брой
-
-**FAQ:** `<details>/<summary>` accordion — 5 въпроса, нулев JS риск
+**Vercel Analytics:** добавен в index.html, programs.html, eu-news.html.
 
 ---
 
 ## Homepage структура (index.html)
 
 1. Header (logo-box)
-2. Hero (h1 + stats + бутони: Programs + **Новини банер**)
+2. Hero (h1 + stats + бутони)
 3. Категории с брояч (динамично от programs.json)
-4. "Как работи" (3 стъпки)
-5. Email preview mock
-6. **Новини банер** → /eu-news (червен, между email preview и "Следим в реално време")
-7. "Следим в реално време" (sources list)
-8. FAQ (details/summary)
-9. Регистрационна форма
-10. Footer
+4. **"Последно обявени поръчки"** — 5 най-нови EOP тендера (динамично, само type=tender)
+5. "Как работи" (3 стъпки)
+6. Email preview mock
+7. Новини банер → /eu-news (червен)
+8. "Следим в реално време" (sources list)
+9. FAQ (details/summary)
+10. Регистрационна форма
+11. Footer
 
 ---
 
-## Workflow — нов scrape
+## Имейл система (send_alerts.py + blast_existing.py)
+
+- **Transport:** Brevo SMTP (smtp-relay.brevo.com:587)
+- **От:** info@gdprcheck.bg
+- **Шаблон:** 1 линк на програма (plain URL) — повече линкове → спам
+- **blast_existing.py:** изпраща до всички или до конкретен имейл (`python blast_existing.py email@test.com`)
+- **sent_log.json:** дедупликация — не праща два пъти едно и също на един абонат
+- **Лимит:** 20 програми на имейл (top 20 по found_at desc)
+- **Спам проблем при ABV:** domain reputation на Brevo + нов домейн → решение: абонатите да кликнат "Не е спам"
+
+---
+
+## EOP линкове
+
+- Правилен формат: `https://app.eop.bg/today/<tender_id>`
+- Стар (грешен) формат: `/bg-BG/notice/0/<id>` — не използвай
+- Линковете изискват регистрация в ЦАИС ЕОП — добавена бележка на /programs при таб "Обществени поръчки"
+
+---
+
+## Expire логика (scraper.py)
+
+```python
+# Тендери с краен срок → изтичат когато срокът мине
+# Тендери без срок → изтичат след 30 дни от found_at
+# EU фондове → изтичат след 90 дни от found_at
+```
+
+---
+
+## Workflow — нов scrape + blast
 
 ```powershell
 cd C:\Users\User\eu-monitor-bg\scraper
-python scraper.py          # scrape всички програми → programs.json
-python scrape_eu_news.py   # scrape новини → eu-news.json
+python scraper.py          # scrape → programs.json (~1230 активни)
+python scrape_eu_news.py   # scrape → eu-news.json
+python blast_existing.py   # изпрати до всички нови абонати (sent_log пропуска стари)
 cd ..
 git add data/
-git commit -m "chore: scrape update $(date)"
+git commit -m "chore: scrape update"
 git push
 ```
 
-**Важно:** `git pull` преди да започваш работа — избягва diverged history.
+**Важно:** `git pull` преди да започваш работа. При diverge: `git stash → git pull --rebase → git stash pop → git push`
 
 ---
 
@@ -221,7 +251,6 @@ git push
 - URL: `/unsubscribe?email=X&token=Y`
 - Token: HMAC-SHA256 на email с `UNSUBSCRIBE_SECRET`
 - Контакт email в error съобщения: `info@gdprcheck.bg`
-- При успех: изтрива от Supabase registrations таблицата
 
 ---
 
@@ -229,30 +258,38 @@ git push
 
 - Google verification: `/googleaf2fb16ab37a2df7.html`
 - Sitemap: `/sitemap.xml`
-- Robots: `/robots.txt` — `Allow: /` за всички (TODO: Disallow /api/ /data/)
-- OG tags: вече са в index.html
+- Robots: `/robots.txt` — TODO: Disallow /data/ и /api/
 - Institucii SEO страници: генерирани от `generate_seo_pages.py`
+
+---
+
+## Vercel Analytics (към 10.07.2026)
+
+- 257 page views на 07.07 — spike от Facebook
+- Трафик: ~200 от Facebook (lm.facebook.com, m.facebook.com, facebook.com)
+- 95% България, 80% мобилни
 
 ---
 
 ## Известни проблеми / TODO
 
 - [ ] `robots.txt` — добави `Disallow: /data/` и `Disallow: /api/`
-- [x] Task Scheduler — "EU Monitor Weekly Alerts" — всеки понеделник 08:00
-  - Команда: `python C:\Users\User\eu-monitor-bg\scraper\send_alerts.py`
-  - Прави: scrape + match + изпраща само НОВИ програми до засегнатите абонати
 - [ ] Rate limiting на `/api/register` и `/api/unsubscribe`
 - [ ] `/eu-news` — премахни keyword филтър за BG медии, добави повече категории
 - [ ] Намери правилни домейни за Creative Europe Desk BG и АУЕР
-- [ ] programs.json понякога се truncate при scrape — провери с `Get-Content data/programs.json -Tail 3`
-- [x] FNI parser добавен (fni.bg) — специфичен parser, изключва навигация
-- [x] eu-news.html — новини страница с RSS агрегатор
-- [x] Новини банер на homepage между email preview и "Следим в реално време"
+- [ ] allmarinkov@abv.bg — corrupted name в Supabase, поправи ръчно
+- [x] Task Scheduler — "EU Monitor Weekly Alerts" — всеки понеделник 08:00
+- [x] EOP линкове сменени на `/today/{id}` формат
+- [x] blast_existing.py — дедупликация чрез sent_log.json
+- [x] МОН и МОСВ добавени като нови източници
+- [x] parse_hrdc, parse_mon, parse_moew — строги филтри срещу новини/стари записи
+- [x] "Последно обявени поръчки" секция на homepage (само EOP тендери, динамично)
+- [x] Бележка на /programs при таб "Обществени поръчки" за ЦАИС ЕОП линкове
+- [x] Expire логика: тендери 30 дни, фондове 90 дни
 
 ### PowerShell бележки (Windows)
 - `tail` не работи → използвай `Get-Content file -Tail 3`
 - `git diff HEAD -w --stat` → реални промени без whitespace
-- Преди push: `git diff HEAD -w --stat` + `python -c "import json; json.load(open('data/programs.json'))"` за валидация
 
 ---
 
@@ -266,13 +303,3 @@ pip install requests beautifulsoup4 python-dotenv
 cd scraper
 python scraper.py
 ```
-
----
-
-## Git правила
-
-- `.env` никога не се commit-ва
-- Преди работа: `git pull`
-- Преди push: `git diff HEAD -w --stat` за проверка
-- Ако има diverge: `git stash → git pull --rebase → git stash pop → git push`
-- programs.json може да се truncate — провери с `tail -3 data/programs.json` дали завършва с `]`
