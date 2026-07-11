@@ -22,6 +22,13 @@ SOURCES = [
     # ПНИИДИТ source премахнат — страницата изброява ВСИЧКИ процедури (активни + изтекли)
     # и изтеклите са маркирани само с JS (requests не ги вижда). ИСУН покрива отворените.
     {
+        "name": "OpenProcurements — Обществени поръчки",
+        "url": "https://bg.openprocurements.com/",
+        "category": "общини",
+        "parser": "openprocurements",
+        "type": "tender"
+    },
+    {
         "name": "ИСУН 2020 — Отворени процедури",
         "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
         "category": "общи",
@@ -826,6 +833,39 @@ def parse_generic_links(soup, source):
     return programs
 
 
+def parse_openprocurements(soup, source):
+    """bg.openprocurements.com — агрегатор на обществени поръчки с deadline."""
+    programs = []
+    if not soup:
+        return programs
+    import re
+    date_re = re.compile(r'\d{4}-\d{2}-\d{2}')
+
+    for a in soup.select('a[href*="/tender/"]'):
+        href = a.get('href', '')
+        title = a.get_text(strip=True)
+        if not title or len(title) < 10:
+            continue
+        url = ('https://bg.openprocurements.com' + href) if href.startswith('/') else href
+
+        # Намираме deadline от текста на родителския ред
+        deadline = ''
+        row = a.find_parent('tr') or a.find_parent('li') or a.parent
+        if row:
+            row_text = row.get_text(' ', strip=True)
+            # Форматът е: "2026-07-09 Deadline 2026-08-10 Заглавие..."
+            dates = date_re.findall(row_text)
+            if len(dates) >= 2:
+                deadline = dates[1]  # втората дата е deadline-ът
+            elif len(dates) == 1:
+                deadline = dates[0]
+
+        entry = make_entry(url, title, source, deadline)
+        entry['type'] = 'tender'
+        programs.append(entry)
+    return programs
+
+
 PARSERS = {
     "isun": parse_isun,
     "mig": parse_mig,
@@ -844,6 +884,7 @@ PARSERS = {
     "fni": parse_fni,
     "mon": parse_mon,
     "moew": parse_moew,
+    "openprocurements": parse_openprocurements,
 }
 
 def scrape_all():
