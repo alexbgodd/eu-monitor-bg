@@ -65,6 +65,10 @@
             margin: 0 auto;
             display: flex;
             gap: 0;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
         }
         .filter-btn {
             background: none;
@@ -77,6 +81,7 @@
             border-bottom: 3px solid transparent;
             transition: all 0.15s;
             letter-spacing: 0.2px;
+            flex-shrink: 0;
         }
         .filter-btn:hover { color: white; }
         .filter-btn.active { color: white; border-bottom-color: #c0392b; }
@@ -173,7 +178,16 @@
     <div class="inner">
         <button class="filter-btn active" onclick="filterNews('all', this)">Всички</button>
         <button class="filter-btn" onclick="filterNews('eu', this)">🇪🇺 EU за България</button>
-        <button class="filter-btn" onclick="filterNews('вътрешни', this)">🇧🇬 Вътрешни</button>
+        <button class="filter-btn" onclick="filterNews('общи', this)">🇧🇬 Общи БГ</button>
+        <button class="filter-btn" onclick="filterNews('бизнес', this)">💼 Бизнес</button>
+        <button class="filter-btn" onclick="filterNews('земеделие', this)">🌾 Земеделие</button>
+        <button class="filter-btn" onclick="filterNews('култура', this)">🎭 Култура</button>
+        <button class="filter-btn" onclick="filterNews('социални', this)">👥 Социални</button>
+        <button class="filter-btn" onclick="filterNews('образование', this)">📚 Образование</button>
+        <button class="filter-btn" onclick="filterNews('туризъм', this)">🏨 Туризъм</button>
+        <button class="filter-btn" onclick="filterNews('екология', this)">🌿 Екология</button>
+        <button class="filter-btn" onclick="filterNews('ит', this)">💻 ИТ</button>
+        <button class="filter-btn" onclick="filterNews('общини', this)">🏘️ Общини</button>
         <button class="filter-btn" onclick="filterNews('en', this)">EN</button>
     </div>
 </div>

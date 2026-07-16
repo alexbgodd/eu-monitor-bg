@@ -1,131 +1,563 @@
 {
-  "updated": "2026-07-11 12:51",
-  "count": 14,
+  "updated": "2026-07-16 11:58",
+  "count": 62,
   "items": [
     {
-      "title": "EU Clears Revised Hungarian Recovery Plan, Opening Route to EUR10bn - EU Today",
-      "desc": "EU Clears Revised Hungarian Recovery Plan, Opening Route to EUR10bn EU Today",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKRldKV1pxc2xKbmpYcThwV1EtZzFpQWVNY3RnbHFiUUNPTTcwNm1vd1ZuaDVUS1VtX010dGR5NXlXR09UNUhKb3E1UjJPY19ZYUpISDcxOVhJdE5IZ1ZocDF6MUY4S2NKUmQ4?oc=5",
-      "date": "2026-07-11",
+      "title": "Bulgaria's Trace Group receives EU grant for capacity expansion - SeeNews",
+      "desc": "Bulgaria's Trace Group receives EU grant for capacity expansion SeeNews",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSDlxdUo0YzZ5ZjVrYWh0YlpnUkJmNzltYnh3TmY0czViN0gyUG9mODIzWDZxSDZJQ2puMTNSc09RX0ZQWnVINVg2cmFmeG5sZWtUc3dxR0YyYmE3UXg5TWsxMjR1N05jZzBTWF9CbE45QVhpR2FDTDQ2T19RM0FDeHYzN2xuU0dOd21oeXZIRzZ1elhkenUtQmxwUQ?oc=5",
+      "date": "2026-07-16",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Асен Василев: Искаме от Илияна Йотова да наложи вето на бюджет 2026 - vratsa.eu",
-      "desc": "Асен Василев: Искаме от Илияна Йотова да наложи вето на бюджет 2026 vratsa.eu",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZURQbk1ZRUFVY19JeUJZU25xX1cxWlhVdUJQUDZEdjRhcnl5eURrckxCUDFnSXFDbUNvR0RuOFdjTXB0TnhPWGZuaW1kSmpyMGpUY0hxMU42ZlIwV3pCSEJpNFk2ekpSb1Ztd244WXpzR3p4aXcxcXlGTE94dkVWb1RRU25vaGhPLURvQ3JsdUJZMlNMN09GNGx5X2RlS2FKZXVSMV9kbEY5elZN?oc=5",
-      "date": "2026-07-10",
+      "title": "EPPO reprimands Bulgarian prosecutor, concludes unprecedented disciplinary case - Brussels Signal",
+      "desc": "EPPO reprimands Bulgarian prosecutor, concludes unprecedented disciplinary case Brussels Signal",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalM1TGZ5VHR1eE8xUEtYc0Zxc0VnMjduZGVCOWRUbnFiblVGUDBjM3I5S3ViRFp3VlRmMlRuRnZxTG5mdndiZGM1Y0F4Z08wNFcyVWcyakF3eEMxbHlONlRrS1ZNRmpETnMxcUNfSkFYbEdpYUxMUVhWUng1bUxYVjh3NmRxX2JGZ3dJQmxqNWhmWlpFU2lhS2I0MXBZVzRCSF9iUEx5TkU3S3NOdHFrcm9NSQ?oc=5",
+      "date": "2026-07-16",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "\"Прогресивна България\" обясни какво поема България с подписването на Киевската декларация",
+      "desc": "Киевската декларация в подкрепа на Украйна няма правно обвързващ характер, тъй като представлява политически, а не юридически документ. Това заяви ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Progresivna-Bulgariya-obyasni-kakvo-poema-Bulgariya-s-podpisvaneto-na-Kievskata-deklaraciya-2996253",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Манол Генов: В момента язовирите, които се ползват за питейно-битово водоснабдяване са пълни на 90%",
+      "desc": "Ще бъде изготвен доклад за потреблението на ел. енергия на всяка една помпена станция в страната, за да се разработи програма за бърза енергийна ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Manol-Genov-V-momenta-yazovirite-koito-se-polzvat-za-piteino-bitovo-vodosnabdyavane-sa-pulni-na-90-2996233",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Експерти: Горивата у нас може да поскъпнат отново скоро",
+      "desc": "Цените на горивата в България остават сравнително стабилни, но през следващите седмици е вероятно да последва ново поскъпване заради напрежението на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Eksperti-Gorivata-u-nas-mozhe-da-poskupnat-otnovo-skoro-2996220",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ще резервираме хотела си с помощта на AI асистент",
+      "desc": "Българският технологичен стартъп HotPilot представя ново поколение платформа за управление на хотели и места за настаняване и то в момент, в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Shte-rezervirame-hotela-si-s-pomoshtta-naAI-asistent-2996219",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Костадинов за казуса с \"Коалицията на желаещите\": Хората гласуваха за лъжата и получиха лъжата",
+      "desc": "Хората гласуваха за лъжата и получиха лъжата. Няма за нас нищо изненадващо от двуличното и непоследователно отношение и поведение на правителството ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadinov-za-kazusa-s-Koaliciyata-na-zhelaeshtite-Horata-glasuvaha-za-luzhata-i-poluchiha-luzhata-2996213",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Костадин Костадинов: Когато фактите говорят, дори и радевистите мълчат - Радев е лъжец и национален предател!",
+      "desc": "Вторник Радев каза, че България няма да се включи в коалицията на желаещите да подкрепят Украйна. Сряда неговата външна министърка подписа декларация ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadin-Kostadinov-Kogato-faktite-govoryat-dori-i-radevistite-mulchat-Radev-e-luzhec-i-nacionalen-predatel-2996207",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Българските животновъди са под все по-силен натиск",
+      "desc": "Засилен внос на месо и понижаващите се изкупни цени поставят българските животновъди под все по-силен натиск. Докато потребителите плащат повече в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgarskite-zhivotnovudi-sa-pod-vse-po-silen-natisk-2996204",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "ПП-ДБ с остра критика към действията на кабинета \"Радев\" за \"Коалицията на желаещите\"",
+      "desc": "Свидетели сме на поредния случай на политическа шизофрения. Това заяви съпредседателят на \"Продължаваме промяната\" Николай Денков в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/PP-DB-s-ostra-kritika-kum-deistviyata-na-kabineta-Radev-za-Koaliciyata-na-zhelaeshtite--2996203",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Лекари от \"Пирогов\" спасиха от ампутация крака на 81-годишен мъж",
+      "desc": "Преди десет дни 81-годишен пациент от Годеч постъпва по спешност в Инвазивната кардиология на университетската болница \"Пирогов“ с клинична ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Lekari-ot-Pirogov-spasiha-ot-amputaciya-kraka-na-81-godishen-muzh-2996197",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Meteo Balkans: Очакват се мезоконвективни системи, идват гръмотевични бури към България",
+      "desc": "Остатъците от мощните бури, които се развиват в Северна Италия, ще достигнат до България. Според актуалните метеорологични прогнози остатъците от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Meteo-Balkans-Ochakvat-se-mezokonvektivni-sistemi-idvat-grumotevichni-buri-kum-Bulgariya-2996196",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ГЕРБ за казуса с Киевската декларация: Тежка политическа шизофрения!",
+      "desc": "Днес се чудим на коя роля на Румен Радев да вярваме - дали на евроскептика, който каза, че ще налага вето на санкциите спрямо Русия, на този, който ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/GERB-za-kazusa-sKievskata-deklaraciya-Tezhka-politicheska-shizofreniya-2996186",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Весела Чернева: Очевидно правителството се опитва да говори едно пред българската публика и друго пред Брюксел",
+      "desc": "Не анализаторите, а правителството трябва да отговорят какво следва от подписаната от страната ни Киевска декларация в подкрепа на Украйна. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vesela-Cherneva-Ochevidno-pravitelstvoto-se-opitva-da-govori-edno-pred-bulgarskata-publika-i-drugo-pred-Bryuksel-2996179",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Хампарцумян за бюджета: Ние сме тук 5-6 милиона души с една много ограничена кохорта от професионалисти",
+      "desc": "Финансистът Левон Хампарцумян опредили бюджета като \"разточителен“ и обясни: \"Мерките, които трябва да се вземат, за да може България да ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Hamparcumyan-za-byudzheta-Nie-sme-tuk-5-6-miliona-dushi-s-edna-mnogo-ogranichena-kohorta-ot-profesionalisti-2996174",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Гечев, \"Прогресивна България\": Ако бяхме продължили със същия бюджет, който ни беше оставен, дефицитът щеше да достигне 7,4%",
+      "desc": "Досегашното управление струва все по-скъпо. Този бюджет се прави от седмия месец нататък и отразява вече поетите и изхарчени разходи, които ние ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Gechev-Progresivna-Bulgariya-Ako-byahme-produlzhili-sus-sushtiya-byudzhet-koito-ni-beshe-ostaven-deficitut-shteshe-da-dostigne-7-4-2996157",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "По-добре си купете винетка сега, за да бъдете подготвени",
+      "desc": "На 22 и 31 юли през нощта са възможни затруднения при купуването на винетки и маршрутни карти, съобщиха от Агенция \"Пътна инфраструктура“. На ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Po-dobre-si-kupete-vinetka-sega-za-da-budete-podgotveni-2996120",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Изпращаме български военни на мисия на НАТО в Косово",
+      "desc": "Тържествена церемония по изпращане на военно формирование от Въоръжените сили на Република България за участие в състава на силите на Регионално ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Izprashtame-bulgarski-voenni-na-misiya-na-NATO-v-Kosovo-2996114",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Празник е! Спазвайте тази традиция",
+      "desc": "Горещниците продължават! На 16 юли православната църква почита паметта на св. мъченица Юлия девица. Тя е една от най-почитаните раннохристиянски ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Praznik-e-Spazvaite-tazi-tradiciya-2996105",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Депутатите ще разгледат изменения в Изборния кодекс",
+      "desc": "Депутатите ще разгледа в на първо четене шест законопроекта за изменение и допълнение на Изборния кодекс, внесени от различни парламентарни групи и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Deputatite-shte-razgledat-izmeneniya-v-Izborniya-kodeks-2996103",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Очакват ни гръмотевици през днешния ден",
+      "desc": "Днес ще бъде предимно слънчево. Над Североизточна България, около и след обяд и над останалата част от страната ще се развива купеста и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ochakvat-ni-grumotevici-prez-dneshniya-den-2996100",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бюджетите на ДОО и НЗОК влизат на второ четене в комисията по бюджет и финанси",
+      "desc": "Парламентарната комисия по бюджет и финанси днес ще разгледа на второ четене законопроектите за бюджета на държавното обществено осигуряване (ДОО) и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Byudzhetite-na-DOO-i-NZOK-vlizat-na-vtoro-chetene-v-komisiyata-po-byudzhet-i-finansi-2996099",
+      "date": "2026-07-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Лекар от \"Пирогов\" спаси крака на отписан от друга болница пациент",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/424684-lekar-ot-pirogov-spasi-kraka-na-otpisan-ot-druga-bolnitsa-patsient",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "УНИЦЕФ България: Всички деца са наши и няма чужди, те са най-голямата ценност",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/424681-unitsef-balgariya-vsichki-detsa-sa-nashi-i-nyama-chuzhdi-te-sa-nay-golyamata-tsennost",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Приемът в гимназиите: Високи балове и голям интерес към водещите училища в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/424679-priemat-v-gimnaziite-visoki-balove-i-golyam-interes-kam-vodeshtite-uchilishta-v-sofiya",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Времето: До 41 градуса в България в края на юли, преди това ще има бури и валежи",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/424676-vremeto-do-41-gradusa-v-balgariya-v-kraya-na-yuli-predi-tova-shte-ima-buri-i-valezhi",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Зелен амфитеатър заменя стадион \"Юнак\" в Борисовата градина, паркинг вместо \"Капитолия\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/424674-zelen-amfiteatar-zamenya-stadion-yunak-v-borisovata-gradina-parking-vmesto-kapitoliya",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Купуваме по-малко хляб, повече свежи храни и такива за кучета",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/424664-kupuvame-po-malko-hlyab-poveche-svezhi-hrani-i-takiva-za-kucheta",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Свлачището между Смолян и Пампорово продължава да бъде активно",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/424663-svlachishteto-mezhdu-smolyan-i-pamporovo-prodalzhava-da-bade-aktivno",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Жега в страната, но следобед - облаци, дъжд и гръмотевици",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/424644-zhega-v-stranata-no-sledobed-oblatsi-dazhd-i-gramotevitsi",
+      "date": "2026-07-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Радев: Спасяването на средствата по ПВУ е ключов приоритет - News24sofia.eu",
+      "desc": "Радев: Спасяването на средствата по ПВУ е ключов приоритет News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTm5KazVHQWZ5UGVHMkROT3d6a0lhN21ZaFNsRWd1bWZEMFgzSEV0Z0tITldlU3B6Ym5ZSFVJangyemtNNEF4aFdYdkZwTnhLNTkxdGE0TWplMmNjSU5XZnU1cl90MHBpbjZWVHd0U3JfalZ4N3hodlpIWi10RXVuT2xHdlhPekxfNDNzRE95OVY0NGFEdGJROVlzd1h6NDZzd1E?oc=5",
+      "date": "2026-07-15",
       "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
     {
-      "title": "EU unlocks €10b in recovery funds for Hungary, but strings attached - The Brussels Times",
-      "desc": "EU unlocks €10b in recovery funds for Hungary, but strings attached The Brussels Times",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHQtLWtZaFJzdFhIdEtCNGZsRnFxeVY0TGlPQnVDNF81aXg0RDB2dl96Mk12dFh6STJEa1pBUE96U0JhbjRuRUZGSW9DUTM0RDR2VHVjMnY5cFhaRE5FdkhwRzUtZXJLY2doaHhtSFYwWExBUnRDZ0ZjSFRER0pYSWVnd0hySnJ1VllXVEx6OWFmM21JZk9jN1VuQnIxM0RLQ3czbC1ERQ?oc=5",
-      "date": "2026-07-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Innovative Grants for Human Rights and Social Justice Initiatives - fundsforNGOs",
-      "desc": "Innovative Grants for Human Rights and Social Justice Initiatives fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZEZSenVEVXk2aEZCN2lxMEF1UFZQaG1NUFl0WlZkdU5MSmw5aXhJTjlpR3pmMjJ2bGRFdVVBSmFXVHVvRXB4M1JfcGZDaVZQMDMtN3VvLW9RY1RkT19PZnYwWklRc0U4OE1GdExPbUtjT0QySTBCWW1nQ21aMGNfejR6MTJwdDJCRkdhYXpZVjhGSXQ4ODJDLURwTkZRbGJwVjZrSzQ4VDVXWlky0gGsAUFVX3lxTE9kRlJ6dURVeTZoRkI3aXEwQXVQVlBobU1QWXRaVmR1TkxKbDlpeElOOWlHemYyMnZsZEV1VUFKYVdUdW9FcHgzUl9wZkNpVlAwMy03dW8tb1FjVGRPX09mdjBaSVFzRTg4TUZ0TE9tS2NPRDJJMEJZbWdDbVowY196NHoxMnB0MkJGR2FhellWOEZJdDg4MkMtRHBORlFsYnBWNmtLNDhUNVdaWTI?oc=5",
-      "date": "2026-07-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Hungary to receive €10 billion in EU funding - Armenpress",
-      "desc": "Hungary to receive €10 billion in EU funding Armenpress",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16VnFfS0lRR3JRLVVkOHRzSDZtZGxNSXRkekZvVzdmVlYwcTJTb3ZfdFhHb0ppVXNBdnloekp4UlQxNURtTHpyeUZMaUZ6dndJT0HSAVdBVV95cUxOaGhlbVZ5QXZFTmhVQWxZaGUzaVlXM1hBWnZydzRoajdhWGNUaVFEYjhzb0I5aG5yOTBRelc3UEVtd25iaWUwNTVWdDFTUThrQkxZcGMyNGM?oc=5",
-      "date": "2026-07-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Kanye West, banned from most European countries, receives €4 million grant to perform in Albania - Le Monde.fr",
-      "desc": "Kanye West, banned from most European countries, receives €4 million grant to perform in Albania Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQS0ZPcG9NRzI0WGJvWmI1ZU41ZWFFUzl4TFEwbkRwSS1WTlVvMXJSYVdEOFlnYlQ3dDM5VEFMWVFwZGgzVjB2X2VKOS0zRGRkZEtmY1BwQVJ6V0hSNy14a0d4b2J4dExtSDRIajcySjFFTlhpRGI0Nzhhd3cwNnc0RXd6aW9xaTlvLS03Z2lMMWg2cUs0cFBoTUNSZWdQeHQ1eVVueWNnMkVPa0FQRUluRllLZDNEaFJGTG03TFY3ZnlGUXJxU0c5N0RmYzdCNloxQnl6aGRBNW9kWTlFbC1ReHBoMTlMSEpsWnpxcmhkbWZOaUF3WG9BQkczcw?oc=5",
-      "date": "2026-07-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Open Call I: Travel Vouchers for Primary Producers - fundsforNGOs",
-      "desc": "Open Call I: Travel Vouchers for Primary Producers fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYnNUMWtnXzVjandnRXZzUG1JVE80SzdoQ3EzdW95ejhFQTNlSVhuMGpIaUdaWW1kY1JUd2pJdWgtVEFWRVdkRjVTZTU5Z0dGZFZJNnpOZXRPaVZrRXVfcE56cnY1eUdfSy04QVFaMndTenJVTS1QMHhKQ3VyeVExeXRyZnByOXIwV1pTS3V1OFRnZlRCalVQTnVZNNIBmwFBVV95cUxOYnNUMWtnXzVjandnRXZzUG1JVE80SzdoQ3EzdW95ejhFQTNlSVhuMGpIaUdaWW1kY1JUd2pJdWgtVEFWRVdkRjVTZTU5Z0dGZFZJNnpOZXRPaVZrRXVfcE56cnY1eUdfSy04QVFaMndTenJVTS1QMHhKQ3VyeVExeXRyZnByOXIwV1pTS3V1OFRnZlRCalVQTnVZNA?oc=5",
-      "date": "2026-07-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Кирил Вълчев: Този бюджет е възможност за Българската телеграфна агенция - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "desc": "Кирил Вълчев: Този бюджет е възможност за Българската телеграфна агенция СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpN0FNSnpnWnNCQW9mV0pTVy1IeGxMdG1STEgzLUxtc0E0N00ydG9GTVhXWmoybUh3cEkyNlZpNm51R0RDeFpUS2RMTzdtNFhH?oc=5",
-      "date": "2026-07-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "вътрешни"
-    },
-    {
-      "title": "Парламентарната комисия по правата на човека, вероизповеданията и жалбите на гражданите прие на първо четене законопроекта за държавния бюджет за 2026 г. - ndt1.eu",
-      "desc": "Парламентарната комисия по правата на човека, вероизповеданията и жалбите на гражданите прие на първо четене законопроекта за държавния бюджет за 2026 г. ndt1.eu",
-      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOaGgwNktqeUZ2d1FyeTJuX1h1eGpxQW4weUZoUlAtRlZhb2ZCVkpGV3pOTTBqZWdORzN3TEtiVmItNjlGd0VOS2dNXzZGMXBpUUdYbEJEVy1YUjJWQ0wzdnZ3enhmRnBhREdrOVhuRy1jUzYxVHlNaWVaUW9iS1V5Ym91SXY3SmZxZFJWdnpFY0xMeUp4dnc1WlQwNy00bnR6bXB3NnVQV0ZteWdEdUY0ckw1aHlUc3J4SWZPZnNSbElyRE9Kc09JSkNvVjZ2dXhKQmdwbGhVNVo2bFlLOEhUdnpwa3IweU9Pcldic25zYXN5amVvRmllX1BlbW5xU0tfQWJSNHllTnlZRnZCQmdQenRXOGtBanhmMmUwLXc3SGQtdExRMzYyTmZFajdoV0trQ0kxRXNnWGc?oc=5",
-      "date": "2026-07-09",
+      "title": "Кабинетът обсъжда споразумението по SAFE, финансиране за министерства и промени в отбраната - vratsa.eu",
+      "desc": "Кабинетът обсъжда споразумението по SAFE, финансиране за министерства и промени в отбраната vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT2IwNTNEc1VvODkwVzFldWRfUUdRbnB4UV80YlpZbjhkWWoxY1gwQ3g1TW1jbFZSTmdSLTIzdnFIcWd2UmJZRXJfMHV1SmRNRVAxWFlFMm5qbGRMOFI5Y0EyLWwtbUFUOFRYUUw1VDNBSUs4bHlNbEVnd1ZNNUczbzR4VVoyeFlwbnZYZVI1T3Q5OXB0a2VMTVFTTVNudk53ZDZFT3JOLU1XcUFHTmlBd1h2cE03OVdrSnB3NGFYY1Jrb1gwQm9tYg?oc=5",
+      "date": "2026-07-15",
       "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
     {
-      "title": "Христо Мутафчиев: С този бюджет обричат културата на печал - vratsa.eu",
-      "desc": "Христо Мутафчиев: С този бюджет обричат културата на печал vratsa.eu",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLW5kQzBmYV9senJpRWtERXFOdjBaUlBhV1F0SHRBWXZGUXRWUTlaRS1iVTZrWGwzZ0pjc2kyMXRPczN4UjdEa25xMC1VNnFia2puZGZQcVl0dGJWb3laS19vOXNwVzlmeTktcWVDcXRhZTlmcVNPOHZmWlUxdFhFUUlQOW5XdW1Bc202VWx5MEtSX0dpVzBQcFIwVTN2dHViVWc?oc=5",
-      "date": "2026-07-09",
+      "title": "Бюджет 2026 влиза в зала. Опозицията настоява да бъде оттеглен. Дебатите ще са ожесточени (на живо) - vratsa.eu",
+      "desc": "Бюджет 2026 влиза в зала. Опозицията настоява да бъде оттеглен. Дебатите ще са ожесточени (на живо) vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTDRQS0RzTXpHRlRuN1FsZ3RKV05PR2J4TTRQRlBGcUkzQ0NGT05Dc2lSVGtmUWdiSlRlVWd2U0psaXR5eE9ib3hVVEFTV1UyVWlXTURuUXJRRHVhT2s1Z3hlZzlYVHl3ZXhLaFlaYW1vb3VNdXgwYjFGSGJYcHZjdnRhSU5nUEJCR0txZF9sSkR0N1hCU2FFTWJpdDF6UXF0MXZWbVFPWWgzYmtBbHE1WE1YNVlHM2oyY1VJY0F6SE9Jbm5ZWTExWVFHVHhJdTVONXBqWFRmRGV0elk?oc=5",
+      "date": "2026-07-15",
       "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
     {
-      "title": "EU approves 204.6 mln euro for Kosovo in 2026, 2027 - industry min - SeeNews",
-      "desc": "EU approves 204.6 mln euro for Kosovo in 2026, 2027 - industry min SeeNews",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTBETmMtVUt2Ym9Wd0ROaW5Tc1AxZU8wanBQdUVxNW1GWGFxcWJVY1NsRDVoYkVXT2VvYmROdWF3OW5pT2xtckFmdnZQMnU4VVJhSjJzQUtXUXpKUHAtemRmQVVpZTF6VkRQcGpQaE00d2hGY1VBZExCY2RqZXdTQ05EVERxTDg0YU5NQ1pHUjBNRzRKZEotZ19MRzI?oc=5",
-      "date": "2026-07-09",
+      "title": "Гълъб Донев: Бюджетът за 2026 г. е смел, но не и безразсъден, не се поддава на страх и изкушение - vratsa.eu",
+      "desc": "Гълъб Донев: Бюджетът за 2026 г. е смел, но не и безразсъден, не се поддава на страх и изкушение vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObU9jalM0OU04STQwVTZITjVTbmxQYW9JR2ctSzFNUVpGZ2VibUwwQ2tHTTlKUG1jOGVaSnIzNXBxTm95YVBlMFNyUGRKUl9BU003ZXFnM21rci1fTjluY2FqTUI1ZzJCbmFUbVNNN1ZoWnNXTUxNRWxzOEl3dHlONjFsWm1VUWd4RVFrdGZMTXVFRzNDR19lY1JhWmJ3VnI5LWN5RktwZ3dnMEJWMUhEOEdCMzExdFhSUGFMamZ2cldfeExxbzFWMXNPYUdYZw?oc=5",
+      "date": "2026-07-15",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Омбудсманът предупреди: Бюджет 2026 удря стандарта ни на живот - vratsa.eu",
+      "desc": "Омбудсманът предупреди: Бюджет 2026 удря стандарта ни на живот vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbFFiNTBkcnNLcFNqNmR0RVQ0SEVXNFVza1RZcmUtUDgxVkFrVm5vdnRIbGhaMUJjTU5uZ1hUcG5NTHpUY01WZ3B3dHZvWDExVjRteC1LbjdYOGN2TklmM0hjc20tUFdzOUdBc1Z1V2RjMWxmT29iVTZLUWYtRFo3RXZhanlNUVFjRXF6YmxvU29weUNRMU85R3VIV3F6YmFKbHc1T1N3?oc=5",
+      "date": "2026-07-15",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "EU will not grant temporary protection to those who evade their military obligations in Ukraine - The Sofia Globe",
+      "desc": "EU will not grant temporary protection to those who evade their military obligations in Ukraine The Sofia Globe",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdmJubXVlcUEwMDdMWEVVV2xReTU3Nk1NQ0h0cHBaRHNjc09waEY4RGMwU2xUUDVLcmxpdHJXWi1uaUZZVUZyeHB0YkVkY043M3VIOV9nMmYzSl8zSDRXWTItbFFSZlpJdjdNWHBNYmJXS0Izb1dnNm9BMk52c19lbll0cU5MN3N1Q0g1THVlOGdCdi16N1JmYXc4bWgzVGFhUkU0a2VoT24wdnNyZDg0Rl9PZFZBanZkbEV6ZGFoektBVXlDTUF0RUtB?oc=5",
+      "date": "2026-07-15",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Apply for Impact Monitoring Framework for Chips JU - fundsforNGOs",
-      "desc": "Apply for Impact Monitoring Framework for Chips JU fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdXBlX0VBM3FxbDhQdjN4TkNiVURpTVpocFY5Q2FhWVI2Mmx0aUF6NjE1ZkQzY2l3bkI3Vm1jcFJzZzE2QkhrQng2QTdpRFJLR1RRMVBGWEVFNjdmT0NubkRLcThZTE9FRFpVLThvNHV0VWs1MExXb2xXbGtrdHBGYjJvdnZxaW1SQnpoVlB3a2tVLXl4Um02NlI1ZjFiSmlmeFZfVmk1ck7SAagBQVVfeXFMUHVwZV9FQTNxcWw4UHYzeE5DYlVEaU1aaHBWOUNhYVlSNjJsdGlBejYxNWZEM2Npd25CN1ZtY3BSc2cxNkJIa0J4NkE3aURSS0dUUTFQRlhFRTY3Zk9Dbm5ES3E4WUxPRURaVS04bzR1dFVrNTBMV29sV2xra3RwRmIyb3Z2cWltUkJ6aFZQd2trVS15eFJtNjZSNWYxYkppZnhWX1ZpNXJO?oc=5",
-      "date": "2026-07-09",
+      "title": "Ukraine secures access to EU defence grants under new €300 million pact - Caliber.Az",
+      "desc": "Ukraine secures access to EU defence grants under new €300 million pact Caliber.Az",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1J0OXZUT2FXcUpzY0hubFIwc2RyTWxhQnZGdDV0eXNmWlp5NVQwaXlHUXE1b3ptSEVmaXJmTk1fMEJfX0FZQVFoZkdUZVNBZXhBQmxqaDBtRzdXNWZjN2t0eEF6dFlmQ05WZVZHZUtJdjFTei1sMmQ5elJvZU9XQzVxbEY5LXV4UXVocVFkR21VOVZxZFpTZ0s3QmJmQQ?oc=5",
+      "date": "2026-07-15",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Open Call: MOVIDA Labs on Dance and Technology Program - fundsforNGOs",
-      "desc": "Open Call: MOVIDA Labs on Dance and Technology Program fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSmJ2VHBQb0FPWEJMQjdwMFVua2F5MnJfVW1IY29wOWdXT0hVZ0V4bk12VS1USXQ5SFVNVFhQMlNJb2VIVnEtVGtESzh6WFFPckR6MTZ0VkRDdFc4bzlFRHl2X2VGVklmUmZndFdmRHhYVW9uNndvdmJqZTJqMS1vTFNlRXRvcmtNcGl3a0NnRzdqRXp2bG5ha1lCZFc1akMwU2fSAaIBQVVfeXFMTkpidlRwUG9BT1hCTEI3cDBVbmtheTJyX1VtSGNvcDlnV09IVWdFeG5NdlUtVEl0OUhVTVRYUDJTSW9lSFZxLVRrREs4elhRT3JEejE2dFZEQ3RXOG85RUR5dl9lRlZJZlJmZ3RXZkR4WFVvbjZ3b3ZiamUyajEtb0xTZUV0b3JrTXBpd2tDZ0c3akV6dmxuYWtZQmRXNWpDMFNn?oc=5",
-      "date": "2026-07-09",
+      "title": "CCR upholds exception to EU directive allowing two-year extension of financial incentives for fossil-fuel boiler installations - AGERPRES - Agerpres",
+      "desc": "CCR upholds exception to EU directive allowing two-year extension of financial incentives for fossil-fuel boiler installations - AGERPRES Agerpres",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeHJMS2dMQU00RGZsYTh1aWpJMUtCcFpzWC0zbDMtMF95RzJKdGRuM2pfWTN1cHl6S3R3c180cTJpME5aYkZRYUFKOVVSNlhtY19MTkV5dUxrR3gtTEk4TUVKSlFXV014SGw3dUZnSVZfbk5IWG5hcE9PZnFVekNMckxlYmxtOTIzN0pUMXpwRDM2eUtVRFRkSlVHNndDTVk5blZ0RGhGLS1xSkw1dEFMWWlxWlRTazc5Q19saUFzTGlJVVV3eW1RU0djenRsckJxcVh6dUQ4SUJqQ2xBeExUQ0Zn?oc=5",
+      "date": "2026-07-15",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "ATLAS Network – Providing operational support to members combatting terrorism and serious organised crime. - Europol",
-      "desc": "ATLAS Network – Providing operational support to members combatting terrorism and serious organised crime. Europol",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZlR6SGJOMnhqTFBPLWotb0tOX3Y5dnE4cGFZMXBUYXI2Y240N0JqRGs1Y0llNi16b25QWGlaYk42OHFuREZIdGVPSV8zUzNad0tERmlydzNXYW5BS1o0Y0h4RkYtMll3VXRPNjVOMFM1Q1hpZU9uakdNQ1Brd2o3aQ?oc=5",
-      "date": "2026-07-09",
+      "title": "Bulgaria’s Cabinet to ask Parliament to ratify SAFE loan agreement for key projects for armed forces - The Sofia Globe",
+      "desc": "Bulgaria’s Cabinet to ask Parliament to ratify SAFE loan agreement for key projects for armed forces The Sofia Globe",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0tCZ0JpaUJaMHZHMUl1cm5pT1ZjNW10REtEU2tfU0xVU0NZREtEZ1dNb0xfMVp0Tm5IMUY2RTluS2dQZFcwemZLdktQeVhjWmlkQ1NsZUpJVTVFcjdKQnNuVW9JYTJfOHpxRWdDdGV2dWxWNmEtVFl0b016MlNUQWpSaXJ6TDRuYWZWZ2ppenAwTDE5OWdXd1VENVBGT3l4MGNhQVZfbUVTQzFLS2JrWUNIYWJaeVJLTjM0bVBZd1l0ZjItb1RlZVg3X2t0Szg?oc=5",
+      "date": "2026-07-15",
       "source": "Google News EN",
       "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Проф. Чуков: Не можем да говорим за рязка промяна във външнополитическия курс на България, а по-скоро за промяна в подхода",
+      "desc": "Не можем да говорим за рязка промяна във външнополитическия курс на България, а по-скоро за промяна в подхода. Това заяви арабистът проф. Владимир ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Chukov-Ne-mozhem-da-govorim-za-ryazka-promyana-vuv-vunshnopoliticheskiya-kurs-na-Bulgariya-a-po-skoro-za-promyana-v-podhoda-2996056",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Белчев от \"Прогресивна България\" призна: Това не е готиният бюджет",
+      "desc": "Това, което мога да кажа за бюджета е, че то е всичко друго, само не е и готин бюджет. Не е готин. Това заяви председателят на парламентарната ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Belchev-ot-Progresivna-Bulgariya-prizna-Tova-ne-e-gotiniyat-byudzhet-2996051",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Икономист: Недоволство срещу бюджетната политика е неизбежно и протестите вероятно ще станат масови",
+      "desc": "Настоящата финансова рамка ще бъде запазена до края на годината, защото голяма част от разходите вече са направени или договорени. Така икономистът ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ikonomist-Nedovolstvo-sreshtu-byudzhetnata-politika-e-neizbezhno-i-protestite-veroyatno-shte-stanat-masovi-2996037",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Детелина Смилкова: Пациентските навигатори ще помогнат на онкоболните да не се губят в здравната система",
+      "desc": "Икономическият и социален съвет предлага въвеждането на национална система от пациентски навигатори, които да подпомагат хората с онкологични ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Detelina-Smilkova-Pacientskite-navigatori-shte-pomognat-na-onkobolnite-da-ne-se-gubyat-v-zdravnata-sistema-2996032",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Съветник на КРИБ: Ревизирането на параметрите по средата на финансовата година е сериозен административен и финансов шок",
+      "desc": "Повишаването на минималните осигурителни прагове и на максималния осигурителен доход от 1 август налага неочаквани корекции в бюджетите на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Suvetnik-na-KRIB-Reviziraneto-na-parametrite-po-sredata-na-finansovata-godina-e-seriozen-administrativen-i-finansov-shok-2996030",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Деница Сачева предупреди: До 2050 г. можем да загубим 1 милион българи",
+      "desc": "Председателят на ПГ на ГЕРБ Деница Сачева са анализ за демографската криза. На страницата си във Facebook Сачева написа: – 6 437 360 души живеят в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Denica-Sacheva-predupredi-Do-2050-g-mozhem-da-zagubim-1-milion-bulgari-2996021",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Президентът Йотова обсъди следващия многогодишен бюджет на ЕС с членове на Европейската сметна палата",
+      "desc": "Многогодишната финансова рамка на Европейския съюз за периода 2028-2034 г. обсъди президентът Илияна Йотова с членове на Европейската сметна палата. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prezidentut-Iotova-obsudi-sledvashtiya-mnogogodishen-byudzhet-na-ES-s-chlenove-na-Evropeiskata-smetna-palata-2996015",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Социологът Първан Симеонов с коментар за предстоящите президентски избори",
+      "desc": "ГЕРБ призовава за обща кандидатура с ПП-ДБ. Те осъзнават, че трябва да се ориентират по тази ос. Би било много странно да прием, но ГЕРБ трябва да ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Sociologut-Purvan-Simeonov-s-komentar-za-predstoyashtite-prezidentski-izbori-2996002",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ивайло Калфин: Бюджетът за тази година е инерционен, истинските решения трябва да дойдат с този за следващата",
+      "desc": "Приетият на първо четене държавен бюджет за тази година е по-скоро инерционен и има за цел да довърши финансовата година, без да предлага съществени ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ivailo-Kalfin-Byudzhetut-za-tazi-godina-e-inercionen-istinskite-resheniya-tryabva-da-doidat-s-tozi-za-sledvashtata-2996001",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Радев: За България спасяването на ПВУ и предвидените в него средства са не по-маловажни от реформите",
+      "desc": "За България спасяването на Плана за възстановяване и устойчивост и предвидените в него средства за страната ни са не по-маловажни от реформите, с ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Radev-Za-Bulgariya-spasyavaneto-na-PVU-i-predvidenite-v-nego-sredstva-sa-ne-po-malovazhni-ot-reformite-2995996",
+      "date": "2026-07-15",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Спасиха дете от Бургас на една годинка, заклещено в заседнал асансьор",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/424645-spasiha-dete-ot-burgas-na-edna-godinka-zakleshteno-v-zasednal-asansyor",
+      "date": "2026-07-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бюджет 2026 и битката за политически образ на управлението",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/424640-byudzhet-2026-i-bitkata-za-politicheski-obraz-na-upravlenieto",
+      "date": "2026-07-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Сигнали за несигурност: Казусът Rheinmetall създава трудно заличим прецедент",
+      "desc": "Промени в данъчно-осигурителната среда по средата на годината, липсата на дългосрочна предвидимост и засилващият се фискален натиск поставят под въпрос конкурентоспособността на България като инвестиционна дестинация. В среда на растящи разходи за труд и стартирала процедура по свръхдефицит срещу ст",
+      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/161965-signali-za-nesigurnost-kazusat-rheinmetall-sazdava-trudno-zalichim-pretsedent",
+      "date": "2026-07-15",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Обсадата на Търговския регистър застрашава и българските стартъпи",
+      "desc": "Българската стартъп екосистема е изправена пред ново сериозно изпитание, след като Търговският регистър на страната се оказа буквално парализиран от вълна от заявления, свързани с преобразуването на капитала на дружествата от лева в евро. Подобен административен натиск застрашава да блокира инвестиц",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/161952-obsadata-na-targovskiya-registar-zastrashava-i-balgarskite-startapi",
+      "date": "2026-07-15",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Таланти и ниски данъци поставят България в световен наръчник за стартъпи",
+      "desc": "България отново намира място в актуалното издание на престижния световен наръчник за стартиращи компании ITechLaw Startup Legal Playbook, което е добър знак за потенциала на местната предприемаческа екосистема. Това коментира адв. Христо Нихризов, упр. съдружник в \"Димитров, Петров и Ко.\", в предава",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/161945-talanti-i-niski-danatsi-postavyat-balgariya-v-svetoven-narachnik-za-startapi",
+      "date": "2026-07-15",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Наш физик от Залата на славата избра България пред чужбина",
+      "desc": "Българският отбор постигна изключителен резултат на най-престижното гимназиално състезание по физика в света. Учениците спечелиха четири сребърни и един бронзов медал от 56-ата Международна олимпиада по физика в Колумбия, като зад този успех стоят години на подготовка и традициите на българската нау",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/161943-nash-fizik-ot-zalata-na-slavata-izbra-balgariya-pred-chuzhbina",
+      "date": "2026-07-15",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Радев няма да изтегли Бюджет 2026 - nessebar-news.com",
+      "desc": "Радев няма да изтегли Бюджет 2026 nessebar-news.com",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWEpnSHhuaS1GdjZvQW9scUxsX012SDM1OUx5emhXa19tWkh6UC05YldlRWFNZ21zX0tYR3hOTHlsRTRiSG0tbFdabTVNU01GamY4RW9fSFpPeEQyWlk2Ty14SUp4WWpIVHhldF9kNzZLd2FDSTVKQmZ4YWdVOFprSlVrYTRHRmZhTTY1eVhMeHJSLTFjellRTk93elBiS0xxNUd5WmViNTVkNEFpRGRSNGNfYXBiTXVwZlBmVG5ZN1lyNlhjYXpvcnhFVU1COVZkdmFBYmtYeU4tdUU3TVhUVzdINmJYckNDdTh2S0xFRGlKc2VzWXhqejdmenBzMnl3TGxPbnlVbUwyNGhlSjVSd05UcXlid2dE?oc=5",
+      "date": "2026-07-14",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Rolling over EU debt would help challenge dollar dominance, says Bulgaria - euractiv.com",
+      "desc": "Rolling over EU debt would help challenge dollar dominance, says Bulgaria euractiv.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVBsSk4zT2pCRWE3cmt1c0lfeGRHdWE5dzNKYmlwNGNOOHI4ZERSc21qVkhHdHlYQnJMUVEtSVJTdGZBcW1SbWRMSlByMDZHaG9hSmRnZ2Z1SzNFSWdzd1Jka2lXdXFZYjJSVzdtLWRSbzg2NzI3MTdJelBUNjdXQjc3Sk9wMlV5OXVzTEZiLTJvUmw3VDRpQ2tvRERpMVpCdllxck5R?oc=5",
+      "date": "2026-07-14",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "All EU money destined for Hungary should go to Hungary - EPP Group in the European Parliament",
+      "desc": "All EU money destined for Hungary should go to Hungary EPP Group in the European Parliament",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOG56NWdGeUFlUHNpVmJ3MS1MemxhWjNnYl9xY1F6THpQWk13SndFZVJVSF9SdnhORmwybWtUaUNDaWRxRTlhbGFhQnhtMWotLTJCdXk5bXJ3N2dkZ2hkTWtpY0xpS2EzQnZxTGFXWks4WnJpTmx5S3Z5WW1pTFRsRGxSUElKbk05Y0xuRmlVRFc?oc=5",
+      "date": "2026-07-14",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "U.S. state department offers grants to back nationalist groups in Europe - Traders Union",
+      "desc": "U.S. state department offers grants to back nationalist groups in Europe Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZC1WRXpFR01jWktvVDUzR2czdko4TF9Pa3RTNy00ZHROcU5pQzR4cUpTUWdQQ2tCWmNrazRZMi1GOURkX3A3amE5WHE0cmlfaTc1eXpzYXdNT3g2cXBaTHhMaXJJdjZqdkdNWWtqcWUteWpIWlhHWk9ONWNKclNYRkNuM1EwQTQ4anNEOEo5bUZweFdEWnoxVjlNX21ETHh0SEV6ZmU3anU?oc=5",
+      "date": "2026-07-14",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Rheinmetall: will we lose this investment too? ᐉ News from Fakti.bg - Opinions - Fakti.bg",
+      "desc": "Rheinmetall: will we lose this investment too? ᐉ News from Fakti.bg - Opinions Fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObGROX25GdXJmSDVtTVFhYzBSdTgwaG53bVNTOFBOeHJFMkkxNUEycy1qUUdZOU56TjZjRTFpLTk1T2kySDBIZ0VXZXJocDdoZnR6WWhtaVBNZXlxWFB2VXVpOVdROGJXQ2R4QnFnRDAtYV9CaEw5eHZkRGlBNVdvbjFJMEdqdw?oc=5",
+      "date": "2026-07-14",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Радев извади България от коалицията в подкрепа на Украйна",
+      "desc": "България излиза от коалицията за подкрепа на Украйна: Страната вече няма да участва в групата, която настоява за продължаване на военната и финансовата помощ за Киев. Спряна държавна помощ при запазени оръжейни продажби: Радев прекрати безвъзмездната военна помощ от страна на правителството, но търг",
+      "url": "https://www.bloombergtv.bg/a/2-novini/161891-radev-izvadi-balgariya-ot-koalitsiyata-v-podkrepa-na-ukrayna",
+      "date": "2026-07-14",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Петър Ганев: Дефицитът няма да се свие с вдигане на данъци",
+      "desc": "Стартирането на процедурата по прекомерен дефицит срещу България изпраща силен негативен сигнал към международните пазари и партньори. Макар страната ни все още да стои добре по отношение на нивата на дълга и икономическия растеж, фискалното разхлабване застрашава финансовия ни авторитет. Това комен",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/161883-petar-ganev-defitsitat-nyama-da-se-svie-s-vdigane-na-danatsi",
+      "date": "2026-07-14",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
       "topic": "eu"
     }
   ]

@@ -159,6 +159,11 @@ EMAIL_FROM=info@gdprcheck.bg
 | Dnevnik.bg | dnevnik.bg/rss/ | bg | ес, европейски, еврофонд... |
 | Capital.bg | capital.bg/rss/ | bg | ес, европейски, еврофонд... |
 | Investor.bg | investor.bg/rss/news | bg | ес, европейски, еврофонд... |
+| Focus News | focus-news.net/rss.php?cat=6 (национални) | bg | няма — общи БГ новини |
+| BG ON AIR | bgonair.bg/rss/c/2-bulgaria | bg | няма — общи БГ новини |
+| Bloomberg TV BG | bloombergtv.bg/rss/c/9-bulgaria | bg | няма — общи БГ новини |
+
+**Общи БГ новини (юли 2026):** Focus/BG ON AIR/Bloomberg TV BG се четат без keyword филтър, за да захранят тематичните категории по-долу (не само EU финансиране).
 
 ### Мъртви sources (не добавяй отново без проверка)
 - TED europa.eu — URL е сменен, 404
@@ -167,9 +172,14 @@ EMAIL_FROM=info@gdprcheck.bg
 - Euractiv — 403 (блокира ботове)
 - EU Parliament rss — 404
 
+### Тематични категории (get_topic(), юли 2026)
+Вече не е само eu/вътрешни — категоризация като при програмите (matcher.py CATEGORY_MAP):
+`eu`, `бизнес`, `земеделие`, `култура`, `социални`, `образование`, `туризъм`, `екология`, `ит`, `общини`, и `общи` (catch-all, ако не съвпада никъде). Keyword listите са в `NEWS_TOPIC_KEYWORDS` в `scrape_eu_news.py`. Филтър бутоните на `/eu-news` са обновени съответно.
+
 ### Настройки
 - `DAYS_BACK = 2` — само последните 2 дни
 - `MAX_ITEMS = 200` (реално ~40-60 след date филтър)
+- **Fix (юли 2026):** статии с непризната/непълна дата вече се ИЗКЛЮЧВАТ от филтъра (преди грешка ги третираше като "най-нови" и винаги минаваха).
 
 ---
 

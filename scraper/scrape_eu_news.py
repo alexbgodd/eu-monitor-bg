@@ -21,20 +21,37 @@ DAYS_BACK = 2    # само днес и вчера
 
 EU_KEYWORDS = [
     'европейск', 'european', 'еврофонд', 'eu ', ' eu', 'cohesion',
-    'structural fund', 'финансиране', 'програма', 'оп ', 'european commission',
+    'structural fund', 'европейско финансиране', 'еврофинансиране',
+    'оперативна програма', 'европейска комисия', 'european commission',
     'еврокомисия', 'european parliament', 'европейски парламент',
     'recovery', 'nextgeneration', 'multiannual', 'исун', 'еафрдр',
     'еврофондов', 'евросредства', 'european union', 'европейски съюз',
 ]
 
+NEWS_TOPIC_KEYWORDS = {
+    "бизнес":      ["бизнес", "икономик", "предприемач", "инвестиц", "стартъп", "конкурентоспособ", "компани", "фирм"],
+    "земеделие":   ["земедел", "фермер", "селскостопан", "аграр", "животновъд", "реколт", "рибарств"],
+    "култура":     ["култур", "изкуств", "театър", "музей", "кино", "филм", "изложб", "концерт"],
+    "социални":    ["социал", "здравеопазван", "здрав", "пенси", "осигур", "заетост", "труд", "болниц", "нзок"],
+    "образование": ["образован", "училищ", "университет", "студент", "учениц", "детск", "матур"],
+    "туризъм":     ["туризъм", "хотел", "курорт", "летовищ", "морск", "планинск"],
+    "екология":    ["околна среда", "климат", "въглеродн", "зелен", "природ", "отпадъц", "води", "язовир"],
+    "ит":          ["дигитал", "технолог", "софтуер", "изкуствен интелект", "стартъп технолог", "кибер"],
+    "общини":      ["общин", "кмет", "инфраструктур", "региони", "област"],
+}
+
+
 def get_topic(title: str, desc: str, source: str) -> str:
-    """EU за България или Вътрешни."""
+    """EU за България / тематична категория (като при програмите) / общи БГ новини."""
     if source in ('European Commission', 'Google News EN'):
         return 'eu'
     combined = (title + ' ' + desc).lower()
     if any(kw in combined for kw in EU_KEYWORDS):
         return 'eu'
-    return 'вътрешни'
+    for topic, keywords in NEWS_TOPIC_KEYWORDS.items():
+        if any(kw in combined for kw in keywords):
+            return topic
+    return 'общи'
 
 # -----------------------------------------------------------------------
 # RSS ИЗТОЧНИЦИ — само публични, официални или лицензирани за синдикация
@@ -82,6 +99,22 @@ FEEDS = [
         "filter": ["еврофонд", "еврокомисия", "европейска комисия", "европейски средства",
                    "европейски пари", "оперативна програма", "структурен фонд",
                    "кохезионен", "европейско финансиране", "еврофинансиране"],
+    },
+    # --- Общи БГ новини (без филтър — попълват тематичните категории) ---
+    {
+        "name": "Focus News",
+        "url": "https://www.focus-news.net/rss.php?cat=6",
+        "lang": "bg", "filter": None,
+    },
+    {
+        "name": "BG ON AIR",
+        "url": "https://www.bgonair.bg/rss/c/2-bulgaria",
+        "lang": "bg", "filter": None,
+    },
+    {
+        "name": "Bloomberg TV BG",
+        "url": "https://www.bloombergtv.bg/rss/c/9-bulgaria",
+        "lang": "bg", "filter": None,
     },
 ]
 
@@ -249,9 +282,17 @@ def run():
                 all_items.append(item)
 
     # Филтър: само последните DAYS_BACK дни
+    # Статии без разпозната дата се пропускат (не се третират като "най-нови").
     cutoff = (datetime.now() - timedelta(days=DAYS_BACK)).strftime('%Y-%m-%d')
     before = len(all_items)
-    all_items = [i for i in all_items if (i.get("date") or "9999") >= cutoff]
+
+    def is_recent(item):
+        d = item.get("date") or ""
+        if len(d) != 10 or d[4] != '-' or d[7] != '-':
+            return False  # неразпозната/непълна дата — изключваме, не приемаме по подразбиране
+        return d >= cutoff
+
+    all_items = [i for i in all_items if is_recent(i)]
     print(f"  Филтър {DAYS_BACK} дни: {before} → {len(all_items)} статии")
 
     # Сортираме по дата (най-нови първи)
