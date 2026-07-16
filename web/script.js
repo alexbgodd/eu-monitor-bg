@@ -8,6 +8,14 @@ document.getElementById('register-form').addEventListener('submit', async functi
     const btn = document.getElementById('submit-btn');
     const msg = document.getElementById('message');
 
+    // Honeypot — ако е попълнено, това е бот. Показваме "успех" тихо, без реален запис.
+    const honeypot = document.getElementById('website');
+    if (honeypot && honeypot.value.trim() !== '') {
+        showMessage('✓ Регистрацията е успешна! Ще получаваш имейл alerts.', 'success');
+        document.getElementById('register-form').reset();
+        return;
+    }
+
     const name     = document.getElementById('name').value.trim();
     const email    = document.getElementById('email').value.trim();
     const org_type = document.getElementById('org_type').value;

@@ -308,6 +308,12 @@ fetch('/data/programs.json')
             <h2>Регистрирай се за безплатни alerts</h2>
 
             <form id="register-form">
+                <!-- Honeypot — скрито поле за ботове. Хората не го виждат и не го попълват. -->
+                <div style="position:absolute; left:-9999px; top:-9999px;" aria-hidden="true">
+                    <label for="website">Уебсайт (не попълвай)</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+
                 <div class="field">
                     <label>Имe и фамилия *</label>
                     <input type="text" id="name" placeholder="Иван Иванов" required>
