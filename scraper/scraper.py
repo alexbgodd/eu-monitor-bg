@@ -185,7 +185,9 @@ def fetch_isun():
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
             'Accept-Language': 'bg-BG,bg;q=0.9,en-US;q=0.8,en;q=0.7',
-            'Accept-Encoding': 'gzip, deflate, br',
+            # Без 'br' — requests/urllib3 може да няма brotli декодер инсталиран,
+            # което би довело до нечетим (corrupt) отговор без изрична грешка.
+            'Accept-Encoding': 'gzip, deflate',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
         }
@@ -196,6 +198,7 @@ def fetch_isun():
         r = session.get('https://eumis2020.government.bg/bg/s/Procedure/Active',
                        headers=headers, timeout=20, verify=False)
         r.encoding = 'utf-8'
+        print(f"  ИСУН HTTP статус: {r.status_code}, дължина: {len(r.text)}")
         return BeautifulSoup(r.text, 'html.parser')
     except Exception as e:
         print(f"  Грешка ИСУН: {e}")
@@ -386,10 +389,12 @@ def parse_isun(soup, source):
         return 'общи'
 
     import re
-    # Процедурите са линкове с код BG... в текста
-    for a in soup.select('a'):
+    # Процедурите са <li data-href="/bg/s/Procedure/Info/{guid}"> с код BG... в текста
+    # (реални <a> се появяват само след Angular render в браузъра — суровият HTML
+    # съдържа само data-href атрибута).
+    for a in soup.select('li[data-href]'):
         text = a.get_text(strip=True)
-        href = a.get('href', '')
+        href = a.get('data-href', '')
         if not re.match(r'^BG\d+', text):
             continue
         if text in seen:
@@ -398,7 +403,7 @@ def parse_isun(soup, source):
         parts = text.split(' - ', 1)
         code = parts[0].strip()
         title = parts[1].strip() if len(parts) > 1 else text
-        full_url = (base + href) if href.startswith('/') else href
+        full_url = (source['base_url'] + href) if href.startswith('/') else href
         entry = make_entry(code, title, source, '')
         entry['url'] = full_url
         entry['category'] = get_category(title)
@@ -978,7 +983,11 @@ def scrape_all():
             soup = fetch_page(source['url'])
         parser = PARSERS.get(source['parser'])
         if parser and soup:
-            found = parser(soup, source)
+            try:
+                found = parser(soup, source)
+            except Exception as e:
+                print(f"    Грешка в parser-а: {e}")
+                found = []
             count = 0
             for p in found:
                 if p['id'] not in existing_ids:
