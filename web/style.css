@@ -1,5 +1,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+html { scroll-behavior: smooth; }
+
 /* Override water.css body constraints */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -9,6 +11,8 @@ body {
     max-width: none;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -131,6 +135,11 @@ header {
     padding: 36px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.08);
     margin-bottom: 32px;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
 }
 
 .card h2 {
@@ -172,6 +181,7 @@ select {
 input:focus, select:focus {
     outline: none;
     border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
 }
 
 .checkboxes {
@@ -242,16 +252,18 @@ button[type="submit"] {
     background: #2563eb;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     margin-top: 8px;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
 }
 
 button[type="submit"]:hover {
     background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(37,99,235,0.3);
 }
 
 button[type="submit"]:disabled {
