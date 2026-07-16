@@ -72,7 +72,7 @@ EMAIL_FROM=info@gdprcheck.bg
 
 - Таблица: `registrations`
 - Колони: `id, email, name, org_type, interests (text[]), created_at`
-- ~37 реални абоната към юли 2026 (дошли органично от Facebook)
+- ~100 реални абоната към 16.07.2026 (дошли органично от Facebook; ~37 в началото на юли)
 - Python достъп: директни REST API заявки с `urllib.request` (без supabase-py)
 - `alexbgodd@gmail.com` НЕ е регистриран като абонат в Supabase
 - allmarinkov@abv.bg има corrupted name в Supabase — провери и поправи ръчно
@@ -251,11 +251,12 @@ EMAIL_FROM=info@gdprcheck.bg
 
 ```powershell
 cd C:\Users\User\eu-monitor-bg\scraper
-python scraper.py          # scrape → programs.json (~1230 активни)
-python scrape_eu_news.py   # scrape → eu-news.json
-python blast_existing.py   # изпрати до всички нови абонати (sent_log пропуска стари)
+python scraper.py              # scrape → programs.json (~1230 активни)
+python scrape_eu_news.py       # scrape → eu-news.json
+python generate_seo_pages.py   # ВАЖНО: регенерира web/institucii/*.html — иначе SEO страниците замръзват (виж юли 2026 инцидент)
+python blast_existing.py       # изпрати до всички нови абонати (sent_log пропуска стари)
 cd ..
-git add data/
+git add data/ web/institucii/
 git commit -m "chore: scrape update"
 git push
 ```
@@ -281,21 +282,30 @@ git push
 
 ---
 
-## Vercel Analytics (към 10.07.2026)
+## Vercel Analytics (към 16.07.2026)
 
 - 257 page views на 07.07 — spike от Facebook
 - Трафик: ~200 от Facebook (lm.facebook.com, m.facebook.com, facebook.com)
 - 95% България, 80% мобилни
+- **Обновено 16.07:** последни 30 дни — 441 visitors, 930 page views, 62% bounce rate
+- Пик ~120 visitors/ден около 05-06.07 (Facebook spike), после спад към бавно намаляващ базов трафик
+- ~100 регистрирани абоната в Supabase (ръст от 37 в началото на юли)
 
 ---
 
 ## Известни проблеми / TODO
 
-- [ ] `robots.txt` — добави `Disallow: /data/` и `Disallow: /api/`
 - [ ] Rate limiting на `/api/register` и `/api/unsubscribe`
-- [ ] `/eu-news` — премахни keyword филтър за BG медии, добави повече категории
 - [ ] Намери правилни домейни за Creative Europe Desk BG и АУЕР
 - [ ] allmarinkov@abv.bg — corrupted name в Supabase, поправи ръчно
+- [ ] ЕСФ България (esf.bg) — чест "Read timed out" при scrape, провери стабилността на източника
+- [ ] sme.government.bg (ИАНМСП, коригиран домейн — старият `iiam.government.bg` в тази бележка не резолвира) — обмисли добавяне като нов източник
+- [x] `robots.txt` — добавен `Disallow: /data/` и `Disallow: /api/`
+- [x] `/eu-news` — премахнат тесен keyword филтър, добавени Focus News/BG ON AIR/Bloomberg TV BG + тематични категории (юли 2026)
+- [x] SEO: sitemap.xml допълнен с `/eu-news` и `/resources` (липсваха)
+- [x] SEO: `generate_seo_pages.py` добавен в редовния workflow — institucii/*.html страниците бяха замръзнали от 02.07 (2 седмици стари, "0 активни" на индексирана страница)
+- [x] fix: `parse_isun()` — undefined `base` bug + сменена HTML структура (`<li data-href>` вместо `<a href>`) — ИСУН даваше 0 резултата, сега дава 50+
+- [x] fix: категоризация "ит" vs "бизнес" — дигитал/софтуер ключови думи вече отиват в правилната категория (isun + eop) + еднократна прекатегоризация на стари записи
 - [x] Task Scheduler — "EU Monitor Weekly Alerts" — всеки понеделник 08:00
 - [x] EOP линкове сменени на `/today/{id}` формат
 - [x] blast_existing.py — дедупликация чрез sent_log.json
