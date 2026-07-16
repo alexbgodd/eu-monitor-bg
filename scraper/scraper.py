@@ -318,12 +318,15 @@ def parse_eop(records, existing_ids):
         cpv = str(tender.get("mainProcurementCategory", ""))
         category = _eop_category(title, cpv)
 
-        # URL: tender.id е обикновено номерът на поръчката (напр. "00-00-2026-0001234")
-        tender_id = tender.get("id", "")
-        if tender_id:
-            full_url = f"https://app.eop.bg/bg-BG/notice/0/{urllib.parse.quote(tender_id)}"
+        # URL: числовият ID е последният компонент на ocid (напр. "ocds-e82gsb-541035" → 541035)
+        numeric_id = ocid.rsplit("-", 1)[-1] if ocid else ""
+        if numeric_id and numeric_id.isdigit():
+            full_url = f"https://app.eop.bg/today/{numeric_id}"
+            code_val = numeric_id
         else:
-            full_url = "https://app.eop.bg/today"
+            tender_id = tender.get("id", "")
+            full_url = f"https://app.eop.bg/bg-BG/notice/0/{urllib.parse.quote(tender_id)}" if tender_id else "https://app.eop.bg/today"
+            code_val = tender_id or uid
 
         programs.append({
             "id": uid,
@@ -335,7 +338,7 @@ def parse_eop(records, existing_ids):
             "type": "tender",
             "authority": authority[:100],
             "found_at": day_iso,
-            "code": tender_id or uid,
+            "code": code_val,
         })
     return programs
 
@@ -1027,130 +1030,3 @@ if __name__ == "__main__":
     scrape_all()
 
 
-def enrich_eop_deadlines(programs):
-    """
-    Scrapes bg.openprocurements.com (5 pages) за тендери с крайни срокове.
-    Обогатява ЕОП записи без deadline чрез fuzzy match по заглавие (≥80%).
-    URL-ите на записите остават непроменени (app.eop.bg).
-    """
-    import re as _re
-    deadline_re = _re.compile(r'Deadline\s+(\d{4}-\d{2}-\d{2})')
-
-    op_items = []  # [(normalized_title, deadline_str), ...]
-    print("  [enrich] Зареждаме krайни срокове от openprocurements.com...")
-
-    urls = ["https://bg.openprocurements.com/"] + \
-           [f"https://bg.openprocurements.com/nuts/bg/page/{p}/" for p in range(2, 6)]
-
-    for url in urls:
-        try:
-            r = requests.get(url, timeout=15, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(r.text, 'html.parser')
-        except Exception:
-            continue
-
-        for a in soup.select('a[href*="/tender/"]'):
-            title = a.get_text(strip=True)
-            if not title or len(title) < 10:
-                continue
-            # Намираме deadline в родителската клетка/ред
-            row = a.find_parent('td') or a.find_parent('tr') or a.parent
-            if not row:
-                continue
-            row_text = row.get_text(' ', strip=True)
-            m = deadline_re.search(row_text)
-            if m:
-                op_items.append((_normalize_title(title), m.group(1)))
-
-    print(f"  [enrich] Намерени {len(op_items)} записа с deadline")
-    if not op_items:
-        return programs
-
-    # Обогатяваме ЕОП записи без deadline
-    eop_no_dl = [p for p in programs
-                 if 'ЕОП' in p.get('source', '') and not p.get('deadline')]
-    matched = 0
-    for p in eop_no_dl:
-        p_norm = _normalize_title(p['title'])
-        best_score, best_dl = 0.0, ''
-        for op_title, dl in op_items:
-            s = _title_similarity(p_norm, op_title)
-            if s > best_score:
-                best_score, best_dl = s, dl
-        if best_score >= 0.80:
-            p['deadline'] = best_dl
-            matched += 1
-
-    print(f"  [enrich] Обогатени {matched} ЕОП записа с крайни срокове")
-    return programs
-
-
-def scrape_all():
-    existing = load_existing()
-    # Изчистваме старите сключени договори (заменени с активни обявления)
-    old_contracts_src = "ЦАИС ЕОП — Обществени поръчки"
-    old_count = sum(1 for p in existing if p.get("source") == old_contracts_src)
-    if old_count:
-        existing = [p for p in existing if p.get("source") != old_contracts_src]
-        print(f"  [Cleanup] Премахнати {old_count} стари договора (заменено с активни обявления).")
-    existing_ids = {p['id'] for p in existing}
-    new_programs = []
-
-    for source in SOURCES:
-        print(f"\n>>> {source['name']}")
-        if source['parser'] == 'isun':
-            soup = fetch_isun()
-        else:
-            soup = fetch_page(source['url'])
-        parser = PARSERS.get(source['parser'])
-        if parser and soup:
-            found = parser(soup, source)
-            count = 0
-            for p in found:
-                if p['id'] not in existing_ids:
-                    new_programs.append(p)
-                    existing_ids.add(p['id'])
-                    count += 1
-                    print(f"    НОВО: {p['title'][:80]}")
-            if count == 0:
-                print(f"    Няма нови.")
-        else:
-            print(f"    Неуспешно зареждане.")
-
-    # ЦАИС ЕОП (storage.eop.bg S3 open-data — OCDS обявления)
-    print(f"\n>>> ЦАИС ЕОП — Активни обявления (последните 7 дни)")
-    try:
-        eop_records = fetch_eop_tenders(days_back=7)
-        if eop_records:
-            eop_programs = parse_eop(eop_records, existing_ids)
-            count = 0
-            for p in eop_programs:
-                if p['id'] not in existing_ids:
-                    new_programs.append(p)
-                    existing_ids.add(p['id'])
-                    count += 1
-                    print(f"    НОВО: {p['title'][:80]}")
-            print(f"    {'Няма нови.' if count == 0 else f'{count} нови обявления.'}")
-        else:
-            print(f"    Няма данни от storage.eop.bg (проверете връзката).")
-    except Exception as e:
-        print(f"    Грешка ЦАИС ЕОП: {e}")
-
-    # Обогати ЕОП записи с крайни срокове от openprocurements.com
-    all_programs = new_programs + existing
-    all_programs = enrich_eop_deadlines(all_programs)
-
-    # Изчисти изтеклите записи
-    all_programs = expire_old(all_programs)
-
-    if new_programs:
-        save_programs(all_programs)
-        print(f"\n✓ Записани {len(new_programs)} нови. Общо активни: {len(all_programs)}")
-    else:
-        save_programs(all_programs)
-        print(f"\n— Няма нови програми. Активни: {len(all_programs)}")
-
-    return new_programs
-
-if __name__ == "__main__":
-    scrape_all()
