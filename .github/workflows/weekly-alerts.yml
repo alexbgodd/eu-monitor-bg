@@ -1,0 +1,41 @@
+name: Weekly email alerts
+
+on:
+  schedule:
+    - cron: '23 5 * * 1'   # понеделник 05:23 UTC ≈ 08:23 българско време (лятно)
+  workflow_dispatch: {}    # ръчно пускане от Actions таба, за тест
+
+permissions:
+  contents: write
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send weekly alerts (blast_existing — sent_log дедупликация)
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
+          SMTP_KEY: ${{ secrets.SMTP_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: python scraper/blast_existing.py
+
+      - name: Commit sent_log (задължително — иначе дедупликацията се губи)
+        run: |
+          git config user.name "eu-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sent_log.json
+          git diff --staged --quiet || git commit -m "chore: weekly alerts sent_log $(date -u +%Y-%m-%d)"
+          git push

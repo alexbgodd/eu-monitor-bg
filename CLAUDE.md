@@ -247,6 +247,23 @@ EMAIL_FROM=info@gdprcheck.bg
 
 ---
 
+## Автоматизация (GitHub Actions) — юли 2026
+
+Разделена на два workflow-а (преди: един daily, който правеше scrape + имейли заедно → имейли всеки ден):
+
+| Workflow | Файл | Кога | Какво прави |
+|----------|------|------|-------------|
+| Daily scrape | `.github/workflows/daily-run.yml` | всеки ден 06:17 UTC | `scraper.py` + `scrape_eu_news.py` + `generate_seo_pages.py` → commit `data/` + `web/institucii/`. БЕЗ имейли. |
+| Weekly alerts | `.github/workflows/weekly-alerts.yml` | понеделник 05:23 UTC (~08:23 BG) | `blast_existing.py` (sent_log дедупликация, top 20 по found_at) → commit `data/sent_log.json` |
+
+Бележки:
+- `send_alerts.py` (scrape+send в едно, БЕЗ sent_log) вече НЕ се ползва от automation — само ръчно/за тест.
+- `sent_log.json` ЗАДЪЛЖИТЕЛНО се комитва от weekly job-а — иначе дедупликацията се губи между run-ове.
+- Windows Task Scheduler "EU Monitor Weekly Alerts" (пон. 08:00 локално) ДУБЛИРА weekly workflow-а — трябва да се изключи (Task Scheduler → Disable), иначе двойни имейли в понеделник.
+- Локална работа: прави `git pull` — ботът комитва данни всеки ден.
+
+---
+
 ## Workflow — нов scrape + blast
 
 ```powershell
@@ -295,6 +312,7 @@ git push
 
 ## Известни проблеми / TODO
 
+- [ ] Изключи Windows Task Scheduler "EU Monitor Weekly Alerts" — дублира weekly-alerts.yml (двойни имейли в понеделник)
 - [ ] Rate limiting на `/api/register` и `/api/unsubscribe`
 - [ ] Намери правилни домейни за Creative Europe Desk BG и АУЕР
 - [ ] allmarinkov@abv.bg — corrupted name в Supabase, поправи ръчно

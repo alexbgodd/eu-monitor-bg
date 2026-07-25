@@ -1,15 +1,15 @@
-name: Daily scrape and alerts
+name: Daily scrape (no emails)
 
 on:
   schedule:
-    - cron: '17 6 * * *'   # 06:17 UTC (не кръгъл час, за да избегнем пикови забавяния)
-  workflow_dispatch: {}    # позволява ръчно пускане от Actions таба, за тест
+    - cron: '17 6 * * *'   # 06:17 UTC всеки ден (не кръгъл час — избягва GH пикови забавяния)
+  workflow_dispatch: {}    # ръчно пускане от Actions таба
 
 permissions:
   contents: write
 
 jobs:
-  run:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,21 +21,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper + send alerts
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
-          SMTP_KEY: ${{ secrets.SMTP_KEY }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: python scraper/send_alerts.py
+      - name: Scrape programs
+        run: python scraper/scraper.py
+
+      - name: Scrape EU news
+        run: python scraper/scrape_eu_news.py
+
+      - name: Regenerate SEO pages
+        run: python scraper/generate_seo_pages.py
 
       - name: Commit updated data (ако има промяна)
         run: |
           git config user.name "eu-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/programs.json
+          git add data/programs.json data/eu-news.json web/institucii/
           git diff --staged --quiet || git commit -m "chore: automated scrape update $(date -u +%Y-%m-%d)"
           git push
