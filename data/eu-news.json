@@ -1,7 +1,106 @@
 {
-  "updated": "2026-07-27 10:10",
-  "count": 15,
+  "updated": "2026-07-28 09:06",
+  "count": 13,
   "items": [
+    {
+      "title": "🇪🇺 ЕС отблизо: Тръмп с нови мита за генеричните лекарства; Повече европейски пари за опазване на външните граници; Брюксел заспа летен сън",
+      "desc": "[[img:4940018]] Европейските институции вече официално са във ваканция, но лятото съвсем не изглежда спокойно. Горските пожари, започнали по-рано тази година в Испания и Южна Франция отново тестват способността на Европейския съюз да мобилизира общи сили и ресурси при кризи. Всичко това се случва на",
+      "url": "https://www.capital.bg/politika_i_ikonomika/sviat/2026/07/28/4940031__es_otblizo_trump_s_novi_mita_za_generichnite/?ref=rss",
+      "date": "2026-07-28",
+      "source": "Capital.bg",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Силвия Рашкова за мъртвите делфини край Приморско: Тъжна и страшна гледка, мрежите не са тайна",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425765-silviya-rashkova-za-martvite-delfini-kray-primorsko-tazhna-i-strashna-gledka-mrezhite-ne-sa-tayna",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Гъвкавa учебна година - различно начало и край, дълга ваканция през май",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425763-gavkava-uchebna-godina-razlichno-nachalo-i-kray-dalga-vakantsiya-prez-may",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Налбантов: Иранските ракети трудно ще достигнат България, но има риск от терор",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425762-nalbantov-iranskite-raketi-trudno-shte-dostignat-balgariya-no-ima-risk-ot-teror",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "1491 евро са необходими за месечната издръжка на тричленно семейство",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/425760-1491-evro-sa-neobhodimi-za-mesechnata-izdrazhka-na-trichlenno-semeystvo",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Стефан Манов за изборите: Рисково е връщането сега на 100% машинен вот",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425759-stefan-manov-za-izborite-riskovo-e-vrashtaneto-sega-na-100-mashinen-vot",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Политолози очакват битка за президентския пост и избори в два тура",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425756-politolozi-ochakvat-bitka-za-prezidentskiya-post-i-izbori-v-dva-tura",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Мъж е с опасност за живота след падане от покрив в село край Своге",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/425755-mazh-e-s-opasnost-za-zhivota-sled-padane-ot-pokriv-v-selo-kray-svoge",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ИПБ: Броят на жертвите на пътя расте критично",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/425750-ipb-broyat-na-zhertvite-na-patya-raste-kritichno",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Извънреден ремонт и ограничения на АМ \"Тракия\" в посока София днес",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/425746-izvanreden-remont-i-ogranicheniya-na-am-trakiya-v-posoka-sofiya-dnes",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Промените в Изборния кодекс влизат на второ четене в правната комисия",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/425740-promenite-v-izborniya-kodeks-vlizat-na-vtoro-chetene-v-pravnata-komisiya",
+      "date": "2026-07-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Commission greenlights Belgium's fifth payment request for €225 million under NextGenerationEU",
       "desc": "European Commission Press release Brussels, 27 Jul 2026 Today, the European Commission positively assessed Belgium's fifth payment request for €225 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
@@ -12,129 +111,12 @@
       "topic": "eu"
     },
     {
-      "title": "Варна отбелязва 148 години от Освобождението на града",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425670-varna-otbelyazva-148-godini-ot-osvobozhdenieto-na-grada",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Да бедстваш заради безводие през 2026 г.: Жителите на Ореш са в патова ситуация",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425668-da-bedstvash-zaradi-bezvodie-prez-2026-g-zhitelite-na-oresh-sa-v-patova-situatsiya",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Иран към България: Решението за самолетите е опасно и ще носите отговорност",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425664-iran-kam-balgariya-reshenieto-za-samoletite-e-opasno-i-shte-nosite-otgovornost",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Откриха тялото на издирван 68-годишен мъж край Петрич",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425662-otkriha-tyaloto-na-izdirvan-68-godishen-mazh-kray-petrich",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "КЗК глоби фирма с 15 хил. евро при разследване за картел",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425661-kzk-globi-firma-s-15-hil-evro-pri-razsledvane-za-kartel",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Алибегов и шеф Петров: Имаме ресторанти за \"Мишлен\", но звезда се получава след години",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425658-alibegov-i-shef-petrov-imame-restoranti-za-mishlen-no-zvezda-se-poluchava-sled-godini",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "2 млрд. евро лоши кредити в България: Най-честата грешка, която води до задлъжняване",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425657-2-mlrd-evro-loshi-krediti-v-balgariya-nay-chestata-greshka-koyato-vodi-do-zadlazhnyavane",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Катастрофа с румънска кола затруднява движението в Кресненското дефиле",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425656-katastrofa-s-rumanska-kola-zatrudnyava-dvizhenieto-v-kresnenskoto-defile",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Аптеките са под натиск: Разходите им се увеличават, но не могат да вдигнат цените",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/425655-aptekite-sa-pod-natisk-razhodite-im-se-uvelichavat-no-ne-mogat-da-vdignat-tsenite",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мъж с тротинетка загина след сблъсък с кола в Горна Оряховица",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/425650-mazh-s-trotinetka-zagina-sled-sblasak-s-kola-v-gorna-oryahovitsa",
-      "date": "2026-07-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Bulgaria Cuts Competitiveness, Environment Funds to Boost Regional Development - Novinite.com",
-      "desc": "Bulgaria Cuts Competitiveness, Environment Funds to Boost Regional Development Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM2JqSF9BXzRsOWk0NTlJbVQ0NkZQS3dMZ0RLMmVfMUlqQW93WE90eHVGZkg1aEJFSVhTX0k2YmZCNVdhejFKNTNVSUZmUGZqT0hYQTUzODZQQUh6REJVV29WWG94ME9sVVlwbnRja21QSVV6dE5VRDIzR3lJU3ZXVDJFYTFRaUlJeV9zYUg2QXRhdlpidXpmYXJlTmJhOTFSa1Nndmw3YmI5SnEwU3cwc3RBRGdWZXRDRmdVa1ZOejcwLVJRLV9JRU15SG9abi15VnIwNUln?oc=5",
-      "date": "2026-07-26",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "“TO ACCELERATE THE EUROPEAN PATH”: Bosnia and Herzegovina approved for €140 million in EU grants! - Serbiantimes.info",
-      "desc": "“TO ACCELERATE THE EUROPEAN PATH”: Bosnia and Herzegovina approved for €140 million in EU grants! Serbiantimes.info",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTzl4ODMyd0V3MVRHcXlVa3dKbDlpMGlyV19BeGdtajhRejZaNmFYMnp5RXdtcXlka0s2VTBMWlVuUUlJdVZYNUlQcVl2Yk1Tc3g4dTlINUtlMEkxRG9waGVzV2U5WmxJWDMzQWw4VHJCWURPc1M1cmp2b25tRFhVUXdqUnpyQ2l2a3h6SDlGLURFemF1VV8xQVgwMC1KRVgxVll0bHgxWHJjWjJPY3k2ZFk3TGFGT2tPS2dpdl9tZw?oc=5",
-      "date": "2026-07-26",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
       "title": "Български стартъп прави революция в домашните ремонти чрез AI",
       "desc": "Изкуственият интелект вече надхвърля рамките на чат-ботовете и автоматизацията на офисни процеси, навлизайки устремно в традиционни сектори от икономиката. Българска иновативна компания цели да преобрази европейския пазар на ремонтните услуги чрез изкуствен интелект, прозрачност и сигурност. Това ра",
       "url": "https://www.bloombergtv.bg/a/28-update/162354-balgarski-startap-pravi-revolyutsiya-v-domashnite-remonti-chrez-ai",
       "date": "2026-07-26",
       "source": "Bloomberg TV BG",
       "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Bulgaria Allocates Funding For Intermodal Transport Operators - megaproject.com",
-      "desc": "Bulgaria Allocates Funding For Intermodal Transport Operators megaproject.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0ZHYkxCRDlSYkplUzhJd0lWNlh0UWIxcld5ZzFVVzYycnBFV1Y4MzlOUnlLUmRBR21xcmVpMHhzU250SXVNTXV3ZmxJNkRQWGFud2J0SmlXUFZhcEU0UW1Bc2tIclFiMVAxYV8wbDRGTWtaekN4eEMwWHB6RjBQbEhnT1FDTnAyR1pxdlk3UGhlWWpIaDJ4MGZHVzdoY0E?oc=5",
-      "date": "2026-07-25",
-      "source": "Google News EN",
-      "lang": "en",
       "topic": "eu"
     }
   ]
