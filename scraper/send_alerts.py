@@ -173,5 +173,13 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "test":
         test_email()
+    elif len(sys.argv) > 1:
+        # Защита: "python send_alerts.py email@x.bg" НЕ праща до конкретен имейл —
+        # за това е blast_existing.py. Без този guard аргументът се игнорираше
+        # и скриптът пращаше до ВСИЧКИ абонати (инцидент 31.07.2026).
+        print("Непознат аргумент.")
+        print("  Тест имейл:            python send_alerts.py test")
+        print("  До конкретен абонат:   python blast_existing.py email@x.bg")
+        print("  До всички (с дедупл.): python blast_existing.py")
     else:
         run_alerts()
