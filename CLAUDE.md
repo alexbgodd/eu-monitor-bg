@@ -224,6 +224,7 @@ EMAIL_FROM=info@gdprcheck.bg
 - **Transport:** Brevo SMTP (smtp-relay.brevo.com:587)
 - **От:** info@gdprcheck.bg
 - **Шаблон:** 1 линк на програма (plain URL) — повече линкове → спам
+- **Групиране (юли 2026):** програмите в имейла са групирани в секции по категория (най-многобройните първи); линковете сочат към /notice
 - **blast_existing.py:** изпраща до всички или до конкретен имейл (`python blast_existing.py email@test.com`)
 - **sent_log.json:** дедупликация — не праща два пъти едно и също на един абонат
 - **Лимит:** 20 програми на имейл (top 20 по found_at desc)

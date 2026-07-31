@@ -36,19 +36,40 @@ def send_email(to_email, to_name, programs):
 
     subject = f"[{SITE_NAME}] {len(programs)} нов{'а програма' if len(programs)==1 else 'и програми'} за теб"
 
-    # HTML съдържание
-    programs_html = ""
+    CATEGORY_LABELS = {
+        "общи": "🌐 Общи", "бизнес": "💼 Бизнес", "земеделие": "🌾 Земеделие",
+        "култура": "🎭 Култура", "социални": "👥 Социални",
+        "здравеопазване": "🏥 Здравеопазване", "образование": "📚 Образование",
+        "туризъм": "🏨 Туризъм", "екология": "🌿 Екология", "ит": "💻 ИТ",
+        "търгове": "🏛️ Поръчки", "инфраструктура": "🏗️ Инфраструктура", "общини": "🏘️ Общини",
+    }
+
+    # Групираме по категория (най-многобройните секции първи, редът вътре се пази)
+    grouped = {}
     for p in programs:
-        # Линкът сочи към нашата детайлна страница (/notice), не директно навън —
-        # там има copy бутон, Google търсене и работещ път към източника.
-        if p.get("id"):
-            notice_url = f"{SITE_URL}/notice?id={urllib.parse.quote(str(p['id']))}"
-        else:
-            notice_url = p.get("url", "")
-        url_line = f'<a href="{notice_url}">{notice_url}</a>' if notice_url else "Няма линк"
-        deadline_line = f'<b>Краен срок:</b> {p["deadline"]}<br>' if p.get("deadline") else ""
+        grouped.setdefault(p.get("category", "общи"), []).append(p)
+    ordered = sorted(grouped.items(), key=lambda kv: -len(kv[1]))
+
+    # HTML съдържание — секция за всяка категория
+    programs_html = ""
+    for category, items in ordered:
+        label = CATEGORY_LABELS.get(category, category)
         programs_html += f"""
-        <div style="border-left:4px solid #2563eb;padding:12px 16px;margin:16px 0;background:#f8faff;">
+        <h3 style="font-size:15px;color:#1d4ed8;margin:24px 0 4px;border-bottom:2px solid #e5e7eb;padding-bottom:6px;">
+            {label} <span style="color:#94a3b8;font-weight:normal;">({len(items)})</span>
+        </h3>
+        """
+        for p in items:
+            # Линкът сочи към нашата детайлна страница (/notice), не директно навън —
+            # там има copy бутон, Google търсене и работещ път към източника.
+            if p.get("id"):
+                notice_url = f"{SITE_URL}/notice?id={urllib.parse.quote(str(p['id']))}"
+            else:
+                notice_url = p.get("url", "")
+            url_line = f'<a href="{notice_url}">{notice_url}</a>' if notice_url else "Няма линк"
+            deadline_line = f'<b>Краен срок:</b> {p["deadline"]}<br>' if p.get("deadline") else ""
+            programs_html += f"""
+        <div style="border-left:4px solid #2563eb;padding:12px 16px;margin:12px 0;background:#f8faff;">
             <b style="font-size:16px;">{p['title']}</b><br>
             <span style="color:#555;">Източник: {p['source']}</span><br>
             {deadline_line}
