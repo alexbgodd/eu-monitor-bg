@@ -343,6 +343,7 @@ fetch('/data/programs.json')
                         <label class="check"><input type="checkbox" value="земеделие"><span class="cat-icon" style="color:#16a34a"><i data-lucide="wheat"></i></span> Земеделие</label>
                         <label class="check"><input type="checkbox" value="култура"><span class="cat-icon" style="color:#7c3aed"><i data-lucide="landmark"></i></span> Култура</label>
                         <label class="check"><input type="checkbox" value="социални"><span class="cat-icon" style="color:#e11d48"><i data-lucide="users"></i></span> Социални</label>
+                        <label class="check"><input type="checkbox" value="здравеопазване"><span class="cat-icon" style="color:#dc2626"><i data-lucide="heart-pulse"></i></span> Здравеопазване / Фармация</label>
                         <label class="check"><input type="checkbox" value="образование"><span class="cat-icon" style="color:#ea580c"><i data-lucide="book-open"></i></span> Образование</label>
                         <label class="check"><input type="checkbox" value="туризъм"><span class="cat-icon" style="color:#0891b2"><i data-lucide="map-pin"></i></span> Туризъм</label>
                         <label class="check"><input type="checkbox" value="екология"><span class="cat-icon" style="color:#059669"><i data-lucide="leaf"></i></span> Екология</label>
@@ -423,13 +424,15 @@ fetch('/data/programs.json')
     const ICONS = {
         'бизнес':'💼','земеделие':'🌾','култура':'🎭','социални':'👥',
         'образование':'📚','туризъм':'🏨','екология':'🌿','ит':'💻',
-        'общи':'🌐','инфраструктура':'🏗️','общини':'🏘️','търгове':'🏛️'
+        'общи':'🌐','инфраструктура':'🏗️','общини':'🏘️','търгове':'🏛️',
+        'здравеопазване':'🏥'
     };
     const LABELS = {
         'бизнес':'Бизнес','земеделие':'Земеделие','култура':'Култура',
         'социални':'Социални','образование':'Образование','туризъм':'Туризъм',
         'екология':'Екология','ит':'ИТ','общи':'Общи',
-        'инфраструктура':'Инфраструктура','общини':'Общини','търгове':'Поръчки'
+        'инфраструктура':'Инфраструктура','общини':'Общини','търгове':'Поръчки',
+        'здравеопазване':'Здравеопазване'
     };
     try {
         const res = await fetch('/data/programs.json');
