@@ -257,6 +257,7 @@ EMAIL_FROM=info@gdprcheck.bg
 |----------|------|------|-------------|
 | Daily scrape | `.github/workflows/daily-run.yml` | всеки ден 06:17 UTC | `scraper.py` + `scrape_eu_news.py` + `generate_seo_pages.py` → commit `data/` + `web/institucii/`. БЕЗ имейли. |
 | Weekly alerts | `.github/workflows/weekly-alerts.yml` | понеделник 05:23 UTC (~08:23 BG) | `blast_existing.py` (sent_log дедупликация, top 20 по found_at) → commit `data/sent_log.json` |
+| News refresh | `.github/workflows/news-refresh.yml` | всеки ден 09:27 UTC (~12:27 BG) | само `scrape_eu_news.py` → commit `data/eu-news.json`. Второ обедно обновяване на /eu-news. |
 
 Бележки:
 - `send_alerts.py` (scrape+send в едно, БЕЗ sent_log) вече НЕ се ползва от automation — само ръчно/за тест.
