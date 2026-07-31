@@ -300,7 +300,7 @@ function renderPrograms() {
                     <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
                     ${deadlineHtml}
                 </div>
-                ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener" class="program-link">Виж детайли →</a>` : ''}
+                <a href="/notice?id=${encodeURIComponent(p.id)}" class="program-link">Виж детайли →</a>
             </div>
         `;
     }).join('');
