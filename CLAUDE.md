@@ -325,7 +325,7 @@ git push
 - [x] SEO: sitemap.xml допълнен с `/eu-news` и `/resources` (липсваха)
 - [x] SEO: `generate_seo_pages.py` добавен в редовния workflow — institucii/*.html страниците бяха замръзнали от 02.07 (2 седмици стари, "0 активни" на индексирана страница)
 - [x] fix: `parse_isun()` — undefined `base` bug + сменена HTML структура (`<li data-href>` вместо `<a href>`) — ИСУН даваше 0 резултата, сега дава 50+
-- [x] Детайлна страница /notice?id=X (юли 2026) — client-side от programs.json, noindex; copy бутон, Google търсене, външен линк, свързани обяви, CTA. "Виж детайли" на /programs сочи натам. Имейлите ОЩЕ сочат навън — смяна към /notice е отделна стъпка.
+- [x] Детайлна страница /notice?id=X (юли 2026) — client-side от programs.json, noindex; copy бутон, Google търсене, външен линк, свързани обяви, CTA. "Виж детайли" на /programs и линковете в имейлите сочат натам (fallback към p.url при липсващо id).
 - [x] Категория "здравеопазване" отделена от "социални" (юли 2026) — scraper (_eop_category + parse_isun), matcher (interest "социални" пази обратна съвместимост), UI checkbox/labels, `reclassify_health.py` за старите записи (ЗБУТ изключен от health keywords)
 - [x] fix: категоризация "ит" vs "бизнес" — дигитал/софтуер ключови думи вече отиват в правилната категория (isun + eop) + еднократна прекатегоризация на стари записи
 - [x] Task Scheduler — "EU Monitor Weekly Alerts" — всеки понеделник 08:00

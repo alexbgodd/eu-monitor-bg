@@ -39,7 +39,13 @@ def send_email(to_email, to_name, programs):
     # HTML съдържание
     programs_html = ""
     for p in programs:
-        url_line = f'<a href="{p["url"]}">{p["url"]}</a>' if p.get("url") else "Няма линк"
+        # Линкът сочи към нашата детайлна страница (/notice), не директно навън —
+        # там има copy бутон, Google търсене и работещ път към източника.
+        if p.get("id"):
+            notice_url = f"{SITE_URL}/notice?id={urllib.parse.quote(str(p['id']))}"
+        else:
+            notice_url = p.get("url", "")
+        url_line = f'<a href="{notice_url}">{notice_url}</a>' if notice_url else "Няма линк"
         deadline_line = f'<b>Краен срок:</b> {p["deadline"]}<br>' if p.get("deadline") else ""
         programs_html += f"""
         <div style="border-left:4px solid #2563eb;padding:12px 16px;margin:16px 0;background:#f8faff;">
