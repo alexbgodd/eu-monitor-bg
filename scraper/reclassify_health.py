@@ -13,7 +13,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from scraper import _is_health
+from scraper import _is_health, _HEALTH_STRONG
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), '..', 'data', 'programs.json')
 
@@ -29,8 +29,16 @@ def main():
 
     changed = []
     for p in programs:
-        if p.get('category') in FROM_CATEGORIES and _is_health(p.get('title', '')):
-            changed.append((p.get('category'), p.get('title', '')[:80]))
+        cat = p.get('category')
+        if cat == 'здравеопазване':
+            continue
+        title = p.get('title', '')
+        t = title.lower()
+        # Силна здравна дума → прекатегоризирай от ВСЯКА категория.
+        # Слаба (болница като контекст) → само от широките категории.
+        strong = any(w in t for w in _HEALTH_STRONG)
+        if strong or (cat in FROM_CATEGORIES and _is_health(title)):
+            changed.append((cat, title[:80]))
             p['category'] = 'здравеопазване'
 
     print(f"Записи за прекатегоризация към 'здравеопазване': {len(changed)}\n")

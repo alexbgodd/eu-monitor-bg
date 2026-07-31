@@ -25,7 +25,11 @@ def save_sent_log(log):
         json.dump(log, f, ensure_ascii=False, indent=2)
 
 def main():
-    target_email = sys.argv[1] if len(sys.argv) > 1 else None
+    dry_run = '--dry-run' in sys.argv
+    args = [a for a in sys.argv[1:] if a != '--dry-run']
+    target_email = args[0] if args else None
+    if dry_run:
+        print("=== DRY RUN — нищо няма да се изпрати ===\n")
 
     # 1. Зареди програмите — сортирани по found_at (най-нови първи)
     with open(DATA_FILE, encoding='utf-8') as f:
@@ -69,6 +73,13 @@ def main():
             continue
 
         to_send = new_matches[:MAX_PER_MAIL]
+
+        if dry_run:
+            print(f"  -> БИ получил {len(to_send)} програми:")
+            for p in to_send:
+                print(f"       [{p.get('category')}] {p.get('title', '')[:70]}")
+            continue
+
         success = send_email(email, user.get('name', 'потребител'), to_send)
 
         if success:
