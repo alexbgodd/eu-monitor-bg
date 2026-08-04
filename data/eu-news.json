@@ -1,96 +1,15 @@
 {
-  "updated": "2026-08-04 09:09",
-  "count": 15,
+  "updated": "2026-08-04 11:38",
+  "count": 6,
   "items": [
     {
-      "title": "Нови правила за жилищата: Енергийният сертификат става задължителен",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426395-novi-pravila-za-zhilishtata-energiyniyat-sertifikat-stava-zadalzhitelen",
+      "title": "Ниското ниво на Дунав не създава риск за осигуряването на ток според еврокомисията",
+      "desc": "Еврокомисията не вижда непосредствен риск от недостиг на ток в България, Румъния и Унгария. Букурещ и Будапеща обявиха, че намаляват производството на електричество от своите АЕЦ заради ниското ниво на река Дунав, използвана за охлаждане на ядрените...",
+      "url": "https://www.dnevnik.bg/burzi-novini/2026/08/04/4942419_niskoto_nivo_na_dunav_ne_suzdava_risk_za/?ref=rss",
       "date": "2026-08-04",
-      "source": "BG ON AIR",
+      "source": "Dnevnik.bg",
       "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дунав пресъхва – ситуацията ще става още по-критична в следващите години (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426393-dunav-presahva-situatsiyata-shte-stava-oshte-po-kritichna-v-sledvashtite-godini-video",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Локализираха големия пожар край Стрелци, обхванал близо 2000 декара площ",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426391-lokaliziraha-golemiya-pozhar-kray-streltsi-obhvanal-blizo-2000-dekara-plosht",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ириней Константинов се пенсионира, Терзиев назначи нов директор на Театър \"София\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426389-iriney-konstantinov-se-pensionira-terziev-naznachi-nov-direktor-na-teatar-sofiya",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "Иван Кръстев: Голяма грешка е отпадането на механизма за минималната заплата",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426388-ivan-krastev-golyama-greshka-e-otpadaneto-na-mehanizma-za-minimalnata-zaplata",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ИПБ: Сънната апнея може да стои зад тежките катастрофи с камиони",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426385-ipb-sannata-apneya-mozhe-da-stoi-zad-tezhkite-katastrofi-s-kamioni",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Стабилно е състоянието на детето, нахапано от куче в Кънчево",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426384-stabilno-e-sastoyanieto-na-deteto-nahapano-ot-kuche-v-kanchevo",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дадохме 5 жертви за 3 дни от август: Кога ще спрем да се избиваме по пътищата?",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426376-dadohme-5-zhertvi-za-3-dni-ot-avgust-koga-shte-sprem-da-se-izbivame-po-patishtata",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дунав остава критично плитък: 6 от 7 станции в България отчитат отрицателни стойности",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426374-dunav-ostava-kritichno-plitak-6-ot-7-stantsii-v-balgariya-otchitat-otritsatelni-stoynosti",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Спират камионите над 20 т по магистралите заради горещото време",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426373-spirat-kamionite-nad-20-t-po-magistralite-zaradi-goreshtoto-vreme",
-      "date": "2026-08-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
       "title": "Емил Кирилов: Най-добрата стратегия за България е технологичния трансфер от Азия",
