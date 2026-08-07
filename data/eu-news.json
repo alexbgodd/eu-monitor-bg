@@ -1,96 +1,159 @@
 {
-  "updated": "2026-08-06 11:39",
-  "count": 12,
+  "updated": "2026-08-07 07:43",
+  "count": 18,
   "items": [
     {
-      "title": "Гонка с \"Гранична полиция\" завърши с тежка катастрофа край река Ропотамо",
+      "title": "Експерт: Печалбата, която реализира АЕЦ \"Козлодуй\", е обидно ниска",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426614-gonka-s-granichna-politsiya-zavarshi-s-tezhka-katastrofa-kray-reka-ropotamo",
-      "date": "2026-08-06",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426684-ekspert-pechalbata-koyato-realizira-aets-kozloduy-e-obidno-niska",
+      "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "НОИ обяви кога започва изплащането на пенсиите за август",
+      "title": "МВнР предупреди българите: Не пътувайте до Куба",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426612-noi-obyavi-koga-zapochva-izplashtaneto-na-pensiite-za-avgust",
-      "date": "2026-08-06",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426683-mvnr-predupredi-balgarite-ne-patuvayte-do-kuba",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Фентанилът измества хероина, разбитата лаборатория може да е единствената у нас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426678-fentanilat-izmestva-heroina-razbitata-laboratoriya-mozhe-da-e-edinstvenata-u-nas",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Оранжев код за опасни жеги в части от България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426676-oranzhev-kod-za-opasni-zhegi-v-chasti-ot-balgariya",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожарът край АМ \"Тракия\" е овладян, продължава гасенето на локални огнища",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426672-pozharat-kray-am-trakiya-e-ovladyan-prodalzhava-gaseneto-na-lokalni-ognishta",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дунав продължава да се понижава, нивото пада с до 10 см за денонощие",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426671-dunav-prodalzhava-da-se-ponizhava-nivoto-pada-s-do-10-sm-za-denonoshtie",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Започна изплащането на пенсиите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426665-zapochna-izplashtaneto-na-pensiite",
+      "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "социални"
     },
     {
-      "title": "ТИР-овете с ограничения по ключови пътища заради очакван засилен трафик",
+      "title": "Жега без край: Температурите отново ще достигнат 40 градуса",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426611-tir-ovete-s-ogranicheniya-po-klyuchovi-patishta-zaradi-ochakvan-zasilen-trafik",
+      "url": "https://www.bgonair.bg/a/187-vremeto-on-air/426659-zhega-bez-kray-temperaturite-otnovo-shte-dostignat-40-gradusa",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "България стана батерията на Източна Европа, износът на ток е рекорден",
+      "desc": "Екстремните горещини, рекордните суши и спадът в нивата на европейските реки подложиха на тежък тест енергийните системи в Централна и Източна Европа в разгара на лятото. В тази сложна обстановка България се утвърждава като остров на стабилност и ключов балансьор на електроенергийния пазар на Балкан",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/162795-balgariya-stana-bateriyata-na-iztochna-evropa-iznosat-na-tok-e-rekorden",
+      "date": "2026-08-07",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Конституционният съд разглежда жалбата срещу Бюджет 2026 - News24sofia.eu",
+      "desc": "Конституционният съд разглежда жалбата срещу Бюджет 2026 News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkc0Wl95NmFJcFhkZ2tGd1laaFlDQWluWkVFQ09UVjIxdFB4cjFOeUxwclY2emFDWFN2YVl3cGVGWkpzZExXYkEyUHFGa05XVXpXck10MlZoNnRJeUZvbGp2cklUY2FDZndGN2IzbDEySmtOYXgtc3BMU3MwOUNMUWpPZWtqaFI5dHc?oc=5",
+      "date": "2026-08-06",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 - News24sofia.eu",
+      "desc": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblRRdXlBcDZrdXcyNnlLT180T1UxbzBmbkhnR2I1Rm1nR2l3R2FoVlF1dkM1NDRieU9nQWhDZ01hM3VZcDZRb2UwU1JiZ2NmaGEyWUtaWHpTVkY5a3lYbUxKUUtnZVdZamlfaWwyY2ZKU2J0dmJKelNxVG1MNDhaMjJwWlBkSV9UNGF4RVhzZWFrbjhYOHYtWWIxTlVGU0FjWnRv?oc=5",
+      "date": "2026-08-06",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Advancing Corridor 8: Major Financial Backing and Bilateral Progress for the Balkans' Key Railway Link - BGNES",
+      "desc": "Advancing Corridor 8: Major Financial Backing and Bilateral Progress for the Balkans' Key Railway Link BGNES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX0RWejFuREpSY2doZmJTU3V3WVpQb0hVV256a3dvMXJHNzlWTF9TWHplZVRmTGdNYVBtcGpuUV9RNk9JcTliSEtQbzJqdkI4dWo5cDdaMUs5R1d6dzJhOVk3S0pRTno3VHhtaWFuUTFseGg3TEVrc1ZZTjg0UlJXejFZSVl1RXF2SWlfa2xWWFRRenk1a1dodVZRNkJGMkR5OW5HQ21Ua3FxXzAyVngwS0dvZmtuRUY3LUhhS3k2aVVoY2swWjVEb0JB?oc=5",
+      "date": "2026-08-06",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel - БТА",
+      "desc": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel БТА",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORy1qcXlaanFMSjBGeUdnaU9zaThaQzhLTnNjOVB6OE85QTlWQnpQNzJZRmloZ3dlWF9qVlNJWE5GR1pzS0pfajhObk1qaGI2MXlrNUhXQUI0NWJlRTZqNlNrLUF1SEtTaktXSHd1TnNfYmJJOEszX2VZbTVjMkxjb0JhUlNYRk9Gay1YU1dSN0laQVNlelc2amhxTWxRZFV5SE4teW82Sk5rUmtKTDBXZ1VScUd0dFl6dkg3eDJR?oc=5",
+      "date": "2026-08-06",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Пожар избухна в столичния квартал \"Левски Г\", пламъците обхванаха 500 метра сухи треви",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426660-pozhar-izbuhna-v-stolichniya-kvartal-levski-g-plamatsite-obhvanaha-500-metra-suhi-trevi",
       "date": "2026-08-06",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Вълна от горещини: Повече вода и сянка срещу високите температури",
+      "title": "Славчо Велков: Поскъпването на дизела е удар по националната сигурност, измерим с такъв от ракети",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426610-valna-ot-goreshtini-poveche-voda-i-syanka-sreshtu-visokite-temperaturi",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426658-slavcho-velkov-poskapvaneto-na-dizela-e-udar-po-natsionalnata-sigurnost-izmerim-s-takav-ot-raketi",
       "date": "2026-08-06",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Преображение Господне събра вярващи и пазители на традицията в Преображенския манастир",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426608-preobrazhenie-gospodne-sabra-vyarvashti-i-paziteli-na-traditsiyata-v-preobrazhenskiya-manastir",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
+      "title": "Министерският съвет започва работа по Бюджет 2027, одобрена е процедурата - vratsa.eu",
+      "desc": "Министерският съвет започва работа по Бюджет 2027, одобрена е процедурата vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0ktT3Z2b2VLQWVTemdqZVpDeVlwaTBqVFozemdKbUV4RUZJaF9MUENJWGZ1cWZSa2ZrOWIyS1d2MTRTcGlZZm50b3lNeEU3SldqRGgwM1VjSnN1SS0xRWRKZU1ZeldxQ0FxQm5XUy00cnYtNWhPMmg0UXRUVl9EejZsVVBIbzBrWVlXNnJEQ0J3ZlRHWUFocDltbEdWUDRibEdUQlBEZ0xkLURQUkN3SWJCRHNiQQ?oc=5",
+      "date": "2026-08-05",
+      "source": "Google News BG",
       "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
-      "title": "Дунав достигна критично ниски нива на водата, Унгария се готви за енергийна криза",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426605-dunav-dostigna-kritichno-niski-niva-na-vodata-ungariya-se-gotvi-za-energiyna-kriza",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
+      "title": "КС образува дело по искане на омбудсмана заради заключителни разпоредби от Бюджет' 2026 - vratsa.eu",
+      "desc": "КС образува дело по искане на омбудсмана заради заключителни разпоредби от Бюджет' 2026 vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVMxVHVTamZmcGpoSXRPbnctTGdhUjhuOHNfc192Sy1qdkQwNlE5V0lhaDl0eXV6TlVZY2pSRnF3em14b040Y24yMERWM2xvRExKbjdjSmlJZFFwV29vSmdHWk1UV1NKczlPOF81Wmo3Z1NwVndmQW5Hb3E3SXJNa1J6LWU2Q1ZxREFyUkpSWkhPNHhwcDVFWDNxUjVNcTNmTHFjekRVQXdOM0piYkFOS1g3bXA5UFExR19zUEJVSEpKQ2hnWG55Y3V3?oc=5",
+      "date": "2026-08-05",
+      "source": "Google News BG",
       "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев даде голяма заявка за космическия и отбранителен център в Доброславци",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426603-radev-dade-golyama-zayavka-za-kosmicheskiya-i-otbranitelen-tsentar-v-dobroslavtsi",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кардиологът доц. Цонев даде безценни съвети как да оцелеем в горещините",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426598-kardiologat-dots-tsonev-dade-beztsenni-saveti-kak-da-otseleem-v-goreshtinite",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Има недостиг на кръв от отрицателните групи, ежедневно са необходими за операции",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426597-ima-nedostig-na-krav-ot-otritsatelnite-grupi-ezhednevno-sa-neobhodimi-za-operatsii",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дори малка доза фентанил може да е смъртоносна, смесването на дрога води до самоубийство",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426595-dori-malka-doza-fentanil-mozhe-da-e-smartonosna-smesvaneto-na-droga-vodi-do-samoubiystvo",
-      "date": "2026-08-06",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
+      "topic": "eu"
     },
     {
       "title": "Съкратени програмисти с огромни ипотеки могат да обявят личен фалит",
@@ -100,15 +163,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
-    },
-    {
-      "title": "Емил Кирилов: Най-добрата стратегия за България е технологичния трансфер от Азия",
-      "desc": "България разполага с богат инженерен ресурс, но за да изгради конкурентоспособна хардуерна индустрия, е нужен преход от аутсорсинг модела към създаване на завършени продукти с висока добавена стойност. Това коментира Емил Кирилов, съосновател и изпълнителен директор на Zekeng, в предаването &bdquo;Б",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/162679-emil-kirilov-nay-dobrata-strategiya-za-balgariya-e-tehnologichniya-transfer-ot-aziya",
-      "date": "2026-08-04",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
     }
   ]
 }
