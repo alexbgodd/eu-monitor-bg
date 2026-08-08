@@ -1,101 +1,182 @@
 {
-  "updated": "2026-08-07 10:25",
-  "count": 19,
+  "updated": "2026-08-08 07:17",
+  "count": 25,
   "items": [
     {
-      "title": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub - The Recursive",
-      "desc": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub The Recursive",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53OEgtaFJWSFBVMWJtS3ZXeVUwRHlrb3k0RGtBSzVWVFh5SEhDbDVDZlBSbG41WGxTZ1Z4SHZ6NHI4NGczYTFJbUZZOHBPNG1hLVRxS2puYjVUcEtCUm90eA?oc=5",
+      "title": "София залага на нов модел за финансиране - news24sofia.eu",
+      "desc": "София залага на нов модел за финансиране news24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTJrWEU3OWh1ckpZNVI3dTE4UjdYNVpTTmVuaEVmbVl5dU5XbWdLeVJSQTNNSlZwVDJWelVZUVZqNlpLYzNkcmRSYnpSZ0hzdHc5cDF5SldLdjBMY3JqYmx5U3RmcTFQUHlRby00cFJFOFZoOTluTGkzT3ZpTExQbzlXRVczZFBJaWZR?oc=5",
+      "date": "2026-08-08",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Дунав продължава да спада, нивото при Русе вече е 109 см под условната нула",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426775-dunav-prodalzhava-da-spada-nivoto-pri-ruse-veche-e-109-sm-pod-uslovnata-nula",
+      "date": "2026-08-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "38 градуса и риск за здравето: Оранжев код за опасни жеги в 21 области",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426767-38-gradusa-i-risk-za-zdraveto-oranzhev-kod-za-opasni-zhegi-v-21-oblasti",
+      "date": "2026-08-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Църковен празник на 8 август: Какво носи денят на Св. Мирон и какво не бива да правим",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426758-tsarkoven-praznik-na-8-avgust-kakvo-nosi-denyat-na-sv-miron-i-kakvo-ne-biva-da-pravim",
+      "date": "2026-08-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Чистката във финансовото министерство започва: Гълъб Донев съкращава близо 6% от персонала - vratsa.eu",
+      "desc": "Чистката във финансовото министерство започва: Гълъб Донев съкращава близо 6% от персонала vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXgxVG1uMjFkU1g4cGl5ZFFWT2daVUR6U2FUZDNNeHJNRWx4SGlHOElDRUNtdlhSU3VCQjRhZzNpWHI2dTJPTFJMeDI4a2pXSWlXSVpteHZoVnhoUVBUTkpYU1VEcWgxVTJjRnQ2ZW1xUTBLOEJSd1RZd0dya1RVejROWFlVMkJCTlZBMXhJWVZ5R0VVeU5mTC1ZdjRpZTY4TkFQM3NzemdWbDNETVNGSURSSFU5LWhSdlBHYko1ZHZpMFhNQ19LSXZR?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "EU R&D government allocations up by 61% in 10 years - European Commission",
+      "desc": "EU R&D government allocations up by 61% in 10 years European Commission",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlczVrQmlXLVpEMmcyYjBjbVNqOVBVVGF4NWZtSERTaFNmaEViT1hqLThZeWRqYjl3b0pYMWV0N1hlOVU2WGRVUlR4Y2NLdUJoRjJzVjY3Y002VTEzX19qWHVibTJ5MUVnNGlKbGJQY1hqelkwY1UzNk9vMnpGZw?oc=5",
       "date": "2026-08-07",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Корабът на \"Грийнпийс\" акостира във Варна и отваря врати за посетители",
+      "title": "EU boosts R&D spending by 60% in a decade, but disparities linger - The Brussels Times",
+      "desc": "EU boosts R&D spending by 60% in a decade, but disparities linger The Brussels Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXIxWU5GQUdrQndzQmhNQjJnSTlVYjhCUUh3dEVtTDFRNUZUX09oRlVuMTczVXg2TG1vbU8wZWJjVkptUXhabXNoRjRmaEd6SnJ0T3R0NGZlQUhybkQ4YVVKYlNETEQ3LVVRdWFWNkhhTzdhak93R21rVGtCNE0xZ0k5Mlp5ODZjU2ZwR2ZfUnFsUXgwWWxXQ2t4VVpYRC05ZXZ1SGhTTWxaOXIzcEhYbGZR?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub - therecursive.com",
+      "desc": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub therecursive.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMGowSjc1YkVGNTkzbTVxMkxwZjBhQkFtRzZkcHpxbXdndFJ5WUVSSklNSWowNlQxY1RKVlc5U0hrVE1na0pHcEp3R3czTnJ2RURtbFZYOTVsSzVXSlM3S0lYbHNJQQ?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 - Azərtac",
+      "desc": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 Azərtac",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZkNPbnI4c01uVWNkeE5xWWxfZnJvNGtzSjM2dml4TDJrZkRPblZWY3dXWVpHaVUyY0U3b3ByU2NmZlpTRm9MQzFfa3BVZ1lYWDZqN0dGblNJTEx2R2M1eEo0X1oxQS1rdVJ3Nm9BZlBmUC00dkhrcmJ5UGRxOWRSNldBNTRNSnExN1NDaXpNU192aGtuU2hUUUNValBzNDd2VHI0eTg0Q3pQdW8zZFpCX25vX0oybjJZcVBnaU83dUJ0ajRBbHJMLWc2b3hsZ3lP?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "EU governments increase R&D spending to over €130bn - businessplus.ie",
+      "desc": "EU governments increase R&D spending to over €130bn businessplus.ie",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BNWVUa3N1WFB5MjUxTmg3MmNUUmJrUll1V3VkMGMzZkttMm9URkxuQ1BwVzNKYXZ2WkdJTVhWUC1qT21qZnE1TFVRR3JZdVMtcnpSajNzRS15X0ZzRkVXaTI4MmhaOFk?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania - Romania Insider",
+      "desc": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania Romania Insider",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvNDd5UlVycmNyRldGWjNvOUJ1NXFIYU1mRGVlVEpocDk5TlhKM3VaVHU5U3BfOUtsQ1ExRTZsOUl6MVVjMFlTcFVpcWJHT3NRV0ZmMVNFQWRSY2RtNWpsSFNONjNrajdxcl9OeE5aOFE3QdIBd0FVX3lxTE4tWTFjSVFPWXBuM1d3UElxZ3VXY0QwbUx3ekpKdm5maHhBeEJpZWw0djdFamlKdXB5OW9lRks4dGZFMUk2cUMtS0dRWFJPLVItOTBfamk2NE1JejNxakJ0NW1TdHdzaXo2NDY5bW5FaXBqUGplMTVR?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Kosovo Could Lose More Than €100 Million in EU Funds Due to Institutional Deadlock - BGNES",
+      "desc": "Kosovo Could Lose More Than €100 Million in EU Funds Due to Institutional Deadlock BGNES",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTGZhbGpTVjJUZEVEbnRCUmN4emdmdjR1NnQyMUdURlBhQmROWE56TjgybkFlRk9Ia20yTm1PX2dLUzFsZDI4QzRCclZ4bzhTN0plU0ZLRmdUejExT2VOaGJEMGdRTHdFMzJfcDQxdzdCallsYnJGc2xMeVU5SHJwZVlEc0pVV2lYVjExVlktaS1ERHpQNmtHTTVxalVnWktfeDM3ZUV4MlFqVEVHQkdHY3h5clROcWQzeWc?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds - Demócrata",
+      "desc": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDdoYlJDdk91V1pXdFcxMGl1dVNSYW1oeEo5Z1ZtN3o4aXJvTjN5Wm9XWXJJM1p4dXB3LU5xck5KbWdMZlU5OWVrc0w3a1ZiS2dPSEoxZ05zdTlld0VuMU9EeWl0R2tLVEFNT1U4MU14MVBpUWNzX0hTNlJSX25TYTRJZ2F3d3ZDc0R5MF9jaUhkUdIBlwFBVV95cUxOeE5IblJOeDBzZkJick5FRkZ5RGxVYUhtb21xOG9XamNEZ0pMXzcxSVFVb19fODRMODRGMmZNRXkxSGNseTN2SDhPZzhsZFk0RHBpYUZsLURNdEV0VWVwdGVuSTNZQ3k5bk4wdmFuTkJNSl9rUkVhM3ZKNE5BU3NocExuNkJTRkhCZklMTjJOUGpVa3NBTTFj?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Филип Гунев: Смяната на директори в МВР не е реформа, а порочна практика",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426700-korabat-na-griynpiys-akostira-vav-varna-i-otvarya-vrati-za-posetiteli",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426756-filip-gunev-smyanata-na-direktori-v-mvr-ne-e-reforma-a-porochna-praktika",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Наближава краят на двойното етикетиране в левове и евро по магазините",
+      "title": "Три смени по 8 часа и два отчета дневно: Как действа мрежата за фентанил",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426698-nablizhava-krayat-na-dvoynoto-etiketirane-v-levove-i-evro-po-magazinite",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426755-tri-smeni-po-8-chasa-i-dva-otcheta-dnevno-kak-deystva-mrezhata-za-fentanil",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Противоречиви версии на шофьора и свидетел за сваленото момче от автобус край Плевен",
+      "title": "Министър Ефремова: Минималната заплата няма да е 620,20 евро, ще искам повече средства за майките",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426696-protivorechivi-versii-na-shofyora-i-svidetel-za-svalenoto-momche-ot-avtobus-kray-pleven",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426754-ministar-efremova-minimalnata-zaplata-nyama-da-e-62020-evro-shte-iskam-poveche-sredstva-za-maykite",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "БАБХ откри огнище на африканска чума по свинете край Варна",
+      "title": "България иска извънредна помощ от ЕК за производителите на мляко и свинско",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426694-babh-otkri-ognishte-na-afrikanska-chuma-po-svinete-kray-varna",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426748-balgariya-iska-izvanredna-pomosht-ot-ek-za-proizvoditelite-na-mlyako-i-svinsko",
+      "date": "2026-08-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Близки, приятели и колеги изпратиха Димитър Шумналиев в последния му път",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426741-blizki-priyateli-i-kolegi-izpratiha-dimitar-shumnaliev-v-posledniya-mu-pat",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Министърът на транспорта за сваленото момче от автобуса: Липсва човечност, това не е приемливо",
+      "title": "След всяка катастрофа - обещания и проверки: Колко още жертви са нужни за реални действия?",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426693-ministarat-na-transporta-za-svalenoto-momche-ot-avtobusa-lipsva-chovechnost-tova-ne-e-priemlivo",
+      "url": "https://www.bgonair.bg/a/157-direktno/426739-sled-vsyaka-katastrofa-obeshtaniya-i-proverki-kolko-oshte-zhertvi-sa-nuzhni-za-realni-deystviya",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "\"Искам бебе\": България вече е демографска пустиня, а промените ще забавят инвитро процедурите",
+      "title": "Столичният инспекторат въвежда боди камери при проверките на строителните обекти",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426690-iskam-bebe-balgariya-veche-e-demografska-pustinya-a-promenite-shte-zabavyat-invitro-protsedurite",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "КНСБ управлява първия в Европа AI за трудовата сфера: \"Чавдар\" помага за заплати и трудови казуси",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426688-knsb-upravlyava-parviya-v-evropa-ai-za-trudovata-sfera-chavdar-pomaga-za-zaplati-i-trudovi-kazusi",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Хотелиер: Слънчев бряг е пълен на 100%, пръска се по шевовете от туристи",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426687-hotelier-slanchev-bryag-e-palen-na-100-praska-se-po-shevovete-ot-turisti",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "туризъм"
-    },
-    {
-      "title": "Криминален психолог за убийството в Пловдив: Действали са като глутница, жертвата е била обезличена",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426686-kriminalen-psiholog-za-ubiystvoto-v-plovdiv-deystvali-sa-kato-glutnitsa-zhertvata-e-bila-obezlichena",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Експерт: Печалбата, която реализира АЕЦ \"Козлодуй\", е обидно ниска",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426684-ekspert-pechalbata-koyato-realizira-aets-kozloduy-e-obidno-niska",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426734-stolichniyat-inspektorat-vavezhda-bodi-kameri-pri-proverkite-na-stroitelnite-obekti",
       "date": "2026-08-07",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -111,8 +192,8 @@
       "topic": "eu"
     },
     {
-      "title": "Конституционният съд разглежда жалбата срещу Бюджет 2026 - News24sofia.eu",
-      "desc": "Конституционният съд разглежда жалбата срещу Бюджет 2026 News24sofia.eu",
+      "title": "Конституционният съд разглежда жалбата срещу Бюджет 2026 - news24sofia.eu",
+      "desc": "Конституционният съд разглежда жалбата срещу Бюджет 2026 news24sofia.eu",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkc0Wl95NmFJcFhkZ2tGd1laaFlDQWluWkVFQ09UVjIxdFB4cjFOeUxwclY2emFDWFN2YVl3cGVGWkpzZExXYkEyUHFGa05XVXpXck10MlZoNnRJeUZvbGp2cklUY2FDZndGN2IzbDEySmtOYXgtc3BMU3MwOUNMUWpPZWtqaFI5dHc?oc=5",
       "date": "2026-08-06",
       "source": "Google News BG",
@@ -120,12 +201,21 @@
       "topic": "eu"
     },
     {
-      "title": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 - News24sofia.eu",
-      "desc": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 News24sofia.eu",
+      "title": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 - news24sofia.eu",
+      "desc": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 news24sofia.eu",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblRRdXlBcDZrdXcyNnlLT180T1UxbzBmbkhnR2I1Rm1nR2l3R2FoVlF1dkM1NDRieU9nQWhDZ01hM3VZcDZRb2UwU1JiZ2NmaGEyWUtaWHpTVkY5a3lYbUxKUUtnZVdZamlfaWwyY2ZKU2J0dmJKelNxVG1MNDhaMjJwWlBkSV9UNGF4RVhzZWFrbjhYOHYtWWIxTlVGU0FjWnRv?oc=5",
       "date": "2026-08-06",
       "source": "Google News BG",
       "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel - bta.bg",
+      "desc": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel bta.bg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORy1qcXlaanFMSjBGeUdnaU9zaThaQzhLTnNjOVB6OE85QTlWQnpQNzJZRmloZ3dlWF9qVlNJWE5GR1pzS0pfajhObk1qaGI2MXlrNUhXQUI0NWJlRTZqNlNrLUF1SEtTaktXSHd1TnNfYmJJOEszX2VZbTVjMkxjb0JhUlNYRk9Gay1YU1dSN0laQVNlelc2amhxTWxRZFV5SE4teW82Sk5rUmtKTDBXZ1VScUd0dFl6dkg3eDJR?oc=5",
+      "date": "2026-08-06",
+      "source": "Google News EN",
+      "lang": "en",
       "topic": "eu"
     },
     {
@@ -136,42 +226,6 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel - БТА",
-      "desc": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel БТА",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORy1qcXlaanFMSjBGeUdnaU9zaThaQzhLTnNjOVB6OE85QTlWQnpQNzJZRmloZ3dlWF9qVlNJWE5GR1pzS0pfajhObk1qaGI2MXlrNUhXQUI0NWJlRTZqNlNrLUF1SEtTaktXSHd1TnNfYmJJOEszX2VZbTVjMkxjb0JhUlNYRk9Gay1YU1dSN0laQVNlelc2amhxTWxRZFV5SE4teW82Sk5rUmtKTDBXZ1VScUd0dFl6dkg3eDJR?oc=5",
-      "date": "2026-08-06",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Министерският съвет започва работа по Бюджет 2027, одобрена е процедурата - vratsa.eu",
-      "desc": "Министерският съвет започва работа по Бюджет 2027, одобрена е процедурата vratsa.eu",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0ktT3Z2b2VLQWVTemdqZVpDeVlwaTBqVFozemdKbUV4RUZJaF9MUENJWGZ1cWZSa2ZrOWIyS1d2MTRTcGlZZm50b3lNeEU3SldqRGgwM1VjSnN1SS0xRWRKZU1ZeldxQ0FxQm5XUy00cnYtNWhPMmg0UXRUVl9EejZsVVBIbzBrWVlXNnJEQ0J3ZlRHWUFocDltbEdWUDRibEdUQlBEZ0xkLURQUkN3SWJCRHNiQQ?oc=5",
-      "date": "2026-08-05",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "КС образува дело по искане на омбудсмана заради заключителни разпоредби от Бюджет' 2026 - vratsa.eu",
-      "desc": "КС образува дело по искане на омбудсмана заради заключителни разпоредби от Бюджет' 2026 vratsa.eu",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVMxVHVTamZmcGpoSXRPbnctTGdhUjhuOHNfc192Sy1qdkQwNlE5V0lhaDl0eXV6TlVZY2pSRnF3em14b040Y24yMERWM2xvRExKbjdjSmlJZFFwV29vSmdHWk1UV1NKczlPOF81Wmo3Z1NwVndmQW5Hb3E3SXJNa1J6LWU2Q1ZxREFyUkpSWkhPNHhwcDVFWDNxUjVNcTNmTHFjekRVQXdOM0piYkFOS1g3bXA5UFExR19zUEJVSEpKQ2hnWG55Y3V3?oc=5",
-      "date": "2026-08-05",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Съкратени програмисти с огромни ипотеки могат да обявят личен фалит",
-      "desc": "След години на дебати и приемането на Закона за несъстоятелност на физическите лица (ЗНФЛ) през юли 2023 г., процедурата по личен фалит в България вече функционира практически. От Агенцията по вписванията потвърдиха старта на електронния Регистър по несъстоятелност, който създава самостоятелна елект",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/162713-sakrateni-programisti-s-ogromni-ipoteki-mogat-da-obyavyat-lichen-falit",
-      "date": "2026-08-05",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
     }
   ]
 }
