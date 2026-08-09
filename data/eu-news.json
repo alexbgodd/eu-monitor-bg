@@ -1,87 +1,123 @@
 {
-  "updated": "2026-08-08 10:02",
-  "count": 25,
+  "updated": "2026-08-09 07:18",
+  "count": 21,
   "items": [
     {
-      "title": "София залага на нов модел за финансиране - News24sofia.eu",
-      "desc": "София залага на нов модел за финансиране News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTJrWEU3OWh1ckpZNVI3dTE4UjdYNVpTTmVuaEVmbVl5dU5XbWdLeVJSQTNNSlZwVDJWelVZUVZqNlpLYzNkcmRSYnpSZ0hzdHc5cDF5SldLdjBMY3JqYmx5U3RmcTFQUHlRby00cFJFOFZoOTluTGkzT3ZpTExQbzlXRVczZFBJaWZR?oc=5",
-      "date": "2026-08-08",
-      "source": "Google News BG",
+      "title": "Нивото на река Дунав се повишава при Никопол и Лом",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426841-nivoto-na-reka-dunav-se-povishava-pri-nikopol-i-lom",
+      "date": "2026-08-09",
+      "source": "BG ON AIR",
       "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ефтимов за дрона край Кардам: Няма данни за преднамерени действия срещу България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426837-eftimov-za-drona-kray-kardam-nyama-danni-za-prednamereni-deystviya-sreshtu-balgariya",
+      "date": "2026-08-09",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето днес: Жеги до 35 градуса с гръмотевични бури и опасност от градушки",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426835-vremeto-dnes-zhegi-do-35-gradusa-s-gramotevichni-buri-i-opasnost-ot-gradushki",
+      "date": "2026-08-09",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "The EU has added another €30 million to Ukraine's energy fund - UA.NEWS",
+      "desc": "The EU has added another €30 million to Ukraine's energy fund UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdm11X1p6VDU3ZjdmUTc0cUstQWl3dFVoOEI5XzlYNkFISHFTdXN5bklUbFBvQkVYTF9fRXVfMEV3RFl1Y21VdUVTYXdha05hN3ExVkFPVlE3NV9RVndtUWJ3MlRWYnpaUVJWUGNKX2pqb0VZeWUzbkY0LXRFLUNzV2RwT3JzZXBKUzltd01RXzc4bk0?oc=5",
+      "date": "2026-08-08",
+      "source": "Google News EN",
+      "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Тежка катастрофа с четири коли и трима пострадали затвори пътя Русе-Николово",
+      "title": "Военноморските сили отбелязаха 147 години от създаването си",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426790-tezhka-katastrofa-s-chetiri-koli-i-trima-postradali-zatvori-patya-ruse-nikolovo",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426827-voennomorskite-sili-otbelyazaha-147-godini-ot-sazdavaneto-si",
+      "date": "2026-08-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "90-годишен мъж от Кобиляне е в неизвестност",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426822-90-godishen-mazh-ot-kobilyane-e-v-neizvestnost",
       "date": "2026-08-08",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Дрон е нахлул в българското въздушно пространство",
+      "title": "Потребители: Цените растат след въвеждането на еврото (ВИДЕО)",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426788-dron-e-nahlul-v-balgarskoto-vazdushno-prostranstvo",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426820-potrebiteli-tsenite-rastat-sled-vavezhdaneto-na-evroto-video",
       "date": "2026-08-08",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Министър Абровски: Дигитализацията на ловния сектор е следващата стъпка",
+      "title": "Експерт: България няма готовност за защита от дронове",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426785-ministar-abrovski-digitalizatsiyata-na-lovniya-sektor-e-sledvashtata-stapka",
-      "date": "2026-08-08",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "ит"
-    },
-    {
-      "title": "Главчев отрече да проверява собствената си работа като служебен премиер",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426779-glavchev-otreche-da-proveryava-sobstvenata-si-rabota-kato-sluzheben-premier",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426819-ekspert-balgariya-nyama-gotovnost-za-zashtita-ot-dronove",
       "date": "2026-08-08",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Дунав разкри останките на гигантски римски мост край Гиген (+СНИМКИ)",
+      "title": "Над 6000 декара изгоряха при пожара край Асеновград, огънят е овладян",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426778-dunav-razkri-ostankite-na-gigantski-rimski-most-kray-gigen-snimki",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426818-nad-6000-dekara-izgoryaha-pri-pozhara-kray-asenovgrad-oganyat-e-ovladyan",
       "date": "2026-08-08",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Дунав продължава да спада, нивото при Русе вече е 109 см под условната нула",
+      "title": "МО: Дронът край Кардам е украински, инцидентът не е преднамерен",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426775-dunav-prodalzhava-da-spada-nivoto-pri-ruse-veche-e-109-sm-pod-uslovnata-nula",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426814-mo-dronat-kray-kardam-e-ukrainski-intsidentat-ne-e-prednameren",
       "date": "2026-08-08",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "38 градуса и риск за здравето: Оранжев код за опасни жеги в 21 области",
+      "title": "Пожари горят край Асеновград, Бобошево и Хасково - има засегнати къщи и затворен път",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426767-38-gradusa-i-risk-za-zdraveto-oranzhev-kod-za-opasni-zhegi-v-21-oblasti",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426813-pozhari-goryat-kray-asenovgrad-boboshevo-i-haskovo-ima-zasegnati-kashti-i-zatvoren-pat",
       "date": "2026-08-08",
       "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дрон е избухнал близо до ключов газопровод в България",
+      "desc": "Дрон с взрив е навлязъл от Румъния и се е взривил на 100 метра от границата, близо до българска компресорна станция. Инцидентът не е причинил щети или жертви, но апаратът не е бил засечен от българските, румънските или НАТО радарите. България ще пренасочи ресурси за засичане на дронове към румънскат",
+      "url": "https://www.bloombergtv.bg/a/2-novini/162834-dron-e-izbuhnal-blizo-do-klyuchov-gazoprovod-v-balgariya",
+      "date": "2026-08-08",
+      "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "социални"
     },
     {
-      "title": "Църковен празник на 8 август: Какво носи денят на Св. Мирон и какво не бива да правим",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426758-tsarkoven-praznik-na-8-avgust-kakvo-nosi-denyat-na-sv-miron-i-kakvo-ne-biva-da-pravim",
-      "date": "2026-08-08",
-      "source": "BG ON AIR",
+      "title": "София залага на нов модел за финансиране - News24sofia.eu",
+      "desc": "София залага на нов модел за финансиране News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SN2dfcEhMUGZEa1VUYkFnZVdKcFZ5R0ZnbkxnSEdRd0czRm01NEl2QklpdVY5MGFSbEFfRFFERmpockpDNUdFUXpaZjExaDFvbGR3MklodGwzUFR6eEp1RVdtM3kzSUhYQm1sanE0ZzQ?oc=5",
+      "date": "2026-08-07",
+      "source": "Google News BG",
       "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
       "title": "Чистката във финансовото министерство започва: Гълъб Донев съкращава близо 6% от персонала - vratsa.eu",
@@ -102,27 +138,9 @@
       "topic": "eu"
     },
     {
-      "title": "EU boosts R&D spending by 60% in a decade, but disparities linger - The Brussels Times",
-      "desc": "EU boosts R&D spending by 60% in a decade, but disparities linger The Brussels Times",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaXIxWU5GQUdrQndzQmhNQjJnSTlVYjhCUUh3dEVtTDFRNUZUX09oRlVuMTczVXg2TG1vbU8wZWJjVkptUXhabXNoRjRmaEd6SnJ0T3R0NGZlQUhybkQ4YVVKYlNETEQ3LVVRdWFWNkhhTzdhak93R21rVGtCNE0xZ0k5Mlp5ODZjU2ZwR2ZfUnFsUXgwWWxXQ2t4VVpYRC05ZXZ1SGhTTWxaOXIzcEhYbGZR?oc=5",
-      "date": "2026-08-07",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub - The Recursive",
-      "desc": "CEE Startup & Tech Weekly: New Space and Defense R&D Hub The Recursive",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMGowSjc1YkVGNTkzbTVxMkxwZjBhQkFtRzZkcHpxbXdndFJ5WUVSSklNSWowNlQxY1RKVlc5U0hrVE1na0pHcEp3R3czTnJ2RURtbFZYOTVsSzVXSlM3S0lYbHNJQQ?oc=5",
-      "date": "2026-08-07",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 - azərtac",
-      "desc": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 azərtac",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZkNPbnI4c01uVWNkeE5xWWxfZnJvNGtzSjM2dml4TDJrZkRPblZWY3dXWVpHaVUyY0U3b3ByU2NmZlpTRm9MQzFfa3BVZ1lYWDZqN0dGblNJTEx2R2M1eEo0X1oxQS1rdVJ3Nm9BZlBmUC00dkhrcmJ5UGRxOWRSNldBNTRNSnExN1NDaXpNU192aGtuU2hUUUNValBzNDd2VHI0eTg0Q3pQdW8zZFpCX25vX0oybjJZcVBnaU83dUJ0ajRBbHJMLWc2b3hsZ3lP?oc=5",
+      "title": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania - Romania Insider",
+      "desc": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania Romania Insider",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvNDd5UlVycmNyRldGWjNvOUJ1NXFIYU1mRGVlVEpocDk5TlhKM3VaVHU5U3BfOUtsQ1ExRTZsOUl6MVVjMFlTcFVpcWJHT3NRV0ZmMVNFQWRSY2RtNWpsSFNONjNrajdxcl9OeE5aOFE3QdIBd0FVX3lxTE4tWTFjSVFPWXBuM1d3UElxZ3VXY0QwbUx3ekpKdm5maHhBeEJpZWw0djdFamlKdXB5OW9lRks4dGZFMUk2cUMtS0dRWFJPLVItOTBfamk2NE1JejNxakJ0NW1TdHdzaXo2NDY5bW5FaXBqUGplMTVR?oc=5",
       "date": "2026-08-07",
       "source": "Google News EN",
       "lang": "en",
@@ -138,9 +156,9 @@
       "topic": "eu"
     },
     {
-      "title": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania - romania-insider.com",
-      "desc": "Survey: Healthcare services, energy, utilities & recycling emerge as top PE investment picks in Romania romania-insider.com",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvNDd5UlVycmNyRldGWjNvOUJ1NXFIYU1mRGVlVEpocDk5TlhKM3VaVHU5U3BfOUtsQ1ExRTZsOUl6MVVjMFlTcFVpcWJHT3NRV0ZmMVNFQWRSY2RtNWpsSFNONjNrajdxcl9OeE5aOFE3QdIBd0FVX3lxTE4tWTFjSVFPWXBuM1d3UElxZ3VXY0QwbUx3ekpKdm5maHhBeEJpZWw0djdFamlKdXB5OW9lRks4dGZFMUk2cUMtS0dRWFJPLVItOTBfamk2NE1JejNxakJ0NW1TdHdzaXo2NDY5bW5FaXBqUGplMTVR?oc=5",
+      "title": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 - azərtac",
+      "desc": "Bulgaria records EU’s largest increase in government R&D budget allocations per capita since 2015 azərtac",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZkNPbnI4c01uVWNkeE5xWWxfZnJvNGtzSjM2dml4TDJrZkRPblZWY3dXWVpHaVUyY0U3b3ByU2NmZlpTRm9MQzFfa3BVZ1lYWDZqN0dGblNJTEx2R2M1eEo0X1oxQS1rdVJ3Nm9BZlBmUC00dkhrcmJ5UGRxOWRSNldBNTRNSnExN1NDaXpNU192aGtuU2hUUUNValBzNDd2VHI0eTg0Q3pQdW8zZFpCX25vX0oybjJZcVBnaU83dUJ0ajRBbHJMLWc2b3hsZ3lP?oc=5",
       "date": "2026-08-07",
       "source": "Google News EN",
       "lang": "en",
@@ -156,31 +174,13 @@
       "topic": "eu"
     },
     {
-      "title": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds - Demócrata",
-      "desc": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds Demócrata",
+      "title": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds - democrata.es",
+      "desc": "Portugal receives 2.320 billion from NextGenerationEU and already exceeds 78% of its funds democrata.es",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbDdoYlJDdk91V1pXdFcxMGl1dVNSYW1oeEo5Z1ZtN3o4aXJvTjN5Wm9XWXJJM1p4dXB3LU5xck5KbWdMZlU5OWVrc0w3a1ZiS2dPSEoxZ05zdTlld0VuMU9EeWl0R2tLVEFNT1U4MU14MVBpUWNzX0hTNlJSX25TYTRJZ2F3d3ZDc0R5MF9jaUhkUdIBlwFBVV95cUxOeE5IblJOeDBzZkJick5FRkZ5RGxVYUhtb21xOG9XamNEZ0pMXzcxSVFVb19fODRMODRGMmZNRXkxSGNseTN2SDhPZzhsZFk0RHBpYUZsLURNdEV0VWVwdGVuSTNZQ3k5bk4wdmFuTkJNSl9rUkVhM3ZKNE5BU3NocExuNkJTRkhCZklMTjJOUGpVa3NBTTFj?oc=5",
       "date": "2026-08-07",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Филип Гунев: Смяната на директори в МВР не е реформа, а порочна практика",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426756-filip-gunev-smyanata-na-direktori-v-mvr-ne-e-reforma-a-porochna-praktika",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Три смени по 8 часа и два отчета дневно: Как действа мрежата за фентанил",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/426755-tri-smeni-po-8-chasa-i-dva-otcheta-dnevno-kak-deystva-mrezhata-za-fentanil",
-      "date": "2026-08-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
     },
     {
       "title": "България стана батерията на Източна Европа, износът на ток е рекорден",
@@ -189,42 +189,6 @@
       "date": "2026-08-07",
       "source": "Bloomberg TV BG",
       "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Конституционният съд разглежда жалбата срещу Бюджет 2026 - News24sofia.eu",
-      "desc": "Конституционният съд разглежда жалбата срещу Бюджет 2026 News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkc0Wl95NmFJcFhkZ2tGd1laaFlDQWluWkVFQ09UVjIxdFB4cjFOeUxwclY2emFDWFN2YVl3cGVGWkpzZExXYkEyUHFGa05XVXpXck10MlZoNnRJeUZvbGp2cklUY2FDZndGN2IzbDEySmtOYXgtc3BMU3MwOUNMUWpPZWtqaFI5dHc?oc=5",
-      "date": "2026-08-06",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 - News24sofia.eu",
-      "desc": "ОМБУДСМАНЪТ НАТИСНА КС: Иска бързо решение за спорните текстове в Бюджет 2026 News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblRRdXlBcDZrdXcyNnlLT180T1UxbzBmbkhnR2I1Rm1nR2l3R2FoVlF1dkM1NDRieU9nQWhDZ01hM3VZcDZRb2UwU1JiZ2NmaGEyWUtaWHpTVkY5a3lYbUxKUUtnZVdZamlfaWwyY2ZKU2J0dmJKelNxVG1MNDhaMjJwWlBkSV9UNGF4RVhzZWFrbjhYOHYtWWIxTlVGU0FjWnRv?oc=5",
-      "date": "2026-08-06",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel - БТА",
-      "desc": "North Macedonia PM: Bulgaria, North Macedonia Committed to Building Corridor VIII Railway Tunnel БТА",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORy1qcXlaanFMSjBGeUdnaU9zaThaQzhLTnNjOVB6OE85QTlWQnpQNzJZRmloZ3dlWF9qVlNJWE5GR1pzS0pfajhObk1qaGI2MXlrNUhXQUI0NWJlRTZqNlNrLUF1SEtTaktXSHd1TnNfYmJJOEszX2VZbTVjMkxjb0JhUlNYRk9Gay1YU1dSN0laQVNlelc2amhxTWxRZFV5SE4teW82Sk5rUmtKTDBXZ1VScUd0dFl6dkg3eDJR?oc=5",
-      "date": "2026-08-06",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Advancing Corridor 8: Major Financial Backing and Bilateral Progress for the Balkans' Key Railway Link - BGNES",
-      "desc": "Advancing Corridor 8: Major Financial Backing and Bilateral Progress for the Balkans' Key Railway Link BGNES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX0RWejFuREpSY2doZmJTU3V3WVpQb0hVV256a3dvMXJHNzlWTF9TWHplZVRmTGdNYVBtcGpuUV9RNk9JcTliSEtQbzJqdkI4dWo5cDdaMUs5R1d6dzJhOVk3S0pRTno3VHhtaWFuUTFseGg3TEVrc1ZZTjg0UlJXejFZSVl1RXF2SWlfa2xWWFRRenk1a1dodVZRNkJGMkR5OW5HQ21Ua3FxXzAyVngwS0dvZmtuRUY3LUhhS3k2aVVoY2swWjVEb0JB?oc=5",
-      "date": "2026-08-06",
-      "source": "Google News EN",
-      "lang": "en",
       "topic": "eu"
     }
   ]
