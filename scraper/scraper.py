@@ -65,7 +65,7 @@ SOURCES = [
     },
     {
         "name": "Министерство на културата",
-        "url": "https://mc.government.bg/pages.php?cat=22",
+        "url": "https://mc.government.bg/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8/",
         "category": "култура",
         "parser": "mc",
         "base_url": "https://mc.government.bg"
@@ -586,6 +586,29 @@ def parse_mzh(soup, source):
             break
     return programs
 
+# МК страницата е каталог — менюто и архивът изглеждат като програми.
+# Тези филтри пазят само реални покани/програми (виж инцидента 01.08.2026).
+_MC_SKIP_EXACT = {
+    'програми и финансиране', 'всички програми', 'национални програми',
+    'европейски програми', 'конкурси и проекти', 'програми и проекти',
+    'проекти на програми', 'финансиране', 'програми',
+}
+_MC_SKIP_CONTAINS = ['правила, формуляр', 'проекти на програми', 'архив']
+_MC_STALE_YEARS = [str(y) for y in range(2007, 2026)]   # всичко преди текущата година
+
+def mc_is_valid(text):
+    """True само за реални програми/покани от МК (без меню и архив)."""
+    t = (text or '').strip().lower()
+    if not (15 < len(t) < 200):
+        return False
+    if t.rstrip(':').strip() in _MC_SKIP_EXACT:
+        return False
+    if any(x in t for x in _MC_SKIP_CONTAINS):
+        return False
+    if any(y in t for y in _MC_STALE_YEARS):
+        return False
+    return any(w in t for w in ['програм', 'финансир', 'конкурс', 'грант', 'стипенд', 'субсид', 'сесия', 'покана'])
+
 def parse_mc(soup, source):
     """Министерство на културата."""
     programs = []
@@ -599,8 +622,7 @@ def parse_mc(soup, source):
         if not href or href.startswith('#'):
             continue
         full_url = (base + '/' + href) if not href.startswith('http') else href
-        if (text and 10 < len(text) < 200 and text not in seen and
-                any(w in text.lower() for w in ['програм', 'финансир', 'конкурс', 'грант', 'стипенд', 'субсид'])):
+        if text not in seen and mc_is_valid(text):
             seen.add(text)
             programs.append(make_entry(full_url, text, source, ''))
     return programs
