@@ -1,7 +1,88 @@
 {
-  "updated": "2026-08-10 10:42",
-  "count": 17,
+  "updated": "2026-08-11 07:39",
+  "count": 16,
   "items": [
+    {
+      "title": "България спешно да си партнира с Украйна за ПВО и дронове, призовават експерти",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427020-balgariya-speshno-da-si-partnira-s-ukrayna-za-pvo-i-dronove-prizovavat-eksperti",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Водна криза в Свищовско наложи обявяването на бедствено положение",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427018-vodna-kriza-v-svishtovsko-nalozhi-obyavyavaneto-na-bedstveno-polozhenie",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БАБХ забранява придвижването на овце и кози до храмовете за Голяма Богородица",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427015-babh-zabranyava-pridvizhvaneto-na-ovtse-i-kozi-do-hramovete-za-golyama-bogoroditsa",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Активисти на \"Грийнпийс\" нашариха танкера \"Кайрос\" край Бургас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427013-aktivisti-na-griynpiys-nashariha-tankera-kayros-kray-burgas",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Автобус блъсна майка и детето ѝ на пешеходна пътека в Свети Влас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427006-avtobus-blasna-mayka-i-deteto-na-peshehodna-pateka-v-sveti-vlas",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дунав падна до минус 101 см при Оряхово",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427005-dunav-padna-do-minus-101-sm-pri-oryahovo",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Взривът в \"ЕМКО\": Шефът на завода не изключва човешка грешка",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427001-vzrivat-v-emko-shefat-na-zavoda-ne-izklyuchva-choveshka-greshka",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Променят движението по \"Тракия\" и \"Хемус\" заради подмяна на тол камери",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426998-promenyat-dvizhenieto-po-trakiya-i-hemus-zaradi-podmyana-na-tol-kameri",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Украйна загуби изтребител МиГ-29, Зеленски разкри помощта на КНДР за Русия",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/4-world/426996-ukrayna-zagubi-iztrebitel-mig-29-zelenski-razkri-pomoshtta-na-kndr-za-rusiya",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
     {
       "title": "Bulgaria's energy reinvention: Stored value - Emerging Europe",
       "desc": "Bulgaria's energy reinvention: Stored value Emerging Europe",
@@ -30,90 +111,18 @@
       "topic": "eu"
     },
     {
-      "title": "Пожарът край Бобошево е овладян",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426928-pozharat-kray-boboshevo-e-ovladyan",
+      "title": "Commission greenlights Poland's fifth payment request for €7.9 billion under NextGenerationEU",
+      "desc": "European Commission Press release Brussels, 10 Aug 2026 Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
       "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "source": "European Commission",
+      "lang": "en",
+      "topic": "eu"
     },
     {
-      "title": "Фекални води се изляха в морето край плажа на Свети Влас",
+      "title": "Нинова за убийството в Пловдив: Ако бях съдия - най-високата присъда",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426927-fekalni-vodi-se-izlyaha-v-moreto-kray-plazha-na-sveti-vlas",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Посланикът на Украйна за дрона пред министър Петрова: \"Не сме го насочвали умишлено към България\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426926-poslanikat-na-ukrayna-za-drona-pred-ministar-petrova-ne-sme-go-nasochvali-umishleno-kam-balgariya",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Силен взрив край Трявна: Пожар и експлозии в завод за боеприпаси",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/426924-silen-vzriv-kray-tryavna-pozhar-i-eksplozii-v-zavod-za-boepripasi",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Без пари и без яснота: Около 100 културни събития до края на годината са под въпрос",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426919-bez-pari-i-bez-yasnota-okolo-100-kulturni-sabitiya-do-kraya-na-godinata-sa-pod-vapros",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "\"Скъпо ти е кафето за 2,50? Отиваш и си го взимаш от машината\": Ресторантьор за цените по морето",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426918-skapo-ti-e-kafeto-za-250-otivash-i-si-go-vzimash-ot-mashinata-restorantyor-za-tsenite-po-moreto",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ако имаме продукция, няма да говорим за надценки, според Богомил Николов",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426916-ako-imame-produktsiya-nyama-da-govorim-za-nadtsenki-spored-bogomil-nikolov",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Капитан Данов: Без радари и без ПВО е невъзможно да се води отбрана",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426915-kapitan-danov-bez-radari-i-bez-pvo-e-nevazmozhno-da-se-vodi-otbrana",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Засушаването на Дунав ще продължи, Европа е изправена пред сериозен воден проблем",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426914-zasushavaneto-na-dunav-shte-prodalzhi-evropa-e-izpravena-pred-seriozen-voden-problem",
-      "date": "2026-08-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Явор Куюмджиев: Без АЕЦ \"Козлодуй\" единственото спасение са ТЕЦ-овете",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/426913-yavor-kuyumdzhiev-bez-aets-kozloduy-edinstvenoto-spasenie-sa-tets-ovete",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/426990-ninova-za-ubiystvoto-v-plovdiv-ako-byah-sadiya-nay-visokata-prisada",
       "date": "2026-08-10",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -136,24 +145,6 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "The activities of investment funds will be regulated by a separate law - logos-pres.md",
-      "desc": "The activities of investment funds will be regulated by a separate law logos-pres.md",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0NuMG5iSEZJQU1ySU1aUFVDbVlJTVhoUjRsOEpkT0FVVkpxY044SDBsbktITzdrNkhBVXlmN05nTlFPLTBmQjVvRGRFUmdPU3FWQ29uSzVuUzhTejhnMTAwUE9tY3RuS2dubWtqTEZ6WXdDUjh4ekgxMUVpUElLcVE3WS1tRnFtX21vZXB4cDF0eXpmeUZnalgtNVIzZDVrd3Y0?oc=5",
-      "date": "2026-08-08",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Дрон е избухнал близо до ключов газопровод в България",
-      "desc": "Дрон с взрив е навлязъл от Румъния и се е взривил на 100 метра от границата, близо до българска компресорна станция. Инцидентът не е причинил щети или жертви, но апаратът не е бил засечен от българските, румънските или НАТО радарите. България ще пренасочи ресурси за засичане на дронове към румънскат",
-      "url": "https://www.bloombergtv.bg/a/2-novini/162834-dron-e-izbuhnal-blizo-do-klyuchov-gazoprovod-v-balgariya",
-      "date": "2026-08-08",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "социални"
     }
   ]
 }
