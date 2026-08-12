@@ -1,7 +1,61 @@
 {
-  "updated": "2026-08-11 10:24",
-  "count": 7,
+  "updated": "2026-08-12 07:54",
+  "count": 15,
   "items": [
+    {
+      "title": "Пеликаните в \"Сребърна\" спряха да гнездят, нивото на водата е критично ниско",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427136-pelikanite-v-srebarna-spryaha-da-gnezdyat-nivoto-na-vodata-e-kritichno-nisko",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Детската агресия е заради отсъстващото родителство и културата на тарикатите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427133-detskata-agresiya-e-zaradi-otsastvashtoto-roditelstvo-i-kulturata-na-tarikatite",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Демерджиев сезира главния прокурор за разследването на строителството на пътя Монтана - Видин",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427130-demerdzhiev-sezira-glavniya-prokuror-za-razsledvaneto-na-stroitelstvoto-na-patya-montana-vidin",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожарът в Харманли е локализиран, огънят е засегнал около 1300 декара",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427125-pozharat-v-harmanli-e-lokaliziran-oganyat-e-zasegnal-okolo-1300-dekara",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Затварят плаж в Свети Влас заради замърсяване с отпадни води",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427120-zatvaryat-plazh-v-sveti-vlas-zaradi-zamarsyavane-s-otpadni-vodi",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Овладяха възобновилото се огнище край взривения склад за боеприпаси до Белица",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427118-ovladyaha-vazobnoviloto-se-ognishte-kray-vzriveniya-sklad-za-boepripasi-do-belitsa",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Bulgaria Emerges as EU Leader in Electricity Storage - Novinite.com",
       "desc": "Bulgaria Emerges as EU Leader in Electricity Storage Novinite.com",
@@ -10,6 +64,42 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Пожарът край Белица отново се активизира, пламъците се насочват към Свирци (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427107-pozharat-kray-belitsa-otnovo-se-aktivizira-plamatsite-se-nasochvat-kam-svirtsi-video",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожарът край Дъбрава стигна до къщи, шест постройки са засегнати",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427106-pozharat-kray-dabrava-stigna-do-kashti-shest-postroyki-sa-zasegnati",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ВМРО търси общ патриотичен блок за президентските избори без ГЕРБ, ДПС и \"Възраждане\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427103-vmro-tarsi-obsht-patriotichen-blok-za-prezidentskite-izbori-bez-gerb-dps-i-vazrazhdane",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Тодор Тагарев: Радев харчи с лека ръка отношенията ни с Украйна",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427100-prof-todor-tagarev-radev-harchi-s-leka-raka-otnosheniyata-ni-s-ukrayna",
+      "date": "2026-08-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Bulgaria's energy reinvention: Stored value - Emerging Europe",
@@ -44,24 +134,6 @@
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730",
       "date": "2026-08-10",
       "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Борис Митов за независимата и зависимата журналистка - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "desc": "Борис Митов за независимата и зависимата журналистка СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ncTFyZlFzbVM3OXdNRnNLeUtzbnh6QUlGY2ZsQllzOXhOVEplS1o1dW0ycXFDOUl3MHhUbEdhWGw3QVhYVWhnVkhUUmc5UXZh?oc=5",
-      "date": "2026-08-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Bulgaria Among EU Leaders in R&D Growth as Science Budget Surges - Novinite.com",
-      "desc": "Bulgaria Among EU Leaders in R&D Growth as Science Budget Surges Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVkhuYTRPOWI3SjMtUmh2V0x5OTZ5SmV5ZjRPN083Uk8xLXUxNndBTGpyajlVY0hRdUxoZW9hTE5LSkpneU1WeDBGNktUUVpQT1BqUGZPUy1sazQxQVBoVUhRZkxYRW5NMEtiVHZkbHNzOThIN0VLRjhhQkROVWZyd3daMExHVGdsQk1QUnFXMzVVOGZaYmpEeDhzR25acEpxQWMxSWRFeFVtWnc?oc=5",
-      "date": "2026-08-09",
-      "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     }
