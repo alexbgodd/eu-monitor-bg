@@ -1,11 +1,110 @@
 {
-  "updated": "2026-08-12 07:54",
-  "count": 15,
+  "updated": "2026-08-12 10:34",
+  "count": 17,
   "items": [
+    {
+      "title": "Bulgaria launches 83 mln euro SME green tech grant scheme - SeeNews",
+      "desc": "Bulgaria launches 83 mln euro SME green tech grant scheme SeeNews",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXRsYlAwVTZxZHE4NjdLVHFMMUtsaXM5MUhOaW5uNWI5cWQyd1hJQUstV1Q2MWU3RExJRVI4WkJlb3JrRXVieDhDQmYwczN3Tmc2MlU3akFzelF4cWFwaXNsVXBpN0ZTYldQcUR0TlJhRHFkWThIUnVJYjRKNGlqVk5yU25ob1dVSHVhNmRrMEVmbTFT?oc=5",
+      "date": "2026-08-12",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Innovation Ministry Opens Funding Scheme to Support Green Technologies in Businesses - БТА",
+      "desc": "Innovation Ministry Opens Funding Scheme to Support Green Technologies in Businesses БТА",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb29lb05CQkdaYjZ4MDBpWGwtaDMxdE96SEF0V1BiaUhlT19QdTBHaDBNeGNKSm5zZ3A2eUFyUXY4V1p5TUVRaW9WZUh2UjNkMkV6bUtMOUpNaEo3WS1wYlY4ckVKdEdiRlVPUDZkaGkwQXptRjVDRWdzV21xLTFqM2Y2NFY1WmlLUXlPQVBHV2I2UDVOdTdtR1YxUk1nbWQ4bEZHR1l2X3NHRzRqYWtJRXJ2M2dGM0hodDBRQTFDUTE?oc=5",
+      "date": "2026-08-12",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Започва кандидатстване за 83 млн. евро европейско финансиране за зелени проекти",
+      "desc": "Започва кандидатстване за 83 млн. евро европейско финансиране за зелени проекти. Парите ще дойдат по Програма \"Конкурентоспособност и иновации в предприятията\", се казва в прессъобщение Министерството на иновациите и дигиталната трансформация....",
+      "url": "https://www.dnevnik.bg/burzi-novini/2026/08/12/4944930_bulgarskiiat_biznes_shte_poluchi_blizo_83_mln_evro/?ref=rss",
+      "date": "2026-08-12",
+      "source": "Dnevnik.bg",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Остри реакции срещу Радев след коментара му за убийството в Пловдив",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427149-ostri-reaktsii-sreshtu-radev-sled-komentara-mu-za-ubiystvoto-v-plovdiv",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Черният флаг остава на плаж \"Изток\" в Свети Влас, РЗИ ще взема проби на всеки 48 часа",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427148-cherniyat-flag-ostava-na-plazh-iztok-v-sveti-vlas-rzi-shte-vzema-probi-na-vseki-48-chasa",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Мъж загина след падане от мотоделтапланер в Несебър",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427147-mazh-zagina-sled-padane-ot-motodeltaplaner-v-nesebar",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Версиите на прокуратурата за взрива в завод \"ЕМКО\" край Белица",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427146-versiite-na-prokuraturata-za-vzriva-v-zavod-emko-kray-belitsa",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Треньор на кучета: Децата не знаят как да се държат около животни, отговорността е и на стопанина",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427138-trenyor-na-kucheta-detsata-ne-znayat-kak-da-se-darzhat-okolo-zhivotni-otgovornostta-e-i-na-stopanina",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Радев: Политици и инфлуенсъри опитват да печелят дивиденти от убийството в Пловдив",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427137-radev-polititsi-i-influensari-opitvat-da-pechelyat-dividenti-ot-ubiystvoto-v-plovdiv",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Пеликаните в \"Сребърна\" спряха да гнездят, нивото на водата е критично ниско",
       "desc": "",
       "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427136-pelikanite-v-srebarna-spryaha-da-gnezdyat-nivoto-na-vodata-e-kritichno-nisko",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Законът за етажната собственост не отговаря на съвременния сграден фонд",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427135-zakonat-za-etazhnata-sobstvenost-ne-otgovarya-na-savremenniya-sgraden-fond",
+      "date": "2026-08-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Фалит на \"Топлофикация София\" ще бъде катастрофа, частичната концесия е решение",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427134-falit-na-toplofikatsiya-sofiya-shte-bade-katastrofa-chastichnata-kontsesiya-e-reshenie",
       "date": "2026-08-12",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -21,42 +120,6 @@
       "topic": "култура"
     },
     {
-      "title": "Демерджиев сезира главния прокурор за разследването на строителството на пътя Монтана - Видин",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427130-demerdzhiev-sezira-glavniya-prokuror-za-razsledvaneto-na-stroitelstvoto-na-patya-montana-vidin",
-      "date": "2026-08-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пожарът в Харманли е локализиран, огънят е засегнал около 1300 декара",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427125-pozharat-v-harmanli-e-lokaliziran-oganyat-e-zasegnal-okolo-1300-dekara",
-      "date": "2026-08-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Затварят плаж в Свети Влас заради замърсяване с отпадни води",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427120-zatvaryat-plazh-v-sveti-vlas-zaradi-zamarsyavane-s-otpadni-vodi",
-      "date": "2026-08-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Овладяха възобновилото се огнище край взривения склад за боеприпаси до Белица",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427118-ovladyaha-vazobnoviloto-se-ognishte-kray-vzriveniya-sklad-za-boepripasi-do-belitsa",
-      "date": "2026-08-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "Bulgaria Emerges as EU Leader in Electricity Storage - Novinite.com",
       "desc": "Bulgaria Emerges as EU Leader in Electricity Storage Novinite.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnd0SU1CQW1Vc21udVNubzFoNG1YWHlCQ3BUZS1ad2NRY2t3WVBHTXZwMmtYc2c3cktiV1kwX3J2cnl3MG9WUGt2WlloQXNOSG41OEMwVU1MeEZnZnBaSmRBeE9jTDNCVVl1elhvNm13bXZYVUtxVDlmTkMtWGxTOExLLXc4TDdHY0hwaGZoQ2FHVG9JMlVxZg?oc=5",
@@ -66,44 +129,8 @@
       "topic": "eu"
     },
     {
-      "title": "Пожарът край Белица отново се активизира, пламъците се насочват към Свирци (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427107-pozharat-kray-belitsa-otnovo-se-aktivizira-plamatsite-se-nasochvat-kam-svirtsi-video",
-      "date": "2026-08-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пожарът край Дъбрава стигна до къщи, шест постройки са засегнати",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427106-pozharat-kray-dabrava-stigna-do-kashti-shest-postroyki-sa-zasegnati",
-      "date": "2026-08-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ВМРО търси общ патриотичен блок за президентските избори без ГЕРБ, ДПС и \"Възраждане\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427103-vmro-tarsi-obsht-patriotichen-blok-za-prezidentskite-izbori-bez-gerb-dps-i-vazrazhdane",
-      "date": "2026-08-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Проф. Тодор Тагарев: Радев харчи с лека ръка отношенията ни с Украйна",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427100-prof-todor-tagarev-radev-harchi-s-leka-raka-otnosheniyata-ni-s-ukrayna",
-      "date": "2026-08-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Bulgaria's energy reinvention: Stored value - Emerging Europe",
-      "desc": "Bulgaria's energy reinvention: Stored value Emerging Europe",
+      "title": "Bulgaria's energy reinvention: Stored value - emerging-europe.com",
+      "desc": "Bulgaria's energy reinvention: Stored value emerging-europe.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3Q0Q0Yzd0ZHotU0pvWGZyRUQyOHRSbjRkWDE0anV4MFRmNkEzRXJUU2ZGNHlldm5MTGV1eU9CMzRxSzMwYmllMmdwbXg0cEEtOGsw?oc=5",
       "date": "2026-08-10",
       "source": "Google News EN",
@@ -114,15 +141,6 @@
       "title": "Call for Applications: Renewable Fuel Technologies Procurement - fundsforNGOs",
       "desc": "Call for Applications: Renewable Fuel Technologies Procurement fundsforNGOs",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU3FLZHF2ZEJ1NWRicnhpTUdiOFVNQzVYRlg1UXA3V0ItQ0hhdmVFV0VBYzlHek1GTkV5d0FhNklPLXV5UUFHOWhtQmdCVFNvYzhJUkxMMjRYcGROMjFxZGVHWVJkX1hjMXVxem5yVHdrT3FOcnQ5YWxhOEg4X1otSlM1Nnl5ZDNpNTBGWmVQdVdsaHdHcEJfcGRHRzhQNkNXUi1sUGhfa9IBpwFBVV95cUxNU3FLZHF2ZEJ1NWRicnhpTUdiOFVNQzVYRlg1UXA3V0ItQ0hhdmVFV0VBYzlHek1GTkV5d0FhNklPLXV5UUFHOWhtQmdCVFNvYzhJUkxMMjRYcGROMjFxZGVHWVJkX1hjMXVxem5yVHdrT3FOcnQ5YWxhOEg4X1otSlM1Nnl5ZDNpNTBGWmVQdVdsaHdHcEJfcGRHRzhQNkNXUi1sUGhfaw?oc=5",
-      "date": "2026-08-10",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "European tech weekly recap: €1B in deals and July's highlights - Tech.eu",
-      "desc": "European tech weekly recap: €1B in deals and July's highlights Tech.eu",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNUlSSkpxOVluQ0hhYXFzZnZJUU14N0F5dUk1N0dhVlVLVTZTOERXNV9IZkg4SmkxRE9mbnpuSU9keDIwSE1yRk9tZWtqWV9rMUgzcFhxSVhnc04xZDlyYjhBSDh4UHB6ZTFRR3pfUWFwWXBid3dYeFNJbk1DRnBILVU0ajdrR3oyeGhGZU9NdjVSTzc0?oc=5",
       "date": "2026-08-10",
       "source": "Google News EN",
       "lang": "en",
