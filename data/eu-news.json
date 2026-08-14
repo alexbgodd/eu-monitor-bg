@@ -1,7 +1,97 @@
 {
-  "updated": "2026-08-14 07:52",
-  "count": 19,
+  "updated": "2026-08-14 10:32",
+  "count": 22,
   "items": [
+    {
+      "title": "Два екологични проекта са реализирани в три комплекса за социални услуги в Добрич - Утро Русе",
+      "desc": "Два екологични проекта са реализирани в три комплекса за социални услуги в Добрич Утро Русе",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10b1dDNDBjRy01MzdjRWhIeDRKcEQ3OXhFLTRPZTdTQV9vZEhmdGdpMFhnbzRWRVdNTXBYSGx4VnVwOGxxR1c4WVVNa0VnUdIBSEFVX3lxTE9CdWI4NVpIcmNxdTI0bHJKZngtS2RLSTBTSWIxUVpJb3IwY2dpc0xyZEctdmV6NmwtMkR2ZzhPbEQxdE9IbnBGSg?oc=5",
+      "date": "2026-08-14",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Apply for the MIRAI Educational Exchange Program in Japan (Bulgaria) - fundsforNGOs",
+      "desc": "Apply for the MIRAI Educational Exchange Program in Japan (Bulgaria) fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTjNzdExkWVNIUjdiQ0l6eWYxeWFrWkNxbGNudjNWQ00zaVNqTGpqTzlGMHJhaWQtX2ZNWVJBSXE4YUtuaE1hNUtHWkhnTUhHajUzSFY3NUtzazNrWmVXWk5lQlNtOWJjVnJ1cjc4dXY2TFcxZ3JGSUpEMFExbGMyVmFFbXZCT3hNS1JKMEZVbHBqWjJYRWdaUFZWS28xN0FuR3lEMnAzWC1PRmRRT1HSAa4BQVVfeXFMT04zc3RMZFlTSFI3YkNJenlmMXlha1pDcWxjbnYzVkNNM2lTakxqak85RjByYWlkLV9mTVlSQUlxOGFLbmhNYTVLR1pIZ01IR2o1M0hWNzVLc2sza1plV1pOZUJTbTliY1ZydXI3OHV2NkxXMWdyRklKRDBRMWxjMlZhRW12Qk94TUtSSjBGVWxwaloyWEVnWlBWVktvMTdBbkd5RDJwM1gtT0ZkUU9R?oc=5",
+      "date": "2026-08-14",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Радев: ВВС да се адаптират към новите технологии, дроновете и AI",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427366-radev-vvs-da-se-adaptirat-kam-novite-tehnologii-dronovete-i-ai",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "ит"
+    },
+    {
+      "title": "Борисов за \"Евровизия 2027\": Европа да дойде и да види най-доброто от България (+ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427360-borisov-za-evroviziya-2027-evropa-da-doyde-i-da-vidi-nay-dobroto-ot-balgariya-video",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Три нови станции: Метрото в София вече стига до \"Левски Г\" (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/427358-tri-novi-stantsii-metroto-v-sofiya-veche-stiga-do-levski-g-snimki",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дронове в Приморско и Лозенец вдигнаха военните на крак",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427356-dronove-v-primorsko-i-lozenets-vdignaha-voennite-na-krak",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Археолозите искат нов модел на финансиране и обектите да станат туристически дестинации",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427354-arheolozite-iskat-nov-model-na-finansirane-i-obektite-da-stanat-turisticheski-destinatsii",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев: Новите метростанции правят транспорта по-достъпен за хиляди столичани",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427351-terziev-novite-metrostantsii-pravyat-transporta-po-dostapen-za-hilyadi-stolichani",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Основният проблем на икономиката ни са недостатъчните инвестиции, смята проф. Ганчев",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427345-osnovniyat-problem-na-ikonomikata-ni-sa-nedostatachnite-investitsii-smyata-prof-ganchev",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "70% от плодовете и зеленчуците у нас са вносни - ще сработи ли \"справедливата цена\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427344-70-ot-plodovete-i-zelenchutsite-u-nas-sa-vnosni-shte-sraboti-li-spravedlivata-tsena",
+      "date": "2026-08-14",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
     {
       "title": "Дунав при Русе спадна с още 3 см, кораб заседна край Батин",
       "desc": "",
@@ -15,15 +105,6 @@
       "title": "Свиневъдите получават възможност за по-свободна търговия и износ на живи животни",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/427334-svinevadite-poluchavat-vazmozhnost-za-po-svobodna-targoviya-i-iznos-na-zhivi-zhivotni",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Близо 10% повече обаждания за пожари до 112",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427323-blizo-10-poveche-obazhdaniya-za-pozhari-do-112",
       "date": "2026-08-14",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -57,69 +138,6 @@
       "topic": "eu"
     },
     {
-      "title": "ЦИК прие хронограмата за президентския вот на 25 октомври",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427307-tsik-prie-hronogramata-za-prezidentskiya-vot-na-25-oktomvri",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Емил Димитров: Ако Дунавът продължи да пада, ще има проблем и за АЕЦ \"Козлодуй\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427305-emil-dimitrov-ako-dunavat-prodalzhi-da-pada-shte-ima-problem-i-za-aets-kozloduy",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Председателят на БАН: България увеличава средствата за наука, но е далеч под средното за ЕС",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427304-predsedatelyat-na-ban-balgariya-uvelichava-sredstvata-za-nauka-no-e-dalech-pod-srednoto-za-es",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев: Бъдещето на нашия регион все повече ще се определя от свързаността между България и Турция",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427294-radev-badeshteto-na-nashiya-region-vse-poveche-shte-se-opredelya-ot-svarzanostta-mezhdu-balgariya-i-turtsiya",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ангел Мавровски: В БАБХ цари хаос, няма ясен план за овладяване на заразите",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427293-angel-mavrovski-v-babh-tsari-haos-nyama-yasen-plan-za-ovladyavane-na-zarazite",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Еврото в България: НАП отчита ниска инфлация, потребителите виждат двойно поскъпване (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427292-evroto-v-balgariya-nap-otchita-niska-inflatsiya-potrebitelite-vizhdat-dvoyno-poskapvane-video",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Частично бедствено положение край Трявна: Ограничават достъпа до района на \"ЕМКО\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427288-chastichno-bedstveno-polozhenie-kray-tryavna-ogranichavat-dostapa-do-rayona-na-emko",
-      "date": "2026-08-13",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "АЕЦ на морето и още ПАВЕЦ: Как България да спаси енергетиката в климатична криза",
       "desc": "Повишаващите се температури, критичното засушаване на ключови европейски реки и феноменът Ел Ниньо поставят под изпитание селското стопанство, инфраструктурата и сигурността на електропреносните мрежи. Тъй като това не са единични събития, а природните процеси вече се ускоряват с по-бързи от прогноз",
       "url": "https://www.bloombergtv.bg/a/17-v-razvitie/163000-aets-na-moreto-i-oshte-pavets-kak-balgariya-da-spasi-energetikata-v-klimatichna-kriza",
@@ -150,6 +168,15 @@
       "title": "Bulgaria launches 83 mln euro SME green tech grant scheme - SeeNews",
       "desc": "Bulgaria launches 83 mln euro SME green tech grant scheme SeeNews",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTXRsYlAwVTZxZHE4NjdLVHFMMUtsaXM5MUhOaW5uNWI5cWQyd1hJQUstV1Q2MWU3RExJRVI4WkJlb3JrRXVieDhDQmYwczN3Tmc2MlU3akFzelF4cWFwaXNsVXBpN0ZTYldQcUR0TlJhRHFkWThIUnVJYjRKNGlqVk5yU25ob1dVSHVhNmRrMEVmbTFT?oc=5",
+      "date": "2026-08-12",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "EFCSN Database Grants for European Fact-Checking Organisations - fundsforNGOs",
+      "desc": "EFCSN Database Grants for European Fact-Checking Organisations fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeFFzcDN3aF9LUkpOQ2Y4SVVycmUwbVZTaFVNOHFUekJIWVEzcEJ4azVUVkVJNWlRcmNWcVBEVjFEcDFkT1hxVm5iaTBQYXloQ2g5bFRTdXRIQXJ6VGQ0YmNGWnY4WHNtVExmdm1XYlcxUU1LUEl4ZEl5R0RHdkRUQXZURDNRajdhWjdiV3ZzTHlEY0ZEQWhNR1c1R0N0WVNFSXBoU0trZHJqOTM5VE9Z0gGvAUFVX3lxTE94UXNwM3doX0tSSk5DZjhJVXJyZTBtVlNoVU04cVR6QkhZUTNwQnhrNVRWRUk1aVFyY1ZxUERWMURwMWRPWHFWbmJpMFBheWhDaDlsVFN1dEhBcnpUZDRiY0ZadjhYc21UTGZ2bVdiVzFRTUtQSXhkSXlHREd2RFRBdlREM1FqN2FaN2JXdnNMeURjRkRBaE1HVzVHQ3RZU0VJcGhTS2tkcmo5MzlUT1k?oc=5",
       "date": "2026-08-12",
       "source": "Google News EN",
       "lang": "en",
