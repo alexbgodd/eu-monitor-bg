@@ -1,7 +1,34 @@
 {
-  "updated": "2026-08-15 07:00",
+  "updated": "2026-08-15 09:49",
   "count": 19,
   "items": [
+    {
+      "title": "Moldovan and Romanian villages secure €1.37m in EU funding - Moldova 1",
+      "desc": "Moldovan and Romanian villages secure €1.37m in EU funding Moldova 1",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjU0SFM2REU4S3lkbE5vQjQzNjF1NTE1dkVmcVZVQ1QtRmY3QUFCdVBNQVdTM3ltNWNLdlZPNEhsN0hQLXEtUWFNTEIySzRTNGplcENkOFZlX3JPSzZ0US1Kc0pfQlJ5amNaX29BV2k2Z19ZUnU3M3k3UnItZ2xZXzdRWDRVSFJ3Sm5nRjRB?oc=5",
+      "date": "2026-08-15",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "РИОСВ установи огромни количества отпадъци, съхранявани в нарушение в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427451-riosv-ustanovi-ogromni-kolichestva-otpadatsi-sahranyavani-v-narushenie-v-sofiya",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Нивото на Дунав продължава да се понижава, падна до -123 см",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427448-nivoto-na-dunav-prodalzhava-da-se-ponizhava-padna-do-123-sm",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Времето днес, 15 август: Предимно слънчево със слаби превалявания",
       "desc": "",
@@ -102,38 +129,11 @@
       "topic": "общи"
     },
     {
-      "title": "Над 1 млн. българи не успяват редовно да сложат месо и риба на трапезата си",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427412-nad-1-mln-balgari-ne-uspyavat-redovno-da-slozhat-meso-i-riba-na-trapezata-si",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Данъци и осигуровки няма да се увеличават, минималната заплата може би ще е 680 евро",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427411-danatsi-i-osigurovki-nyama-da-se-uvelichavat-minimalnata-zaplata-mozhe-bi-shte-e-680-evro",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
       "title": "Авточасти или опаковки: Biomyc стартира производството от гъбен мицел в България",
       "desc": "Новите европейски регулации за опаковките поставят строги изисквания пред бизнеса, но същевременно отварят огромни възможности за иновативните технологии. За много международни корпорации преходът към екологични опаковки вече не е просто въпрос на корпоративна социална отговорност, а критична бизнес",
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/163021-avtochasti-ili-opakovki-biomyc-startira-proizvodstvoto-ot-gaben-mitsel-v-balgariya",
       "date": "2026-08-14",
       "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Как EU ETS може да се превърне от разход за индустрията в инструмент за нейното декарбонизиране - 3e News",
-      "desc": "Как EU ETS може да се превърне от разход за индустрията в инструмент за нейното декарбонизиране 3e News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMXF2dEU0UEpVeHlMS0h5bDZta19ybVctOFZMSWRTcVNiWGZWWEo1UnpXNDRtckg0U24xdW1xTmxURDFyYnBUY2hTZUREU2ZTSzVobmJxWExNZXpnY3U4b3pKZEtXN0pIUmNtdnAzcG0ySC0wNjhYQWpKWUJhMGhIcG14VlMyVW5MdDdSZ3ZPWE9XZW11bkliLWFMQmJGUnVjTVpGNENhbW80TDFic3p3amN1LXBYS0JSZnl1bkNGUEhMNzBqMlA5NjJrNEw?oc=5",
-      "date": "2026-08-13",
-      "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
