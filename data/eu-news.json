@@ -1,7 +1,25 @@
 {
-  "updated": "2026-08-15 09:49",
-  "count": 19,
+  "updated": "2026-08-16 07:01",
+  "count": 14,
   "items": [
+    {
+      "title": "Откриха тялото на мъжа, загинал след падане от джет в язовир \"Доспат\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427508-otkriha-tyaloto-na-mazha-zaginal-sled-padane-ot-dzhet-v-yazovir-dospat",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Времето днес: Предимно слънчево и почти без валежи в страната",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427505-vremeto-dnes-predimno-slanchevo-i-pochti-bez-valezhi-v-stranata",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Moldovan and Romanian villages secure €1.37m in EU funding - Moldova 1",
       "desc": "Moldovan and Romanian villages secure €1.37m in EU funding Moldova 1",
@@ -12,27 +30,72 @@
       "topic": "eu"
     },
     {
-      "title": "РИОСВ установи огромни количества отпадъци, съхранявани в нарушение в София",
+      "title": "ТЕЦ \"Бобов дол\" спря работа заради авария",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427451-riosv-ustanovi-ogromni-kolichestva-otpadatsi-sahranyavani-v-narushenie-v-sofiya",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Нивото на Дунав продължава да се понижава, падна до -123 см",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427448-nivoto-na-dunav-prodalzhava-da-se-ponizhava-padna-do-123-sm",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427496-tets-bobov-dol-sprya-rabota-zaradi-avariya",
       "date": "2026-08-15",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Времето днес, 15 август: Предимно слънчево със слаби превалявания",
+      "title": "Голяма Богородица обедини вярващи в Казанлък (СНИМКИ)",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427437-vremeto-dnes-15-avgust-predimno-slanchevo-sas-slabi-prevalyavaniya",
+      "url": "https://www.bgonair.bg/a/188-gallery/427495-golyama-bogoroditsa-obedini-vyarvashti-v-kazanlak-snimki",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Митрополит Киприан призова за вяра и надежда на Успение Богородично",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427494-mitropolit-kiprian-prizova-za-vyara-i-nadezhda-na-uspenie-bogorodichno",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Жена загина при катастрофа с мотор край Ново село",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427492-zhena-zagina-pri-katastrofa-s-motor-kray-novo-selo",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Спасителна акция в Рила: Момче е пострадало край хижа \"Рибни езера\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427491-spasitelna-aktsiya-v-rila-momche-e-postradalo-kray-hizha-ribni-ezera",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожар обхвана сухи треви и складова база в Слънчев бряг (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427489-pozhar-obhvana-suhi-trevi-i-skladova-baza-v-slanchev-bryag-video",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Протойерей Спас Рангелов: Нека помним Божиите заповеди и застъпничеството на Богородица",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427481-protoyerey-spas-rangelov-neka-pomnim-bozhiite-zapovedi-i-zastapnichestvoto-na-bogoroditsa",
+      "date": "2026-08-15",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова се поклони пред иконата на Пресвета Богородица \"Троеручица\" в Троянския манастир",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427471-yotova-se-pokloni-pred-ikonata-na-presveta-bogoroditsa-troeruchitsa-v-troyanskiya-manastir",
       "date": "2026-08-15",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -57,78 +120,6 @@
       "topic": "социални"
     },
     {
-      "title": "Bulgarian vineyard owner accused of €348,000 EU funding fraud attempt - The Brussels Times",
-      "desc": "Bulgarian vineyard owner accused of €348,000 EU funding fraud attempt The Brussels Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcm8xZ0ZoX1U0cXY3bmZWMERDcmFfMmlvR2N6TVpwc0N4elNoZnVua1dGM0lZaFlWdjA0dE11RHB4Z3cwbTQ1N203Q1Y1T1M0a3VXRS1KWkVrRnJQU3ZkNGtBd2h1cWEwUnduRTJKbnRGaWdvQW9OYThkZDFhbWI3c0dJeUc0SXYxTkJKTjRmeHhEUkxNYk9jX2xyRWR6SXVHcnh0dWNTYTJvQQ?oc=5",
-      "date": "2026-08-14",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Доходите на политиците: Радев е декларирал сериозна сума и \"Шкода\"-та",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427431-dohodite-na-polititsite-radev-e-deklariral-seriozna-suma-i-shkoda-ta",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Верижна катастрофа затвори пътя Пазарджик - Пловдив",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427430-verizhna-katastrofa-zatvori-patya-pazardzhik-plovdiv",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Справедлива стойност\", но за кого? Производители предупреждават за тежка криза",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427426-spravedliva-stoynost-no-za-kogo-proizvoditeli-preduprezhdavat-za-tezhka-kriza",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Лозунги в програмата и объркващи обществото политики от кабинета \"Радев\", твърдят анализатори",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427424-lozungi-v-programata-i-obarkvashti-obshtestvoto-politiki-ot-kabineta-radev-tvardyat-analizatori",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Формулата за минималната заплата: Има съгласие, но дяволът е в детайлите",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427419-formulata-za-minimalnata-zaplata-ima-saglasie-no-dyavolat-e-v-detaylite",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Стоянов за откритите дронове по морето: Заплаха няма, чакаме първите антидрон системи",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427415-stoyanov-za-otkritite-dronove-po-moreto-zaplaha-nyama-chakame-parvite-antidron-sistemi",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Заради \"безумните цени\" българите режат от храната и почивките (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427414-zaradi-bezumnite-tseni-balgarite-rezhat-ot-hranata-i-pochivkite-video",
-      "date": "2026-08-14",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "Авточасти или опаковки: Biomyc стартира производството от гъбен мицел в България",
       "desc": "Новите европейски регулации за опаковките поставят строги изисквания пред бизнеса, но същевременно отварят огромни възможности за иновативните технологии. За много международни корпорации преходът към екологични опаковки вече не е просто въпрос на корпоративна социална отговорност, а критична бизнес",
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/163021-avtochasti-ili-opakovki-biomyc-startira-proizvodstvoto-ot-gaben-mitsel-v-balgariya",
@@ -136,42 +127,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "eu"
-    },
-    {
-      "title": "How the European Union works: institutions, funds, and Italy - Napolike.com",
-      "desc": "How the European Union works: institutions, funds, and Italy Napolike.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14aXpJQkY4bU9CM1RLUG5Dc3RnVjJVQ2NWZmlHcG5qcDVLcTJRYkFlck1jQ3FlTk10a1pQSDdKVnhTM3UwR3ZmNEc2Ulg1QTZfRTdrYmxGQmo0b2NZZnpKY1o3Tks2dFBiWks3M3E1VjJxUW1JQkxXTGRGOHY?oc=5",
-      "date": "2026-08-13",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "АЕЦ на морето и още ПАВЕЦ: Как България да спаси енергетиката в климатична криза",
-      "desc": "Повишаващите се температури, критичното засушаване на ключови европейски реки и феноменът Ел Ниньо поставят под изпитание селското стопанство, инфраструктурата и сигурността на електропреносните мрежи. Тъй като това не са единични събития, а природните процеси вече се ускоряват с по-бързи от прогноз",
-      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/163000-aets-na-moreto-i-oshte-pavets-kak-balgariya-da-spasi-energetikata-v-klimatichna-kriza",
-      "date": "2026-08-13",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Бургас ще бъде домакин на \"Евровизия 2027\"",
-      "desc": "Бургас е избран за домакин на &bdquo;Евровизия 2027&ldquo;, като събитието ще се проведе от 11 до 15 май след спечелената кандидатура в конкуренция с други три български града. Правото за домакинство е спечелено благодарение на историческата победа на България на &bdquo;Евровизия 2026&ldquo;, като с",
-      "url": "https://www.bloombergtv.bg/a/2-novini/162989-burgas-shte-bade-domakin-na-evroviziya-2027",
-      "date": "2026-08-13",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Български екип създава машини на бъдещето: Автономни роботизирани системи",
-      "desc": "Развитието на изкуствения интелект през последните години отключи потенциал, който надхвърля виртуалната среда и все по-често ще придобива физическо проявление. В центъра на тази промяна е концепцията за \"Phygital\" - симбиоза между физически хардуер и изкуствен интелект. Докато САЩ и Китай продължав",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/162987-balgarski-ekip-sazdava-mashini-na-badeshteto-avtonomni-robotizirani-sistemi",
-      "date": "2026-08-13",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
     }
   ]
 }
