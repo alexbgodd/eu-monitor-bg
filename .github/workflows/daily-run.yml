@@ -37,3 +37,18 @@ jobs:
           git add data/programs.json data/eu-news.json web/institucii/
           git diff --staged --quiet || git commit -m "chore: automated scrape update $(date -u +%Y-%m-%d)"
           git push
+
+      # Supabase free tier паузира проекта след ~седмица без заявки.
+      # Седмичният blast сам по себе си е на ръба → дневен пинг го държи буден.
+      # Стъпката е последна и пада червено, ако базата не отговаря (видим сигнал).
+      - name: Keep-alive пинг към Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "apikey: $SUPABASE_SECRET_KEY" \
+            -H "Authorization: Bearer $SUPABASE_SECRET_KEY" \
+            "$SUPABASE_URL/rest/v1/registrations?select=id&limit=1")
+          echo "Supabase HTTP $code"
+          test "$code" = "200"

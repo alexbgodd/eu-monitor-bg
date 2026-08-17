@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import re
 from datetime import datetime, date, timedelta
 import urllib.request
 import urllib.parse
@@ -69,6 +70,15 @@ SOURCES = [
         "category": "култура",
         "parser": "mc",
         "base_url": "https://mc.government.bg"
+    },
+    {
+        # Централизирани покани на МЗ (напр. рамкови споразумения по чл. 262 ЗЛПХМ
+        # за доставка на лекарствени продукти) — НЕ минават през ЦАИС ЕОП.
+        "name": "МЗ — Покани и уведомления",
+        "url": "https://www.mh.government.bg/bg/novini/pokani-i-konkursi",
+        "category": "здравеопазване",
+        "parser": "mh_pokani",
+        "base_url": "https://www.mh.government.bg"
     },
     {
         "name": "Държавен фонд Земеделие",
@@ -627,6 +637,35 @@ def parse_mc(soup, source):
             programs.append(make_entry(full_url, text, source, ''))
     return programs
 
+def parse_mh_pokani(soup, source):
+    """
+    МЗ — Покани и уведомления. Ниска честота (~5/година), висока стойност:
+    рамкови споразумения по чл. 262 ЗЛПХМ, покани на ЕК/СЗО и др.
+    Страницата е сортирана най-нови първи → взимаме само първите записи.
+    """
+    programs = []
+    if not soup:
+        return programs
+    base = source.get('base_url', 'https://www.mh.government.bg')
+    seen = set()
+    skip = ['ликвидатор', 'уведомление за сключен договор', 'поздравител']
+    for a in soup.select('a[href*="/novini/pokani-i-konkursi/"]'):
+        href = a.get('href', '')
+        if not re.search(r'/novini/pokani-i-konkursi/\d+', href):
+            continue          # прескача навигацията (линк без числов id)
+        text = a.get_text(strip=True)
+        if len(text) < 25 or text in seen:
+            continue          # "Виж още" и дубликати
+        if any(x in text.lower() for x in skip):
+            continue
+        seen.add(text)
+        full_url = href if href.startswith('http') else base + href
+        entry = make_entry(full_url, text[:200], source, '')
+        programs.append(entry)
+        if len(programs) >= 6:
+            break             # само най-новите
+    return programs
+
 def parse_dfz(soup, source):
     """Държавен фонд Земеделие — отворени процедури."""
     programs = []
@@ -938,6 +977,7 @@ PARSERS = {
     "eufunds": parse_eufunds,
     "mzh": parse_mzh,
     "mc": parse_mc,
+    "mh_pokani": parse_mh_pokani,
     "dfz": parse_dfz,
     "hrdc": parse_hrdc,
     "ngobg": parse_ngobg,

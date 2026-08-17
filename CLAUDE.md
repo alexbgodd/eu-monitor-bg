@@ -74,6 +74,7 @@ EMAIL_FROM=info@gdprcheck.bg
 - Колони: `id, email, name, org_type, interests (text[]), created_at`
 - ~100 реални абоната към 16.07.2026 (дошли органично от Facebook; ~37 в началото на юли)
 - Python достъп: директни REST API заявки с `urllib.request` (без supabase-py)
+- **Free tier паузира проекта след ~седмица без заявки** (случи се 17.08.2026 — регистрациите спряха, седмичният имейл мина на празно). Решение: дневен keep-alive пинг в `daily-run.yml` + `blast_existing.py` пада с exit 1 при 0 заредени потребители. Ръчно събуждане: Supabase dashboard → Resume project.
 - `alexbgodd@gmail.com` НЕ е регистриран като абонат в Supabase
 - allmarinkov@abv.bg има corrupted name в Supabase — провери и поправи ръчно
 
