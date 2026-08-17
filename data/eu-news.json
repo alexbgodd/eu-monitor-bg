@@ -1,132 +1,105 @@
 {
-  "updated": "2026-08-16 09:51",
-  "count": 14,
+  "updated": "2026-08-17 07:18",
+  "count": 11,
   "items": [
     {
-      "title": "Пловдив затяга мерките за сигурност: По-строг контрол върху паркове и заведения",
+      "title": "Пътят Смолян - Пампорово ще преминава по нов мост над свлачището",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427524-plovdiv-zatyaga-merkite-za-sigurnost-po-strog-kontrol-varhu-parkove-i-zavedeniya",
-      "date": "2026-08-16",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427580-patyat-smolyan-pamporovo-shte-preminava-po-nov-most-nad-svlachishteto",
+      "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Ефремова обеща актуализиране на пенсиите и минималната заплата да расте всяка година",
+      "title": "Дунав остава критично нисък, нивото при Русе е минус 123 см",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427519-efremova-obeshta-aktualizirane-na-pensiite-i-minimalnata-zaplata-da-raste-vsyaka-godina",
-      "date": "2026-08-16",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427579-dunav-ostava-kritichno-nisak-nivoto-pri-ruse-e-minus-123-sm",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Разходите за пенсии са 6,3 млрд. евро за полугодието, увеличението е над 10%",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427576-razhodite-za-pensii-sa-63-mlrd-evro-za-polugodieto-uvelichenieto-e-nad-10",
+      "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "социални"
     },
     {
-      "title": "Нивото на Дунав се променя минимално, заседналият кораб край Батин е освободен",
+      "title": "МЗХ започва проверки за опазване на земеделските земи и горските територии",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427514-nivoto-na-dunav-se-promenya-minimalno-zasednaliyat-korab-kray-batin-e-osvoboden",
-      "date": "2026-08-16",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427574-mzh-zapochva-proverki-za-opazvane-na-zemedelskite-zemi-i-gorskite-teritorii",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "Военни конвои от Италия преминават през България за учение на \"Ново село\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427567-voenni-konvoi-ot-italiya-preminavat-prez-balgariya-za-uchenie-na-novo-selo",
+      "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Откриха тялото на мъжа, загинал след падане от джет в язовир \"Доспат\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427508-otkriha-tyaloto-na-mazha-zaginal-sled-padane-ot-dzhet-v-yazovir-dospat",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Времето днес: Предимно слънчево и почти без валежи в страната",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427505-vremeto-dnes-predimno-slanchevo-i-pochti-bez-valezhi-v-stranata",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Moldovan and Romanian villages secure €1.37m in EU funding - Moldova 1",
-      "desc": "Moldovan and Romanian villages secure €1.37m in EU funding Moldova 1",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjU0SFM2REU4S3lkbE5vQjQzNjF1NTE1dkVmcVZVQ1QtRmY3QUFCdVBNQVdTM3ltNWNLdlZPNEhsN0hQLXEtUWFNTEIySzRTNGplcENkOFZlX3JPSzZ0US1Kc0pfQlJ5amNaX29BV2k2Z19ZUnU3M3k3UnItZ2xZXzdRWDRVSFJ3Sm5nRjRB?oc=5",
-      "date": "2026-08-15",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "ТЕЦ \"Бобов дол\" спря работа заради авария",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427496-tets-bobov-dol-sprya-rabota-zaradi-avariya",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Голяма Богородица обедини вярващи в Казанлък (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/427495-golyama-bogoroditsa-obedini-vyarvashti-v-kazanlak-snimki",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Митрополит Киприан призова за вяра и надежда на Успение Богородично",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427494-mitropolit-kiprian-prizova-za-vyara-i-nadezhda-na-uspenie-bogorodichno",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Жена загина при катастрофа с мотор край Ново село",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427492-zhena-zagina-pri-katastrofa-s-motor-kray-novo-selo",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Спасителна акция в Рила: Момче е пострадало край хижа \"Рибни езера\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427491-spasitelna-aktsiya-v-rila-momche-e-postradalo-kray-hizha-ribni-ezera",
-      "date": "2026-08-15",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "„Грийн Иновейшън“ получава финансиране по Horizon Europe за проекта HYPPOS - Investor.bg",
-      "desc": "„Грийн Иновейшън“ получава финансиране по Horizon Europe за проекта HYPPOS Investor.bg",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ012UWM4aGcwVjdKN2FSYUE5ZExyTVJyWXBRMkJCX20xTklxaEs2V0RJWWdsLXJmTW9mZDI1ck5EOWlOVHFoWTdRVHhaNHF0VnFaN3loWGlkVUs5YUo4VU5tUFk2MlRMa2N5LTJjU1o3cXh0RkNmeWFQT2pDSkUwSTlPeThEQVE4MDJ2a0lMOGZLbWdLOVluTm5HdWZFWVl2T2NpcUM3U0lPdjE3UXNUSzNZNWJiSTFDUmc?oc=5",
-      "date": "2026-08-14",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Два екологични проекта са реализирани в три комплекса за социални услуги в Добрич - Утро Русе",
-      "desc": "Два екологични проекта са реализирани в три комплекса за социални услуги в Добрич Утро Русе",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CdWI4NVpIcmNxdTI0bHJKZngtS2RLSTBTSWIxUVpJb3IwY2dpc0xyZEctdmV6NmwtMkR2ZzhPbEQxdE9IbnBGStIBSEFVX3lxTE9CdWI4NVpIcmNxdTI0bHJKZngtS2RLSTBTSWIxUVpJb3IwY2dpc0xyZEctdmV6NmwtMkR2ZzhPbEQxdE9IbnBGSg?oc=5",
-      "date": "2026-08-14",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Авточасти или опаковки: Biomyc стартира производството от гъбен мицел в България",
-      "desc": "Новите европейски регулации за опаковките поставят строги изисквания пред бизнеса, но същевременно отварят огромни възможности за иновативните технологии. За много международни корпорации преходът към екологични опаковки вече не е просто въпрос на корпоративна социална отговорност, а критична бизнес",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163021-avtochasti-ili-opakovki-biomyc-startira-proizvodstvoto-ot-gaben-mitsel-v-balgariya",
-      "date": "2026-08-14",
+      "title": "Евровизия 2027: Слънчев бряг ще спаси Бургас от спекулата с късите наеми",
+      "desc": "Домакинството на Евровизия през май 2027 г. се очаква да има ефект върху хотелиерството, ресторантьорството и пазара на недвижими имоти в Бургас. В града вече има резервации за периода на конкурса, като част от собствениците на имоти са повишили цените, но според пазара това няма да се запази при се",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163088-evroviziya-2027-slanchev-bryag-shte-spasi-burgas-ot-spekulata-s-kasite-naemi",
+      "date": "2026-08-17",
       "source": "Bloomberg TV BG",
       "lang": "bg",
-      "topic": "eu"
+      "topic": "бизнес"
+    },
+    {
+      "title": "Емоции, грация и медали: България се представи отлично във Франкфурт (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/427564-emotsii-gratsiya-i-medali-balgariya-se-predstavi-otlichno-vav-frankfurt-snimki",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Илияна Йотова: Българският трибагреник отново е на световния връх в художествената гимнастика",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427561-iliyana-yotova-balgarskiyat-tribagrenik-otnovo-e-na-svetovniya-vrah-v-hudozhestvenata-gimnastika",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "25 години след първите следи: Как \"Кръв и чест\" намира последователи у нас (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427551-25-godini-sled-parvite-sledi-kak-krav-i-chest-namira-posledovateli-u-nas-video",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Километрични колони по \"Тракия\": \"Изморително е, пътуваме с деца\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427550-kilometrichni-koloni-po-trakiya-izmoritelno-e-patuvame-s-detsa",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "100 дни власт: Опозицията поиска отговорност от кабинета \"Радев\" (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427549-100-dni-vlast-opozitsiyata-poiska-otgovornost-ot-kabineta-radev-video",
+      "date": "2026-08-16",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     }
   ]
 }
