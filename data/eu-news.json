@@ -1,47 +1,101 @@
 {
-  "updated": "2026-08-17 07:18",
-  "count": 11,
+  "updated": "2026-08-17 10:04",
+  "count": 14,
   "items": [
     {
-      "title": "Пътят Смолян - Пампорово ще преминава по нов мост над свлачището",
+      "title": "RFPs: Neutral-Atom Platform Technologies Grant Programme - fundsforNGOs",
+      "desc": "RFPs: Neutral-Atom Platform Technologies Grant Programme fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObHl3cVNpRjZTWFd5R284bzVPNzYyTHVZSlNuM3oyRFJTcF9jSFNQS1VIQ3MzNEtCZVB0SlN4TDVsQ0dQSUhOZFF3MTFYeXcwdDBpekFlaFBBTDFDVG50UDdIa250dElrNVhJWGVUOGY3XzkxOHc3OXJUNE9JVEItR3dUbFJrTVlJdEI1emo4b1VhWllqTWU0ZjlLb3JCQU3SAZ8BQVVfeXFMTmx5d3FTaUY2U1hXeUdvOG81Tzc2Mkx1WUpTbjN6MkRSU3BfY0hTUEtVSENzMzRLQmVQdEpTeEw1bENHUElITmRRdzExWHl3MHQwaXpBZWhQQUwxQ1RudFA3SGtudHRJazVYSVhlVDhmN185MTh3NzlyVDRPSVRCLUd3VGxSa01ZSXRCNXpqOG9VYVpZak1lNGY5S29yQkFN?oc=5",
+      "date": "2026-08-17",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Свищов е на крачка от воден режим, селата са в бедствено положение (ВИДЕО)",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427580-patyat-smolyan-pamporovo-shte-preminava-po-nov-most-nad-svlachishteto",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427602-svishtov-e-na-krachka-ot-voden-rezhim-selata-sa-v-bedstveno-polozhenie-video",
       "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Дунав остава критично нисък, нивото при Русе е минус 123 см",
+      "title": "Тротинетки пратиха двама в болница по Южното Черноморие, единият е с опасност за живота",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427579-dunav-ostava-kritichno-nisak-nivoto-pri-ruse-e-minus-123-sm",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Разходите за пенсии са 6,3 млрд. евро за полугодието, увеличението е над 10%",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427576-razhodite-za-pensii-sa-63-mlrd-evro-za-polugodieto-uvelichenieto-e-nad-10",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427599-trotinetki-pratiha-dvama-v-bolnitsa-po-yuzhnoto-chernomorie-ediniyat-e-s-opasnost-za-zhivota",
       "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "социални"
     },
     {
-      "title": "МЗХ започва проверки за опазване на земеделските земи и горските територии",
+      "title": "22-годишен молдовец се удави в морето край Ахтопол",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427574-mzh-zapochva-proverki-za-opazvane-na-zemedelskite-zemi-i-gorskite-teritorii",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427598-22-godishen-moldovets-se-udavi-v-moreto-kray-ahtopol",
       "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
-      "topic": "земеделие"
+      "topic": "общи"
     },
     {
-      "title": "Военни конвои от Италия преминават през България за учение на \"Ново село\"",
+      "title": "Пак опираме до въглищните централи, \"Марица Изток\" се оказа апетитна хапка",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427567-voenni-konvoi-ot-italiya-preminavat-prez-balgariya-za-uchenie-na-novo-selo",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427597-pak-opirame-do-vaglishtnite-tsentrali-maritsa-iztok-se-okaza-apetitna-hapka",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Напукани стъкла и блокирал ескалатор в една от новите метростанции в София (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/427595-napukani-stakla-i-blokiral-eskalator-v-edna-ot-novite-metrostantsii-v-sofiya-snimki",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Годишната инфлация в България е 4,5% през юли, почивките и хотелите са поскъпнали рязко",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427593-godishnata-inflatsiya-v-balgariya-e-45-prez-yuli-pochivkite-i-hotelite-sa-poskapnali-ryazko",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Задава ли се поскъпване на градския транспорт в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427592-zadava-li-se-poskapvane-na-gradskiya-transport-v-sofiya",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Андрей Марков: Много пациенти са обречени, може би здравето не е на първо място",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427590-andrey-markov-mnogo-patsienti-sa-obrecheni-mozhe-bi-zdraveto-ne-e-na-parvo-myasto",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "100 дни между успехите и неуспехите: Къде сгреши и къде се справи кабинетът \"Радев\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427587-100-dni-mezhdu-uspehite-i-neuspehite-kade-sgreshi-i-kade-se-spravi-kabinetat-radev",
+      "date": "2026-08-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пътят Смолян - Пампорово ще преминава по нов мост над свлачището",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427580-patyat-smolyan-pamporovo-shte-preminava-po-nov-most-nad-svlachishteto",
       "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -57,49 +111,22 @@
       "topic": "бизнес"
     },
     {
-      "title": "Емоции, грация и медали: България се представи отлично във Франкфурт (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/427564-emotsii-gratsiya-i-medali-balgariya-se-predstavi-otlichno-vav-frankfurt-snimki",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "title": "Bulgaria Maps Out Foreign Policy Goals and Priorites Through 2030 - Novinite.com",
+      "desc": "Bulgaria Maps Out Foreign Policy Goals and Priorites Through 2030 Novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTAwSDNCQVNZanVIYUx4ejFvaTVMd3NWMUVNMGFmVE5PRGp6bHZ3RzZCUi1QYVNTX2ZLdmNJZmx3bUdhNXNDUm5iR0dPRnA0UW5sUTlMek5DTF9wQkxLOFVMbFZ2bzFpbXkwbExzb0wzcDBHQ0V5S3J1MDZEU09zeHdPSGVUN20xQmx3ZTZiOVRxUDJXX204cTkzZkxrZFFwaFdMYnhYOERaZw?oc=5",
+      "date": "2026-08-15",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     },
     {
-      "title": "Илияна Йотова: Българският трибагреник отново е на световния връх в художествената гимнастика",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427561-iliyana-yotova-balgarskiyat-tribagrenik-otnovo-e-na-svetovniya-vrah-v-hudozhestvenata-gimnastika",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "25 години след първите следи: Как \"Кръв и чест\" намира последователи у нас (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427551-25-godini-sled-parvite-sledi-kak-krav-i-chest-namira-posledovateli-u-nas-video",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Километрични колони по \"Тракия\": \"Изморително е, пътуваме с деца\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427550-kilometrichni-koloni-po-trakiya-izmoritelno-e-patuvame-s-detsa",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "100 дни власт: Опозицията поиска отговорност от кабинета \"Радев\" (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427549-100-dni-vlast-opozitsiyata-poiska-otgovornost-ot-kabineta-radev-video",
-      "date": "2026-08-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "title": "Moldovan and Romanian villages secure €1.37m in EU funding - moldova1.md",
+      "desc": "Moldovan and Romanian villages secure €1.37m in EU funding moldova1.md",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjU0SFM2REU4S3lkbE5vQjQzNjF1NTE1dkVmcVZVQ1QtRmY3QUFCdVBNQVdTM3ltNWNLdlZPNEhsN0hQLXEtUWFNTEIySzRTNGplcENkOFZlX3JPSzZ0US1Kc0pfQlJ5amNaX29BV2k2Z19ZUnU3M3k3UnItZ2xZXzdRWDRVSFJ3Sm5nRjRB?oc=5",
+      "date": "2026-08-15",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     }
   ]
 }
