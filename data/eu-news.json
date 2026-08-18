@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18 07:05",
+  "updated": "2026-08-18 09:57",
   "count": 15,
   "items": [
     {
@@ -10,6 +10,69 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "В София пак ще раздават безлатна вода заради горещото време",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427696-v-sofiya-pak-shte-razdavat-bezlatna-voda-zaradi-goreshtoto-vreme",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Увеличават с 25% капациетата на ГКПП \"Капитан Андреево\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427694-uvelichavat-s-25-kapatsietata-na-gkpp-kapitan-andreevo",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пребитото от пастрока си 5-годишно дете е контактно и адекватно",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/427691-prebitoto-ot-pastroka-si-5-godishno-dete-e-kontaktno-i-adekvatno",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Липсват лекарства за редки заболявания: \"Държавата нехае за пациентите\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427689-lipsvat-lekarstva-za-redki-zabolyavaniya-darzhavata-nehae-za-patsientite",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Евровизия\" е шанс за туризма в България, трябва комплексна реклама на страната",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427688-evroviziya-e-shans-za-turizma-v-balgariya-tryabva-kompleksna-reklama-na-stranata",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кметът на Свищов: Воден режим в града, ако нивото на Дунав спадне още",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427683-kmetat-na-svishtov-voden-rezhim-v-grada-ako-nivoto-na-dunav-spadne-oshte",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Цветан Симеонов: Съмнявам се минималната заплата да остане 620 евро",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/427681-tsvetan-simeonov-samnyavam-se-minimalnata-zaplata-da-ostane-620-evro",
+      "date": "2026-08-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Дунав продължава да спада, остават ограниченията за плавателните съдове",
@@ -24,15 +87,6 @@
       "title": "Удължават работното време на метрото в София заради \"Левски\" – АЕК",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/427666-udalzhavat-rabotnoto-vreme-na-metroto-v-sofiya-zaradi-levski-aek",
-      "date": "2026-08-18",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Времето се променя: Захлаждане с до 5 градуса и валежи в части от страната",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/187-vremeto-on-air/427638-vremeto-se-promenya-zahlazhdane-s-do-5-gradusa-i-valezhi-v-chasti-ot-stranata",
       "date": "2026-08-18",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -69,60 +123,6 @@
       "title": "Борисов: Извадиха Димитър Николов от президентската надпревара с \"Евровизия\"",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/427656-borisov-izvadiha-dimitar-nikolov-ot-prezidentskata-nadprevara-s-evroviziya",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "До 667 евро минимална заплата през 2027 г. според новата формула",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427651-do-667-evro-minimalna-zaplata-prez-2027-g-spored-novata-formula",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Д-р Болтаджиев: Системата на здравеопазването деградира",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427649-d-r-boltadzhiev-sistemata-na-zdraveopazvaneto-degradira",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Разбраха се за минималната работна заплата, от 4 индикатора ще зависи размерът ѝ",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427648-razbraha-se-za-minimalnata-rabotna-zaplata-ot-4-indikatora-shte-zavisi-razmerat",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Едва ли за АЕЦ \"Козлодуй\" ще има проблем заради нивата на Дунав, смята Еленко Божков",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/427647-edva-li-za-aets-kozloduy-shte-ima-problem-zaradi-nivata-na-dunav-smyata-elenko-bozhkov",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шишков: Започнахме процедура по смяна на ръководството на ВиК - Добрич",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427644-shishkov-zapochnahme-protsedura-po-smyana-na-rakovodstvoto-na-vik-dobrich",
-      "date": "2026-08-17",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "До 21 август решават за минималната работна заплата",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/427636-do-21-avgust-reshavat-za-minimalnata-rabotna-zaplata",
       "date": "2026-08-17",
       "source": "BG ON AIR",
       "lang": "bg",
