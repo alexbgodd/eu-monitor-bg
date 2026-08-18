@@ -46,9 +46,11 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: |
+          # Без select= → не зависи от имена на колони (select=id даваше 400).
+          # -o /dev/null изхвърля тялото, за да не изтекат имейли в публичния лог.
           code=$(curl -s -o /dev/null -w "%{http_code}" \
             -H "apikey: $SUPABASE_SECRET_KEY" \
             -H "Authorization: Bearer $SUPABASE_SECRET_KEY" \
-            "$SUPABASE_URL/rest/v1/registrations?select=id&limit=1")
+            "$SUPABASE_URL/rest/v1/registrations?limit=1")
           echo "Supabase HTTP $code"
           test "$code" = "200"
