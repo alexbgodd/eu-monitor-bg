@@ -1,7 +1,106 @@
 {
-  "updated": "2026-08-21 07:09",
-  "count": 12,
+  "updated": "2026-08-21 09:59",
+  "count": 24,
   "items": [
+    {
+      "title": "Work Package 4, Lot 2: Visual Arts Collaborative Research Grant - fundsforNGOs",
+      "desc": "Work Package 4, Lot 2: Visual Arts Collaborative Research Grant fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdEp1VUJQR0RoLWduYzBBdmZuVjZ6ODVXVnQzN2ZaQUdheWdNVmpCTDFIRDh6a0Z2RVhXelNCb3NvZ3VLX3BDVXJ5TVRyZ1VjcXg4VEMtSHNpb254dzAwSnVmR1MtcVVKRVdRQVRVbGtNd1NHWGk5TnZ1YW5TdjFQcjQ1V3REem05SzNEaVRTc0hwblRQSWNZbXp5dkZVMkFfam1SMzdJUHp0NVXSAasBQVVfeXFMUHRKdVVCUEdEaC1nbmMwQXZmblY2ejg1V1Z0MzdmWkFHYXlnTVZqQkwxSEQ4emtGdkVYV3pTQm9zb2d1S19wQ1VyeU1UcmdVY3F4OFRDLUhzaW9ueHcwMEp1ZkdTLXFVSkVXUUFUVWxrTXdTR1hpOU52dWFuU3YxUHI0NVd0RHptOUszRGlUU3NIcG5UUEljWW16eXZGVTJBX2ptUjM3SVB6dDVV?oc=5",
+      "date": "2026-08-21",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Борсов анализатор: Глобалният бичи тренд остава в сила, златото върви към $5000",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428015-borsov-analizator-globalniyat-bichi-trend-ostava-v-sila-zlatoto-varvi-kam-5000",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев: Няма глоби за детски рождени дни в парковете, но има правила",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428013-terziev-nyama-globi-za-detski-rozhdeni-dni-v-parkovete-no-ima-pravila",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Проф. Александрова: Спадът в имунизациите срещу морбили създава риск от нови огнища",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428012-prof-aleksandrova-spadat-v-imunizatsiite-sreshtu-morbili-sazdava-risk-ot-novi-ognishta",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нов вид измама: Звънят ни от номера на банка или близък човек",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428011-nov-vid-izmama-zvanyat-ni-ot-nomera-na-banka-ili-blizak-chovek",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ядрен експерт: Няма предпоставки за криза заради АЕЦ \"Козлодуй\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428009-yadren-ekspert-nyama-predpostavki-za-kriza-zaradi-aets-kozloduy",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Доц. Аврамова: Всичко за Националната детска болница е по папките, концепцията е остаряла",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428008-dots-avramova-vsichko-za-natsionalnata-detska-bolnitsa-e-po-papkite-kontseptsiyata-e-ostaryala",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Полк. Цуров: Трябва ни единен стандарт за сигурност със съседните държави в НАТО",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428006-polk-tsurov-tryabva-ni-edinen-standart-za-sigurnost-sas-sasednite-darzhavi-v-nato",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Чуков: Няма военна логика Иран да хаби скъпи ракети за две цистерни в \"Безмер\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428005-chukov-nyama-voenna-logika-iran-da-habi-skapi-raketi-za-dve-tsisterni-v-bezmer",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нивото на Дунав се задържа под нулата при Русе и Силистра, спадът на запад продължава",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428004-nivoto-na-dunav-se-zadarzha-pod-nulata-pri-ruse-i-silistra-spadat-na-zapad-prodalzhava",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Омбудсманът и правосъдният министър започват работа по нов закон за детското правосъдие",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428003-ombudsmanat-i-pravosadniyat-ministar-zapochvat-rabota-po-nov-zakon-za-detskoto-pravosadie",
+      "date": "2026-08-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
     {
       "title": "Община Казанлък предлага бюджет за 2026 година в размер на 73 646 769 евро - ndt1.eu",
       "desc": "Община Казанлък предлага бюджет за 2026 година в размер на 73 646 769 евро ndt1.eu",
@@ -12,18 +111,18 @@
       "topic": "eu"
     },
     {
-      "title": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities - fundsforNGOs",
-      "desc": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbGI2SkZkX0VIQkFsZUpRbDhUWm0wVmY3NzZHYW8zdmozOGJYUktKOGhVeUhDYVNNaVllQm52U3NVTlJjSU1xNXJjSGJQXzdFb3dsQmlwU01FVTFsR1pKTVBjdE9WMW1iMHdHRUhTb1htY3NQMTdUblZqbHVIUDVRaEl4YXpvWW1PYk1YdzNfbUJmYmt6UnMybE5ITEE0VEZzV3MzWENleFg2V0d3RnZ1cEUxN2dycHZRRzM2VVpBOGhXbFZORG1LWFR2TG5ud0FHVzJIM3lFUFB2WFBaeUJHRV9Fb3BpdGx4MnZB0gHrAUFVX3lxTE9sYjZKRmRfRUhCQWxlSlFsOFRabTBWZjc3NkdhbzN2ajM4YlhSS0o4aFV5SENhU01pWWVCbnZTc1VOUmNJTXE1cmNIYlBfN0Vvd2xCaXBTTUVVMWxHWkpNUGN0T1YxbWIwd0dFSFNvWG1jc1AxN1RuVmpsdUhQNVFoSXhhem9ZbU9iTVh3M19tQmZia3pSczJsTkhMQTRURnNXczNYQ2V4WDZXR3dGdnVwRTE3Z3JwdlFHMzZVWkE4aFdsVk5EbUtYVHZMbm53QUdXMkgzeUVQUHZYUFp5QkdFX0VvcGl0bHgydkE?oc=5",
+      "title": "World Humanitarian Day: EU answering to growing global humanitarian needs - The European Times",
+      "desc": "World Humanitarian Day: EU answering to growing global humanitarian needs The European Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRk1aajVILWRzT1pCc1lEX1ZpcjJVMlZsbDNhM012QmhIMnNINW5XNlI3THNnNnltVDFQQldxMTBuTVllQ0xmOFJrWlNGX2lvaVBVNzY0YVVSUEhGMGltRHlGaXBDOVljZ3d6Zkg4dnZuSnY0WkdqVFc1MWtpYjRybDNnZjhLRjgyQTBTX1pVMTBDbUlBb1VJMGlieXpOWV9XbTN6TzhaVXFZeUY4?oc=5",
       "date": "2026-08-20",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "World Humanitarian Day: EU answering to growing global humanitarian needs - The European Times",
-      "desc": "World Humanitarian Day: EU answering to growing global humanitarian needs The European Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRk1aajVILWRzT1pCc1lEX1ZpcjJVMlZsbDNhM012QmhIMnNINW5XNlI3THNnNnltVDFQQldxMTBuTVllQ0xmOFJrWlNGX2lvaVBVNzY0YVVSUEhGMGltRHlGaXBDOVljZ3d6Zkg4dnZuSnY0WkdqVFc1MWtpYjRybDNnZjhLRjgyQTBTX1pVMTBDbUlBb1VJMGlieXpOWV9XbTN6TzhaVXFZeUY4?oc=5",
+      "title": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities - fundsforNGOs",
+      "desc": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbGI2SkZkX0VIQkFsZUpRbDhUWm0wVmY3NzZHYW8zdmozOGJYUktKOGhVeUhDYVNNaVllQm52U3NVTlJjSU1xNXJjSGJQXzdFb3dsQmlwU01FVTFsR1pKTVBjdE9WMW1iMHdHRUhTb1htY3NQMTdUblZqbHVIUDVRaEl4YXpvWW1PYk1YdzNfbUJmYmt6UnMybE5ITEE0VEZzV3MzWENleFg2V0d3RnZ1cEUxN2dycHZRRzM2VVpBOGhXbFZORG1LWFR2TG5ud0FHVzJIM3lFUFB2WFBaeUJHRV9Fb3BpdGx4MnZB0gHrAUFVX3lxTE9sYjZKRmRfRUhCQWxlSlFsOFRabTBWZjc3NkdhbzN2ajM4YlhSS0o4aFV5SENhU01pWWVCbnZTc1VOUmNJTXE1cmNIYlBfN0Vvd2xCaXBTTUVVMWxHWkpNUGN0T1YxbWIwd0dFSFNvWG1jc1AxN1RuVmpsdUhQNVFoSXhhem9ZbU9iTVh3M19tQmZia3pSczJsTkhMQTRURnNXczNYQ2V4WDZXR3dGdnVwRTE3Z3JwdlFHMzZVWkE4aFdsVk5EbUtYVHZMbm53QUdXMkgzeUVQUHZYUFp5QkdFX0VvcGl0bHgydkE?oc=5",
       "date": "2026-08-20",
       "source": "Google News EN",
       "lang": "en",
@@ -54,6 +153,15 @@
       "date": "2026-08-20",
       "source": "Bloomberg TV BG",
       "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "FirstFT: Iran weighs Europe strikes if US restarts war - Financial Times",
+      "desc": "FirstFT: Iran weighs Europe strikes if US restarts war Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdGh3SnplVVZrR1FyaWtfOWlMN1lSS3RQc3pBRTJVREFXTWxtYkhSQlI1aHY2VzVUaVE0dFBhSG43eHRxMWExLS1GMXNDMnViNTl3eTF3RlQ1NnUzOHFzWjc3WEJFZmhTMS16NXNJN2l5QVNMcDNSNzM5QWtEdnY3T3g3eko?oc=5",
+      "date": "2026-08-19",
+      "source": "Google News EN",
+      "lang": "en",
       "topic": "eu"
     },
     {
