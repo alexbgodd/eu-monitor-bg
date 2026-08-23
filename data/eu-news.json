@@ -1,47 +1,101 @@
 {
-  "updated": "2026-08-22 09:50",
-  "count": 18,
+  "updated": "2026-08-23 07:02",
+  "count": 13,
   "items": [
     {
-      "title": "Потушиха големия пожар край Равно поле",
+      "title": "Потушиха голям пожар на Младежкия хълм в Пловдив",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428119-potushiha-golemiya-pozhar-kray-ravno-pole",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428168-potushiha-golyam-pozhar-na-mladezhkiya-halm-v-plovdiv",
+      "date": "2026-08-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова: Реч на омразата към българите в Северна Македония, но ние ще пазим правата им",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428164-yotova-rech-na-omrazata-kam-balgarite-v-severna-makedoniya-no-nie-shte-pazim-pravata-im",
+      "date": "2026-08-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Прогноза за времето до 29 август: До 38° днес, идват бури и градушки",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428160-prognoza-za-vremeto-do-29-avgust-do-38-dnes-idvat-buri-i-gradushki",
+      "date": "2026-08-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Министърът на образованието: Готви се промяна на схемата \" парите следват ученика\" - vratsa.eu",
+      "desc": "Министърът на образованието: Готви се промяна на схемата \" парите следват ученика\" vratsa.eu",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1pOSG5kdHc2TENjcHNDQUE0THVNZ1lHVm85UkRWYjJRcWxrc3hFaXJxVktRcTJPb2ZkWVJUZGNleGZXUXEwZHUyaVZsY1JVVDZncW4wRWhyZ0h3aDFRbU5nbkdPVXZRYWNrYkJRaS1iNG8wWnJjTzNFX2g4cnJsZmtnSHVKRmhNcEtfQzlqSGdXcVJLemEwRXBJWHlYVGJDdGRXeHJqV1UwWmRqOWprYmNqYjNVbmw0Y2FyaHc2OGluTW95UkE?oc=5",
+      "date": "2026-08-22",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Жена падна тежко на Мальовица, вдигнаха хеликоптер \"Кугър\" да я спасява",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428155-zhena-padna-tezhko-na-malyovitsa-vdignaha-helikopter-kugar-da-ya-spasyava",
       "date": "2026-08-22",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Доматите поевтиняха с над 28% за седмица, маслото и млечните продукти поскъпват",
+      "title": "Скъп автомобил се запали и изгоря в Йоаким Груево",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428104-domatite-poevtinyaha-s-nad-28-za-sedmitsa-masloto-i-mlechnite-produkti-poskapvat",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428153-skap-avtomobil-se-zapali-i-izgorya-v-yoakim-gruevo",
       "date": "2026-08-22",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Минимално понижение на нивата на река Дунав, обстановката остава усложнена",
+      "title": "149 години Шипченска епопея: Стотици се събраха на историческия връх",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428101-minimalno-ponizhenie-na-nivata-na-reka-dunav-obstanovkata-ostava-uslozhnena",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428146-149-godini-shipchenska-epopeya-stotitsi-se-sabraha-na-istoricheskiya-vrah",
       "date": "2026-08-22",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Времето днес, 22 август: Слънчево и горещо с температури до 39°",
+      "title": "Пожар на АМ \"Тракия\" създава проблеми в посока София",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428096-vremeto-dnes-22-avgust-slanchevo-i-goreshto-s-temperaturi-do-39",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428144-pozhar-na-am-trakiya-sazdava-problemi-v-posoka-sofiya",
       "date": "2026-08-22",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Църковен празник на 22 август: Поверия и забрани на днешния ден",
+      "title": "Останки от два дрона откриха край Варна",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428092-tsarkoven-praznik-na-22-avgust-poveriya-i-zabrani-na-dneshniya-den",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428143-ostanki-ot-dva-drona-otkriha-kray-varna",
+      "date": "2026-08-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Старозагорската митрополия: Не е забраняван молебен за Украйна на Шипка",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428140-starozagorskata-mitropoliya-ne-e-zabranyavan-moleben-za-ukrayna-na-shipka",
+      "date": "2026-08-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Рекорден трафик на \"Капитан Андреево\", преминаването отнема между 3 и 5 часа",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428138-rekorden-trafik-na-kapitan-andreevo-preminavaneto-otnema-mezhdu-3-i-5-chasa",
       "date": "2026-08-22",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -63,105 +117,6 @@
       "date": "2026-08-21",
       "source": "Google News EN",
       "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Полиция и жандармерия блокираха заведението със заглушителя в \"Драгалевци\" (+СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428087-politsiya-i-zhandarmeriya-blokiraha-zavedenieto-sas-zaglushitelya-v-dragalevtsi-snimki",
-      "date": "2026-08-21",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мощният заглушител е бил в заведение в столичния \"Драгалевци\" (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/428086-moshtniyat-zaglushitel-e-bil-v-zavedenie-v-stolichniya-dragalevtsi-snimki",
-      "date": "2026-08-21",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Икономист: България върви в \"черна спирала\" заради рекордния дълг",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428083-ikonomist-balgariya-varvi-v-cherna-spirala-zaradi-rekordniya-dalg",
-      "date": "2026-08-21",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "България обсъди със САЩ възможностите за F-16 втора употреба",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428082-balgariya-obsadi-sas-sasht-vazmozhnostite-za-f-16-vtora-upotreba",
-      "date": "2026-08-21",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Проф. Кръстева за заглушителя, руския самолет и Иран: Тревожно е, че институциите не работят",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428081-prof-krasteva-za-zaglushitelya-ruskiya-samolet-i-iran-trevozhno-e-che-institutsiite-ne-rabotyat",
-      "date": "2026-08-21",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Община Казанлък предлага бюджет за 2026 година в размер на 73 646 769 евро - ndt1.eu",
-      "desc": "Община Казанлък предлага бюджет за 2026 година в размер на 73 646 769 евро ndt1.eu",
-      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOYXZZMzczRks1d0ZFU3g5aEVLRHdPdkUyeTJsT3hvU2JEY2N4OVBfUmY0LWhrTnhBNzlNSDlmQUJiQWR3ZFJkY1ctR3BvNGtlcFlSMnR4MEVDVHNuRTVBV1FGeGFDMm1WMHcxU0dtSjZhSXZBZmlGWVpwUmh5UlBBU1NnVHNubG5HbVI3SUFSam9Ib1lGYXdRR2x4ZUQ3ZDJTMGJmQWplSk1sU2dFU1FDbC1UVE5IVm9zMkhVc243MndlVnJqQ01PdkxEekJHbDFxaEc1T09NYkdNZ201VEU1R0RUT0Mtd2NXSWk5Mmp5QjVTLU5EQWJUQUJrWUxYUkd2QmZJQ1Zfc0syZnYzaG5nekNXM0c4N0xxVWdlTkhWMnloc1JBUmViUmZCZmhZSjNtV3F3QWk2X0U?oc=5",
-      "date": "2026-08-20",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "World Humanitarian Day: EU answering to growing global humanitarian needs - The European Times",
-      "desc": "World Humanitarian Day: EU answering to growing global humanitarian needs The European Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRk1aajVILWRzT1pCc1lEX1ZpcjJVMlZsbDNhM012QmhIMnNINW5XNlI3THNnNnltVDFQQldxMTBuTVllQ0xmOFJrWlNGX2lvaVBVNzY0YVVSUEhGMGltRHlGaXBDOVljZ3d6Zkg4dnZuSnY0WkdqVFc1MWtpYjRybDNnZjhLRjgyQTBTX1pVMTBDbUlBb1VJMGlieXpOWV9XbTN6TzhaVXFZeUY4?oc=5",
-      "date": "2026-08-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities - fundsforNGOs",
-      "desc": "Call for Proposals: European Youth Foundation International One-Off Youth Co-Operation Activities fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbGI2SkZkX0VIQkFsZUpRbDhUWm0wVmY3NzZHYW8zdmozOGJYUktKOGhVeUhDYVNNaVllQm52U3NVTlJjSU1xNXJjSGJQXzdFb3dsQmlwU01FVTFsR1pKTVBjdE9WMW1iMHdHRUhTb1htY3NQMTdUblZqbHVIUDVRaEl4YXpvWW1PYk1YdzNfbUJmYmt6UnMybE5ITEE0VEZzV3MzWENleFg2V0d3RnZ1cEUxN2dycHZRRzM2VVpBOGhXbFZORG1LWFR2TG5ud0FHVzJIM3lFUFB2WFBaeUJHRV9Fb3BpdGx4MnZB0gHrAUFVX3lxTE9sYjZKRmRfRUhCQWxlSlFsOFRabTBWZjc3NkdhbzN2ajM4YlhSS0o4aFV5SENhU01pWWVCbnZTc1VOUmNJTXE1cmNIYlBfN0Vvd2xCaXBTTUVVMWxHWkpNUGN0T1YxbWIwd0dFSFNvWG1jc1AxN1RuVmpsdUhQNVFoSXhhem9ZbU9iTVh3M19tQmZia3pSczJsTkhMQTRURnNXczNYQ2V4WDZXR3dGdnVwRTE3Z3JwdlFHMzZVWkE4aFdsVk5EbUtYVHZMbm53QUdXMkgzeUVQUHZYUFp5QkdFX0VvcGl0bHgydkE?oc=5",
-      "date": "2026-08-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Romania and 6 EU Frontline Nations Seek Emergency Tourism Aid Amid 2026 Border Security Fears - Nomad Lawyer",
-      "desc": "Romania and 6 EU Frontline Nations Seek Emergency Tourism Aid Amid 2026 Border Security Fears Nomad Lawyer",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlKMVdmWFQ3Y2NKcUlCNnc5MlBtcG5pZHZROXFjbENxelBvTnJuZTFmeDlHeVRyNnFOWE5mX3AzM25GOEhIdm15Y0xKMjB0bVNRcWRQcWZlQ2JCQzdwZFFldVQxMmRYdnd0OHBKaTR2SThEN3Rld3k5Z09hZ0FUUjRGWm01OWxNdy0yV2t4SC11UG5mcFE?oc=5",
-      "date": "2026-08-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Българските олимпийци по природни науки изграждат бъдещия глобален елит",
-      "desc": "България продължава да затвърждава позицията си на световна сила в олимпиадите по природни науки, нареждайки се сред водещите страни по брой спечелени златни медали в Европа. Този успех не е случаен, а е резултат от дългогодишни традиции, методическа подготовка и устойчиво партньорство между държава",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163232-balgarskite-olimpiytsi-po-prirodni-nauki-izgrazhdat-badeshtiya-globalen-elit",
-      "date": "2026-08-20",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Бизнесът има интерес децата да имат защита срещу дизайна на социалните мрежи",
-      "desc": "Правните действия в САЩ, където 29 щата заведоха съдебни дела срещу технологичния гигант Meta с обвинения за съзнателно пристрастяване на деца към платформите Facebook и Instagram, отново поставиха на преден план въпроса за отговорността на технологичните компании. Проблемът с дигиталната зависимост",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163226-biznesat-ima-interes-detsata-da-imat-zashtita-sreshtu-dizayna-na-sotsialnite-mrezhi",
-      "date": "2026-08-20",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
       "topic": "eu"
     }
   ]
