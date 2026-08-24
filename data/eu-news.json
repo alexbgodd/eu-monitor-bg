@@ -1,65 +1,101 @@
 {
-  "updated": "2026-08-23 09:51",
-  "count": 13,
+  "updated": "2026-08-24 07:30",
+  "count": 12,
   "items": [
     {
-      "title": "140 пожара са ликвидирани за денонощието, локализираха огъня край Симеоновград",
+      "title": "Open Call for Connect NEB 2027 - fundsforNGOs",
+      "desc": "Open Call for Connect NEB 2027 fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZnFCSUNNUkhrZ2VtTy1hX0o2RzJmWDl0TzZCNk1naFl1TVNqMnQ3THZrZlZJdEVaZ1d0eXB6RUUtRHM1YzEtWkdaWEM1enRyVHA2X2syMmJCbl9hNDdOOXJDMl9fVVA5OWVIeS1reGZwcWR0SnQxQnp2YTVsdWRXbE5n0gGCAUFVX3lxTE1mcUJJQ01SSGtnZW1PLWFfSjZHMmZYOXRPNkI2TWdoWXVNU2oydDdMdmtmVkl0RVpnV3R5cHpFRS1EczVjMS1aR1pYQzV6dHJUcDZfazIyYkJuX2E0N045ckMyX19VUDk5ZUh5LWt4ZnBxZHRKdDFCenZhNWx1ZFdsTmc?oc=5",
+      "date": "2026-08-24",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Омбудсманът: Пролетната ваканция да остане през април, учениците ще се изтощят без почивка",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428183-140-pozhara-sa-likvidirani-za-denonoshtieto-lokaliziraha-oganya-kray-simeonovgrad",
-      "date": "2026-08-23",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428265-ombudsmanat-proletnata-vakantsiya-da-ostane-prez-april-uchenitsite-shte-se-iztoshtyat-bez-pochivka",
+      "date": "2026-08-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Градушки и поройни валежи връхлитат 16 области, обявен е жълт код",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428263-gradushki-i-poroyni-valezhi-vrahlitat-16-oblasti-obyaven-e-zhalt-kod",
+      "date": "2026-08-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Прасковите се изкупуват на цени отпреди осем години, овощари предупреждават за масови фалити",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428258-praskovite-se-izkupuvat-na-tseni-otpredi-osem-godini-ovoshtari-preduprezhdavat-za-masovi-faliti",
+      "date": "2026-08-24",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Държавата ще плаща заплати и осигуровки при наемане на безработни с малки деца",
+      "title": "Шишков: Държавните пари са спасителен пояс за селата, край на хаоса във финансирането",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428181-darzhavata-shte-plashta-zaplati-i-osigurovki-pri-naemane-na-bezrabotni-s-malki-detsa",
-      "date": "2026-08-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Дунав се покачва минимално в България след период на застой",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428179-dunav-se-pokachva-minimalno-v-balgariya-sled-period-na-zastoy",
-      "date": "2026-08-23",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428255-shishkov-darzhavnite-pari-sa-spasitelen-poyas-za-selata-kray-na-haosa-vav-finansiraneto",
+      "date": "2026-08-24",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Почина жената, паднала тежко под връх Мальовица",
+      "title": "Дунав се покачва, но ограниченията за корабоплаването остават",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428176-pochina-zhenata-padnala-tezhko-pod-vrah-malyovitsa",
-      "date": "2026-08-23",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428254-dunav-se-pokachva-no-ogranicheniyata-za-koraboplavaneto-ostavat",
+      "date": "2026-08-24",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Потушиха голям пожар на Младежкия хълм в Пловдив",
+      "title": "Вековната гора край Петрохан вече е незаконно сметище",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428168-potushiha-golyam-pozhar-na-mladezhkiya-halm-v-plovdiv",
-      "date": "2026-08-23",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428253-vekovnata-gora-kray-petrohan-veche-e-nezakonno-smetishte",
+      "date": "2026-08-24",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Йотова: Реч на омразата към българите в Северна Македония, но ние ще пазим правата им",
+      "title": "Рекордните близо 7,4 млн. тона пшеница не радват производителите",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428164-yotova-rech-na-omrazata-kam-balgarite-v-severna-makedoniya-no-nie-shte-pazim-pravata-im",
-      "date": "2026-08-23",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428249-rekordnite-blizo-74-mln-tona-pshenitsa-ne-radvat-proizvoditelite",
+      "date": "2026-08-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Извънредно заседание на Правната комисия: Депутатите се връщат по-рано на работа",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428245-izvanredno-zasedanie-na-pravnata-komisiya-deputatite-se-vrashtat-po-rano-na-rabota",
+      "date": "2026-08-24",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Прогноза за времето до 29 август: До 38° днес, идват бури и градушки",
+      "title": "10 000 декара изпепелени: Продължава гасенето на големия пожар в Хасковско",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428160-prognoza-za-vremeto-do-29-avgust-do-38-dnes-idvat-buri-i-gradushki",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428242-10-000-dekara-izpepeleni-prodalzhava-gaseneto-na-golemiya-pozhar-v-haskovsko",
+      "date": "2026-08-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Хеликоптер транспортира пострадал моторист от Габрово към \"Пирогов\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428225-helikopter-transportira-postradal-motorist-ot-gabrovo-kam-pirogov",
       "date": "2026-08-23",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -72,51 +108,6 @@
       "date": "2026-08-22",
       "source": "Google News BG",
       "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Жена падна тежко на Мальовица, вдигнаха хеликоптер \"Кугър\" да я спасява",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428155-zhena-padna-tezhko-na-malyovitsa-vdignaha-helikopter-kugar-da-ya-spasyava",
-      "date": "2026-08-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Скъп автомобил се запали и изгоря в Йоаким Груево",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428153-skap-avtomobil-se-zapali-i-izgorya-v-yoakim-gruevo",
-      "date": "2026-08-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "149 години Шипченска епопея: Стотици се събраха на историческия връх",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428146-149-godini-shipchenska-epopeya-stotitsi-se-sabraha-na-istoricheskiya-vrah",
-      "date": "2026-08-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Work Package 4, Lot 2: Visual Arts Collaborative Research Grant - fundsforNGOs",
-      "desc": "Work Package 4, Lot 2: Visual Arts Collaborative Research Grant fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdEp1VUJQR0RoLWduYzBBdmZuVjZ6ODVXVnQzN2ZaQUdheWdNVmpCTDFIRDh6a0Z2RVhXelNCb3NvZ3VLX3BDVXJ5TVRyZ1VjcXg4VEMtSHNpb254dzAwSnVmR1MtcVVKRVdRQVRVbGtNd1NHWGk5TnZ1YW5TdjFQcjQ1V3REem05SzNEaVRTc0hwblRQSWNZbXp5dkZVMkFfam1SMzdJUHp0NVXSAasBQVVfeXFMUHRKdVVCUEdEaC1nbmMwQXZmblY2ejg1V1Z0MzdmWkFHYXlnTVZqQkwxSEQ4emtGdkVYV3pTQm9zb2d1S19wQ1VyeU1UcmdVY3F4OFRDLUhzaW9ueHcwMEp1ZkdTLXFVSkVXUUFUVWxrTXdTR1hpOU52dWFuU3YxUHI0NVd0RHptOUszRGlUU3NIcG5UUEljWW16eXZGVTJBX2ptUjM3SVB6dDVV?oc=5",
-      "date": "2026-08-21",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EU cuts farmers in Ukraine, Kiev mulls talks with Moscow ᐉ Новини от Fakti.bg - World - fakti.bg",
-      "desc": "EU cuts farmers in Ukraine, Kiev mulls talks with Moscow ᐉ Новини от Fakti.bg - World fakti.bg",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaEh3ZjlPY2RLcVA4WmNYRVBmdU1Wa1NNM1VOVnNrV3Y4UkRicG1ydVZWREtwVHJkVVNVc1FvRjFuYV8ydTMxRDBNNlVBNnp3S3ZlbXJHS1F6Y1NjUjl1UFpKd2dGREJpa3lYZEtRLWhiQzJsUThSaEJfZUo3TnloTGlMY3ZTMlVNYmJqT0N5U1FNMHVya0Q4NA?oc=5",
-      "date": "2026-08-21",
-      "source": "Google News EN",
-      "lang": "en",
       "topic": "eu"
     }
   ]
