@@ -1,7 +1,16 @@
 {
-  "updated": "2026-08-25 07:10",
-  "count": 14,
+  "updated": "2026-08-25 09:59",
+  "count": 15,
   "items": [
+    {
+      "title": "Chasing investment sources - eKathimerini.com",
+      "desc": "Chasing investment sources eKathimerini.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZQnpzSGxfUjlFZzZwUjhWc3doMHM3U1hfWWhuQmhfNTJEX3ZDUUloMkp6RzVabGZWRnc1Vmlld1hnWktwa1ZIa0k0dVBKSElreXNINno5SXFCVkZsTlJPakZHMDNxdUR5MGlkSFJDbDdJNEJLOHlPb3dDb3U?oc=5",
+      "date": "2026-08-25",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
     {
       "title": "EBRD and EU Support Cleaner, Safer Waste Management for 800,000 People in Serbia - fundsforNGOs News",
       "desc": "EBRD and EU Support Cleaner, Safer Waste Management for 800,000 People in Serbia fundsforNGOs News",
@@ -12,54 +21,90 @@
       "topic": "eu"
     },
     {
+      "title": "Терзиев за бурята в София: Овладяхме спешните последствия за по-малко от 90 минути",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428383-terziev-za-buryata-v-sofiya-ovladyahme-speshnite-posledstviya-za-po-malko-ot-90-minuti",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Съдебната реформа е неизбежна, но амбициозните срокове крият рискове",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428379-sadebnata-reforma-e-neizbezhna-no-ambitsioznite-srokove-kriyat-riskove",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Бонус-малус\" влиза в сила - какво се променя за шофьорите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428377-bonus-malus-vliza-v-sila-kakvo-se-promenya-za-shofyorite",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Донорството на яйцеклетки остава табу, заклеймява хората с репродуктивни проблеми",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428375-donorstvoto-na-yaytsekletki-ostava-tabu-zakleymyava-horata-s-reproduktivni-problemi",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Димитър Стоянов: Иран проведе хибридна операция, подпомаган от български политици",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428374-dimitar-stoyanov-iran-provede-hibridna-operatsiya-podpomagan-ot-balgarski-polititsi",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Наводненията в Пазарджишко: Социалните започват обход на пострадалите имоти",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428373-navodneniyata-v-pazardzhishko-sotsialnite-zapochvat-obhod-na-postradalite-imoti",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Кметът на Динево: Пожарът беше страшен, гледахме как идва към нас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428372-kmetat-na-dinevo-pozharat-beshe-strashen-gledahme-kak-idva-kam-nas",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Убийството на Георги Кузев в Пловдив - децата и родителите им са проблемни, смята адв. Борисов",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428371-ubiystvoto-na-georgi-kuzev-v-plovdiv-detsata-i-roditelite-im-sa-problemni-smyata-adv-borisov",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Анализатори: Усвояват властта, но не предлагат политики срещу проблемите на хората",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/428369-analizatori-usvoyavat-vlastta-no-ne-predlagat-politiki-sreshtu-problemite-na-horata",
+      "date": "2026-08-25",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "Дунав остава с ниски нива, само край Силистра има повишение с 4 см",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/428366-dunav-ostava-s-niski-niva-samo-kray-silistra-ima-povishenie-s-4-sm",
-      "date": "2026-08-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дете е причинило големия пожар в Хасковско: Използвало запалка \"да види какво ще стане\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428365-dete-e-prichinilo-golemiya-pozhar-v-haskovsko-izpolzvalo-zapalka-da-vidi-kakvo-shte-stane",
-      "date": "2026-08-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Бурята в София: За минути е паднал дъжд, колкото е средното количество за 10 дни",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428362-buryata-v-sofiya-za-minuti-e-padnal-dazhd-kolkoto-e-srednoto-kolichestvo-za-10-dni",
-      "date": "2026-08-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Струмяни бедства: Реки преляха и наводниха къщи, мостове са разрушени",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428361-strumyani-bedstva-reki-prelyaha-i-navodniha-kashti-mostove-sa-razrusheni",
-      "date": "2026-08-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "След потопа: Пътят към Батак остава затворен, продължава издирването на изчезналия мъж (+ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428357-sled-potopa-patyat-kam-batak-ostava-zatvoren-prodalzhava-izdirvaneto-na-izcheznaliya-mazh-video",
-      "date": "2026-08-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Порой превърна в реки улиците в Сатовча, обявиха частично бедствено положение",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428356-poroy-prevarna-v-reki-ulitsite-v-satovcha-obyaviha-chastichno-bedstveno-polozhenie",
       "date": "2026-08-25",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -82,42 +127,6 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "58-годишен мъж е в неизвестност след пороите в Пещера",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428344-58-godishen-mazh-e-v-neizvestnost-sled-poroite-v-peshtera",
-      "date": "2026-08-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Йотова с преднина, а ГЕРБ - \"големият отсъстващ\": Кой има шанс за балотаж?",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428343-yotova-s-prednina-a-gerb-golemiyat-otsastvasht-koy-ima-shans-za-balotazh",
-      "date": "2026-08-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Безлов за заглушителя в \"Драгалевци\": Има противоречиви съобщения",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428342-bezlov-za-zaglushitelya-v-dragalevtsi-ima-protivorechivi-saobshteniya",
-      "date": "2026-08-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Никола Стоянов: \"Справедливата цена\" няма да промени правилата, по веригата има изкривявания",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428340-nikola-stoyanov-spravedlivata-tsena-nyama-da-promeni-pravilata-po-verigata-ima-izkrivyavaniya",
-      "date": "2026-08-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
     },
     {
       "title": "България обмисля строеж на диги заради нивото на Дунав край АЕЦ \"Козлодуй\"",
