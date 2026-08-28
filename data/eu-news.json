@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28 18:45",
-  "count": 9,
+  "updated": "2026-08-28 20:57",
+  "count": 19,
   "items": [
     {
       "title": "България получи 489,3 млн. евро по европейския инструмент SAFE за отбрана, съобщи Европейската комисия - БТА",
@@ -9,6 +9,15 @@
       "date": "2026-08-28",
       "source": "Google News BG",
       "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "EU defence funding begins as Bulgaria and Latvia receive €1b boost - The Brussels Times",
+      "desc": "EU defence funding begins as Bulgaria and Latvia receive €1b boost The Brussels Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUEpLUVRrZjhVQ3pBMzZOSHFnanRNcEJnejlWRnh1UWZxWndYNzlKS3VnNDlmUUVGV09vWEdPREF3LW1MemdNYlVFZVN0cW9KWUZTc3VFTXBCUjBjSy1haGdYU2JVZ3QwdThEdGZneTZnMC1LUWRZcnhGdFZvVVRsQ1lqVmJKejJaNFJsMUwyV2xqWmNKYTZwMVZ0bnBZUkRjMURuX2ZMdmlRVFNUNloyTDRYYkVna0E?oc=5",
+      "date": "2026-08-28",
+      "source": "Google News EN",
+      "lang": "en",
       "topic": "eu"
     },
     {
@@ -30,21 +39,102 @@
       "topic": "eu"
     },
     {
+      "title": "Мъж е в болница след пожар в автосервиз във Варна",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428767-mazh-e-v-bolnitsa-sled-pozhar-v-avtoserviz-vav-varna",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Демерджиев уволни директора на ОДМВР-Благоевград заради ареста в Струмяни",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428762-demerdzhiev-uvolni-direktora-na-odmvr-blagoevgrad-zaradi-aresta-v-strumyani",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Настимир Ананиев: Предизвиквам Борисов да се яви на президентските избори",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428761-nastimir-ananiev-predizvikvam-borisov-da-se-yavi-na-prezidentskite-izbori",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Д-р Кацаров: Липсва здравна реформа, трябва приватизация на държавните болници",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428760-d-r-katsarov-lipsva-zdravna-reforma-tryabva-privatizatsiya-na-darzhavnite-bolnitsi",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Демерджиев бави истината за \"Петрохан\", заявиха Кристиян Шкварек и Александър Симов",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/428757-demerdzhiev-bavi-istinata-za-petrohan-zayaviha-kristiyan-shkvarek-i-aleksandar-simov",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Велосипедисти протестират пред НДК заради глоби в парковете в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428751-velosipedisti-protestirat-pred-ndk-zaradi-globi-v-parkovete-v-sofiya",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "МВР спира издаването на 10-годишните паспорти по технически причини",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428750-mvr-spira-izdavaneto-na-10-godishnite-pasporti-po-tehnicheski-prichini",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Стотици хиляди столичани без топла вода за 17 дни: \"Ще топлим с бързовара\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428749-stotitsi-hilyadi-stolichani-bez-topla-voda-za-17-dni-shte-toplim-s-barzovara",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Илюзията \"още затвор\": Защо по-тежките наказания не раждат справедливост",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/428747-ilyuziyata-oshte-zatvor-zashto-po-tezhkite-nakazaniya-ne-razhdat-spravedlivost",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Разруха след наводнението в Родопите: До 4000 евро помощ за пострадалите семейства",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428746-razruha-sled-navodnenieto-v-rodopite-do-4000-evro-pomosht-za-postradalite-semeystva",
+      "date": "2026-08-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "СЕМ поиска допълнително финансиране от държавата - vratsa.eu",
       "desc": "СЕМ поиска допълнително финансиране от държавата vratsa.eu",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjRBMjRXcWNNS3otRWxaY2FDQzhkWVpOdk44ZEJYcERtcU9aWktaTEVtcUtITWg1TnZhU25YcnNrQXQ3STBYMDlMMFhqRk9oblFKOHlseTBrSDJTa3JQLW5mcTdqR0dnNmFQN2ZRc3hvRDlmMUNvbmpjU1VfQW1tTjA0VGxlQ3ZvQ1p0eWVScFg?oc=5",
       "date": "2026-08-27",
       "source": "Google News BG",
       "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Spain Requests Emergency Funds to Manage Migration Crisis in Ceuta - ASHARQ AL-AWSAT English",
-      "desc": "Spain Requests Emergency Funds to Manage Migration Crisis in Ceuta ASHARQ AL-AWSAT English",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFI0MFA0SXh3UWhtZmxZU0N1MDhHcEprUFZHRDJlOEx1TGdYZmVRUi1DY2IxQVlmZE9KbmJYaHVUSVZfV3FVNU9yZjl6NFM1X0IzNG5sWW9LTjFlREh1Ym1xUGxzYlhyX0R3a0hOcDBGak1zRW5LR3BSdXpyV0NDNkVZTVc3VWYzeXlQaWNITlNaZnJhRnZQOXI5UVpWaUxJWldB?oc=5",
-      "date": "2026-08-27",
-      "source": "Google News EN",
-      "lang": "en",
       "topic": "eu"
     },
     {
