@@ -12,7 +12,27 @@ from send_alerts import send_email
 
 DATA_FILE    = os.path.join(os.path.dirname(__file__), '..', 'data', 'programs.json')
 SENT_LOG     = os.path.join(os.path.dirname(__file__), '..', 'data', 'sent_log.json')
+WEEK_MARKER  = os.path.join(os.path.dirname(__file__), '..', 'data', 'last_sent_week.txt')
 MAX_PER_MAIL = 20
+
+
+def current_week():
+    """ISO седмица, напр. '2026-W35'."""
+    from datetime import date
+    y, w, _ = date.today().isocalendar()
+    return f"{y}-W{w:02d}"
+
+
+def already_sent_this_week():
+    if not os.path.exists(WEEK_MARKER):
+        return False
+    with open(WEEK_MARKER, encoding='utf-8') as f:
+        return f.read().strip() == current_week()
+
+
+def mark_week_sent():
+    with open(WEEK_MARKER, 'w', encoding='utf-8') as f:
+        f.write(current_week())
 
 def load_sent_log():
     if os.path.exists(SENT_LOG):
@@ -26,10 +46,18 @@ def save_sent_log(log):
 
 def main():
     dry_run = '--dry-run' in sys.argv
-    args = [a for a in sys.argv[1:] if a != '--dry-run']
+    force = '--force' in sys.argv
+    args = [a for a in sys.argv[1:] if a not in ('--dry-run', '--force')]
     target_email = args[0] if args else None
     if dry_run:
         print("=== DRY RUN — нищо няма да се изпрати ===\n")
+
+    # GitHub понякога изхвърля планирани runs (случи се 31.08.2026 — понеделнишкият
+    # изобщо не тръгна). Затова workflow-ът опитва няколко пъти в понеделник, а този
+    # маркер пази да се изпрати само веднъж седмично.
+    if not dry_run and not force and not target_email and already_sent_this_week():
+        print(f"Вече е изпратено за седмица {current_week()} — пропускам.")
+        return
 
     # 1. Зареди програмите — сортирани по found_at (най-нови първи)
     with open(DATA_FILE, encoding='utf-8') as f:
@@ -91,6 +119,9 @@ def main():
             sent_log[email] = list(already_sent | set(sent_ids))
             save_sent_log(sent_log)
             print(f"  -> Изпратени {len(to_send)}, пропуснати {len(already_sent)}")
+
+    if not dry_run and not target_email:
+        mark_week_sent()
 
     print("\n✓ Готово!")
 

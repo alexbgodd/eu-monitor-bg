@@ -2,8 +2,13 @@ name: Weekly email alerts
 
 on:
   schedule:
-    - cron: '23 5 * * 1'   # понеделник 05:23 UTC ≈ 08:23 българско време (лятно)
-  workflow_dispatch: {}    # ръчно пускане от Actions таба, за тест
+    # GitHub забавя и понякога изхвърля планирани runs (31.08.2026 — понеделнишкият
+    # изобщо не тръгна). Затова три опита в понеделник; маркерът за седмица в
+    # blast_existing.py пази да се изпрати само веднъж — първият успял run.
+    - cron: '23 5 * * 1'    # ~08:23 BG
+    - cron: '23 9 * * 1'    # ~12:23 BG
+    - cron: '23 13 * * 1'   # ~16:23 BG
+  workflow_dispatch: {}     # ръчно пускане от Actions таба, за тест
 
 permissions:
   contents: write
@@ -36,7 +41,7 @@ jobs:
         run: |
           git config user.name "eu-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/sent_log.json
+          git add data/sent_log.json data/last_sent_week.txt
           git diff --staged --quiet || git commit -m "chore: weekly alerts sent_log $(date -u +%Y-%m-%d)"
           git pull --rebase --autostash origin master
           git push

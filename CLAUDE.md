@@ -258,12 +258,13 @@ EMAIL_FROM=info@gdprcheck.bg
 | Workflow | Файл | Кога | Какво прави |
 |----------|------|------|-------------|
 | Daily scrape | `.github/workflows/daily-run.yml` | всеки ден 06:17 UTC | `scraper.py` + `scrape_eu_news.py` + `generate_seo_pages.py` → commit `data/` + `web/institucii/`. БЕЗ имейли. |
-| Weekly alerts | `.github/workflows/weekly-alerts.yml` | понеделник 05:23 UTC (~08:23 BG) | `blast_existing.py` (sent_log дедупликация, top 20 по found_at) → commit `data/sent_log.json` |
+| Weekly alerts | `.github/workflows/weekly-alerts.yml` | понеделник 05:23 / 09:23 / 13:23 UTC | `blast_existing.py` (sent_log дедупликация, top 20 по found_at) → commit `data/sent_log.json` + `data/last_sent_week.txt` |
 | News refresh | `.github/workflows/news-refresh.yml` | всеки ден 09:27 UTC (~12:27 BG) | само `scrape_eu_news.py` → commit `data/eu-news.json`. Второ обедно обновяване на /eu-news. |
 
 Бележки:
 - `send_alerts.py` (scrape+send в едно, БЕЗ sent_log) вече НЕ се ползва от automation — само ръчно/за тест.
 - `sent_log.json` ЗАДЪЛЖИТЕЛНО се комитва от weekly job-а — иначе дедупликацията се губи между run-ове.
+- **GitHub забавя и понякога изхвърля планирани runs** (31.08.2026 — понеделнишкият изобщо не тръгна; закъснения от 30 мин до 3+ часа са нормални). Затова weekly има ТРИ cron-а в понеделник, а `data/last_sent_week.txt` (ISO седмица) пази да се изпрати само веднъж. Ръчно форсиране: `python blast_existing.py --force`.
 - Windows Task Scheduler "EU Monitor Weekly Alerts" (пон. 08:00 локално) ДУБЛИРА weekly workflow-а — трябва да се изключи (Task Scheduler → Disable), иначе двойни имейли в понеделник.
 - Локална работа: прави `git pull` — ботът комитва данни всеки ден.
 
