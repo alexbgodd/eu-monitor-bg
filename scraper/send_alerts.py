@@ -90,6 +90,10 @@ def send_email(to_email, to_name, programs):
             <p>Намерихме <b>{len(programs)} нов{'а програма' if len(programs)==1 else 'и програми'}</b>,
                която може да те интересува:</p>
             {programs_html}
+            <div style="background:#f8faff;border:1px solid #dbeafe;border-radius:8px;padding:14px 16px;margin:24px 0;font-size:14px;color:#1e40af;">
+                Ако това ти е полезно, препрати имейла на колега — регистрацията е безплатна:
+                <a href="{SITE_URL}" style="color:#1d4ed8;">{SITE_URL}</a>
+            </div>
             <hr style="border:none;border-top:1px solid #e5e7eb;margin:24px 0;">
             <p style="color:#888;font-size:13px;">
                 Получаваш този имейл, защото се регистрира на
