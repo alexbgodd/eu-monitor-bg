@@ -1,7 +1,16 @@
 {
-  "updated": "2026-08-31 13:54",
-  "count": 16,
+  "updated": "2026-08-31 17:10",
+  "count": 18,
   "items": [
+    {
+      "title": "Проба, проба: държавни пари за частни медии - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "desc": "Проба, проба: държавни пари за частни медии СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DSVJFRko2dTM0S2xDcUZZbWpveEtyUExzbjR3LU5hV3BpeWVtYUJsQjJtcVpSN3FrcDh1VGotWmFrSFFBdVE4blN3bWI2X0hk?oc=5",
+      "date": "2026-08-31",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "How European billions fuelled Bulgaria’s energy paradox - Osservatorio Balcani Caucaso Transeuropa",
       "desc": "How European billions fuelled Bulgaria’s energy paradox Osservatorio Balcani Caucaso Transeuropa",
@@ -10,6 +19,78 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Budget Deficit Narrows to EUR 2.2 Bln at End-July - БТА",
+      "desc": "Budget Deficit Narrows to EUR 2.2 Bln at End-July БТА",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSzdCRTdRaWM3TWFQdTBHQmNOY0FHa18wV1R4QndwU2lRVGxFVkhBZENURXQ1MDROWEF1QlVNUkxvbjJyaldCTW9Ra0ZCNzdQYVM3V2NjOG1HU05VaXNRUVhtZlJTT0xudjBzRTlZYkVQMTZZRFdkcEtTUENZUWZ2XzJCUlhOVVZHQUI0VGR4YU01VEpoNllJ?oc=5",
+      "date": "2026-08-31",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Йотова: Здравето на децата е национална кауза и не може да бъде жертва на политиката",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429011-yotova-zdraveto-na-detsata-e-natsionalna-kauza-i-ne-mozhe-da-bade-zhertva-na-politikata",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Формулата \"Парите следват ученика\" - решение ли е на един от проблемите в образованието",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/429010-formulata-parite-sledvat-uchenika-reshenie-li-e-na-edin-ot-problemite-v-obrazovanieto",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "320 евро стана компенсацията за родители на неприети в ясла или градина деца (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429009-320-evro-stana-kompensatsiyata-za-roditeli-na-neprieti-v-yasla-ili-gradina-detsa-video",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бащата на Ива Михайлова: Самоопределянето ѝ като българка започна агонията ѝ",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429007-bashtata-na-iva-mihaylova-samoopredelyaneto-kato-balgarka-zapochna-agoniyata",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Разширяват разследването на взрива във военния завод \"ЕМКО\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429001-razshiryavat-razsledvaneto-na-vzriva-vav-voenniya-zavod-emko",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ТИР се удари в мантинелата на АМ \"Тракия\", движението е затруднено",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428999-tir-se-udari-v-mantinelata-na-am-trakiya-dvizhenieto-e-zatrudneno",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Две дълги почивки за учениците през пролетта - едната ще е 10 дни",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428998-dve-dalgi-pochivki-za-uchenitsite-prez-proletta-ednata-shte-e-10-dni",
+      "date": "2026-08-31",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
     },
     {
       "title": "БАБХ спря над 17,5 тона грозде от Турция с наднормени остатъци от пестициди",
@@ -21,9 +102,9 @@
       "topic": "общи"
     },
     {
-      "title": "С водосвет и молебен: Митрополит Киприан отбеляза именния си ден",
+      "title": "С водосвет и молебен: Митрополит Киприан отбеляза имения си ден",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428994-s-vodosvet-i-moleben-mitropolit-kiprian-otbelyaza-imenniya-si-den",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/428994-s-vodosvet-i-moleben-mitropolit-kiprian-otbelyaza-imeniya-si-den",
       "date": "2026-08-31",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -33,69 +114,6 @@
       "title": "Ива Михайлова: Всеки ден съм все по-зле, искам да се прибера в България",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/428989-iva-mihaylova-vseki-den-sam-vse-po-zle-iskam-da-se-pribera-v-balgariya",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Трифонов към Демерджиев: Днес е краят на август, къде е информацията за \"Петрохан\"?",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428988-trifonov-kam-demerdzhiev-dnes-e-krayat-na-avgust-kade-e-informatsiyata-za-petrohan",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Жена с деменция от село Горна Диканя е в неизвестност",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428987-zhena-s-dementsiya-ot-selo-gorna-dikanya-e-v-neizvestnost",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Прекъснато е електрозахранването в тунел на АМ \"Струма\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428985-prekasnato-e-elektrozahranvaneto-v-tunel-na-am-struma",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Катастрофа с 4 автомобила на Е-79 край Симитли",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428976-katastrofa-s-4-avtomobila-na-e-79-kray-simitli",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Вдигат \"забравените магистрали\": 70 км от Русе-Маказа ще са готови до края на 2028 г.",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428975-vdigat-zabravenite-magistrali-70-km-ot-ruse-makaza-shte-sa-gotovi-do-kraya-na-2028-g",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Протести в София и Кочани в подкрепа на Ива Михайлова, български депутати следят делото",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428963-protesti-v-sofiya-i-kochani-v-podkrepa-na-iva-mihaylova-balgarski-deputati-sledyat-deloto",
-      "date": "2026-08-31",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мъж почина след удар от високоволтова дъга в Кюстендилско",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/428960-mazh-pochina-sled-udar-ot-visokovoltova-daga-v-kyustendilsko",
       "date": "2026-08-31",
       "source": "BG ON AIR",
       "lang": "bg",
