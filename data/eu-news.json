@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 11:21",
+  "updated": "2026-09-02 13:46",
   "count": 21,
   "items": [
     {
@@ -10,6 +10,60 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Столичната община купува 42 големи автобуса, за да облекчи най-натоварените линии",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429229-stolichnata-obshtina-kupuva-42-golemi-avtobusa-za-da-oblekchi-nay-natovarenite-linii",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "БАБХ откри огнище на птичи грип в Пловдивско",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429225-babh-otkri-ognishte-na-ptichi-grip-v-plovdivsko",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Опозицията иска КСНС за саботажите в Германия, ПБ призовава за изчакване",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429223-opozitsiyata-iska-ksns-za-sabotazhite-v-germaniya-pb-prizovava-za-izchakvane",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Столичната община запорира сметките и автомобилите на \"Капитолия\" и запечатва обекта (+СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429222-stolichnata-obshtina-zaporira-smetkite-i-avtomobilite-na-kapitoliya-i-zapechatva-obekta-snimki",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Ефремова: Няма да загубим средства по ПВУ, модернизираме изцяло социалните услуги",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429219-efremova-nyama-da-zagubim-sredstva-po-pvu-modernizirame-iztsyalo-sotsialnite-uslugi",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "73-годишен мъж загина при тежка катастрофа с комбайн край Карнобат",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429211-73-godishen-mazh-zagina-pri-tezhka-katastrofa-s-kombayn-kray-karnobat",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "По-бързо и модерно: Нова система за багаж заработи на летище \"Васил Левски\" (СНИМКИ)",
@@ -48,60 +102,6 @@
       "topic": "социални"
     },
     {
-      "title": "Нова система за багаж заработва на летище \"Васил Левски\" в София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429194-nova-sistema-za-bagazh-zarabotva-na-letishte-vasil-levski-v-sofiya",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Гори плажно заведение на \"Каваците\" (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429192-gori-plazhno-zavedenie-na-kavatsite-video",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Депутатите облекчиха режима за фирмите, които рециклират отпадъци",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429190-deputatite-oblekchiha-rezhima-za-firmite-koito-retsiklirat-otpadatsi",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Енергиен експерт: България изкуствено поддържа нуждата от \"Марица-Изток 2\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/429182-energien-ekspert-balgariya-izkustveno-poddarzha-nuzhdata-ot-maritsa-iztok-2",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "ГЕРБ поиска КСНС: \"Докога Радев ще мълчи за действията на Русия\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429180-gerb-poiska-ksns-dokoga-radev-shte-malchi-za-deystviyata-na-rusiya",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "320 евро компенсация - добре, но родителите искат места за децата си в яслите и градините",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/429179-320-evro-kompensatsiya-dobre-no-roditelite-iskat-mesta-za-detsata-si-v-yaslite-i-gradinite",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "Wiser залага на дигиталния суверенитет, обмисля листване във Франкфурт",
       "desc": "След приключването на интеграционните процеси и изграждането на платформата Wiser, българската технологична компания поставя акцент върху оперативната ефективност, дълбоката AI интеграция и дигиталния суверенитет. Това коментира Ивайло Славов, изпълнителен директор и член на Съвета на директорите на",
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/163713-wiser-zalaga-na-digitalniya-suverenitet-obmislya-listvane-vav-frankfurt",
@@ -129,6 +129,15 @@
       "topic": "eu"
     },
     {
+      "title": "Ministry of Finance reports a budget deficit of 2.201 billion euros - BurgasMedia",
+      "desc": "Ministry of Finance reports a budget deficit of 2.201 billion euros BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGZGVDJiQ3Nlbzlrakc3QTV5YnhmeXpseGswWjdFSjJjRnVIbjdCTWxZUW5JV1BZanhuUkhOOTF2VjVrZTlBTkJiM3gzOWNoemxLRnJEcjc5N0w5dHZhaldOekFwekljV3JqRWtGRzdUMTdrcEZFcHBnT0NaT1ZKeGdFTGhlOXZSMk5BUmdxVjF2QVFOOHNhcGN2T3pCZnd0N2dKTmw2SXRwSlkxR0hzVjJDbGfSAbQBQVVfeXFMT2RmRlQyYkNzZW85a2pHN0E1eWJ4Znl6bHhrMFo3RUoyY0Z1SG43Qk1sWVFuSVdQWWp4blJITjkxdlY1a2U5QU5CYjN4MzljaHpsS0ZyRHI3OTdMOXR2YWpXTnpBcHpJY1dyakVrRkc3VDE3a3BGRXBwZ09DWk9WSnhnRUxoZTl2UjJOQVJncVYxdkFRTjhzYXBjdk96QmZ3dDdnSk5sNkl0cEpZMUdIc1YyQ2xn?oc=5",
+      "date": "2026-09-01",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "Romania to fund electricity storage batteries with 150 mln. euros - Капитал",
       "desc": "Romania to fund electricity storage batteries with 150 mln. euros Капитал",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVFpTXpWdDRYcFVPTENLWHljSzlVY1Vxb2l6dWpBV2toX1d4Z2xLVGtlajNRYnhDbFBOY2dqcjA1U2d2QVpvTTVVeTB4UGVXOWdFeURCcXpMVEdxTFVkWndOdjhaekFnWHFtRUtfLXVDblkyM2M0YjhxWnlTTklIUlhVZWdDZDlVM0k3V2ZWd3g4WE5yZkRqSURKYzluWW5rLXp4QTBSS3NJZU0?oc=5",
@@ -150,15 +159,6 @@
       "title": "Budget Deficit Narrows to EUR 2.2 Bln at End-July - БТА",
       "desc": "Budget Deficit Narrows to EUR 2.2 Bln at End-July БТА",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSzdCRTdRaWM3TWFQdTBHQmNOY0FHa18wV1R4QndwU2lRVGxFVkhBZENURXQ1MDROWEF1QlVNUkxvbjJyaldCTW9Ra0ZCNzdQYVM3V2NjOG1HU05VaXNRUVhtZlJTT0xudjBzRTlZYkVQMTZZRFdkcEtTUENZUWZ2XzJCUlhOVVZHQUI0VGR4YU01VEpoNllJ?oc=5",
-      "date": "2026-08-31",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Trump Plans $4 Million for Conservative Media in Europe - Newsmax",
-      "desc": "Trump Plans $4 Million for Conservative Media in Europe Newsmax",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUzNxbzFBTDlaazlMY3k5LWtaZGxJRUxSdmtEcjk2cDJwbTMyY0VKRGdpSlZvbnpoRFNFU05xaDlBckE4RHozT1NBNWNxQVJyS2lXMmxXc29vcUh1MkpyVVJGQ0FOZnVnV3U3ZF9wVV95VHIwWFVDY3lZXzk5X3FwYVJLVlMyUDBSYlI4bEZzSUwtVktmVjR1TzUxVFBXZHBKVUNkNnplVzhCLTg?oc=5",
       "date": "2026-08-31",
       "source": "Google News EN",
       "lang": "en",
