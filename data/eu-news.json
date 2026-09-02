@@ -1,7 +1,115 @@
 {
-  "updated": "2026-09-01 14:19",
-  "count": 22,
+  "updated": "2026-09-02 11:21",
+  "count": 21,
   "items": [
+    {
+      "title": "Bulgaria: Government Slashes Eco-Fees on Electronics by Four Times - Novinite.com",
+      "desc": "Bulgaria: Government Slashes Eco-Fees on Electronics by Four Times Novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQnlFeWNWWjFJb0R4SVhndjE0MVVBbU5RNmJFTmt3R2hDXzEzZElHRzRKQkVKdWU4aEE1VkFrekVmZG1OR21VbWdJaHo1b3BhbjI4TDVkalRzb3AtZVR0Vl9Zc3k3d2RUMFJoZDM2UExvalhuSVNVSU0zVTJuZFNmY29XR1ZtajhpeVpOejVYMGJEVUVWQnVlVjMxaEJhMk9aeWQ4YzlUcDVXaGo5RXc?oc=5",
+      "date": "2026-09-02",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "По-бързо и модерно: Нова система за багаж заработи на летище \"Васил Левски\" (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/429202-po-barzo-i-moderno-nova-sistema-za-bagazh-zaraboti-na-letishte-vasil-levski-snimki",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Възраждане\" обсъжда 5 имена за президент",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429200-vazrazhdane-obsazhda-5-imena-za-prezident",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Над половин тон млечни продукти без документи иззеха на \"Капитан Андреево\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429199-nad-polovin-ton-mlechni-produkti-bez-dokumenti-izzeha-na-kapitan-andreevo",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "НЗОК предложи 10% увеличение на клиничните пътеки от 1 септември",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429195-nzok-predlozhi-10-uvelichenie-na-klinichnite-pateki-ot-1-septemvri",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Нова система за багаж заработва на летище \"Васил Левски\" в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429194-nova-sistema-za-bagazh-zarabotva-na-letishte-vasil-levski-v-sofiya",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Гори плажно заведение на \"Каваците\" (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429192-gori-plazhno-zavedenie-na-kavatsite-video",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Депутатите облекчиха режима за фирмите, които рециклират отпадъци",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429190-deputatite-oblekchiha-rezhima-za-firmite-koito-retsiklirat-otpadatsi",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Енергиен експерт: България изкуствено поддържа нуждата от \"Марица-Изток 2\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/429182-energien-ekspert-balgariya-izkustveno-poddarzha-nuzhdata-ot-maritsa-iztok-2",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "ГЕРБ поиска КСНС: \"Докога Радев ще мълчи за действията на Русия\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429180-gerb-poiska-ksns-dokoga-radev-shte-malchi-za-deystviyata-na-rusiya",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "320 евро компенсация - добре, но родителите искат места за децата си в яслите и градините",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/429179-320-evro-kompensatsiya-dobre-no-roditelite-iskat-mesta-za-detsata-si-v-yaslite-i-gradinite",
+      "date": "2026-09-02",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Wiser залага на дигиталния суверенитет, обмисля листване във Франкфурт",
+      "desc": "След приключването на интеграционните процеси и изграждането на платформата Wiser, българската технологична компания поставя акцент върху оперативната ефективност, дълбоката AI интеграция и дигиталния суверенитет. Това коментира Ивайло Славов, изпълнителен директор и член на Съвета на директорите на",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163713-wiser-zalaga-na-digitalniya-suverenitet-obmislya-listvane-vav-frankfurt",
+      "date": "2026-09-02",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
     {
       "title": "6 млн. евро за дигитализация отиват в три иновационни хъба в България - Дарик Бизнес Ревю",
       "desc": "6 млн. евро за дигитализация отиват в три иновационни хъба в България Дарик Бизнес Ревю",
@@ -21,126 +129,18 @@
       "topic": "eu"
     },
     {
-      "title": "Хиляди държавни служители ще бъдат обучавани за работа с изкуствен интелект",
-      "desc": "Близо 2400 държавни служители ще придобиват умения за работа с изкуствен интелект. Това съобщи Министерството на труда и социалната политика и уточни, че това ще става с европейски средства по програма \"Развитие на човешките ресурси\". По...",
-      "url": "https://www.dnevnik.bg/burzi-novini/2026/09/01/4951621_hiliadi_durjavni_slujiteli_shte_budat_obuchavani_za/?ref=rss",
+      "title": "Romania to fund electricity storage batteries with 150 mln. euros - Капитал",
+      "desc": "Romania to fund electricity storage batteries with 150 mln. euros Капитал",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVFpTXpWdDRYcFVPTENLWHljSzlVY1Vxb2l6dWpBV2toX1d4Z2xLVGtlajNRYnhDbFBOY2dqcjA1U2d2QVpvTTVVeTB4UGVXOWdFeURCcXpMVEdxTFVkWndOdjhaekFnWHFtRUtfLXVDblkyM2M0YjhxWnlTTklIUlhVZWdDZDlVM0k3V2ZWd3g4WE5yZkRqSURKYzluWW5rLXp4QTBSS3NJZU0?oc=5",
       "date": "2026-09-01",
-      "source": "Dnevnik.bg",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Рекорд: Агенция \"Митници\" събра близо 1 млрд. евро приходи само за август",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429105-rekord-agentsiya-mitnitsi-sabra-blizo-1-mlrd-evro-prihodi-samo-za-avgust",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Евростат: България е сред трите страни с най-висока инфлация в Еврозоната",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429103-evrostat-balgariya-e-sred-trite-strani-s-nay-visoka-inflatsiya-v-evrozonata",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Откриха в дере изчезналата 78-годишна жена от Горна Диканя",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429101-otkriha-v-dere-izcheznalata-78-godishna-zhena-ot-gorna-dikanya",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ЦИК даде първи редовен брифинг за подготовката за президентските избори (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/429099-tsik-dade-parvi-redoven-brifing-za-podgotovkata-za-prezidentskite-izbori-snimki",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "КЗП погна търговците заради цените: Глоба до 100 000 евро за всяко нарушение",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429098-kzp-pogna-targovtsite-zaradi-tsenite-globa-do-100-000-evro-za-vsyako-narushenie",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Стоянов: Развитието на военното образование е сред основните ми приоритети",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429095-stoyanov-razvitieto-na-voennoto-obrazovanie-e-sred-osnovnite-mi-prioriteti",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "Ефремова: Потресаващи са последните случаи на насилие от и спрямо деца",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429088-efremova-potresavashti-sa-poslednite-sluchai-na-nasilie-ot-i-spryamo-detsa",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Университетът по застраховане и финанси продължава приема на бакалаври през септември",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429087-universitetat-po-zastrahovane-i-finansi-prodalzhava-priema-na-bakalavri-prez-septemvri",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "6-годишно дете пострада при падане от електрическа тротинетка",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429085-6-godishno-dete-postrada-pri-padane-ot-elektricheska-trotinetka",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Как се стигна до кандидатурата на Гюров - Кандев и каква първа заявка дадоха",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429079-kak-se-stigna-do-kandidaturata-na-gyurov-kandev-i-kakva-parva-zayavka-dadoha",
-      "date": "2026-09-01",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Проба, проба: държавни пари за частни медии - sbj-bg.eu",
-      "desc": "Проба, проба: държавни пари за частни медии sbj-bg.eu",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DSVJFRko2dTM0S2xDcUZZbWpveEtyUExzbjR3LU5hV3BpeWVtYUJsQjJtcVpSN3FrcDh1VGotWmFrSFFBdVE4blN3bWI2X0hk?oc=5",
-      "date": "2026-08-31",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "How European billions fuelled Bulgaria’s energy paradox - balcanicaucaso.org",
-      "desc": "How European billions fuelled Bulgaria’s energy paradox balcanicaucaso.org",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObFhNY2ZTLUZOX3p0Y1VRSVQ5TTZ3YVV0ZFV1cklpaG9yb013eWZLYmdLZlNzam94UTBPaGZDODU0eG5MaXRZZWREbE1MUEFaeURsZXphR3dpYmlVbC1lRk0xUktmVmRWZFJxbk42anZzZ2JxaXZKYzFEQ0FSUVZCa3ZnTXJhM250M0FxcWpaOTh3akhhSGw3ZjM3ZHAzb2pkdVE?oc=5",
-      "date": "2026-08-31",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Erasmus+ project faces Paris indictment over fraud and misused €240,000 grant - The Brussels Times",
-      "desc": "Erasmus+ project faces Paris indictment over fraud and misused €240,000 grant The Brussels Times",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQamQwazVpNXZ0ZXdsdkxjT1BFeG1YcGtqRTU2MlVhOXNMb3cyZzd3MGdkVHJMLVhqeEZxcGp2dE13S05ITmtMcklkVGRTWnlHbUJsM0xuOWdPdnpMNEJRbnZCU1FYMkhQVlE1UnpScm5FanlfNDIwbTM3ZUtaZ0IycGlkcjhlWV9jOWduQ29ESWNkY3h6bUV5NllEUmtFX3ZIaS1tX1IzalZZa24yR1ZIX25GYTJVNzFkQXozVmdYT0lJQXc?oc=5",
+      "title": "How European billions fuelled Bulgaria’s energy paradox - Osservatorio Balcani Caucaso Transeuropa",
+      "desc": "How European billions fuelled Bulgaria’s energy paradox Osservatorio Balcani Caucaso Transeuropa",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObFhNY2ZTLUZOX3p0Y1VRSVQ5TTZ3YVV0ZFV1cklpaG9yb013eWZLYmdLZlNzam94UTBPaGZDODU0eG5MaXRZZWREbE1MUEFaeURsZXphR3dpYmlVbC1lRk0xUktmVmRWZFJxbk42anZzZ2JxaXZKYzFEQ0FSUVZCa3ZnTXJhM250M0FxcWpaOTh3akhhSGw3ZjM3ZHAzb2pkdVE?oc=5",
       "date": "2026-08-31",
       "source": "Google News EN",
       "lang": "en",
@@ -156,8 +156,8 @@
       "topic": "eu"
     },
     {
-      "title": "Trump Plans $4 Million for Conservative Media in Europe - newsmax.com",
-      "desc": "Trump Plans $4 Million for Conservative Media in Europe newsmax.com",
+      "title": "Trump Plans $4 Million for Conservative Media in Europe - Newsmax",
+      "desc": "Trump Plans $4 Million for Conservative Media in Europe Newsmax",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUzNxbzFBTDlaazlMY3k5LWtaZGxJRUxSdmtEcjk2cDJwbTMyY0VKRGdpSlZvbnpoRFNFU05xaDlBckE4RHozT1NBNWNxQVJyS2lXMmxXc29vcUh1MkpyVVJGQ0FOZnVnV3U3ZF9wVV95VHIwWFVDY3lZXzk5X3FwYVJLVlMyUDBSYlI4bEZzSUwtVktmVjR1TzUxVFBXZHBKVUNkNnplVzhCLTg?oc=5",
       "date": "2026-08-31",
       "source": "Google News EN",
@@ -190,15 +190,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
-    },
-    {
-      "title": "NextGenerationEU reaches implementation deadline",
-      "desc": "European Commission Press release Brussels, 31 Aug 2026 Today marks an important milestone for the Recovery and Resilience Facility, the centrepiece of NextGenerationEU, as Member States reach the final implementation deadline for the reforms and investments set out in their national recovery and re",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1771",
-      "date": "2026-08-30",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
     }
   ]
 }
