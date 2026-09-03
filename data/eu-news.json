@@ -1,105 +1,33 @@
 {
-  "updated": "2026-09-02 13:46",
-  "count": 21,
+  "updated": "2026-09-03 11:17",
+  "count": 6,
   "items": [
     {
-      "title": "Bulgaria: Government Slashes Eco-Fees on Electronics by Four Times - Novinite.com",
-      "desc": "Bulgaria: Government Slashes Eco-Fees on Electronics by Four Times Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQnlFeWNWWjFJb0R4SVhndjE0MVVBbU5RNmJFTmt3R2hDXzEzZElHRzRKQkVKdWU4aEE1VkFrekVmZG1OR21VbWdJaHo1b3BhbjI4TDVkalRzb3AtZVR0Vl9Zc3k3d2RUMFJoZDM2UExvalhuSVNVSU0zVTJuZFNmY29XR1ZtajhpeVpOejVYMGJEVUVWQnVlVjMxaEJhMk9aeWQ4YzlUcDVXaGo5RXc?oc=5",
+      "title": "€9.2 million in EU funding for ISTA: 5 ERC Starting Grants go to early-career researchers - idw-online.de",
+      "desc": "€9.2 million in EU funding for ISTA: 5 ERC Starting Grants go to early-career researchers idw-online.de",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbHJLSU5XaXkweDlCcUIzSC1fM2JiWTRxLVAyLUxCSjJrOTVxVnZTM2M4UDJrN1ZtajNWWVdhRWdjT2dzdGNTS3BlMA?oc=5",
+      "date": "2026-09-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Top Slovakian scientists decry poor conditions as country struggles with talent loss - Science|Business",
+      "desc": "Top Slovakian scientists decry poor conditions as country struggles with talent loss Science|Business",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSDNrN2VyOWJQWUdYeVNkSl9jTXlHZjNJSDZESTk3TGZ1LVhsTGZxOG5vMjRaSUpHUXlpVGxBOFhiUmlCT3lPaEpxM1VMY0hrNm9JNGZqMXUxRWdzVFozR2RsR1Z5Z3g2enJUc3VEa0I4T2xSck5PR0F2ZEZrSTNuRXN0VWVBTGRYa19uOXBrOVVGS0s2M0dRU3g4OF9ySXFhVG1CbjQ0eUhYVmZ0UlNLTlpOZ1oweTZkQjNFY2ZlVnBUZG8?oc=5",
       "date": "2026-09-02",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Столичната община купува 42 големи автобуса, за да облекчи най-натоварените линии",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429229-stolichnata-obshtina-kupuva-42-golemi-avtobusa-za-da-oblekchi-nay-natovarenite-linii",
+      "title": "Rumen Radev: RRF payments are key to Bulgaria's budget - BurgasMedia",
+      "desc": "Rumen Radev: RRF payments are key to Bulgaria's budget BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnZ4cFpLTUNkd1hWd1I3eXRyRWg2TXRKRHR6WmtaWHZrcjZCdzBUMDc5SW1EVEpMWjVfMG9qcTNINlNIUUtmQWhFZkpwMHVOdlB6eGlHSzR4ZnVEOFBTWlBMRWxoc1N5Ulc0NGFSMDNzajNGRDZERm42RDZKeHYwZVVJTDJJT05ITGY0a1RRcDlYT2ZBNmdGdkl6bHpKeFpYR29kamRUY1NGQThHd0tKckNB0gGyAUFVX3lxTE9SdnhwWktNQ2R3WFZ3Ujd5dHJFaDZNdEpEdHpaa1pYdmtyNkJ3MFQwNzlJbURUSkxaNV8wb2pxM0g2U0hRS2ZBaEVmSnAwdU52UHp4aUdLNHhmdUQ4UFNaUExFbGhzU3lSVzQ0YVIwM3NqM0ZENkRGbjZENkp4djBlVUlMMklPTkhMZjRrVFFwOVhPZkE2Z0Z2SXpsekp4WlhHb2RqZFRjU0ZBOEd3S0pyQ0E?oc=5",
       "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общини"
-    },
-    {
-      "title": "БАБХ откри огнище на птичи грип в Пловдивско",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429225-babh-otkri-ognishte-na-ptichi-grip-v-plovdivsko",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Опозицията иска КСНС за саботажите в Германия, ПБ призовава за изчакване",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429223-opozitsiyata-iska-ksns-za-sabotazhite-v-germaniya-pb-prizovava-za-izchakvane",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Столичната община запорира сметките и автомобилите на \"Капитолия\" и запечатва обекта (+СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429222-stolichnata-obshtina-zaporira-smetkite-i-avtomobilite-na-kapitoliya-i-zapechatva-obekta-snimki",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общини"
-    },
-    {
-      "title": "Ефремова: Няма да загубим средства по ПВУ, модернизираме изцяло социалните услуги",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429219-efremova-nyama-da-zagubim-sredstva-po-pvu-modernizirame-iztsyalo-sotsialnite-uslugi",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "73-годишен мъж загина при тежка катастрофа с комбайн край Карнобат",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429211-73-godishen-mazh-zagina-pri-tezhka-katastrofa-s-kombayn-kray-karnobat",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "По-бързо и модерно: Нова система за багаж заработи на летище \"Васил Левски\" (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/429202-po-barzo-i-moderno-nova-sistema-za-bagazh-zaraboti-na-letishte-vasil-levski-snimki",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Възраждане\" обсъжда 5 имена за президент",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429200-vazrazhdane-obsazhda-5-imena-za-prezident",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Над половин тон млечни продукти без документи иззеха на \"Капитан Андреево\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429199-nad-polovin-ton-mlechni-produkti-bez-dokumenti-izzeha-na-kapitan-andreevo",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "НЗОК предложи 10% увеличение на клиничните пътеки от 1 септември",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429195-nzok-predlozhi-10-uvelichenie-na-klinichnite-pateki-ot-1-septemvri",
-      "date": "2026-09-02",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     },
     {
       "title": "Wiser залага на дигиталния суверенитет, обмисля листване във Франкфурт",
@@ -122,74 +50,11 @@
     {
       "title": "Advancing Democracy & Good Governance: Grants for Civic Action and Stronger Institutions - fundsforNGOs",
       "desc": "Advancing Democracy & Good Governance: Grants for Civic Action and Stronger Institutions fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXy1MTHc2OGV2Rkt3MG9TaWZlX3pXVktCWjJ0MUdvWUV0c0xPUDdFV1FDSTNsMnlUNEQ1VmFuMnREUWdxLXlMYWg5VFM4cW1BcWtuaHA3aGhlMTYwWXR1ekYzUnZtYXE0OGgweGxtTzVnc2xORk1BaWp0VFlkUUJYVl9NYmdIcC1KQ3ZmMC1Md3F1N1dLVjR1Y2JSNy0tQVNhZTFVNERFX3VfdU5wNk5SU25BM1JNR1JkMHB6X1ptZkFpZ9IBxwFBVV95cUxQYkxibnc3cm1vWDM3NnJOUnBucFJ4OS1sbWJ6UkRNalE2c05WbHRYQ05GYTB5RGtWbDJQVzFLZk5PcjcxZURzLV9Id3FhU0Y1RGNsWFNlbk5sODdNZ253dWRxNGkxYXZCZDRZSGg0bGstX1ZRejNuN2V6bWxZUHZlbUVxUS1JOVN5ZkZMbU9VTkkwZzZEV2tHQVYybEdwTFhqSkxYcVJuOTlqaUF2MXRVcUhBTjFVRXprTC1abFZJbkxJeWJsOF9F?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYkxibnc3cm1vWDM3NnJOUnBucFJ4OS1sbWJ6UkRNalE2c05WbHRYQ05GYTB5RGtWbDJQVzFLZk5PcjcxZURzLV9Id3FhU0Y1RGNsWFNlbk5sODdNZ253dWRxNGkxYXZCZDRZSGg0bGstX1ZRejNuN2V6bWxZUHZlbUVxUS1JOVN5ZkZMbU9VTkkwZzZEV2tHQVYybEdwTFhqSkxYcVJuOTlqaUF2MXRVcUhBTjFVRXprTC1abFZJbkxJeWJsOF9F0gHHAUFVX3lxTFBiTGJudzdybW9YMzc2ck5ScG5wUng5LWxtYnpSRE1qUTZzTlZsdFhDTkZhMHlEa1ZsMlBXMUtmTk9yNzFlRHMtX0h3cWFTRjVEY2xYU2VuTmw4N01nbnd1ZHE0aTFhdkJkNFlIaDRsay1fVlF6M243ZXptbFlQdmVtRXFRLUk5U3lmRkxtT1VOSTBnNkRXa0dBVjJsR3BMWGpKTFhxUm45OWppQXYxdFVxSEFOMVVFemtMLVpsVkluTEl5Ymw4X0U?oc=5",
       "date": "2026-09-01",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Ministry of Finance reports a budget deficit of 2.201 billion euros - BurgasMedia",
-      "desc": "Ministry of Finance reports a budget deficit of 2.201 billion euros BurgasMedia",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGZGVDJiQ3Nlbzlrakc3QTV5YnhmeXpseGswWjdFSjJjRnVIbjdCTWxZUW5JV1BZanhuUkhOOTF2VjVrZTlBTkJiM3gzOWNoemxLRnJEcjc5N0w5dHZhaldOekFwekljV3JqRWtGRzdUMTdrcEZFcHBnT0NaT1ZKeGdFTGhlOXZSMk5BUmdxVjF2QVFOOHNhcGN2T3pCZnd0N2dKTmw2SXRwSlkxR0hzVjJDbGfSAbQBQVVfeXFMT2RmRlQyYkNzZW85a2pHN0E1eWJ4Znl6bHhrMFo3RUoyY0Z1SG43Qk1sWVFuSVdQWWp4blJITjkxdlY1a2U5QU5CYjN4MzljaHpsS0ZyRHI3OTdMOXR2YWpXTnpBcHpJY1dyakVrRkc3VDE3a3BGRXBwZ09DWk9WSnhnRUxoZTl2UjJOQVJncVYxdkFRTjhzYXBjdk96QmZ3dDdnSk5sNkl0cEpZMUdIc1YyQ2xn?oc=5",
-      "date": "2026-09-01",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Romania to fund electricity storage batteries with 150 mln. euros - Капитал",
-      "desc": "Romania to fund electricity storage batteries with 150 mln. euros Капитал",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVFpTXpWdDRYcFVPTENLWHljSzlVY1Vxb2l6dWpBV2toX1d4Z2xLVGtlajNRYnhDbFBOY2dqcjA1U2d2QVpvTTVVeTB4UGVXOWdFeURCcXpMVEdxTFVkWndOdjhaekFnWHFtRUtfLXVDblkyM2M0YjhxWnlTTklIUlhVZWdDZDlVM0k3V2ZWd3g4WE5yZkRqSURKYzluWW5rLXp4QTBSS3NJZU0?oc=5",
-      "date": "2026-09-01",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "How European billions fuelled Bulgaria’s energy paradox - Osservatorio Balcani Caucaso Transeuropa",
-      "desc": "How European billions fuelled Bulgaria’s energy paradox Osservatorio Balcani Caucaso Transeuropa",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObFhNY2ZTLUZOX3p0Y1VRSVQ5TTZ3YVV0ZFV1cklpaG9yb013eWZLYmdLZlNzam94UTBPaGZDODU0eG5MaXRZZWREbE1MUEFaeURsZXphR3dpYmlVbC1lRk0xUktmVmRWZFJxbk42anZzZ2JxaXZKYzFEQ0FSUVZCa3ZnTXJhM250M0FxcWpaOTh3akhhSGw3ZjM3ZHAzb2pkdVE?oc=5",
-      "date": "2026-08-31",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Budget Deficit Narrows to EUR 2.2 Bln at End-July - БТА",
-      "desc": "Budget Deficit Narrows to EUR 2.2 Bln at End-July БТА",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSzdCRTdRaWM3TWFQdTBHQmNOY0FHa18wV1R4QndwU2lRVGxFVkhBZENURXQ1MDROWEF1QlVNUkxvbjJyaldCTW9Ra0ZCNzdQYVM3V2NjOG1HU05VaXNRUVhtZlJTT0xudjBzRTlZYkVQMTZZRFdkcEtTUENZUWZ2XzJCUlhOVVZHQUI0VGR4YU01VEpoNllJ?oc=5",
-      "date": "2026-08-31",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Феноменът Лозен: Най-голямото българско село се развива бурно и без стимули",
-      "desc": "Правителствената програма &bdquo;Избирам България&ldquo;, насочена към насърчаване на миграцията от големите градове към по-малките населени места, поставя нови въпроси за устойчивостта на локалните инфраструктури. Докато мярката цели съживяване на обезлюдяващи средища, реалността край столицата пок",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163612-fenomenat-lozen-nay-golyamoto-balgarsko-selo-se-razviva-burno-i-bez-stimuli",
-      "date": "2026-08-31",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Още „Къщи за тъщи“ или нов „Странджа-Сакар“ - ще се върнат ли хората на село?",
-      "desc": "Новата държавна програма &bdquo;Избирам България&ldquo; стартира прием на заявления за преместване на граждани от големите градове към населени места с население под 50 хиляди души. Въпреки заложения финансов ресурс, местните власти предупреждават за липса на яснота относно критериите и изразяват оп",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163610-oshte-kashti-za-tashti-ili-nov-strandzha-sakar-shte-se-varnat-li-horata-na-selo",
-      "date": "2026-08-31",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Българската „Сирма Груп“ се насочва към Азия и Австралия за по-бърз растеж",
-      "desc": "В сложната икономическа обстановка, породена от двете войни в Украйна и Близкия изток, &bdquo;Сирма Груп&ldquo; започна да търси нови интересни пазари, като поглежда на изток към Азиатско-Тихоокеанския регион и Австралия. Компанията се опитва да се диверсифицира и да предлага нови продукти и услуги.",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163608-balgarskata-sirma-grup-se-nasochva-kam-aziya-i-avstraliya-za-po-barz-rastezh",
-      "date": "2026-08-31",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
     }
   ]
 }
