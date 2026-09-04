@@ -1,7 +1,25 @@
 {
-  "updated": "2026-09-04 11:21",
-  "count": 17,
+  "updated": "2026-09-04 13:40",
+  "count": 18,
   "items": [
+    {
+      "title": "141 години от Съединението: Военни ритуали в цялата страна на 6 септември",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429432-141-godini-ot-saedinenieto-voenni-rituali-v-tsyalata-strana-na-6-septemvri",
+      "date": "2026-09-04",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожар избухна в сухи треви край \"Керамика\" в Бургас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429431-pozhar-izbuhna-v-suhi-trevi-kray-keramika-v-burgas",
+      "date": "2026-09-04",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "3-годишно дете загина при катастрофа между селата Горен чифлик и Гроздьово",
       "desc": "",
@@ -75,24 +93,6 @@
       "topic": "общи"
     },
     {
-      "title": "Изплащат помощите за пострадалите от наводненията в Батак, Пещера и Струмяни",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429411-izplashtat-pomoshtite-za-postradalite-ot-navodneniyata-v-batak-peshtera-i-strumyani",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Прашен дявол\" се изви край АМ \"Тракия\" (+ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429410-prashen-dyavol-se-izvi-kray-am-trakiya-video",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "Гейминг индустрията е във възход и чака ефекта от Grand Theft Auto 6",
       "desc": "Глобалната гейминг индустрия е в период на трансформация заради навлизането на изкуствения интелект и пренареждането на инвестиционните приоритети. Това коментираха съоснователят на студио Score Twins и музикален композитор Явор Пачовски и основателят и изпълнителен директор на Kipi Interactive Викт",
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/163806-geyming-industriyata-e-vav-vazhod-i-chaka-efekta-ot-grand-theft-auto-6",
@@ -111,9 +111,18 @@
       "topic": "eu"
     },
     {
-      "title": "Romania asks EU to speed up review of integrity law tied to 770 mln euro NRRP funds - seenews.com",
-      "desc": "Romania asks EU to speed up review of integrity law tied to 770 mln euro NRRP funds seenews.com",
+      "title": "Romania asks EU to speed up review of integrity law tied to 770 mln euro NRRP funds - SeeNews",
+      "desc": "Romania asks EU to speed up review of integrity law tied to 770 mln euro NRRP funds SeeNews",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNHpxOTJwSEpCbkNZUXJvdk5BNDZlNDhYOWRZWmpuc1RuTzdZaVBpS3plN1ZNZ1Fnb2hIN2pKUkVQZHl0cUlCeWx4cXN0ZGdEWllLM0FEdjRGN2NsWkROcTU2ZmdYbEVabHN5bzhHaGNCUGdHM2VJaGpjRGdtS1J4ak4tTFlZdkpoNmk5TEU2ckJYSm5Fdjc0QUctVWk3ZUV5OWZjY05XSjhCWUVCa1VTM3lENk1kcUU?oc=5",
+      "date": "2026-09-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Radev, Costa Discuss EU Budget, Energy and Bulgaria's Strategic Role in Europe - БТА",
+      "desc": "Radev, Costa Discuss EU Budget, Energy and Bulgaria's Strategic Role in Europe БТА",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUURhQnBZeksyV3Z1aEhfRmdCQVFtSzdFUkpKWEduNXNqUGszQnAyM2RHNkhGY2xyNmRaS2RBdmRoNzIwcnA1b1ZSMnZOLTVHSTRTN2I2ZEo1N2FnT3RlNlhHWVpiVGRMZVFlR1RSVGhaeDE4dlQ5QkVZN2pJSDVQR3lCakZQVUh1Y2ZKSmZyU2FzeFhWa0dQdFhzNXJ5ZVFCdU1HZHB2RVU1TEM3dW11RVRWLTlUbjdS?oc=5",
       "date": "2026-09-03",
       "source": "Google News EN",
       "lang": "en",
