@@ -1,92 +1,119 @@
 {
-  "updated": "2026-09-04 13:40",
+  "updated": "2026-09-05 10:38",
   "count": 18,
   "items": [
     {
-      "title": "141 години от Съединението: Военни ритуали в цялата страна на 6 септември",
+      "title": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism - novinite.com",
+      "desc": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUxmajh3Wko5NHlWcU5JYm92YkJLSUk0c2FaSm02cWNXdENuX2ZOT1ZrU2lSWWlZM1MxU2t1MDFPa2JZZ1pybUU4c1R5cWZSUldKZDg4dzgtbkxuamQ4dXpnVjlJcFlMMllwY09aLWc0OE1vUkVUS1gyRWJVT00tZ2VxdDdUMUNxZnZJQW16TEpoNDR2dFdGcTFZdzM3M0ZIYnN0cTBqQVZMTXd1ZVBSZjNUVU5WcDYtcXdTakgyd0Q?oc=5",
+      "date": "2026-09-05",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Шоково поскъпване на доматите и прясното мляко, картофите поевтиняват",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429432-141-godini-ot-saedinenieto-voenni-rituali-v-tsyalata-strana-na-6-septemvri",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429513-shokovo-poskapvane-na-domatite-i-pryasnoto-mlyako-kartofite-poevtinyavat",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БАБХ потвърди огнище на шарка по овцете и козите край Кърджали",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429512-babh-potvardi-ognishte-na-sharka-po-ovtsete-i-kozite-kray-kardzhali",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кораб заседна край Русе заради ниското ниво на Дунав",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429507-korab-zasedna-kray-ruse-zaradi-niskoto-nivo-na-dunav",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Радостина Александрова за лабораторно създадения живот: Колко близо е науката до немислимото?",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/219-balgariya-sutrin-v-sabota-i-nedelya/429501-prof-radostina-aleksandrova-za-laboratorno-sazdadeniya-zhivot-kolko-blizo-e-naukata-do-nemislimoto",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето днес ни се усмихва: Слънце и температури до 36 градуса",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429498-vremeto-dnes-ni-se-usmihva-slantse-i-temperaturi-do-36-gradusa",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Църковен празник на 5 септември: Почитаме Св. Захария, какви са традициите и забраните",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429478-tsarkoven-praznik-na-5-septemvri-pochitame-sv-zahariya-kakvi-sa-traditsiite-i-zabranite",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Money laundering scheme involving EUR 4.5 million exposed - Eurojust",
+      "desc": "Money laundering scheme involving EUR 4.5 million exposed Eurojust",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRFZiU21IX3JBelp5VFJsNzBVVFFjOTVFOW9ncDBteUtINUpmYVVvMlZsX2oxaW1rWVVGQkNCbmZZcmpnUE9uTElqazZyc3BPR2hUVkNHUUtCQXh5WDFqeXk3VDRXNUJjWHdnN1FBN2hyckZPcUJEaFpWWUFVSzFUVGRMbHFmOWhGZmNIWC1zMEVfTzJWNkdR?oc=5",
+      "date": "2026-09-04",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Еврокомисията ще предложи нова забрана за износ на отпадъци",
+      "desc": "Европейската комисия ще предложи забрана за износ на отпадъци извън страните от ОИСР. Еврокомисарят по въпросите на индустрията Стефан Сежурне работи по делегиран акт съгласно Регламента за превоз на отпадъци, с който се предлага широка забрана,...",
+      "url": "https://www.dnevnik.bg/burzi-novini/2026/09/04/4952865_evrokomisiiata_shte_predloji_nova_zabrana_za_iznos_na/?ref=rss",
+      "date": "2026-09-04",
+      "source": "Dnevnik.bg",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Решават през октомври дали България излиза от \"сивия списък\" за пране на пари",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429479-reshavat-prez-oktomvri-dali-balgariya-izliza-ot-siviya-spisak-za-prane-na-pari",
       "date": "2026-09-04",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Пожар избухна в сухи треви край \"Керамика\" в Бургас",
+      "title": "Славчо Велков за вицепрезидент: Не участваме в изборите на олимпийски принцип, отиваме с амбиция за победа",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429431-pozhar-izbuhna-v-suhi-trevi-kray-keramika-v-burgas",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429475-slavcho-velkov-za-vitseprezident-ne-uchastvame-v-izborite-na-olimpiyski-printsip-otivame-s-ambitsiya-za-pobeda",
       "date": "2026-09-04",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "3-годишно дете загина при катастрофа между селата Горен чифлик и Гроздьово",
+      "title": "Проф. Иво Петров: Първите три минути след сърдечен арест са решаващи",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429429-3-godishno-dete-zagina-pri-katastrofa-mezhdu-selata-goren-chiflik-i-grozdyovo",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429474-prof-ivo-petrov-parvite-tri-minuti-sled-sardechen-arest-sa-reshavashti",
       "date": "2026-09-04",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Шишков: Безконтролното строителство доведе до това да си гоним туристите",
+      "title": "Анализатори: До президентските избори са възможни сериозни обрати",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429424-shishkov-bezkontrolnoto-stroitelstvo-dovede-do-tova-da-si-gonim-turistite",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Младоженци гасиха пожар в сватбения си ден: Незабравимото \"да\" на Александра и Цветан",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429422-mladozhentsi-gasiha-pozhar-v-svatbeniya-si-den-nezabravimoto-da-na-aleksandra-i-tsvetan",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "България и Словакия обединяват сили за нови ядрени мощности",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429421-balgariya-i-slovakiya-obedinyavat-sili-za-novi-yadreni-moshtnosti",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Съдът реши: Слави Трифонов плаща 40 000 лева за \"Песен за Лена\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429417-sadat-reshi-slavi-trifonov-plashta-40-000-leva-za-pesen-za-lena",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пловдив се подготвя за 6 септември: Мият Паметника на Съединението с ябълков шампоан",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429416-plovdiv-se-podgotvya-za-6-septemvri-miyat-pametnika-na-saedinenieto-s-yabalkov-shampoan",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Полицията погна гонките с дронове: 220 рискови участъка вече са празни",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429415-politsiyata-pogna-gonkite-s-dronove-220-riskovi-uchastaka-veche-sa-prazni",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Сблъсък в парламента: Радев срещу опозицията за Русия, службите и цените",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429414-sblasak-v-parlamenta-radev-sreshtu-opozitsiyata-za-rusiya-sluzhbite-i-tsenite",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429468-analizatori-do-prezidentskite-izbori-sa-vazmozhni-seriozni-obrati",
       "date": "2026-09-04",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -102,9 +129,18 @@
       "topic": "бизнес"
     },
     {
-      "title": "€9.2 Million in EU Grants for ISTA - Institute of Science and Technology Austria (ISTA)",
-      "desc": "€9.2 Million in EU Grants for ISTA Institute of Science and Technology Austria (ISTA)",
+      "title": "€9.2 Million in EU Grants for ISTA - ista.ac.at",
+      "desc": "€9.2 Million in EU Grants for ISTA ista.ac.at",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KdzB4cjF0QkNvY3dORG5zQVd6c2ZiNGd4N3BsOXpYVmdhLXdzT0d5OUFLT3pqYjM1amdPYzg2dzNDNHRDdDZfQy10R0ljVnRfLWZrUW1KNDJGd1dUV0xPSDQwMDY0a0djTjMyN1BSYw?oc=5",
+      "date": "2026-09-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Apply Now: European Festivals Fund for Emerging Artists - fundsforNGOs",
+      "desc": "Apply Now: European Festivals Fund for Emerging Artists fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYURWYVE2SlBtdE9LYVNOWkQ3elhfclNwWGdKc3VnYVlsN05OWEhyT191T1dUYkRyVjRBcXBjc1FJdk9DVUpRMkt4QkFBc19qNi1SRXZPS09kbHRfS1pnYWxJSFhxSTZfQXlqR1Q2X0h0bFR2RlRFQnBmVkctYXVNd0ZFN015S1VOT0tINEZVM0tSX1BIV19ISGtlNG9kbXNTc2lJQdIBpAFBVV95cUxNYURWYVE2SlBtdE9LYVNOWkQ3elhfclNwWGdKc3VnYVlsN05OWEhyT191T1dUYkRyVjRBcXBjc1FJdk9DVUpRMkt4QkFBc19qNi1SRXZPS09kbHRfS1pnYWxJSFhxSTZfQXlqR1Q2X0h0bFR2RlRFQnBmVkctYXVNd0ZFN015S1VOT0tINEZVM0tSX1BIV19ISGtlNG9kbXNTc2lJQQ?oc=5",
       "date": "2026-09-03",
       "source": "Google News EN",
       "lang": "en",
@@ -120,49 +156,13 @@
       "topic": "eu"
     },
     {
-      "title": "Radev, Costa Discuss EU Budget, Energy and Bulgaria's Strategic Role in Europe - БТА",
-      "desc": "Radev, Costa Discuss EU Budget, Energy and Bulgaria's Strategic Role in Europe БТА",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUURhQnBZeksyV3Z1aEhfRmdCQVFtSzdFUkpKWEduNXNqUGszQnAyM2RHNkhGY2xyNmRaS2RBdmRoNzIwcnA1b1ZSMnZOLTVHSTRTN2I2ZEo1N2FnT3RlNlhHWVpiVGRMZVFlR1RSVGhaeDE4dlQ5QkVZN2pJSDVQR3lCakZQVUh1Y2ZKSmZyU2FzeFhWa0dQdFhzNXJ5ZVFCdU1HZHB2RVU1TEM3dW11RVRWLTlUbjdS?oc=5",
-      "date": "2026-09-03",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Scholarships to Study in Europe for Indian Students - Y-Axis Overseas Careers",
-      "desc": "Scholarships to Study in Europe for Indian Students Y-Axis Overseas Careers",
+      "title": "Scholarships to Study in Europe for Indian Students - y-axis.com",
+      "desc": "Scholarships to Study in Europe for Indian Students y-axis.com",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lZzBEVTVJYjVwanExcWNhSWxKdm94dkNFb0ZZSU1KOHU2T1g1eFVQMkJWUmVEYWNJSmV2Y0ZQMm1YeGV0M2pMaUsxVEI2ZXF2SnlvQw?oc=5",
       "date": "2026-09-03",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Top Slovakian scientists decry poor conditions as country struggles with talent loss - Science|Business",
-      "desc": "Top Slovakian scientists decry poor conditions as country struggles with talent loss Science|Business",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSDNrN2VyOWJQWUdYeVNkSl9jTXlHZjNJSDZESTk3TGZ1LVhsTGZxOG5vMjRaSUpHUXlpVGxBOFhiUmlCT3lPaEpxM1VMY0hrNm9JNGZqMXUxRWdzVFozR2RsR1Z5Z3g2enJUc3VEa0I4T2xSck5PR0F2ZEZrSTNuRXN0VWVBTGRYa19uOXBrOVVGS0s2M0dRU3g4OF9ySXFhVG1CbjQ0eUhYVmZ0UlNLTlpOZ1oweTZkQjNFY2ZlVnBUZG8?oc=5",
-      "date": "2026-09-02",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Bulgarian Government Expands AFCOS Directorate’s Powers in Fight Against EU Funds Fraud - БТА",
-      "desc": "Bulgarian Government Expands AFCOS Directorate’s Powers in Fight Against EU Funds Fraud БТА",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPODFGd1BoNUJVWm1sb09mN3hKNk1DOGRWQTVmNFFEZlkzRzZTSF92Y3cwRVhBVk5ZYXRMZ1U2Q1BkekpoaW5TRE96Zl9jQ2luZy1IcnNZbTZuTnFLZl9laW5RVzRrZWx0NlhNUUM5b3F4YW0teC1ZeEpZQnFKdl9Sa3h6eFZVZFlLOXVEa3d2bllrNFRwQkI2aFo0WGJCSnJpNzhpdWFNLW5LRk9TaXZocWhsNVhuamRiYWxsU215MnRNdw?oc=5",
-      "date": "2026-09-02",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Wiser залага на дигиталния суверенитет, обмисля листване във Франкфурт",
-      "desc": "След приключването на интеграционните процеси и изграждането на платформата Wiser, българската технологична компания поставя акцент върху оперативната ефективност, дълбоката AI интеграция и дигиталния суверенитет. Това коментира Ивайло Славов, изпълнителен директор и член на Съвета на директорите на",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163713-wiser-zalaga-na-digitalniya-suverenitet-obmislya-listvane-vav-frankfurt",
-      "date": "2026-09-02",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
     }
   ]
 }
