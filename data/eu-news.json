@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05 10:38",
-  "count": 18,
+  "updated": "2026-09-05 12:55",
+  "count": 17,
   "items": [
     {
       "title": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism - novinite.com",
@@ -10,6 +10,24 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Жена загина при тежка катастрофа край Полски Тръмбеш",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429525-zhena-zagina-pri-tezhka-katastrofa-kray-polski-trambesh",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "На 6 години с любов към България: Малчуган рецитира \"Опълченците на Шипка\" (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429524-na-6-godini-s-lyubov-kam-balgariya-malchugan-retsitira-opalchentsite-na-shipka-video",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Шоково поскъпване на доматите и прясното мляко, картофите поевтиняват",
@@ -24,6 +42,15 @@
       "title": "БАБХ потвърди огнище на шарка по овцете и козите край Кърджали",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/429512-babh-potvardi-ognishte-na-sharka-po-ovtsete-i-kozite-kray-kardzhali",
+      "date": "2026-09-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Тодор Иванджиков: Хибридната война настъпва все повече",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/221-golemite-posleditsi/429509-todor-ivandzhikov-hibridnata-voyna-nastapva-vse-poveche",
       "date": "2026-09-05",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -75,45 +102,9 @@
       "topic": "eu"
     },
     {
-      "title": "Еврокомисията ще предложи нова забрана за износ на отпадъци",
-      "desc": "Европейската комисия ще предложи забрана за износ на отпадъци извън страните от ОИСР. Еврокомисарят по въпросите на индустрията Стефан Сежурне работи по делегиран акт съгласно Регламента за превоз на отпадъци, с който се предлага широка забрана,...",
-      "url": "https://www.dnevnik.bg/burzi-novini/2026/09/04/4952865_evrokomisiiata_shte_predloji_nova_zabrana_za_iznos_na/?ref=rss",
-      "date": "2026-09-04",
-      "source": "Dnevnik.bg",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
       "title": "Решават през октомври дали България излиза от \"сивия списък\" за пране на пари",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/429479-reshavat-prez-oktomvri-dali-balgariya-izliza-ot-siviya-spisak-za-prane-na-pari",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Славчо Велков за вицепрезидент: Не участваме в изборите на олимпийски принцип, отиваме с амбиция за победа",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429475-slavcho-velkov-za-vitseprezident-ne-uchastvame-v-izborite-na-olimpiyski-printsip-otivame-s-ambitsiya-za-pobeda",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Проф. Иво Петров: Първите три минути след сърдечен арест са решаващи",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429474-prof-ivo-petrov-parvite-tri-minuti-sled-sardechen-arest-sa-reshavashti",
-      "date": "2026-09-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Анализатори: До президентските избори са възможни сериозни обрати",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/429468-analizatori-do-prezidentskite-izbori-sa-vazmozhni-seriozni-obrati",
       "date": "2026-09-04",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -129,8 +120,8 @@
       "topic": "бизнес"
     },
     {
-      "title": "€9.2 Million in EU Grants for ISTA - ista.ac.at",
-      "desc": "€9.2 Million in EU Grants for ISTA ista.ac.at",
+      "title": "€9.2 Million in EU Grants for ISTA - Institute of Science and Technology Austria (ISTA)",
+      "desc": "€9.2 Million in EU Grants for ISTA Institute of Science and Technology Austria (ISTA)",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KdzB4cjF0QkNvY3dORG5zQVd6c2ZiNGd4N3BsOXpYVmdhLXdzT0d5OUFLT3pqYjM1amdPYzg2dzNDNHRDdDZfQy10R0ljVnRfLWZrUW1KNDJGd1dUV0xPSDQwMDY0a0djTjMyN1BSYw?oc=5",
       "date": "2026-09-03",
       "source": "Google News EN",
