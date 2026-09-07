@@ -1,19 +1,10 @@
 {
-  "updated": "2026-09-07 12:36",
-  "count": 6,
+  "updated": "2026-09-07 15:08",
+  "count": 17,
   "items": [
     {
-      "title": "До 10 хил. евро за IT проекти; Конкурс за статистически постер; Fibank търси най-добрата българска фирма - Karieri.bg",
-      "desc": "До 10 хил. евро за IT проекти; Конкурс за статистически постер; Fibank търси най-добрата българска фирма Karieri.bg",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSEZ5eDc1NGI1eVRfaTVqX1dDOWRSUXZVOVVWRDFQTUlxRlFGTVNKa0VjWVNLNWlTRkw5dUo0NDY1bFhwSkYyLVVSbnNxVDFlbUFsSnFQWXF5MVZ3dWhkZTBuaU1SREdSLU45aTBpWHdwb0RrbzJEVFZXV0U5WU9YWWZKQThTdC1fQVdyREhVbVNsdw?oc=5",
-      "date": "2026-09-07",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "SachsenEnergie wins EU funding for grid projects in German mining area - renewablesnow.com",
-      "desc": "SachsenEnergie wins EU funding for grid projects in German mining area renewablesnow.com",
+      "title": "SachsenEnergie wins EU funding for grid projects in German mining area - Renewables Now",
+      "desc": "SachsenEnergie wins EU funding for grid projects in German mining area Renewables Now",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNkhhTnBiY2pmYnUzOTE3b2RDNjE5bk5vZU0zWTU3ZlNEYlYyTnJTTkVSODBDVDJXNlllcVBzaGtKc0RRZUZLa1E5NGpKLUQzN3M1YkhJM1dfOVl0RFA3QVF0N3VmeFNWS1RiNXYtUjJabERkenBtaUx2b3FyU2Nwbm1iNXRGeVJkamwzaUs5cF9JNjhtdV9WWFluMGgyWWhYMklyZklVeFpSMWpBYmxv?oc=5",
       "date": "2026-09-07",
       "source": "Google News EN",
@@ -39,6 +30,15 @@
       "topic": "eu"
     },
     {
+      "title": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens - srpske.rs",
+      "desc": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens srpske.rs",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmEzTWF0UF81Sl8xM19SSjl5SEhhOTNNOVhlTEllaURkZUwwTGZfcFhYaUFfMlBhVVVsXzdaNEJ1UzRRSmxOYTZVcDhvY0dabkdoeG10aWZldHQ5NV8wbnRZY25zM1ZuUjFBRUZGN1lzWkN0RmFNZXdPS19GSU8xQXVUZ01jc2xoV2VWN21TSTNyOWsxaC01QlZuU1o2X2pKNEE?oc=5",
+      "date": "2026-09-07",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "Commission greenlights the Netherlands' fourth payment request for €661 million under NextGenerationEU",
       "desc": "European Commission Press release Brussels, 07 Sep 2026 Today, the European Commission positively assessed the Netherlands' fourth payment request of €661 million in grants under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
       "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1801",
@@ -48,6 +48,96 @@
       "topic": "eu"
     },
     {
+      "title": "Не знаел какво превозвал: Оставиха в ареста шофьора на камиона с 340 кг наркотици",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/166-kriminalno/429711-ne-znael-kakvo-prevozval-ostaviha-v-aresta-shofyora-na-kamiona-s-340-kg-narkotitsi",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожар обхвана 200 декара сухи треви и храсти в Ловешко",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429709-pozhar-obhvana-200-dekara-suhi-trevi-i-hrasti-v-loveshko",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Военен \"Кугър\" се включи в гасенето на големия пожар над село Антон",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429706-voenen-kugar-se-vklyuchi-v-gaseneto-na-golemiya-pozhar-nad-selo-anton",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Катастрофа образува километрична \"тапа\" на АМ \"Хемус\" към София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429705-katastrofa-obrazuva-kilometrichna-tapa-na-am-hemus-kam-sofiya",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дрон край Калиакра вдигна военните на крак навръх Съединението",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429694-dron-kray-kaliakra-vdigna-voennite-na-krak-navrah-saedinenieto",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Засилен трафик в третия почивен ден: Хиляди автомобили се прибират към София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429690-zasilen-trafik-v-tretiya-pochiven-den-hilyadi-avtomobili-se-pribirat-kam-sofiya",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пожарът край \"Филиповци\": Евакуираха животни, багер разчиства незаконното сметище (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429688-pozharat-kray-filipovtsi-evakuiraha-zhivotni-bager-razchistva-nezakonnoto-smetishte-video",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БАБХ установи случай на антракс в Разградско",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429687-babh-ustanovi-sluchay-na-antraks-v-razgradsko",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ЦИК вече приема документи от инициативните комитети за президентските избори",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429682-tsik-veche-priema-dokumenti-ot-initsiativnite-komiteti-za-prezidentskite-izbori",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Браншът скочи срещу Пеканов за цените: Искаме намалено ДДС, не лекции",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429681-branshat-skochi-sreshtu-pekanov-za-tsenite-iskame-namaleno-dds-ne-lektsii",
+      "date": "2026-09-07",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "Голям като TikTok: Български стартъп иска да демократизира гейминг индустрията",
       "desc": "Възможно ли е да създадете пълноценна видеоигра само с няколко думи, без да притежавате умения по програмиране, графичен дизайн или звукова обработка? Именно около тази идея е изграден българският технологичен стартъп Nanogram. Платформата на компанията използва изкуствен интелект (AI), за да трансф",
       "url": "https://www.bloombergtv.bg/a/28-update/163878-golyam-kato-tiktok-balgarski-startap-iska-da-demokratizira-geyming-industriyata",
@@ -55,6 +145,15 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
+    },
+    {
+      "title": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism - Novinite.com",
+      "desc": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism Novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUxmajh3Wko5NHlWcU5JYm92YkJLSUk0c2FaSm02cWNXdENuX2ZOT1ZrU2lSWWlZM1MxU2t1MDFPa2JZZ1pybUU4c1R5cWZSUldKZDg4dzgtbkxuamQ4dXpnVjlJcFlMMllwY09aLWc0OE1vUkVUS1gyRWJVT00tZ2VxdDdUMUNxZnZJQW16TEpoNDR2dFdGcTFZdzM3M0ZIYnN0cTBqQVZMTXd1ZVBSZjNUVU5WcDYtcXdTakgyd0Q?oc=5",
+      "date": "2026-09-05",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     }
   ]
 }
