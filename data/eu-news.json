@@ -1,7 +1,124 @@
 {
-  "updated": "2026-09-07 15:08",
-  "count": 17,
+  "updated": "2026-09-08 11:22",
+  "count": 20,
   "items": [
+    {
+      "title": "European Media Art Platform Residency Programme - fundsforNGOs",
+      "desc": "European Media Art Platform Residency Programme fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT3E5cmxvdFRUUnRQcHM3S0Y4ZUpjOS12ek5hcHIwS3FNaGN1THRCVzZ0ZkUtN3hoX0x5Y2lBdXJMVjFJZWd0Ymx0dXlOSW1qeHpmWnBMSmJIYU82c0g0ZFVDVWNzeV9KUy0tT3BYeENNSV9va2liNVBqSWY2ZmpUeWdVblB1cTZ5LWVRVW9KWG1zcTdEdFBieNIBmAFBVV95cUxPT3E5cmxvdFRUUnRQcHM3S0Y4ZUpjOS12ek5hcHIwS3FNaGN1THRCVzZ0ZkUtN3hoX0x5Y2lBdXJMVjFJZWd0Ymx0dXlOSW1qeHpmWnBMSmJIYU82c0g0ZFVDVWNzeV9KUy0tT3BYeENNSV9va2liNVBqSWY2ZmpUeWdVblB1cTZ5LWVRVW9KWG1zcTdEdFBieA?oc=5",
+      "date": "2026-09-08",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Advancing Democracy & Good Governance: 35+ Grants for Civic Action and Stronger Institutions - fundsforNGOs",
+      "desc": "Advancing Democracy & Good Governance: 35+ Grants for Civic Action and Stronger Institutions fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXy1MTHc2OGV2Rkt3MG9TaWZlX3pXVktCWjJ0MUdvWUV0c0xPUDdFV1FDSTNsMnlUNEQ1VmFuMnREUWdxLXlMYWg5VFM4cW1BcWtuaHA3aGhlMTYwWXR1ekYzUnZtYXE0OGgweGxtTzVnc2xORk1BaWp0VFlkUUJYVl9NYmdIcC1KQ3ZmMC1Md3F1N1dLVjR1Y2JSNy0tQVNhZTFVNERFX3VfdU5wNk5SU25BM1JNR1JkMHB6X1ptZkFpZ9IBxwFBVV95cUxQYkxibnc3cm1vWDM3NnJOUnBucFJ4OS1sbWJ6UkRNalE2c05WbHRYQ05GYTB5RGtWbDJQVzFLZk5PcjcxZURzLV9Id3FhU0Y1RGNsWFNlbk5sODdNZ253dWRxNGkxYXZCZDRZSGg0bGstX1ZRejNuN2V6bWxZUHZlbUVxUS1JOVN5ZkZMbU9VTkkwZzZEV2tHQVYybEdwTFhqSkxYcVJuOTlqaUF2MXRVcUhBTjFVRXprTC1abFZJbkxJeWJsOF9F?oc=5",
+      "date": "2026-09-08",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Радев: Инвестициите в производства показват доверието към България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429796-radev-investitsiite-v-proizvodstva-pokazvat-doverieto-kam-balgariya",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Провал на PISA 2025: Българските ученици последни по математика, четене, природни науки",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429794-proval-na-pisa-2025-balgarskite-uchenitsi-posledni-po-matematika-chetene-prirodni-nauki",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Демерджиев: Най-голямата превенция е да отбелязваме добрия пример на младежите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429788-demerdzhiev-nay-golyamata-preventsiya-e-da-otbelyazvame-dobriya-primer-na-mladezhite",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "60 невзривени боеприпаса откриха край завод \"ЕМКО\" след взривовете",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429786-60-nevzriveni-boepripasa-otkriha-kray-zavod-emko-sled-vzrivovete",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Адмирал Ефтимов: Черно море не трябва да остава в плен на заплахите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429782-admiral-eftimov-cherno-more-ne-tryabva-da-ostava-v-plen-na-zaplahite",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "МЕЧ внесе документите в ЦИК за президентските избори",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429780-mech-vnese-dokumentite-v-tsik-za-prezidentskite-izbori",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ГЕРБ няма да издига кандидати за президент и вицепрезидент",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429779-gerb-nyama-da-izdiga-kandidati-za-prezident-i-vitseprezident",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Влак блъсна кола с младежи край Исперих след преминаване на червено",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429778-vlak-blasna-kola-s-mladezhi-kray-isperih-sled-preminavane-na-cherveno",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ресторантьорският бранш: Никой не обясни защо ДДС за нас трябва да е 20%",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/429773-restorantyorskiyat-bransh-nikoy-ne-obyasni-zashto-dds-za-nas-tryabva-da-e-20",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Day Off: School Time дава весел старт на новата учебна година на 12 септември",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/429771-day-off-school-time-dava-vesel-start-na-novata-uchebna-godina-na-12-septemvri",
+      "date": "2026-09-08",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "До 12 млн. евро по бърза писта: BEAM става атрактивен и за зрели компании",
+      "desc": "Увеличаването на прага за набиране на капитал на пазара за растеж BEAM към Българската фондова борса (БФБ) от 8 на 12 милиона евро отваря нов етап в развитието на българския капиталов пазар. Промяната достига максималния таван, заложен в европейския регламент за проспектите, и си поставя за цел да п",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/163909-do-12-mln-evro-po-barza-pista-beam-stava-atraktiven-i-za-zreli-kompanii",
+      "date": "2026-09-08",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
     {
       "title": "SachsenEnergie wins EU funding for grid projects in German mining area - Renewables Now",
       "desc": "SachsenEnergie wins EU funding for grid projects in German mining area Renewables Now",
@@ -21,18 +138,18 @@
       "topic": "eu"
     },
     {
-      "title": "Apply Now: Next Generation Scholars on India and the Indo-Pacific - fundsforNGOs",
-      "desc": "Apply Now: Next Generation Scholars on India and the Indo-Pacific fundsforNGOs",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTEV0X2Q0TFRoVFRMclRkMXM4ZkZmaG1ZM3lzdlRwWlhQWEZ6OXl3MGV5QnBOR3lvQmRuejA1dGtxWjEtU0tOVDkySjFOek1oS3FySkQxTHZZdFJ2U3g0YXRxb3Z6VDlvYmJSRWZpdDNsTVE4WS1GUlhvRlB1VlU5eUZGWDdlSktUTHFCOFVna1FDRkRDMFhBSlc2YjZqcWdXVGU0Nm5mdl9ITHBZT19CWtIBsAFBVV95cUxPTEV0X2Q0TFRoVFRMclRkMXM4ZkZmaG1ZM3lzdlRwWlhQWEZ6OXl3MGV5QnBOR3lvQmRuejA1dGtxWjEtU0tOVDkySjFOek1oS3FySkQxTHZZdFJ2U3g0YXRxb3Z6VDlvYmJSRWZpdDNsTVE4WS1GUlhvRlB1VlU5eUZGWDdlSktUTHFCOFVna1FDRkRDMFhBSlc2YjZqcWdXVGU0Nm5mdl9ITHBZT19CWg?oc=5",
+      "title": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens - srpske.rs",
+      "desc": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens srpske.rs",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmEzTWF0UF81Sl8xM19SSjl5SEhhOTNNOVhlTEllaURkZUwwTGZfcFhYaUFfMlBhVVVsXzdaNEJ1UzRRSmxOYTZVcDhvY0dabkdoeG10aWZldHQ5NV8wbnRZY25zM1ZuUjFBRUZGN1lzWkN0RmFNZXdPS19GSU8xQXVUZ01jc2xoV2VWN21TSTNyOWsxaC01QlZuU1o2X2pKNEE?oc=5",
       "date": "2026-09-07",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens - srpske.rs",
-      "desc": "Belgrade-Nis Railway: Paracin-Medjurovo Tender Opens srpske.rs",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmEzTWF0UF81Sl8xM19SSjl5SEhhOTNNOVhlTEllaURkZUwwTGZfcFhYaUFfMlBhVVVsXzdaNEJ1UzRRSmxOYTZVcDhvY0dabkdoeG10aWZldHQ5NV8wbnRZY25zM1ZuUjFBRUZGN1lzWkN0RmFNZXdPS19GSU8xQXVUZ01jc2xoV2VWN21TSTNyOWsxaC01QlZuU1o2X2pKNEE?oc=5",
+      "title": "Apply Now: Next Generation Scholars on India and the Indo-Pacific - fundsforNGOs",
+      "desc": "Apply Now: Next Generation Scholars on India and the Indo-Pacific fundsforNGOs",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTEV0X2Q0TFRoVFRMclRkMXM4ZkZmaG1ZM3lzdlRwWlhQWEZ6OXl3MGV5QnBOR3lvQmRuejA1dGtxWjEtU0tOVDkySjFOek1oS3FySkQxTHZZdFJ2U3g0YXRxb3Z6VDlvYmJSRWZpdDNsTVE4WS1GUlhvRlB1VlU5eUZGWDdlSktUTHFCOFVna1FDRkRDMFhBSlc2YjZqcWdXVGU0Nm5mdl9ITHBZT19CWtIBsAFBVV95cUxPTEV0X2Q0TFRoVFRMclRkMXM4ZkZmaG1ZM3lzdlRwWlhQWEZ6OXl3MGV5QnBOR3lvQmRuejA1dGtxWjEtU0tOVDkySjFOek1oS3FySkQxTHZZdFJ2U3g0YXRxb3Z6VDlvYmJSRWZpdDNsTVE4WS1GUlhvRlB1VlU5eUZGWDdlSktUTHFCOFVna1FDRkRDMFhBSlc2YjZqcWdXVGU0Nm5mdl9ITHBZT19CWg?oc=5",
       "date": "2026-09-07",
       "source": "Google News EN",
       "lang": "en",
@@ -48,94 +165,13 @@
       "topic": "eu"
     },
     {
-      "title": "Не знаел какво превозвал: Оставиха в ареста шофьора на камиона с 340 кг наркотици",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/166-kriminalno/429711-ne-znael-kakvo-prevozval-ostaviha-v-aresta-shofyora-na-kamiona-s-340-kg-narkotitsi",
+      "title": "В. Панев: Източна Европа е по-добре финансово от Западна, но има риск от безработица",
+      "desc": "Взаимните фондове в България преминаха прага от 8.5 милиарда евро, а Източна Европа се очертава като едно от най-горещите места за инвестиции на световната финансова карта. На този фон глобалната икономика навлиза в ключова есен, белязана от високи лихвени проценти, геополитическо напрежение, предст",
+      "url": "https://www.bloombergtv.bg/a/19-svetat-e-biznes/163896-v-panev-iztochna-evropa-e-po-dobre-finansovo-ot-zapadna-no-ima-risk-ot-bezrabotitsa",
       "date": "2026-09-07",
-      "source": "BG ON AIR",
+      "source": "Bloomberg TV BG",
       "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пожар обхвана 200 декара сухи треви и храсти в Ловешко",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429709-pozhar-obhvana-200-dekara-suhi-trevi-i-hrasti-v-loveshko",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Военен \"Кугър\" се включи в гасенето на големия пожар над село Антон",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429706-voenen-kugar-se-vklyuchi-v-gaseneto-na-golemiya-pozhar-nad-selo-anton",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Катастрофа образува километрична \"тапа\" на АМ \"Хемус\" към София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429705-katastrofa-obrazuva-kilometrichna-tapa-na-am-hemus-kam-sofiya",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дрон край Калиакра вдигна военните на крак навръх Съединението",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429694-dron-kray-kaliakra-vdigna-voennite-na-krak-navrah-saedinenieto",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Засилен трафик в третия почивен ден: Хиляди автомобили се прибират към София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429690-zasilen-trafik-v-tretiya-pochiven-den-hilyadi-avtomobili-se-pribirat-kam-sofiya",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пожарът край \"Филиповци\": Евакуираха животни, багер разчиства незаконното сметище (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429688-pozharat-kray-filipovtsi-evakuiraha-zhivotni-bager-razchistva-nezakonnoto-smetishte-video",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "БАБХ установи случай на антракс в Разградско",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429687-babh-ustanovi-sluchay-na-antraks-v-razgradsko",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ЦИК вече приема документи от инициативните комитети за президентските избори",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429682-tsik-veche-priema-dokumenti-ot-initsiativnite-komiteti-za-prezidentskite-izbori",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Браншът скочи срещу Пеканов за цените: Искаме намалено ДДС, не лекции",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/429681-branshat-skochi-sreshtu-pekanov-za-tsenite-iskame-namaleno-dds-ne-lektsii",
-      "date": "2026-09-07",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
       "title": "Голям като TikTok: Български стартъп иска да демократизира гейминг индустрията",
@@ -145,15 +181,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
-    },
-    {
-      "title": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism - Novinite.com",
-      "desc": "Bulgaria's PM Proposes ‘Industrial Cohesion’ Without a Mechanism Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUxmajh3Wko5NHlWcU5JYm92YkJLSUk0c2FaSm02cWNXdENuX2ZOT1ZrU2lSWWlZM1MxU2t1MDFPa2JZZ1pybUU4c1R5cWZSUldKZDg4dzgtbkxuamQ4dXpnVjlJcFlMMllwY09aLWc0OE1vUkVUS1gyRWJVT00tZ2VxdDdUMUNxZnZJQW16TEpoNDR2dFdGcTFZdzM3M0ZIYnN0cTBqQVZMTXd1ZVBSZjNUVU5WcDYtcXdTakgyd0Q?oc=5",
-      "date": "2026-09-05",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
     }
   ]
 }
