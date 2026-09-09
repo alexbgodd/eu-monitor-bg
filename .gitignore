@@ -7,3 +7,5 @@ node_modules/
 
 *.bak
 *.patch
+
+scraper/testdata/preview_email.html

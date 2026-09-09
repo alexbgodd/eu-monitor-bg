@@ -14,6 +14,38 @@ DATA_FILE    = os.path.join(os.path.dirname(__file__), '..', 'data', 'programs.j
 SENT_LOG     = os.path.join(os.path.dirname(__file__), '..', 'data', 'sent_log.json')
 WEEK_MARKER  = os.path.join(os.path.dirname(__file__), '..', 'data', 'last_sent_week.txt')
 MAX_PER_MAIL = 20
+# Поръчките имат срокове, фондовете (все още) нямат. Ако подредим всичко само
+# по спешност, фондовете падат на дъното и НПО-тата спират да получават
+# програми изобщо. Затова всеки имейл пази място за фондове.
+FUND_QUOTA = 8
+
+
+def _deadline_key(p):
+    """Най-скоро изтичащите първи; тези без срок — накрая."""
+    dl = str(p.get('deadline') or '')
+    return (0, dl) if dl else (1, '')
+
+
+def select_for_email(matches, limit=MAX_PER_MAIL, fund_quota=FUND_QUOTA):
+    """
+    Избира какво влиза в имейла: спешните поръчки първи, но с гарантирано
+    място за фондове. Ако единият вид не запълни квотата си, другият я поема.
+    """
+    funds = sorted((p for p in matches if p.get('type') != 'tender'),
+                   key=lambda p: str(p.get('found_at') or ''), reverse=True)
+    tenders = sorted((p for p in matches if p.get('type') == 'tender'),
+                     key=_deadline_key)
+
+    take_funds = funds[:min(fund_quota, len(funds))]
+    take_tenders = tenders[:max(0, limit - len(take_funds))]
+    # ако поръчките не стигат, доливаме с още фондове
+    if len(take_funds) + len(take_tenders) < limit:
+        extra = limit - len(take_funds) - len(take_tenders)
+        take_funds += funds[len(take_funds):len(take_funds) + extra]
+
+    chosen = take_tenders + take_funds
+    # редът в имейла: първо това, което изтича най-скоро
+    return sorted(chosen, key=_deadline_key)[:limit]
 
 
 def current_week():
@@ -103,12 +135,17 @@ def main():
             print("  -> Пропускаме (всички вече изпратени)")
             continue
 
-        to_send = new_matches[:MAX_PER_MAIL]
+        to_send = select_for_email(new_matches)
 
         if dry_run:
-            print(f"  -> БИ получил {len(to_send)} програми:")
+            print(f"  -> БИ получил {len(to_send)} програми "
+                  f"({sum(1 for p in to_send if p.get('type') == 'tender')} поръчки, "
+                  f"{sum(1 for p in to_send if p.get('type') != 'tender')} фонда):")
+            from send_alerts import deadline_phrase, fmt_value
             for p in to_send:
-                print(f"       [{p.get('category')}] {p.get('title', '')[:70]}")
+                bits = [x for x in (deadline_phrase(p), fmt_value(p.get('value'))) if x]
+                extra = ("  — " + " · ".join(bits)) if bits else ""
+                print(f"       [{p.get('category')}] {p.get('title', '')[:60]}{extra}")
             continue
 
         success = send_email(email, user.get('name', 'потребител'), to_send)
