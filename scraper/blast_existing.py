@@ -18,6 +18,30 @@ MAX_PER_MAIL = 20
 # по спешност, фондовете падат на дъното и НПО-тата спират да получават
 # програми изобщо. Затова всеки имейл пази място за фондове.
 FUND_QUOTA = 8
+# Писмото е седмично. Поръчка, която изтича след 1–2 дни, е неизпълнима за
+# човек, който я вижда за пръв път — оферта по ЗОП се готви седмици. Такива
+# записи само пълнят писмото с безполезно съдържание и учат получателя да не
+# го отваря. Затова под този праг изобщо не влизат.
+# (09.09.2026: dry-run показа, че почти всеки абонат щеше да получи 12 поръчки
+#  с „ИЗТИЧА ДНЕС“.)
+MIN_DAYS_TO_ACT = 5
+
+# Бюджетни пера на управляващи органи, не покани за кандидатстване. Влизат в
+# programs.json от ИСУН и си остават там (сайтът ги показва), но в имейла нямат
+# работа — абонат получаваше „Техническа помощ“ по два пъти в едно писмо.
+# Филтърът е нарочно тесен: точно съвпадение или начало на заглавието.
+NOISE_EXACT = {
+    "техническа помощ",
+    "бюджетни линии",
+    "контрол и правоприлагане",
+    "морско наблюдение",
+}
+NOISE_PREFIX = ("техническа помощ за управление",)
+
+
+def _is_noise(p):
+    t = " ".join(str(p.get("title") or "").lower().split())
+    return t in NOISE_EXACT or t.startswith(NOISE_PREFIX)
 
 
 def _deadline_key(p):
@@ -26,15 +50,39 @@ def _deadline_key(p):
     return (0, dl) if dl else (1, '')
 
 
+def _is_actionable(p, today=None):
+    """Има ли смисъл получателят изобщо да отвори тази поръчка."""
+    dl = str(p.get('deadline') or '')
+    if not dl:
+        return True                      # без обявен срок — не го крием
+    from datetime import date
+    try:
+        d = (date.fromisoformat(dl[:10]) - (today or date.today())).days
+    except (ValueError, TypeError):
+        return True
+    return d >= MIN_DAYS_TO_ACT
+
+
 def select_for_email(matches, limit=MAX_PER_MAIL, fund_quota=FUND_QUOTA):
     """
-    Избира какво влиза в имейла: спешните поръчки първи, но с гарантирано
-    място за фондове. Ако единият вид не запълни квотата си, другият я поема.
+    Избира какво влиза в имейла.
+
+    ПОДБОРЪТ е по най-ново намерено, НЕ по най-скоро изтичащо. Причината:
+    sent_log праща всяка обява точно веднъж, тоест писмото е „какво е ново“,
+    а не напомняне. Новото има най-много оставащо време; подредбата по
+    изтичащ срок систематично избираше обявите с най-малко време — точно
+    обратното на полезното (грешка от 09.09.2026, поправена същия ден).
+    Филтърът MIN_DAYS_TO_ACT остава като предпазна мрежа за обяви, намерени
+    късно в своя прозорец. Показването вътре в писмото е по спешност.
+    Квотата за фондове пази НПО-тата да не бъдат изместени от поръчки.
     """
+    matches = [p for p in matches if not _is_noise(p)]
+
     funds = sorted((p for p in matches if p.get('type') != 'tender'),
                    key=lambda p: str(p.get('found_at') or ''), reverse=True)
-    tenders = sorted((p for p in matches if p.get('type') == 'tender'),
-                     key=_deadline_key)
+    tenders = sorted((p for p in matches
+                      if p.get('type') == 'tender' and _is_actionable(p)),
+                     key=lambda p: str(p.get('found_at') or ''), reverse=True)
 
     take_funds = funds[:min(fund_quota, len(funds))]
     take_tenders = tenders[:max(0, limit - len(take_funds))]

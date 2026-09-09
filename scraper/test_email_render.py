@@ -16,7 +16,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from send_alerts import (                          # noqa: E402
     fmt_value, region_label, days_left, deadline_phrase, esc,
 )
-from blast_existing import select_for_email        # noqa: E402
+from blast_existing import (select_for_email, _is_actionable,  # noqa: E402
+                            _is_noise, MIN_DAYS_TO_ACT)
 
 _failures = []
 
@@ -87,16 +88,61 @@ def main():
     check("фондове в имейла", n_funds, 8)
     check("поръчки в имейла", n_tend, 12)
     check("общо = лимита", n_funds + n_tend, 20)
-    check("първата изтича най-скоро", chosen[0]["deadline"], d(0))
+    check("показва се най-спешното измежду подбраните", chosen[0]["deadline"], d(MIN_DAYS_TO_ACT))
     check("фондовете са накрая", chosen[-1]["type"], "fund")
+
+    print("\n[4в] Неизпълнимите срокове не влизат в писмото")
+    check("изтича днес — не",      _is_actionable({"deadline": d(0)}),  False)
+    check("остават 2 дни — не",    _is_actionable({"deadline": d(2)}),  False)
+    check("остават 4 дни — не",    _is_actionable({"deadline": d(4)}),  False)
+    check("остават 5 дни — да",    _is_actionable({"deadline": d(5)}),  True)
+    check("остават 30 дни — да",   _is_actionable({"deadline": d(30)}), True)
+    check("без срок — да",         _is_actionable({"deadline": ""}),    True)
+    check("счупена дата — да",     _is_actionable({"deadline": "х"}),   True)
+    soon = [{"id": f"t{i}", "type": "tender", "title": f"Спешна {i}",
+             "deadline": d(i), "source": "ЦАИС ЕОП", "category": "общи",
+             "found_at": d(-1)} for i in range(0, 5)]
+    check("само неизпълними → празно писмо", select_for_email(soon), [])
+    mixed = soon + [{"id": "ok", "type": "tender", "title": "Изпълнима",
+                     "deadline": d(9), "source": "ЦАИС ЕОП",
+                     "category": "общи", "found_at": d(-1)}]
+    picked = select_for_email(mixed)
+    check("от сместа остава само изпълнимата", [x["id"] for x in picked], ["ok"])
+
+    print("\n[4г] Подборът е по НАЙ-НОВО намерено, не по изтичащ срок")
+    old_urgent = [{"id": f"old{i}", "type": "tender", "title": f"Стара {i}",
+                   "deadline": d(6 + i), "source": "ЦАИС", "category": "общи",
+                   "found_at": d(-40)} for i in range(25)]
+    new_calm = [{"id": f"new{i}", "type": "tender", "title": f"Нова {i}",
+                 "deadline": d(40 + i), "source": "ЦАИС", "category": "общи",
+                 "found_at": d(-1)} for i in range(25)]
+    got = {x["id"] for x in select_for_email(old_urgent + new_calm)}
+    check("взима новите, не изтичащите",
+          all(i.startswith("new") for i in got), True)
+    check("нито една стара не влиза",
+          [i for i in got if i.startswith("old")], [])
+
+    print("\n[4д] Бюджетните пера не влизат в имейла")
+    check("Техническа помощ",        _is_noise({"title": "Техническа помощ"}), True)
+    check("с интервали",             _is_noise({"title": "  техническа   помощ "}), True)
+    check("Бюджетни линии",          _is_noise({"title": "Бюджетни линии"}), True)
+    check("Техническа помощ за упр.", _is_noise({"title": "Техническа помощ за управление и изпълнение на ПОС"}), True)
+    check("истинска програма остава", _is_noise({"title": "Въвеждане на зелени технологии в МСП"}), False)
+    check("частично съвпадение остава",
+          _is_noise({"title": "Осигуряване на техническа помощ за бенефициенти"}), False)
+    check("празно заглавие", _is_noise({}), False)
+    noisy = [{"id": "n1", "type": "fund", "title": "Техническа помощ",
+              "source": "ИСУН", "category": "общи", "deadline": "", "found_at": d(-1)}]
+    check("шумът не влиза в подбора", select_for_email(noisy), [])
 
     print("\n[5] Гранични случаи на подбора")
     only_funds = [p for p in sample() if p["type"] == "fund"]
     check("само фондове → пълни се докрай", len(select_for_email(only_funds)), 14)
     only_tenders = [p for p in sample() if p["type"] == "tender"]
-    check("само поръчки → до лимита", len(select_for_email(only_tenders)), 16)
+    check("само поръчки → само изпълнимите", len(select_for_email(only_tenders)), 12)
     check("празен вход", select_for_email([]), [])
-    check("под лимита", len(select_for_email(sample()[:3])), 3)
+    check("под лимита", len(select_for_email([p for p in sample()
+                                          if p["type"] == "fund"][:3])), 3)
 
     print("\n[6] Сглобяване на писмото (без изпращане)")
     import send_alerts
@@ -129,8 +175,8 @@ def main():
     subj = str(email.header.make_header(
         email.header.decode_header(email_mod.message_from_string(raw)["Subject"])))
     check("темата брои спешните", "изтичат до 7 дни" in subj, True)
-    check("темата брои правилно (вкл. изтичащите днес)", subj.split("·")[1].strip(),
-          "6 изтичат до 7 дни")
+    check("темата брои правилно", subj.split("·")[1].strip(),
+          "2 изтичат до 7 дни")
 
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "testdata", "preview_email.html")
