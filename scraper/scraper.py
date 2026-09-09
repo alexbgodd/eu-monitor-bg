@@ -410,6 +410,252 @@ def _eop_category(title, cpv=""):
         return "общини"
     return "търгове"
 
+# ── ЦАИС ЕОП — файл "поръчки" (официални данни) ────────────────────────────
+# В същия S3 bucket, до OCDS файла "обявления", стои файл "поръчки". За разлика
+# от OCDS (където tenderPeriod липсва изцяло), там 100% от записите имат:
+#   submissionDeadline · estimatedValue+currency · mainCpvCode+Description
+#   executionPlaceNuts · isEuFunded+europeanProgram · isCancelled
+# Ключът за свързване е tenderId == числовата част на ocid.
+# Проверено на 6 дни (01–08.09.2026): по един ред на tenderId, без дубликати.
+
+EOP_OCID_PREFIX = "ocds-e82gsb-"
+
+# CPV дивизии → категория. Само недвусмислените; останалото пада към
+# ключовите думи на _eop_category, но вече с БЪЛГАРСКО CPV описание
+# вместо "goods"/"services", което само по себе си вдига точността.
+_CPV_CATEGORY = [
+    ("851", "здравеопазване"),   # здравни услуги
+    ("853", "социални"),         # социални услуги
+    ("33",  "здравеопазване"),   # медицинско оборудване и лекарства
+    ("48",  "ит"),               # софтуерни пакети и информационни системи
+    ("72",  "ит"),               # ИТ услуги
+    ("80",  "образование"),
+    ("92",  "култура"),          # култура, спорт, развлечения
+    ("90",  "екология"),         # околна среда, отпадъци, води
+    ("03",  "земеделие"),
+    ("15",  "земеделие"),        # хранителни продукти
+    ("16",  "земеделие"),        # селскостопански машини
+    ("45",  "инфраструктура"),   # строителни и монтажни работи
+    ("71",  "инфраструктура"),   # архитектурни и инженерни услуги
+    ("55",  "туризъм"),          # хотелиерство и ресторантьорство
+]
+
+def _eop_money(raw):
+    """'1.254.705,00' / '179974,75' / '500000' → float; празно и 0 → None."""
+    if raw is None:
+        return None
+    s = str(raw).strip().replace("\xa0", "").replace(" ", "")
+    if not s:
+        return None
+    if "," in s:                      # българският формат: точка = хиляди
+        s = s.replace(".", "").replace(",", ".")
+    try:
+        val = float(s)
+    except ValueError:
+        return None
+    return val if val > 0 else None
+
+def _eop_date10(raw):
+    """'2026-10-05T23:59:59' → '2026-10-05'; None/'' → ''."""
+    s = str(raw or "").strip()
+    return s[:10] if len(s) >= 10 else ""
+
+def fetch_eop_procurements(days_back=7, quiet=False):
+    """
+    Чете файла "поръчки" от storage.eop.bg за последните days_back дни.
+    Връща {tenderId(str): (day_iso, row)} — при повторение печели по-новият ден.
+    НИКОГА не вдига изключение: при проблем връща каквото е успяло да събере,
+    за да не блокира останалите източници.
+    """
+    out = {}
+    today = date.today()
+    for offset in range(1, days_back + 1):
+        day_iso = (today - timedelta(days=offset)).isoformat()
+        try:
+            keys = _eop_list_bucket(day_iso)
+            if not keys:
+                continue
+            key = next((k for k in keys if "поръчки" in k.lower()), None)
+            if not key:
+                continue
+            rows = _eop_fetch_json(day_iso, key)
+            if not isinstance(rows, list):
+                continue
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                tid = row.get("tenderId")
+                if tid is None:
+                    continue
+                out.setdefault(str(tid), (day_iso, row))
+        except Exception as e:
+            if not quiet:
+                print(f"    [поръчки] {day_iso} пропуснат: {e}")
+            continue
+    return out
+
+def _eop_category_v2(title, cpv_code="", cpv_desc=""):
+    """CPV-базирана категория с fallback към старата класификация по думи."""
+    code = str(cpv_code or "").strip()
+    if code:
+        for prefix, cat in _CPV_CATEGORY:
+            if code.startswith(prefix):
+                return cat
+    return _eop_category(title, str(cpv_desc or ""))
+
+def _eop_attach_extras(entry, row):
+    """
+    Добавя новите полета към запис. Само добавя — не изтрива и не
+    презаписва с празна стойност. Фронтендът чете само старите полета,
+    затова допълнителните ключове не могат да счупят нищо.
+    """
+    val = _eop_money(row.get("estimatedValue"))
+    if val is not None:
+        entry["value"] = val
+        entry["currency"] = (str(row.get("currency") or "").strip() or "EUR")
+    if row.get("mainCpvCode"):
+        entry["cpv"] = str(row["mainCpvCode"]).strip()
+    if row.get("mainCpvDescription"):
+        entry["cpv_desc"] = str(row["mainCpvDescription"]).strip()[:150]
+    if row.get("executionPlaceNuts"):
+        entry["nuts"] = str(row["executionPlaceNuts"]).strip()
+    if str(row.get("isEuFunded") or "").strip() == "Да":
+        entry["eu_funded"] = True
+        if row.get("europeanProgram"):
+            entry["eu_program"] = str(row["europeanProgram"]).strip()[:150]
+    if row.get("procedureType"):
+        entry["procedure"] = str(row["procedureType"]).strip()[:80]
+    if row.get("typeOfContract"):
+        entry["contract_type"] = str(row["typeOfContract"]).strip()[:40]
+    if row.get("buyerRegistryNumber"):
+        entry["buyer_id"] = str(row["buyerRegistryNumber"]).strip()
+    if row.get("uniqueProcurementNumber"):
+        entry["procurement_no"] = str(row["uniqueProcurementNumber"]).strip()
+    return entry
+
+def _eop_group_key(row):
+    """
+    Обособените позиции на една поръчка идват като ОТДЕЛНИ редове с РАЗЛИЧЕН
+    tenderId, но със същия uniqueProcurementNumber (напр. "00276-2026-0020").
+    Без групиране поръчка с 50 позиции става 50 записа в потока и 50 реда
+    в имейла — точно това се случи при първото пускане на 09.09.2026.
+    """
+    key = str(row.get("uniqueProcurementNumber") or "").strip()
+    return key if key else f"tid:{row.get('tenderId')}"
+
+def _eop_canonical_row(rows):
+    """
+    Редът, който представя цялата поръчка: първо ред, който НЕ е обособена
+    позиция; ако има само позиции — тази с най-малък tenderId.
+    Изборът е детерминистичен, за да не се сменя id между пусканията.
+    """
+    non_lot = [r for r in rows if str(r.get("isLot") or "").strip() != "Да"]
+    pool = non_lot or rows
+    def _tid(r):
+        try:
+            return int(r.get("tenderId") or 0)
+        except (TypeError, ValueError):
+            return 0
+    return min(pool, key=_tid)
+
+def _eop_group_value(rows, canon):
+    """
+    Стойност на поръчката. Ако имаме родителски (не-lot) ред — неговата
+    стойност вече е общата. Ако има само позиции — сумираме ги.
+    """
+    if str(canon.get("isLot") or "").strip() != "Да":
+        return _eop_money(canon.get("estimatedValue"))
+    total = 0.0
+    found = False
+    for r in rows:
+        v = _eop_money(r.get("estimatedValue"))
+        if v is not None:
+            total += v
+            found = True
+    return round(total, 2) if found else None
+
+def parse_eop_procurements(proc_map, existing_ids):
+    """
+    Прави записи за programs.json от файла "поръчки".
+    id и source са ИДЕНТИЧНИ на тези от OCDS пътя (ocds-e82gsb-<tenderId>),
+    за да се дедуплицират взаимно и да не се появят двойни записи.
+    Обособените позиции се сливат в ЕДИН запис на поръчка.
+    """
+    groups = {}
+    for tid, (day_iso, row) in proc_map.items():
+        if str(row.get("isCancelled") or "").strip() == "Да":
+            continue
+        if not str(row.get("subject") or row.get("lotTenderName") or "").strip():
+            continue
+        groups.setdefault(_eop_group_key(row), []).append((tid, day_iso, row))
+
+    programs = []
+    for items in groups.values():
+        rows = [r for _, _, r in items]
+        canon = _eop_canonical_row(rows)
+        ctid = str(canon.get("tenderId"))
+        # Ако ВЕЧЕ имаме запис за която и да е позиция от тази поръчка,
+        # тя е представена — не добавяме втори.
+        if any(f"{EOP_OCID_PREFIX}{t}" in existing_ids for t, _, _ in items):
+            continue
+        day_iso = next((d for t, d, _ in items if t == ctid), items[0][1])
+        title = str(canon.get("subject") or canon.get("lotTenderName") or "").strip()
+        entry = {
+            "id": f"{EOP_OCID_PREFIX}{ctid}",
+            "title": title[:200],
+            "source": "ЦАИС ЕОП — Обявления",
+            "category": _eop_category_v2(title, canon.get("mainCpvCode"),
+                                         canon.get("mainCpvDescription")),
+            "url": f"https://app.eop.bg/today/{ctid}",
+            "deadline": _eop_date10(canon.get("submissionDeadline")),
+            "type": "tender",
+            "authority": str(canon.get("buyerName") or "")[:100],
+            "found_at": day_iso,
+            "code": ctid,
+        }
+        _eop_attach_extras(entry, canon)
+        val = _eop_group_value(rows, canon)
+        if val is not None:
+            entry["value"] = val
+            entry["currency"] = (str(canon.get("currency") or "").strip() or "EUR")
+        elif "value" in entry:
+            del entry["value"]
+        if len(items) > 1:
+            entry["lots"] = len(items)
+        programs.append(entry)
+    return programs
+
+def enrich_from_eop_procurements(programs, proc_map, overwrite_deadline=True):
+    """
+    Допълва ВЕЧЕ съществуващи ЕОП записи с официалните данни.
+    Официалният срок има предимство пред fuzzy-match-натия от openprocurements.
+    Връща (брой обогатени, брой променени срока).
+    """
+    n_enriched = n_deadline = 0
+    for p in programs:
+        if "ЕОП" not in str(p.get("source", "")):
+            continue
+        tid = str(p.get("code") or "").strip()
+        if not tid.isdigit():
+            tail = str(p.get("id", "")).rsplit("-", 1)[-1]
+            tid = tail if tail.isdigit() else ""
+        if not tid:
+            continue
+        hit = proc_map.get(tid)
+        if not hit:
+            continue
+        row = hit[1]
+        before = len(p)
+        dl = _eop_date10(row.get("submissionDeadline"))
+        if dl and (overwrite_deadline or not p.get("deadline")):
+            if p.get("deadline") != dl:
+                p["deadline"] = dl
+                n_deadline += 1
+        _eop_attach_extras(p, row)
+        if len(p) > before or dl:
+            n_enriched += 1
+    return n_enriched, n_deadline
+
 def parse_isun(soup, source):
     """ИСУН 2020 — пълен списък отворени EU процедури в България."""
     programs = []
@@ -1101,6 +1347,27 @@ def scrape_all():
         else:
             print(f"    Неуспешно зареждане.")
 
+    # ЦАИС ЕОП — файл "поръчки": официални срокове, стойност, CPV, NUTS.
+    # Върви ПРЕДИ OCDS пътя: същите id-та, така че OCDS после само допълва
+    # каквото този файл не е покрил. Ако падне, всичко продължава както преди.
+    print(f"\n>>> ЦАИС ЕОП — Поръчки с официални данни (последните 7 дни)")
+    eop_proc = {}
+    try:
+        eop_proc = fetch_eop_procurements(days_back=7)
+        if eop_proc:
+            print(f"    Заредени {len(eop_proc)} поръчки от storage.eop.bg")
+            count = 0
+            for p in parse_eop_procurements(eop_proc, existing_ids):
+                new_programs.append(p)
+                existing_ids.add(p['id'])
+                count += 1
+                print(f"    НОВО: {p['title'][:80]}")
+            print(f"    {'Няма нови.' if count == 0 else f'{count} нови поръчки.'}")
+        else:
+            print("    Няма данни — падаме към OCDS обявления.")
+    except Exception as e:
+        print(f"    Грешка (пропускаме, OCDS пътят остава): {e}")
+
     # ЦАИС ЕОП (storage.eop.bg S3 open-data — OCDS обявления)
     print(f"\n>>> ЦАИС ЕОП — Активни обявления (последните 7 дни)")
     try:
@@ -1120,9 +1387,21 @@ def scrape_all():
     except Exception as e:
         print(f"    Грешка ЦАИС ЕОП: {e}")
 
-    # Обогати ЕОП записи с крайни срокове от openprocurements.com
     all_programs = new_programs + existing
-    all_programs = enrich_eop_deadlines(all_programs)
+
+    # 1) Официално обогатяване от файла "поръчки" — срок, стойност, CPV, NUTS.
+    if eop_proc:
+        n_enriched, n_dl = enrich_from_eop_procurements(all_programs, eop_proc)
+        print(f"  [ЕОП] Обогатени {n_enriched} записа, коригирани {n_dl} срока "
+              f"(официален източник).")
+
+    # 2) openprocurements.com остава само като резерва — вика се единствено ако
+    #    след официалното обогатяване все още има ЕОП записи без срок.
+    if any("ЕОП" in str(p.get("source", "")) and not p.get("deadline")
+           for p in all_programs):
+        all_programs = enrich_eop_deadlines(all_programs)
+    else:
+        print("  [enrich] Прескочено — всички ЕОП записи вече имат срок.")
 
     # Изчисти изтеклите записи
     all_programs = expire_old(all_programs)
