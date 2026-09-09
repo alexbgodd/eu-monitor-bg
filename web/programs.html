@@ -32,6 +32,13 @@
         .tag.source { background: #f0fdf4; color: #166534; }
         .tag.source.tender-src { background: #f5f3ff; color: #5b21b6; }
         .tag.deadline { background: #fff7ed; color: #9a3412; }
+        /* Спешност по краен срок — цветът носи информация, не украса */
+        .tag.deadline.urgent { background: #fef2f2; color: #b91c1c; }
+        .tag.deadline.soon   { background: #fffbeb; color: #b45309; }
+        .tag.value  { background: #f0f9ff; color: #075985; font-variant-numeric: tabular-nums; }
+        .tag.lots   { background: #f8fafc; color: #475569; }
+        .tag.region { background: #f8fafc; color: #475569; }
+        .tag.eu     { background: #eef2ff; color: #4338ca; }
         .program-link { font-size: 13px; color: #2563eb; text-decoration: none; margin-top: 6px; display: inline-block; }
         .program-link:hover { text-decoration: underline; }
         .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
@@ -102,9 +109,17 @@
             <button class="filter-btn" id="dl-7" onclick="setDeadlineFilter('7')">⏰ До 7 дни</button>
             <button class="filter-btn" id="dl-30" onclick="setDeadlineFilter('30')">До 30 дни</button>
             <button class="filter-btn" id="dl-none" onclick="setDeadlineFilter('none')">Без обявен срок</button>
+            <select class="sort-select" id="value-select" onchange="setValueFilter(this.value)"
+                    style="margin-left:0;" title="Филтър по прогнозна стойност">
+                <option value="all">Всяка стойност</option>
+                <option value="s">До 50 хил. €</option>
+                <option value="m">50 хил. – 500 хил. €</option>
+                <option value="l">Над 500 хил. €</option>
+            </select>
             <select class="sort-select" id="sort-select" onchange="setSort(this.value)">
                 <option value="found">Подреди по: Най-нови</option>
                 <option value="deadline">Подреди по: Най-скоро изтичащи</option>
+                <option value="value">Подреди по: Най-голяма стойност</option>
             </select>
         </div>
 
@@ -156,8 +171,47 @@ let allPrograms = [];
 let activeType = 'fund';   // 'fund' | 'tender' | 'all'
 let activeCategory = 'all';
 let activeDeadline = 'all'; // 'all' | '7' | '30' | 'none'
-let activeSort = 'found';   // 'found' | 'deadline'
+let activeSort = 'found';   // 'found' | 'deadline' | 'value'
 let activeSearch = '';      // текстово търсене
+let activeValue = 'all';    // 'all' | 's' | 'm' | 'l'
+
+// NUTS кодовете идват от ЦАИС като BG411 и т.н. — показваме ги по име.
+const NUTS_LABELS = {
+    BG: "Цялата страна",
+    BG31: "Северозападен", BG32: "Северен централен", BG33: "Североизточен",
+    BG34: "Югоизточен", BG41: "Югозападен", BG42: "Южен централен",
+    BG311: "Видин", BG312: "Монтана", BG313: "Враца", BG314: "Плевен", BG315: "Ловеч",
+    BG321: "Велико Търново", BG322: "Габрово", BG323: "Русе", BG324: "Разград", BG325: "Силистра",
+    BG331: "Варна", BG332: "Добрич", BG333: "Шумен", BG334: "Търговище",
+    BG341: "Бургас", BG342: "Сливен", BG343: "Ямбол", BG344: "Стара Загора",
+    BG411: "София (столица)", BG412: "София област", BG413: "Благоевград",
+    BG414: "Перник", BG415: "Кюстендил",
+    BG421: "Пловдив", BG422: "Хасково", BG423: "Пазарджик", BG424: "Смолян", BG425: "Кърджали"
+};
+
+function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g,
+        c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// „179 974,75“ е шум в списък. Закръгляме до четимо.
+function fmtValue(v) {
+    if (typeof v !== 'number' || !isFinite(v) || v <= 0) return '';
+    // праговете са малко под кръглите числа, за да не се получи „1000 хил. €“
+    if (v >= 999500) return (v / 1e6).toLocaleString('bg-BG', { maximumFractionDigits: 1 }) + ' млн. €';
+    if (v >= 999.5) return Math.round(v / 1e3).toLocaleString('bg-BG') + ' хил. €';
+    return Math.round(v).toLocaleString('bg-BG') + ' €';
+}
+
+function regionLabel(nuts) {
+    if (!nuts) return '';
+    return NUTS_LABELS[nuts] || nuts;
+}
+
+function setValueFilter(v) {
+    activeValue = v;
+    renderPrograms();
+}
 
 function daysLeftFor(p) {
     if (!p.deadline) return null;
@@ -262,8 +316,24 @@ function renderPrograms() {
         filtered = filtered.filter(p => !p.deadline);
     }
 
+    // Филтър по прогнозна стойност (само записи, за които я знаем)
+    if (activeValue !== 'all') {
+        filtered = filtered.filter(p => {
+            const v = p.value;
+            if (typeof v !== 'number') return false;
+            if (activeValue === 's') return v < 50000;
+            if (activeValue === 'm') return v >= 50000 && v < 500000;
+            return v >= 500000;
+        });
+    }
+
     // Сортиране
     filtered = [...filtered].sort((a, b) => {
+        if (activeSort === 'value') {
+            const va = typeof a.value === 'number' ? a.value : -1;
+            const vb = typeof b.value === 'number' ? b.value : -1;
+            return vb - va;
+        }
         if (activeSort === 'deadline') {
             const da = daysLeftFor(a);
             const db = daysLeftFor(b);
@@ -289,16 +359,39 @@ function renderPrograms() {
         const sourceHtml = slug
             ? `<a href="/institucii/${slug}" class="tag source ${isTender ? 'tender-src' : ''}">${p.source}</a>`
             : `<span class="tag source ${isTender ? 'tender-src' : ''}">${p.source}</span>`;
-        const deadlineHtml = p.deadline
-            ? `<span class="tag deadline">Краен срок: ${p.deadline}</span>`
-            : '';
+        // Срок + оставащи дни, с цвят по спешност
+        const dLeft = daysLeftFor(p);
+        let deadlineHtml = '';
+        if (p.deadline) {
+            let cls = '', suffix = '';
+            if (dLeft !== null && dLeft >= 0) {
+                suffix = dLeft === 0 ? ' — днес'
+                       : dLeft === 1 ? ' — още 1 ден'
+                       : ` — още ${dLeft} дни`;
+                if (dLeft <= 3) cls = ' urgent';
+                else if (dLeft <= 10) cls = ' soon';
+            }
+            deadlineHtml = `<span class="tag deadline${cls}">⏳ ${esc(p.deadline)}${suffix}</span>`;
+        }
+        const valueHtml = fmtValue(p.value)
+            ? `<span class="tag value">${esc(fmtValue(p.value))}</span>` : '';
+        const lotsHtml = p.lots > 1
+            ? `<span class="tag lots">${p.lots} обособени позиции</span>` : '';
+        const regionHtml = regionLabel(p.nuts)
+            ? `<span class="tag region">📍 ${esc(regionLabel(p.nuts))}</span>` : '';
+        const euHtml = p.eu_funded
+            ? `<span class="tag eu" title="${esc(p.eu_program || '')}">🇪🇺 ЕС финансиране</span>` : '';
         return `
             <div class="program-card ${isTender ? 'tender' : ''}">
-                <h3>${p.title}</h3>
+                <h3>${esc(p.title)}</h3>
                 <div class="program-meta">
                     ${sourceHtml}
-                    <span class="tag">${CATEGORY_LABELS[p.category] || p.category}</span>
+                    <span class="tag">${CATEGORY_LABELS[p.category] || esc(p.category)}</span>
                     ${deadlineHtml}
+                    ${valueHtml}
+                    ${lotsHtml}
+                    ${regionHtml}
+                    ${euHtml}
                 </div>
                 <a href="/notice?id=${encodeURIComponent(p.id)}" class="program-link">Виж детайли →</a>
             </div>

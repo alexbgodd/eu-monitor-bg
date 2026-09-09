@@ -86,6 +86,29 @@ function esc(s) {
         .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+const NUTS_LABELS = {
+    BG: "Цялата страна",
+    BG31: "Северозападен", BG32: "Северен централен", BG33: "Североизточен",
+    BG34: "Югоизточен", BG41: "Югозападен", BG42: "Южен централен",
+    BG311: "Видин", BG312: "Монтана", BG313: "Враца", BG314: "Плевен", BG315: "Ловеч",
+    BG321: "Велико Търново", BG322: "Габрово", BG323: "Русе", BG324: "Разград", BG325: "Силистра",
+    BG331: "Варна", BG332: "Добрич", BG333: "Шумен", BG334: "Търговище",
+    BG341: "Бургас", BG342: "Сливен", BG343: "Ямбол", BG344: "Стара Загора",
+    BG411: "София (столица)", BG412: "София област", BG413: "Благоевград",
+    BG414: "Перник", BG415: "Кюстендил",
+    BG421: "Пловдив", BG422: "Хасково", BG423: "Пазарджик", BG424: "Смолян", BG425: "Кърджали"
+};
+
+function fmtValue(v) {
+    if (typeof v !== 'number' || !isFinite(v) || v <= 0) return '';
+    return v.toLocaleString('bg-BG', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+}
+
+function regionLabel(nuts) {
+    if (!nuts) return '';
+    return NUTS_LABELS[nuts] || nuts;
+}
+
 function daysLeft(deadline) {
     if (!deadline) return null;
     const diff = Math.ceil((new Date(deadline) - new Date()) / 86400000);
@@ -117,7 +140,9 @@ async function load() {
     const isTender = p.type === 'tender';
     const dl = daysLeft(p.deadline);
     const dlText = p.deadline
-        ? `Срок: ${esc(p.deadline)}` + (dl !== null && dl >= 0 ? ` — още ${dl} дни` : (dl !== null ? ' — изтекъл' : ''))
+        ? `Срок: ${esc(p.deadline)}` + (dl !== null && dl >= 0
+            ? (dl === 0 ? ' — днес' : dl === 1 ? ' — още 1 ден' : ` — още ${dl} дни`)
+            : (dl !== null ? ' — изтекъл' : ''))
         : '';
     const searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent('"' + p.title + '"');
     const extLabel = isTender ? 'Отвори в ЦАИС ЕОП' : 'Отвори в източника';
@@ -132,6 +157,15 @@ async function load() {
             </div>
             <table class="meta-table">
                 ${p.authority ? `<tr><td>Възложител</td><td>${esc(p.authority)}</td></tr>` : ''}
+                ${p.buyer_id ? `<tr><td>ЕИК възложител</td><td>${esc(p.buyer_id)}</td></tr>` : ''}
+                ${fmtValue(p.value) ? `<tr><td>Прогнозна стойност</td><td><strong>${esc(fmtValue(p.value))}</strong></td></tr>` : ''}
+                ${p.lots > 1 ? `<tr><td>Обособени позиции</td><td>${esc(p.lots)}</td></tr>` : ''}
+                ${p.cpv ? `<tr><td>Предмет (CPV)</td><td>${esc(p.cpv_desc || '')} <span style="color:#94a3b8;">${esc(p.cpv)}</span></td></tr>` : ''}
+                ${regionLabel(p.nuts) ? `<tr><td>Място на изпълнение</td><td>${esc(regionLabel(p.nuts))}</td></tr>` : ''}
+                ${p.procedure ? `<tr><td>Вид процедура</td><td>${esc(p.procedure)}</td></tr>` : ''}
+                ${p.contract_type ? `<tr><td>Вид договор</td><td>${esc(p.contract_type)}</td></tr>` : ''}
+                ${p.eu_funded ? `<tr><td>ЕС финансиране</td><td>${esc(p.eu_program || 'Да')}</td></tr>` : ''}
+                ${p.procurement_no ? `<tr><td>Номер на поръчката</td><td>${esc(p.procurement_no)}</td></tr>` : ''}
                 ${p.code ? `<tr><td>Номер</td><td>${esc(p.code)}</td></tr>` : ''}
                 ${p.found_at ? `<tr><td>Намерено на</td><td>${esc(String(p.found_at).slice(0, 10))}</td></tr>` : ''}
             </table>
