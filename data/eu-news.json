@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11 11:24",
-  "count": 21,
+  "updated": "2026-09-11 13:43",
+  "count": 22,
   "items": [
     {
       "title": "The EU discovers artists need rights too - euractiv.com",
@@ -12,90 +12,99 @@
       "topic": "eu"
     },
     {
+      "title": "Еврокомисията предложи за подписване най-голямата търговска сделка в историята",
+      "desc": "ЕС отвори за подписване търговското споразумение с Индия. То е най-голямото в историята на Съюза и ще премахне или намали вносните мита на 96% от европейските стоки, предлагани на индийския пазар. Споразумението беше договорено през...",
+      "url": "https://www.dnevnik.bg/sviat/2026/09/11/4954801_evrokomisiiata_predloji_za_podpisvane_nai-goliamata/?ref=rss",
+      "date": "2026-09-11",
+      "source": "Dnevnik.bg",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Президентството с обяснение защо Йотова е помилвала осъден за трафик на наркотици",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430187-prezidentstvoto-s-obyasnenie-zashto-yotova-e-pomilvala-osaden-za-trafik-na-narkotitsi",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев: Вървим към празни ясли, ако държавата не промени правилата",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430184-terziev-varvim-kam-prazni-yasli-ako-darzhavata-ne-promeni-pravilata",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нерегламентирано сметище се появи край Източната тангента в София (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/430183-nereglamentirano-smetishte-se-poyavi-kray-iztochnata-tangenta-v-sofiya-snimki",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова: НСО се утвърди като синоним на дълг, чест и достойнство",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430180-yotova-nso-se-utvardi-kato-sinonim-na-dalg-chest-i-dostoynstvo",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ликът на сподвижник на Хитлер лъсна на спирка в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430178-likat-na-spodvizhnik-na-hitler-lasna-na-spirka-v-sofiya",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Жълт код за 13 области: Бури, порои и градушки връхлитат България в събота (+КАРТА)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430169-zhalt-kod-za-13-oblasti-buri-poroi-i-gradushki-vrahlitat-balgariya-v-sabota-karta",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Голям пожар в старозагорското село Димовци, пламъците стигнаха до къщи",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430168-golyam-pozhar-v-starozagorskoto-selo-dimovtsi-plamatsite-stignaha-do-kashti",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев обяви подкрепата си за Гюров и Кандев на предстоящите президентски избори",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430167-terziev-obyavi-podkrepata-si-za-gyurov-i-kandev-na-predstoyashtite-prezidentski-izbori",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Забраниха достъпа до 5 незаконни строежа в местността \"Баба Алино\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430166-zabraniha-dostapa-do-5-nezakonni-stroezha-v-mestnostta-baba-alino",
+      "date": "2026-09-11",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "БАБХ затвори цех за тулумби край София заради лоша хигиена",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/430160-babh-zatvori-tseh-za-tulumbi-kray-sofiya-zaradi-losha-higiena",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Дълговете на \"Топлофикация София\" надхвърлиха 1,28 млрд. евро, \"Булгаргаз\" тегли кредити",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430155-dalgovete-na-toplofikatsiya-sofiya-nadhvarliha-128-mlrd-evro-bulgargaz-tegli-krediti",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Наградиха отличниците от Випуск 2026, Радев отправи силни думи към тях",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430152-nagradiha-otlichnitsite-ot-vipusk-2026-radev-otpravi-silni-dumi-kam-tyah",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "В бус в София хванаха 1,4 тона незаконно месо от едър рогат добитък",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430150-v-bus-v-sofiya-hvanaha-14-tona-nezakonno-meso-ot-edar-rogat-dobitak",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ПБ приема промени в ГПК в защита на медиите и журналистите",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430142-pb-priema-promeni-v-gpk-v-zashtita-na-mediite-i-zhurnalistite",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев: Пазарлъците за ВСС са изключително опасни за правосъдието",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430141-radev-pazarlatsite-za-vss-sa-izklyuchitelno-opasni-za-pravosadieto",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДБ застава официално зад Гюров като кандидат за президент",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430138-db-zastava-ofitsialno-zad-gyurov-kato-kandidat-za-prezident",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"За\" и \"против\" новата методика за определяне на минималната работна заплата",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/430137-za-i-protiv-novata-metodika-za-opredelyane-na-minimalnata-rabotna-zaplata",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Полицията в София: Няма да има училище или детска градина без наше присъствие",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430136-politsiyata-v-sofiya-nyama-da-ima-uchilishte-ili-detska-gradina-bez-nashe-prisastvie",
-      "date": "2026-09-11",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "Дунав продължава да спада, ограниченията за корабите остават",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/430134-dunav-prodalzhava-da-spada-ogranicheniyata-za-korabite-ostavat",
       "date": "2026-09-11",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -156,8 +165,8 @@
       "topic": "eu"
     },
     {
-      "title": "EU Releases Further €661 Million for the Netherlands – Offshore Wind, Building Renovation and Green Hydrogen in Focus - dredgewire.com",
-      "desc": "EU Releases Further €661 Million for the Netherlands – Offshore Wind, Building Renovation and Green Hydrogen in Focus dredgewire.com",
+      "title": "EU Releases Further €661 Million for the Netherlands – Offshore Wind, Building Renovation and Green Hydrogen in Focus - DredgeWire",
+      "desc": "EU Releases Further €661 Million for the Netherlands – Offshore Wind, Building Renovation and Green Hydrogen in Focus DredgeWire",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcTZGMlY3cjQtaWNsOTFXYjZaaHVzSDdnZWJjVndFeDZMRmdEb1NodnBkd0hDZjZMSmhjbDVDSW5IWi1TWnc2akRwYTF4MFFmcVU4b3Iya21QeWtDcVZHMVp5TnhiR1JxUHpLSTFYY1Qxc2ZhOTh3TFhNb1lra2xId2tsUHBFRzM3OEVpdjQ3QUFKMkpwTWpYZjBudDB2RkNpV25VckRPTVN5dWZEVnJKUnZadnc5TkQtQW1TZ213LXRGMXdYbndmVGxKNGdfZzdZRjdRVg?oc=5",
       "date": "2026-09-09",
       "source": "Google News EN",
