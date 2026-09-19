@@ -1,7 +1,97 @@
 {
-  "updated": "2026-09-19 11:02",
-  "count": 10,
+  "updated": "2026-09-19 13:16",
+  "count": 19,
   "items": [
+    {
+      "title": "Моторист загина при челен сблъсък с камион край село Манастир",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430938-motorist-zagina-pri-chelen-sblasak-s-kamion-kray-selo-manastir",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"България Еър\" е в топ 5 на най-добрите авиокомпании в Източна Европа",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430937-balgariya-ear-e-v-top-5-na-nay-dobrite-aviokompanii-v-iztochna-evropa",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Нов скок на горивата: Дизелът гони 2 евро за литър",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430936-nov-skok-na-gorivata-dizelat-goni-2-evro-za-litar",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кандев: Готвим се за тежка битка, но не и за кална кампания",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430932-kandev-gotvim-se-za-tezhka-bitka-no-ne-i-za-kalna-kampaniya",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Борисов: Никой от кандидатите за президент не може да ни обедини",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430926-borisov-nikoy-ot-kandidatite-za-prezident-ne-mozhe-da-ni-obedini",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Абровски: Не би трябвало да има сериозно поскъпване на хляба",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430922-abrovski-ne-bi-tryabvalo-da-ima-seriozno-poskapvane-na-hlyaba",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БАБХ иззе над 290 кг негодни храни в к.к. Цигов чарк",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430917-babh-izze-nad-290-kg-negodni-hrani-v-kk-tsigov-chark",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Хлебарите настояват за 0% ДДС върху хляба",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430915-hlebarite-nastoyavat-za-0-dds-varhu-hlyaba",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Катастрофа затруднява движението по АМ \"Тракия\" към София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430912-katastrofa-zatrudnyava-dvizhenieto-po-am-trakiya-kam-sofiya",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Дунав се покачва при повечето станции по българския участък",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/430910-dunav-se-pokachva-pri-povecheto-stantsii-po-balgarskiya-uchastak",
+      "date": "2026-09-19",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Europe’s space tracking program sees growing support, interest - Breaking Defense",
       "desc": "Europe’s space tracking program sees growing support, interest Breaking Defense",
@@ -64,15 +154,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
-    },
-    {
-      "title": "Slovak government grants €40m for steel ASU development - gasworld",
-      "desc": "Slovak government grants €40m for steel ASU development gasworld",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdVZ2c013U1NTcGl4RUJHOWJjMWQyZ3VGc3dnc1lsenRackgwVnFfVVBnNFN6ZTZaVVBfU0lOUDd1S0swbjdmZ2pRUUI2YTRuRmJVTWs5SmZ0Ml93aHhGZXFSNWZWcHNMWnVZZEZpTVIyS2FkS1dDNFZWOXRjekdfVTNjSGZrRThPMDZoOTVCUWJ0Z2F6ZmlnWHRVWS1EVWl3NzI1ald3?oc=5",
-      "date": "2026-09-17",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
     },
     {
       "title": "Космос, роботи, дронове: България може да е сред лидерите в новите технологии",
