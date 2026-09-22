@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22 11:42",
+  "updated": "2026-09-22 14:06",
   "count": 15,
   "items": [
     {
@@ -10,6 +10,42 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Георги Кандев: И днес ни е нужна решителност да отстояваме интересите на България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431248-georgi-kandev-i-dnes-ni-e-nuzhna-reshitelnost-da-otstoyavame-interesite-na-balgariya",
+      "date": "2026-09-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Силен вятър разпали отново горския пожар край село Лесковец",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431239-silen-vyatar-razpali-otnovo-gorskiya-pozhar-kray-selo-leskovets",
+      "date": "2026-09-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Откриха мъртва посланичката на Португалия в София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431235-otkriha-martva-poslanichkata-na-portugaliya-v-sofiya",
+      "date": "2026-09-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Първият сняг за сезона падна в Пампорово (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431233-parviyat-snyag-za-sezona-padna-v-pamporovo-video",
+      "date": "2026-09-22",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "София празнува Независимостта: История, която пази и предава през поколенията",
@@ -66,40 +102,13 @@
       "topic": "общи"
     },
     {
-      "title": "Проф. Палангурски: Независимостта е да имаш правото да избираш какво да правиш",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431204-prof-palangurski-nezavisimostta-e-da-imash-pravoto-da-izbirash-kakvo-da-pravish",
+      "title": "По-чести пътувания, по-кратки почивки: Новото лице на туризма у нас",
+      "desc": "Началото на летния туристически сезон в България беше по-слабо, докато високият сезон се характеризираше с около 45 дни много висока заетост. През септември доброто време отново привлече туристи по Черноморието, но остава необходимостта от по-дълъг и устойчив сезон. Това коментира Константин Занков,",
+      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/164497-po-chesti-patuvaniya-po-kratki-pochivki-novoto-litse-na-turizma-u-nas",
       "date": "2026-09-22",
-      "source": "BG ON AIR",
+      "source": "Bloomberg TV BG",
       "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Важно за онлайн пазаруването: Нови правила влизат в сила от 27 септември",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431202-vazhno-za-onlayn-pazaruvaneto-novi-pravila-vlizat-v-sila-ot-27-septemvri",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Урокът от 1908 г.: Какво е независимостта и имаме ли я в пълна степен днес",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431199-urokat-ot-1908-g-kakvo-e-nezavisimostta-i-imame-li-ya-v-palna-stepen-dnes",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "На 22 септември Гюров и Костадинов призоваха независимостта да се отстоява и днес",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431196-na-22-septemvri-gyurov-i-kostadinov-prizovaha-nezavisimostta-da-se-otstoyava-i-dnes",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
       "title": "Зам-министър Грекова: Заложени са промени в модела на финансиране на музикалните състави на БНР - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
@@ -109,15 +118,6 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "общи"
-    },
-    {
-      "title": "Франция призова за по-нискокачествени горива, за да паднат цените",
-      "desc": "Френският президент призова Еврокомисията да смекчи стандарти за производство на горива в ЕС. Това съобщава френският тв канал BFMTV. В писмо до Урсула фон дер Лайен от петък Еманюел Макрон предлага временно да се променят регулации за...",
-      "url": "https://www.dnevnik.bg/burzi-novini/2026/09/21/4957991_franciia_prizova_za_po-niskokachestveni_goriva_za_da/?ref=rss",
-      "date": "2026-09-21",
-      "source": "Dnevnik.bg",
-      "lang": "bg",
-      "topic": "eu"
     },
     {
       "title": "Битката за Средния коридор: България изостава от Румъния, Турция държи ключа",
