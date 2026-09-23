@@ -1,7 +1,115 @@
 {
-  "updated": "2026-09-22 14:06",
-  "count": 15,
+  "updated": "2026-09-23 11:40",
+  "count": 19,
   "items": [
+    {
+      "title": "Еврокомисията предложи размразяване на 4.2 млрд. евро кохезионни фондове за Унгария",
+      "desc": "Еврокомисията предложи размразяване на 4.2 млрд. евро кохезионни фондове за Унгария. Аргументите са, че правителството е продължило с реформите, за да засили върховенството на закона в страната, пише Ройтерс. Парите са част от общата...",
+      "url": "https://www.dnevnik.bg/evropa/2026/09/23/4958245_evrokomisiiata_predloji_razmraziavane_na_42_mlrd/?ref=rss",
+      "date": "2026-09-23",
+      "source": "Dnevnik.bg",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Ралица Асенова: Прокуратурата да се самосезира за разрушената плоча на \"Петрохан\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431349-ralitsa-asenova-prokuraturata-da-se-samosezira-za-razrushenata-plocha-na-petrohan",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нови мерки срещу бързите кредити: Повече прозрачност за лихвите и крайната сума",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431347-novi-merki-sreshtu-barzite-krediti-poveche-prozrachnost-za-lihvite-i-kraynata-suma",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Новите правила за бързите кредити скараха депутатите в НС",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431338-novite-pravila-za-barzite-krediti-skaraha-deputatite-v-ns",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Катастрофа затвори пътя Русе - Бяла",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431333-katastrofa-zatvori-patya-ruse-byala",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пеевски: Лъжат за фирмите за мантинели, МВР да разследва корупция в най-висшия ешелон на ПБ",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431329-peevski-lazhat-za-firmite-za-mantineli-mvr-da-razsledva-koruptsiya-v-nay-visshiya-eshelon-na-pb",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Катастрофа с трима загинали затвори пътя Казанлък - Стара Загора",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431327-katastrofa-s-trima-zaginali-zatvori-patya-kazanlak-stara-zagora",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Мизерни детски надбавки и недостатъчно майчинство: С колко ще се увеличат?",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431321-mizerni-detski-nadbavki-i-nedostatachno-maychinstvo-s-kolko-shte-se-uvelichat",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Цените на храните: Е-регистърът за проследимост на доставките буди страхове",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431319-tsenite-na-hranite-e-registarat-za-prosledimost-na-dostavkite-budi-strahove",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бързите кредити под лупа: Всички допълнителни такси влизат в оскъпяването",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431316-barzite-krediti-pod-lupa-vsichki-dopalnitelni-taksi-vlizat-v-oskapyavaneto",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "14 дни в клетка: Протестът на \"Невидими животни\" в защита на телетата (СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/431314-14-dni-v-kletka-protestat-na-nevidimi-zhivotni-v-zashtita-na-teletata-snimki",
+      "date": "2026-09-23",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "59 млрд. евро в банки! Нови сметки ще стимулират българите да инвестират",
+      "desc": "Ако инвестирането бъде направено така, че да е сравнително лесно като откриването на депозит, инициативата на ЕС за Съюз на спестяванията и инвестициите, който включва и възможност за откриване на специални инвестиционни сметки от гражданите, ще бъде успешна. Идеята е хората да имат сметка, през коя",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164524-59-mlrd-evro-v-banki-novi-smetki-shte-stimulirat-balgarite-da-investirat",
+      "date": "2026-09-23",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
     {
       "title": "HyOrc Completes Off-Site Modular Build of First Commercial Waste-to-Methanol Plant Bound for Porto - Hydrogen Central",
       "desc": "HyOrc Completes Off-Site Modular Build of First Commercial Waste-to-Methanol Plant Bound for Porto Hydrogen Central",
@@ -12,94 +120,13 @@
       "topic": "eu"
     },
     {
-      "title": "Георги Кандев: И днес ни е нужна решителност да отстояваме интересите на България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431248-georgi-kandev-i-dnes-ni-e-nuzhna-reshitelnost-da-otstoyavame-interesite-na-balgariya",
+      "title": "Commission proposes to unlock €4.2 billion in Cohesion funding for Hungary and restore full access to Erasmus+ and Horizon Europe",
+      "desc": "European Commission Press release Brussels, 23 Sep 2026 Today the European Commission has proposed to the Council to lift the protective measures adopted in 2022 concerning Hungary under the Conditionality Regulation, as it considers that Hungary has addressed the rule of law breaches affecting the ",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1941",
       "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Силен вятър разпали отново горския пожар край село Лесковец",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431239-silen-vyatar-razpali-otnovo-gorskiya-pozhar-kray-selo-leskovets",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Откриха мъртва посланичката на Португалия в София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431235-otkriha-martva-poslanichkata-na-portugaliya-v-sofiya",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Първият сняг за сезона падна в Пампорово (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431233-parviyat-snyag-za-sezona-padna-v-pamporovo-video",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "София празнува Независимостта: История, която пази и предава през поколенията",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431225-sofiya-praznuva-nezavisimostta-istoriya-koyato-pazi-i-predava-prez-pokoleniyata",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Велико Търново отбелязва 118 години от Независимостта на България (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431216-veliko-tarnovo-otbelyazva-118-godini-ot-nezavisimostta-na-balgariya-video",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Посланията на политиците за Деня на независимостта (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431215-poslaniyata-na-polititsite-za-denya-na-nezavisimostta-video",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Възраждане\" номинира Костадин Костадинов за кандидат за президент",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431213-vazrazhdane-nominira-kostadin-kostadinov-za-kandidat-za-prezident",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "София празнува 118 години Независима България (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/431211-sofiya-praznuva-118-godini-nezavisima-balgariya-snimki",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Доцова: От нас зависи каква България ще оставим на поколенията",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431208-dotsova-ot-nas-zavisi-kakva-balgariya-shte-ostavim-na-pokoleniyata",
-      "date": "2026-09-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
+      "source": "European Commission",
+      "lang": "en",
+      "topic": "eu"
     },
     {
       "title": "По-чести пътувания, по-кратки почивки: Новото лице на туризма у нас",
@@ -118,6 +145,15 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "общи"
+    },
+    {
+      "title": "HyOrc's Portugal-bound plant is designed to turn about 3 tonnes of waste a day into up to 1 tonne of fuel. - Stock Titan",
+      "desc": "HyOrc's Portugal-bound plant is designed to turn about 3 tonnes of waste a day into up to 1 tonne of fuel. Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmxtWEk2ZVNTVTB0WTF1WE5nOFlRZ3g4dFVub29UT1NuYVZyUzB0czBfSWZ6TDQ2dDdsbllhOVFzeTVqdEtPNGN0NlZidHJOM0dHd1ExRjdBWVFvMWNxRXNRQW4xTEpzaXBXYUkza250Y3laQlh1Q1l5eDRQbHVHZGxFVTE0MFhyWVpVUXNCdlZwdk9sMF84aU1Idjh0XzkzSVRvNjBxM1RMNjQ5NWFmZkZ0aC14Y2lQVFRzaE42RG4?oc=5",
+      "date": "2026-09-21",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     },
     {
       "title": "Битката за Средния коридор: България изостава от Румъния, Турция държи ключа",
