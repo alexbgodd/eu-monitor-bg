@@ -1,114 +1,123 @@
 {
-  "updated": "2026-09-23 14:18",
-  "count": 21,
+  "updated": "2026-09-24 11:48",
+  "count": 17,
   "items": [
     {
-      "title": "EU adopts €505 million package to support Lebanon's stability, recovery and reforms",
-      "desc": "European Commission Press release New York, 23 Sep 2026 Today, the European Commission announced €505 million in financial support for Lebanon for 2026 and 2027, the second half of the €1 billion support package announced by President Ursula von der Leyen during her visit to Beirut in May 2024.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1946",
-      "date": "2026-09-23",
-      "source": "European Commission",
-      "lang": "en",
+      "title": "Глоби и затвор за нарушаване на санкциите на ЕС: Депутатите приеха промени в НК на първо четене",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431459-globi-i-zatvor-za-narushavane-na-sanktsiite-na-es-deputatite-prieha-promeni-v-nk-na-parvo-chetene",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"България Еър\" стартира зимни полети между София и Лисабон",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431453-balgariya-ear-startira-zimni-poleti-mezhdu-sofiya-i-lisabon",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Шишков към строителния бранш: Ще осигурим предвидимост, ясни правила и закони",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431450-shishkov-kam-stroitelniya-bransh-shte-osigurim-predvidimost-yasni-pravila-i-zakoni",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Радев и Туск обсъждат задълбочаването на отношенията между България и Полша",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431447-radev-i-tusk-obsazhdat-zadalbochavaneto-na-otnosheniyata-mezhdu-balgariya-i-polsha",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Божанов: Рекламите на хазарт трябва да изчезнат от градовете, интернет и телевизията",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431446-bozhanov-reklamite-na-hazart-tryabva-da-izcheznat-ot-gradovete-internet-i-televiziyata",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова към сънародници в Ню Йорк: Когато се каже \"българин\", това означава успял човек",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431444-yotova-kam-sanarodnitsi-v-nyu-york-kogato-se-kazhe-balgarin-tova-oznachava-uspyal-chovek",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Психолог: Забраната на рекламата няма да реши проблема с хазартната зависимост",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431441-psiholog-zabranata-na-reklamata-nyama-da-reshi-problema-s-hazartnata-zavisimost",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Доц. Велев за свлачището в \"Аспарухово\": Може да се търси човешка немарливост",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431440-dots-velev-za-svlachishteto-v-asparuhovo-mozhe-da-se-tarsi-choveshka-nemarlivost",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пазарът на храните под натиск: Има ли риск от шоково поскъпване",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431439-pazarat-na-hranite-pod-natisk-ima-li-risk-ot-shokovo-poskapvane",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Явор Куюмджиев: Енергийната криза може да е по-тежка от тази през 2022 г.",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431437-yavor-kuyumdzhiev-energiynata-kriza-mozhe-da-e-po-tezhka-ot-tazi-prez-2022-g",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пристанища, жп линии, логистика: Как България да се възползва от Средния коридор",
+      "desc": "Първата лидерска среща на върха за Средния коридор, която ще се проведе в България в началото на 2027 г., е сериозен успех и признание за значението и ролята на страната ни не само по отношение на развитието на транспорта и енергетиката, но и на геополитиката на Европа. Тази среща е и сериозен тест ",
+      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164588-pristanishta-zhp-linii-logistika-kak-balgariya-da-se-vazpolzva-ot-sredniya-koridor",
+      "date": "2026-09-24",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
       "topic": "eu"
     },
     {
-      "title": "Еврокомисията предложи размразяване на 4.2 млрд. евро кохезионни фондове за Унгария",
-      "desc": "Еврокомисията предложи размразяване на 4.2 млрд. евро кохезионни фондове за Унгария. Аргументите са, че правителството е продължило с реформите, за да засили върховенството на закона в страната, пише Ройтерс. Парите са част от общата...",
-      "url": "https://www.dnevnik.bg/evropa/2026/09/23/4958245_evrokomisiiata_predloji_razmraziavane_na_42_mlrd/?ref=rss",
+      "title": "Schneider Electric предлага 1.4 милиарда долара за българската компания Shelly",
+      "desc": "Schneider Electric е близо до сделка за придобиване на българската компания за умни устройства Shelly Group SE. Предложената цена е около 70 евро на акция, което оценява Shelly Group на приблизително 1,27 милиарда евро. Придобиването цели да разшири екосистемата и приходите на Schneider Electric в с",
+      "url": "https://www.bloombergtv.bg/a/2-novini/164582-schneider-electric-predlaga-14-miliarda-dolara-za-balgarskata-kompaniya-shelly",
+      "date": "2026-09-24",
+      "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "САЩ подготвят 90-дневна забрана на износа на дизел",
+      "desc": "Планирана забрана за износ от САЩ: Белият дом подготвя 90-дневна забрана върху износа на американски дизел в опит да овладее рекордните цени на горивата преди предстоящите избори. Отмяна на ограниченията в България: Българският парламент отмени временната забрана за износ и доставки към ЕС на нефтоп",
+      "url": "https://www.bloombergtv.bg/a/2-novini/164576-sasht-podgotvyat-90-dnevna-zabrana-na-iznosa-na-dizel",
       "date": "2026-09-23",
-      "source": "Dnevnik.bg",
+      "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "eu"
-    },
-    {
-      "title": "Близо 18 500 българи от 66 държави са подали заявления за президентските избори",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431372-blizo-18-500-balgari-ot-66-darzhavi-sa-podali-zayavleniya-za-prezidentskite-izbori",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ЦИК определи номерата на кандидат-президентските двойки (СНИМКИ)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/431370-tsik-opredeli-nomerata-na-kandidat-prezidentskite-dvoyki-snimki",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев: Дроновете вече доминират напълно бойното поле",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431368-radev-dronovete-veche-dominirat-napalno-boynoto-pole",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Жребият за вота: Йотова-Вълчев са №25, Гюров-Кандев - №4 в бюлетината",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431367-zhrebiyat-za-vota-yotova-valchev-sa-25-gyurov-kandev-4-v-byuletinata",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Новите правила за хазарта: Вдигат данъците за игралните автомати и казината",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431366-novite-pravila-za-hazarta-vdigat-danatsite-za-igralnite-avtomati-i-kazinata",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "BG-ALERT заради пожар край Хисаря, евакуират вилна зона",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431364-bg-alert-zaradi-pozhar-kray-hisarya-evakuirat-vilna-zona",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Черен ден на пътя: Двама загинаха при катастрофа край Котел",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431359-cheren-den-na-patya-dvama-zaginaha-pri-katastrofa-kray-kotel",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Държавата затяга контрола и удължава помощта за украинските бежанци",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431358-darzhavata-zatyaga-kontrola-i-udalzhava-pomoshtta-za-ukrainskite-bezhantsi",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Отмениха забраната за износ на горива към ЕС",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431357-otmeniha-zabranata-za-iznos-na-goriva-kam-es",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Държавата ще подкрепи 550 000 души с ниски доходи заради поскъпването на горивата",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431355-darzhavata-shte-podkrepi-550-000-dushi-s-niski-dohodi-zaradi-poskapvaneto-na-gorivata",
-      "date": "2026-09-23",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
     },
     {
       "title": "България има потенциал да отговори на растящото търсене на електроенергия",
@@ -129,20 +138,11 @@
       "topic": "eu"
     },
     {
-      "title": "HyOrc Completes Off-Site Modular Build of First Commercial Waste-to-Methanol Plant Bound for Porto - Hydrogen Central",
-      "desc": "HyOrc Completes Off-Site Modular Build of First Commercial Waste-to-Methanol Plant Bound for Porto Hydrogen Central",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXBmeTRpNW1CYjRINno4N2lwUDhxTXVMYVVMZ3J1VmlYemF2U1ZpUVZaWW92djNLajNSRFFzN1UtWHgzd1JoODBKXzZYcEdmX3oxbG1ubGhFRWQtNWdTNXFrMmtOOGtuSTk0MnNRSW5sTjQxcTdld0FsMWFVZGtSRU1DYndrTXRfVEhIUTREeUlQcDBSVDZ2RTBkZVhXTU1aTW92b3M3MXJXaGllQjI2SGFCUlV4SHVWMzd6TnBsWkhvUUhXVmFB?oc=5",
+      "title": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics - IndexBox",
+      "desc": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQjhKc0k1MlZwVi1fckVKeVlWaGhHaUQzdGdTaEVCbEJsZVhwOGVtVGQzanFqczdydnlDRHgtTmRkTGlVeVV0SHRNeXdjYmlmVFJ6SVZ2TTMtLU1tNHhyNjJMQ0k1NmxBWjlMMU01ZjJVRkFiV0ZlRm1keDc1NF9ySEp5M2JxTW80QlBhcFBiX0hkeWJxaDhRUllQMXBseVh4UXhoQnY0V1pTdk5tSVhKNg?oc=5",
       "date": "2026-09-22",
       "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Commission proposes to unlock €4.2 billion in Cohesion funding for Hungary and restore full access to Erasmus+ and Horizon Europe",
-      "desc": "European Commission Press release Brussels, 23 Sep 2026 Today the European Commission has proposed to the Council to lift the protective measures adopted in 2022 concerning Hungary under the Conditionality Regulation, as it considers that Hungary has addressed the rule of law breaches affecting the ",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1941",
-      "date": "2026-09-22",
-      "source": "European Commission",
       "lang": "en",
       "topic": "eu"
     },
@@ -151,42 +151,6 @@
       "desc": "Началото на летния туристически сезон в България беше по-слабо, докато високият сезон се характеризираше с около 45 дни много висока заетост. През септември доброто време отново привлече туристи по Черноморието, но остава необходимостта от по-дълъг и устойчив сезон. Това коментира Константин Занков,",
       "url": "https://www.bloombergtv.bg/a/17-v-razvitie/164497-po-chesti-patuvaniya-po-kratki-pochivki-novoto-litse-na-turizma-u-nas",
       "date": "2026-09-22",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Зам-министър Грекова: Заложени са промени в модела на финансиране на музикалните състави на БНР - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "desc": "Зам-министър Грекова: Заложени са промени в модела на финансиране на музикалните състави на БНР СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsUjNSX0xIQW5MQXZOWXZQb3FqckFCQW9ZaGpCc2FxcTNHbGkxakEwWWNMVXc5SWVqbHBJMEt3cmU4TTllNC1OTVphRFVOaWxG?oc=5",
-      "date": "2026-09-21",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "HyOrc's Portugal-bound plant is designed to turn about 3 tonnes of waste a day into up to 1 tonne of fuel. - Stock Titan",
-      "desc": "HyOrc's Portugal-bound plant is designed to turn about 3 tonnes of waste a day into up to 1 tonne of fuel. Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmxtWEk2ZVNTVTB0WTF1WE5nOFlRZ3g4dFVub29UT1NuYVZyUzB0czBfSWZ6TDQ2dDdsbllhOVFzeTVqdEtPNGN0NlZidHJOM0dHd1ExRjdBWVFvMWNxRXNRQW4xTEpzaXBXYUkza250Y3laQlh1Q1l5eDRQbHVHZGxFVTE0MFhyWVpVUXNCdlZwdk9sMF84aU1Idjh0XzkzSVRvNjBxM1RMNjQ5NWFmZkZ0aC14Y2lQVFRzaE42RG4?oc=5",
-      "date": "2026-09-21",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Битката за Средния коридор: България изостава от Румъния, Турция държи ключа",
-      "desc": "Подготвяната от България и Европейската комисия среща на върха за развитието на Средния коридор поставя страната ни в центъра на важен разговор за транспортната свързаност между Европа и Азия. Предвижда се инициативата да мобилизира инвестиции за около 12 млрд. евро чрез европейско, публично и частн",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164424-bitkata-za-sredniya-koridor-balgariya-izostava-ot-rumaniya-turtsiya-darzhi-klyucha",
-      "date": "2026-09-21",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Над 10 000 \"мулета\" в България се използват за изпиране на пари",
-      "desc": "Очаква се България, заедно с Монако и Кот д&#39;Ивоар, официално да бъде извадена от &bdquo;сивия списък&ldquo; за изпиране на пари на Специалната група за финансови действия (FATF) на 30 октомври след пленарна сесия на организацията в Париж. Това не означава отпадане на проблемите и предстои сериоз",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164417-nad-10-000-muleta-v-balgariya-se-izpolzvat-za-izpirane-na-pari",
-      "date": "2026-09-21",
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "eu"
