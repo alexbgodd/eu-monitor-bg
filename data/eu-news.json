@@ -1,7 +1,88 @@
 {
-  "updated": "2026-09-24 11:48",
-  "count": 17,
+  "updated": "2026-09-24 14:17",
+  "count": 18,
   "items": [
+    {
+      "title": "Tusk Tells Radev Ukraine Must Be Supported as Bulgaria Turns to Poland for Fighter Jet Maintenance - novinite.com",
+      "desc": "Tusk Tells Radev Ukraine Must Be Supported as Bulgaria Turns to Poland for Fighter Jet Maintenance novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTHg3VzBQbkVMVGJ6RUxNdl9QcmktUl84b0VjV3NIcE9kNG5mNFp2cV9lNDVEekEzMG5iSU1lbU5iaEJudnBCVktXYWdTTjJBTjVfRlpiVjV0OXNYR1VOT0htWHZjOGp1S1RsOHdtTHBDNzdrbmNrTGZQenI3dkRJeC03QjdESnhsUjdXbHlxdGp4SS1Hakw1M0tSa0dDcHc0aXduM2hmalpaU1UyQkRIcnphQVhtaUNadW50UW5vYTVPODVka3ZIOVZkVVNEUmFvcGZNME5B?oc=5",
+      "date": "2026-09-24",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Сарафов със сигнал за политическо влияние в съдебната система, Найденов отрича обвиненията",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431486-sarafov-sas-signal-za-politichesko-vliyanie-v-sadebnata-sistema-naydenov-otricha-obvineniyata",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Подозират умишлен палеж край Михилци заради 20 отделни огнища",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431481-podozirat-umishlen-palezh-kray-mihiltsi-zaradi-20-otdelni-ognishta",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев: Бюджетът на София за 2026 г. е най-големият досега, но средствата не стигат за всичко",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431479-terziev-byudzhetat-na-sofiya-za-2026-g-e-nay-golemiyat-dosega-no-sredstvata-ne-stigat-za-vsichko",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Радев от Варшава: Нямаме интерес войната в Украйна да продължава повече",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431477-radev-ot-varshava-nyamame-interes-voynata-v-ukrayna-da-prodalzhava-poveche",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Удължават с 30 дни бедственото положение в \"Аспарухово\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431473-udalzhavat-s-30-dni-bedstvenoto-polozhenie-v-asparuhovo",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Сиела Норма\" ще ремонтира машините за изборите: ЦИК финализира детайлите за вота",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431468-siela-norma-shte-remontira-mashinite-za-izborite-tsik-finalizira-detaylite-za-vota",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Насочват 180 млн. евро към иновации и отбранителни технологии у нас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431466-nasochvat-180-mln-evro-kam-inovatsii-i-otbranitelni-tehnologii-u-nas",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "ит"
+    },
+    {
+      "title": "Радев: Полша е единственият ни шанс да запазим МиГ-29 в бойна готовност, разчитаме на нея и за F-16",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431464-radev-polsha-e-edinstveniyat-ni-shans-da-zapazim-mig-29-v-boyna-gotovnost-razchitame-na-neya-i-za-f-16",
+      "date": "2026-09-24",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Глоби и затвор за нарушаване на санкциите на ЕС: Депутатите приеха промени в НК на първо четене",
       "desc": "",
@@ -15,78 +96,6 @@
       "title": "\"България Еър\" стартира зимни полети между София и Лисабон",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/431453-balgariya-ear-startira-zimni-poleti-mezhdu-sofiya-i-lisabon",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шишков към строителния бранш: Ще осигурим предвидимост, ясни правила и закони",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431450-shishkov-kam-stroitelniya-bransh-shte-osigurim-predvidimost-yasni-pravila-i-zakoni",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Радев и Туск обсъждат задълбочаването на отношенията между България и Полша",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431447-radev-i-tusk-obsazhdat-zadalbochavaneto-na-otnosheniyata-mezhdu-balgariya-i-polsha",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Божанов: Рекламите на хазарт трябва да изчезнат от градовете, интернет и телевизията",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431446-bozhanov-reklamite-na-hazart-tryabva-da-izcheznat-ot-gradovete-internet-i-televiziyata",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Йотова към сънародници в Ню Йорк: Когато се каже \"българин\", това означава успял човек",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431444-yotova-kam-sanarodnitsi-v-nyu-york-kogato-se-kazhe-balgarin-tova-oznachava-uspyal-chovek",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Психолог: Забраната на рекламата няма да реши проблема с хазартната зависимост",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431441-psiholog-zabranata-na-reklamata-nyama-da-reshi-problema-s-hazartnata-zavisimost",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Доц. Велев за свлачището в \"Аспарухово\": Може да се търси човешка немарливост",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431440-dots-velev-za-svlachishteto-v-asparuhovo-mozhe-da-se-tarsi-choveshka-nemarlivost",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пазарът на храните под натиск: Има ли риск от шоково поскъпване",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431439-pazarat-na-hranite-pod-natisk-ima-li-risk-ot-shokovo-poskapvane",
-      "date": "2026-09-24",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Явор Куюмджиев: Енергийната криза може да е по-тежка от тази през 2022 г.",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/431437-yavor-kuyumdzhiev-energiynata-kriza-mozhe-da-e-po-tezhka-ot-tazi-prez-2022-g",
       "date": "2026-09-24",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -138,8 +147,8 @@
       "topic": "eu"
     },
     {
-      "title": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics - IndexBox",
-      "desc": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics IndexBox",
+      "title": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics - indexbox.io",
+      "desc": "HyOrc Completes First Commercial Waste-to-Methanol Module for Portugal - News and Statistics indexbox.io",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQjhKc0k1MlZwVi1fckVKeVlWaGhHaUQzdGdTaEVCbEJsZVhwOGVtVGQzanFqczdydnlDRHgtTmRkTGlVeVV0SHRNeXdjYmlmVFJ6SVZ2TTMtLU1tNHhyNjJMQ0k1NmxBWjlMMU01ZjJVRkFiV0ZlRm1keDc1NF9ySEp5M2JxTW80QlBhcFBiX0hkeWJxaDhRUllQMXBseVh4UXhoQnY0V1pTdk5tSVhKNg?oc=5",
       "date": "2026-09-22",
       "source": "Google News EN",
