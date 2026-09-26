@@ -1,7 +1,61 @@
 {
-  "updated": "2026-09-25 14:41",
-  "count": 20,
+  "updated": "2026-09-26 11:28",
+  "count": 16,
   "items": [
+    {
+      "title": "Варна превръща страха от земетресение в урок по оцеляване със специален симулатор",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431675-varna-prevrashta-straha-ot-zemetresenie-v-urok-po-otselyavane-sas-spetsialen-simulator",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Патриарх Даниил от Ерусалим: Нека бъдем заедно в молитва и братско общение",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431674-patriarh-daniil-ot-erusalim-neka-badem-zaedno-v-molitva-i-bratsko-obshtenie",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ново огнище край изгорелия цех в Бяла отново вдигна пожарникарите на крак",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431670-novo-ognishte-kray-izgoreliya-tseh-v-byala-otnovo-vdigna-pozharnikarite-na-krak",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Смъртоносен сблъсък край Сопот отне живота на четирима души",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431664-smartonosen-sblasak-kray-sopot-otne-zhivota-na-chetirima-dushi",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Fitch повиши перспективата пред кредитния рейтинг на България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431651-fitch-povishi-perspektivata-pred-kreditniya-reyting-na-balgariya",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето в събота: Хладна вълна с дъжд обхваща България",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431647-vremeto-v-sabota-hladna-valna-s-dazhd-obhvashta-balgariya",
+      "date": "2026-09-26",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU",
       "desc": "European Commission Press release Brussels, 25 Sep 2026 Today, the European Commission positively assessed Luxembourg's third payment request for €92.2 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
@@ -12,99 +66,36 @@
       "topic": "eu"
     },
     {
-      "title": "Общинският съвет във Варна отхвърли проект за интеграция на мигранти",
-      "desc": "Общинският съвет във Варна отхвърли като \"ненужна\" програма с европейско финансиране за интеграция на мигранти. По време на днешното си заседание съветниците блокираха предложението на кмета Благомир Коцев и с мотива за опасения за постоянно...",
-      "url": "https://www.dnevnik.bg/bulgaria/2026/09/25/4959240_obshtinskiiat_suvet_vuv_varna_othvurli_proekt_za/?ref=rss",
+      "title": "Глобяват Община Разлог и три фирми заради мъртва риба в Бела река",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431635-globyavat-obshtina-razlog-i-tri-firmi-zaradi-martva-riba-v-bela-reka",
       "date": "2026-09-25",
-      "source": "Dnevnik.bg",
+      "source": "BG ON AIR",
       "lang": "bg",
-      "topic": "eu"
+      "topic": "бизнес"
     },
     {
-      "title": "КЗК проверява ценообразуването на \"Лукойл\" и даде 7-дневен срок за подробни данни",
+      "title": "Даниела Везиева: Данъкът върху свръхпечалбата може да доведе до иск срещу България",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431612-kzk-proveryava-tsenoobrazuvaneto-na-lukoyl-i-dade-7-dneven-srok-za-podrobni-danni",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431632-daniela-vezieva-danakat-varhu-svrahpechalbata-mozhe-da-dovede-do-isk-sreshtu-balgariya",
       "date": "2026-09-25",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Голям пожар в склад в Бяла взе жертва, горят 2 декара",
+      "title": "Предизборни искри: Икономиката, здравеопазването и Украйна сблъскаха ИК на Йотова и Гюров",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431610-golyam-pozhar-v-sklad-v-byala-vze-zhertva-goryat-2-dekara",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431630-predizborni-iskri-ikonomikata-zdraveopazvaneto-i-ukrayna-sblaskaha-ik-na-yotova-i-gyurov",
       "date": "2026-09-25",
       "source": "BG ON AIR",
       "lang": "bg",
-      "topic": "общи"
+      "topic": "бизнес"
     },
     {
-      "title": "Още две нови мотриси \"Алстом\" тръгват до Бургас и Видин от 26 септември",
+      "title": "Румен Овчаров: \"Лукойл\" трябва да бъде включен в списъка за данък свръхпечалба",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431608-oshte-dve-novi-motrisi-alstom-tragvat-do-burgas-i-vidin-ot-26-septemvri",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев: Новият ферибот в Белослав е мост към бъдещето за целия регион",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431607-radev-noviyat-feribot-v-beloslav-e-most-kam-badeshteto-za-tseliya-region",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ЕК започна шест процедури за нарушение срещу България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431601-ek-zapochna-shest-protseduri-za-narushenie-sreshtu-balgariya",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пожар край складова база в Бургас, огънят обхвана хладилен фургон и отпадъци (+ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431600-pozhar-kray-skladova-baza-v-burgas-oganyat-obhvana-hladilen-furgon-i-otpadatsi-video",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Спряха над 28 тона развалено сръбско зеле в София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431597-spryaha-nad-28-tona-razvaleno-srabsko-zele-v-sofiya",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Депутатите приеха новия механизъм за минималната заплата от 2027 г.",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431595-deputatite-prieha-noviya-mehanizam-za-minimalnata-zaplata-ot-2027-g",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Как новите правила в Закона за публичните предприятия спират раздутите бордове с високи заплати",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431594-kak-novite-pravila-v-zakona-za-publichnite-predpriyatiya-spirat-razdutite-bordove-s-visoki-zaplati",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев: Целта ни е дефицит до 3% и устойчива финансова система",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431570-radev-tselta-ni-e-defitsit-do-3-i-ustoychiva-finansova-sistema",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431627-rumen-ovcharov-lukoyl-tryabva-da-bade-vklyuchen-v-spisaka-za-danak-svrahpechalba",
       "date": "2026-09-25",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -154,33 +145,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "бизнес"
-    },
-    {
-      "title": "САЩ подготвят 90-дневна забрана на износа на дизел",
-      "desc": "Планирана забрана за износ от САЩ: Белият дом подготвя 90-дневна забрана върху износа на американски дизел в опит да овладее рекордните цени на горивата преди предстоящите избори. Отмяна на ограниченията в България: Българският парламент отмени временната забрана за износ и доставки към ЕС на нефтоп",
-      "url": "https://www.bloombergtv.bg/a/2-novini/164576-sasht-podgotvyat-90-dnevna-zabrana-na-iznosa-na-dizel",
-      "date": "2026-09-23",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "България има потенциал да отговори на растящото търсене на електроенергия",
-      "desc": "Световното търсене на електроенергия расте заради развитието на центровете за данни, електрификацията на транспорта и необходимостта от по-сигурни енергийни доставки, а ядрената енергия може да има ключова роля в отговора на това търсене. Тя предоставя надеждна базова енергия. За разлика от слънчеви",
-      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/164563-balgariya-ima-potentsial-da-otgovori-na-rastyashtoto-tarsene-na-elektroenergiya",
-      "date": "2026-09-23",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "59 млрд. евро в банки! Нови сметки ще стимулират българите да инвестират",
-      "desc": "Ако инвестирането бъде направено така, че да е сравнително лесно като откриването на депозит, инициативата на ЕС за Съюз на спестяванията и инвестициите, който включва и възможност за откриване на специални инвестиционни сметки от гражданите, ще бъде успешна. Идеята е хората да имат сметка, през коя",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164524-59-mlrd-evro-v-banki-novi-smetki-shte-stimulirat-balgarite-da-investirat",
-      "date": "2026-09-23",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
     }
   ]
 }
