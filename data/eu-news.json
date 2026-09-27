@@ -1,78 +1,375 @@
 {
-  "updated": "2026-09-26 13:48",
-  "count": 17,
+  "updated": "2026-09-27 12:06",
+  "count": 44,
   "items": [
     {
-      "title": "Музикалните състави на БНР ще получат допълнително финансиране - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "desc": "Музикалните състави на БНР ще получат допълнително финансиране СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "title": "Икономисти изчислиха какво количество гориво можем да си купим спрямо заплатата",
+      "desc": "Поскъпването на горивата отново поставя въпроса колко тежи зареждането върху бюджета на работещите. Цените на бензиностанциите обаче дават само част ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ikonomisti-izchisliha-kakvo-kolichestvo-gorivo-mozhem-da-si-kupim-spryamo-zaplatata-3031208",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Дронзина: Срещата между Тръмп и Си Дзинпин показва готовност за диалог, но не решава стратегическите противоречия",
+      "desc": "Срещата между американския президент Доналд Тръмп и китайския лидер Си Дзинпин показва готовност на двете държави да управляват съперничеството си ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Dronzina-Sreshtata-mezhdu-Trump-i-Si-Dzinpin-pokazva-gotovnost-za-dialog-no-ne-reshava-strategicheskite-protivorechiya-3031202",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Илияна Йотова за декларацията за Украйна: Българската позиция беше ясно изразена в речта ми",
+      "desc": "Българската позиция беше ясно изразена в моята реч пред Общото събрание на ООН. Това заяви президентът Илияна Йотова пред журналисти в Ямбол. По ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Iliyana-Iotova-za-deklaraciyata-za-Ukraina-Bulgarskata-poziciya-beshe-yasno-izrazena-v-rechta-mi-3031176",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Анализатор: Тръмп е един от малкото политици, които не се страхуват от медиите",
+      "desc": "Президентът на САЩ Доналд Тръмп поведе кампания срещу някои медии, обяви ги за заплаха за националната сигурност. Три от тях пък заявиха, че ще го ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Analizator-Trump-e-edin-ot-malkoto-politici-koito-ne-se-strahuvat-ot-mediite-3031167",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Румяна Коларова: Президентските избори ще зависят в голяма степен от личностите на кандидатите",
+      "desc": "Президентските избори ще зависят в голяма степен от личностите на кандидатите, а не само от стратегиите на партиите зад тях. Това заяви политологът ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Rumyana-Kolarova-Prezidentskite-izbori-shte-zavisyat-v-golyama-stepen-ot-lichnostite-na-kandidatite-3031142",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Поколението Z променя пазара на труда: Какво търсят младите от работодателите?",
+      "desc": "Поколението Z обхваща младите хора на възраст между 18 и 30 години, които тепърва започват професионалния си път. Те имат високи очаквания не само ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Pokolenieto-Z-promenya-pazara-na-truda-Kakvo-tursyat-mladite-ot-rabotodatelite-3031141",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Вигенин: С декларации няма да спрем войната",
+      "desc": "\"Спорът за позицията на България за Украйна е напълно излишен. Тя прозвуча достатъчно ясно в изказването на Илияна Йотова пред Общото събрание ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vigenin-S-deklaracii-nyama-da-sprem-voinata-3031133",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бойко Борисов: Данъчните безумия ще бъдат отменени, когато ГЕРБ се върне в управлението",
+      "desc": "Данъчните безумия ще бъдат отменени, когато ГЕРБ се върне в управлението, заяви пред журналисти лидерът на ГЕРБ Бойко Борисов. Той коментира ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Boiko-Borisov-Danuchnite-bezumiya-shte-budat-otmeneni-kogato-GERB-se-vurne-v-upravlenieto-3031122",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кардиолог: Емоционалната хигиена е сред най-важните неща за здравето на сърцето",
+      "desc": "Сърдечно-съдовите заболявания са сред най-честите причини за смъртност у нас. Данните показват, че повече от 60% от всички смъртни случаи в България ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kardiolog-Emocionalnata-higiena-e-sred-nai-vazhnite-neshta-za-zdraveto-na-surceto-3031075",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Богомил Николов: Горивата са основния двигател за повишаването на цените",
+      "desc": "Много причини се струпаха наведнъж, за да имаме такива цени. Горивата са основния двигател за повишаването на цените – видяхме го и през 2022 година. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bogomil-Nikolov-Gorivata-sa-osnovniya-dvigatel-za-povishavaneto-na-cenite-3031059",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Социолог: Дебатите и периферният вот могат да се окажат ключови за президентските избори",
+      "desc": "Големият брой кандидатури ще доведе до разнообразни послания и по-динамична кампания, но основното внимание ще бъде насочено към водещите ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Sociolog-Debatite-i-periferniyat-vot-mogat-da-se-okazhat-klyuchovi-za-prezidentskite-izbori-3031039",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Празник е! Не взимайте и не давайте пари назаем",
+      "desc": "В православния календар е празникът на светия мъченик Калистрат и неговата съпруга. Калистрат и Хипиана пострадали заради вярата си по време на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Praznik-e-Ne-vzimaite-i-ne-davaite-pari-nazaem-3031032",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Валежи, но и слънце в неделя",
+      "desc": "Днес облачността над източните райони ще бъде значителна. На места, главно в югоизточната част от страната, ще има валежи от дъжд. Над западните и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Valezhi-no-i-slunce-v-nedelya-3031028",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Таксиметров шофьор загина при катастрофа с камион край Садово",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431747-taksimetrov-shofyor-zagina-pri-katastrofa-s-kamion-kray-sadovo",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова: Имам самочувствието на човек с опит, взимал трудни решения с подкрепа на българите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431746-yotova-imam-samochuvstvieto-na-chovek-s-opit-vzimal-trudni-resheniya-s-podkrepa-na-balgarite",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Редки породи животни и фолклорна програма събраха фермери в Сапарева баня (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431742-redki-porodi-zhivotni-i-folklorna-programa-sabraha-fermeri-v-sapareva-banya-video",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "Храм на 166 години чака спасение: Църквата в Шемшево събира спешно дарения",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431740-hram-na-166-godini-chaka-spasenie-tsarkvata-v-shemshevo-sabira-speshno-dareniya",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Подготовката за президентския вот започна: Важни срокове за избирателите",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/431738-podgotovkata-za-prezidentskiya-vot-zapochna-vazhni-srokove-za-izbiratelite",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Свръхпечалба, данъци и горива: Опозицията с остри атаки срещу мерките на кабинета \"Радев\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/431737-svrahpechalba-danatsi-i-goriva-opozitsiyata-s-ostri-ataki-sreshtu-merkite-na-kabineta-radev",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Йотова за Украйна: Българската позиция е ясно изразена пред ООН",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/431736-yotova-za-ukrayna-balgarskata-pozitsiya-e-yasno-izrazena-pred-oon",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Даниил във Витлеем: Любовта е християнско свидетелство и трябва да бъде показвана",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431734-daniil-vav-vitleem-lyubovta-e-hristiyansko-svidetelstvo-i-tryabva-da-bade-pokazvana",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Туризмът с нова стратегия: Повече реклама, авиовръзки и инвестиции",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431732-turizmat-s-nova-strategiya-poveche-reklama-aviovrazki-i-investitsii",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Борисов: Всичките мерки на Радев са как да съберат повече пари от работещите хора",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/431728-borisov-vsichkite-merki-na-radev-sa-kak-da-saberat-poveche-pari-ot-raboteshtite-hora",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Музикалните състави на БНР ще получат допълнително финансиране - sbj-bg.eu",
+      "desc": "Музикалните състави на БНР ще получат допълнително финансиране sbj-bg.eu",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsVnh6TzIzSjlzbXNTcWJkaHVwWnNTUHJGNXhyQTJ4bjB5a3JhdXNGVG5aUi1MUkxFZjAyZjI2Ny1uVzdKYlBlSy0yZ2NBQkhm?oc=5",
       "date": "2026-09-26",
       "source": "Google News BG",
       "lang": "bg",
-      "topic": "общи"
+      "topic": "eu"
     },
     {
-      "title": "Радостин Василев: Време е за силен президент, време е за силна България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/431686-radostin-vasilev-vreme-e-za-silen-prezident-vreme-e-za-silna-balgariya",
+      "title": "Костадин Ангелов: Ако правилата не дойдат преди машината, то машината ще ги напише вместо нас!",
+      "desc": "Това не е просто кибератака. Това е предупреждение. Това написа депутатът от ПГ на ГЕРБ-СДС Костадин Ангелов по повод случая с AI агент на OpenAI, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadin-Angelov-Ako-pravilata-ne-doidat-predi-mashinata-to-mashinata-shte-gi-napishe-vmesto-nas-3031012",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "ит"
+    },
+    {
+      "title": "Диана Русинова към Радев: Ще посочите ли кой сте съгласен да стане следващата жертва на пътя?",
+      "desc": "Тази седмица 13 души загинаха по пътищата на България. Г-н Радев, обръщам се лично към Вас, защото имам нужда от Вашата помощ. Не за поредния ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Diana-Rusinova-kum-Radev-Shte-posochite-li-koi-ste-suglasen-da-stane-sledvashtata-zhertva-na-putya-3031002",
+      "date": "2026-09-26",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Варна превръща страха от земетресение в урок по оцеляване със специален симулатор",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431675-varna-prevrashta-straha-ot-zemetresenie-v-urok-po-otselyavane-sas-spetsialen-simulator",
+      "title": "\"Дивите Животни\": Не, това не е естествен подбор",
+      "desc": "Ятата с мигриращи на юг птици постепенно се изнасят през България. Още поне месец има докато процесът приключи, а през това време стотици ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Divite-Zhivotni-Ne-tova-ne-e-estestven-podbor-3030997",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Патриарх Даниил от Ерусалим: Нека бъдем заедно в молитва и братско общение",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431674-patriarh-daniil-ot-erusalim-neka-badem-zaedno-v-molitva-i-bratsko-obshtenie",
+      "title": "Зам.-министърът на финансите отговори на управителя на БНБ: Лихвите по кредитите не са обвързани с данъчното облагане",
+      "desc": "Няма противоречие между заявката на правителството за запазване на стабилна данъчна политика и предложенията за промени в данъчните закони. Това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zam-ministurut-na-finansite-otgovori-naupravitelya-na-BNB-Lihvite-po-kreditite-ne-sa-obvurzani-s-danuchnoto-oblagane-3030982",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Ново огнище край изгорелия цех в Бяла отново вдигна пожарникарите на крак",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431670-novo-ognishte-kray-izgoreliya-tseh-v-byala-otnovo-vdigna-pozharnikarite-na-krak",
+      "title": "Засилен трафик по границата с Турция",
+      "desc": "Трафикът е интензивен на ГКПП \"Капитан Андреево\" на изход за товарни автомобили. Това съобщиха от \"Гранична полиция“. Натоварено е ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zasilen-trafik-po-granicata-s-Turciya-3030980",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Смъртоносен сблъсък край Сопот отне живота на четирима души",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431664-smartonosen-sblasak-kray-sopot-otne-zhivota-na-chetirima-dushi",
+      "title": "Пари срещу по-добри резултати: Появи се нова идея за финансиране на училищата",
+      "desc": "Резултатите от международното изследване на качеството на образованието (PISA 2025) показват, че когато има целенасочена реформа по конкретен проблем ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Pari-sreshtu-po-dobri-rezultati-Poyavi-se-nova-ideya-za-finansirane-na-uchilishtata-3030959",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Дипломата и \"чао\": Българите не искат да учат през целия си живот",
+      "desc": "Новите данни на Евростат отново поставят България почти на дъното на ЕС по учене през целия живот. През 2025 г. едва 6,1% от населението между 25 и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Diplomata-i-chao-Bulgarite-ne-iskat-da-uchat-prez-celiya-si-zhivot-3030958",
+      "date": "2026-09-26",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Fitch повиши перспективата пред кредитния рейтинг на България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431651-fitch-povishi-perspektivata-pred-kreditniya-reyting-na-balgariya",
+      "title": "На пук на лошото време днес: Очаква ни слънчева неделя!",
+      "desc": "През нощта срещу неделя валежите постепенно ще отслабват и на много места ще спрат. Това съобщиха синоптиците от Облачността от запад на изток ще ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Na-puk-na-loshoto-vreme-dnes-Ochakva-ni-sluncheva-nedelya-3030956",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Времето в събота: Хладна вълна с дъжд обхваща България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431647-vremeto-v-sabota-hladna-valna-s-dazhd-obhvashta-balgariya",
+      "title": "Депутати предлагат закон за ИИ: Изкуственият интелект влиза в администрацията, въвеждат контрол и глоби",
+      "desc": "Нов Закон за използването и развитието на изкуствения интелект е внесен в 52-рото Народно събрание от група народни представители. Сред вносителите ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Deputati-predlagat-zakon-za-II-Izkustveniyat-intelekt-vliza-v-administraciyata-vuvezhdat-kontrol-i-globi-3030955",
       "date": "2026-09-26",
-      "source": "BG ON AIR",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Зарков подкрепи гражданска акция срещу нехуманното третиране на животни",
+      "desc": "Председателят на Националния съвет на БСП Крум Зарков подкрепи акцията \"Седмици в клетка\" организирана от \"Невидими животни“ - ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zarkov-podkrepi-grazhdanska-akciya-sreshtu-nehumannoto-tretirane-na-zhivotni-3030953",
+      "date": "2026-09-26",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
+    },
+    {
+      "title": "Експерт: Живеем в едно от най-засегнатите от климатичните промени места на света",
+      "desc": "Ние живеем в едно от най-засегнатите места на света от климатичните промени. Това заяви в ефира на Money.bg Кристиян Панайотов - експерт по устойчиво ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ekspert-Zhiveem-v-edno-ot-nai-zasegnatite-ot-klimatichnite-promeni-mesta-na-sveta-3030949",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Политолог: Ако Бойко Борисов не гласува като гражданин, би било силен сигнал към всички, които го харесват, да не отидат да гласуват",
+      "desc": "Все още не може да се каже между кои кандидати ще бъде основният сблъсък на предстоящите президентски избори, тъй като в уравнението има няколко ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Politolog-Ako-Boiko-Borisov-ne-glasuva-kato-grazhdanin-bi-bilo-silen-signal-kum-vsichki-koito-go-haresvat-da-ne-otidat-da-glasuvat-3030919",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Демерджиев за акцията на ГКПП \"Лесово\": Предотвратихме пласирането на хиляди дози смърт и разбити човешки съдби!",
+      "desc": "Пресякохме поредния международен канал за трафик на наркотици. Както неведнъж съм заявявал, истинското мерило за успех на МВР са разбитите мрежи и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Demerdzhiev-za-akciyata-na-GKPP-Lesovo-Predotvratihme-plasiraneto-na-hilyadi-dozi-smurt-i-razbiti-choveshki-sudbi-3030918",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нешка Робева: Предлагаха ми да ме издигнат за президент",
+      "desc": "Изненадах се много, че бях спрягана за вицепрезидент на \"Възраждане\". Това заяви треньорът по художествена гимнастика Нешка Робева пред ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Neshka-Robeva-Predlagaha-mi-da-me-izdignat-za-prezident-3030914",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ДБ предлага временна комисия в парламента за хибридни атаки и намеса на чужди специални служби",
+      "desc": "По инициатива на \"Демократична България“ народни представители внесоха предложение за създаване на временна парламентарна комисия, която да ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/DB-predlaga-vremenna-komisiya-v-parlamenta-za-hibridni-ataki-i-namesa-na-chuzhdi-specialni-sluzhbi-3030907",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Макс Баклаян: Жените са по-добри инвеститори от мъжете",
+      "desc": "Жените са по-добри инвеститори от мъжете заради еволюционни причини. Това заяви пред Money.bg финансовият експерт и изп.-директор на Tavex Макс ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Maks-Baklayan-Zhenite-sa-po-dobri-investitori-ot-muzhete-3030904",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Нинова: Радев с пореден удар по пенсионерите - лишава голяма част от тях от коледни добавки",
+      "desc": "Румен Радев с пореден удар по пенсионерите - лишава голяма част от тях от коледни добавки. Това написа лидерът на \"Непокорна България\" ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ninova-Radev-s-poreden-udar-po-pensionerite-lishava-golyama-chast-ot-tyah-ot-koledni-dobavki-3030900",
+      "date": "2026-09-26",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
     },
     {
       "title": "Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU",
@@ -82,33 +379,6 @@
       "source": "European Commission",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Глобяват Община Разлог и три фирми заради мъртва риба в Бела река",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/431635-globyavat-obshtina-razlog-i-tri-firmi-zaradi-martva-riba-v-bela-reka",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Даниела Везиева: Данъкът върху свръхпечалбата може да доведе до иск срещу България",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431632-daniela-vezieva-danakat-varhu-svrahpechalbata-mozhe-da-dovede-do-isk-sreshtu-balgariya",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Предизборни искри: Икономиката, здравеопазването и Украйна сблъскаха ИК на Йотова и Гюров",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431630-predizborni-iskri-ikonomikata-zdraveopazvaneto-i-ukrayna-sblaskaha-ik-na-yotova-i-gyurov",
-      "date": "2026-09-25",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
     },
     {
       "title": "БНБ: Данък \"свръхпечалба\" за банките може да оскъпи кредита",
@@ -127,33 +397,6 @@
       "source": "Bloomberg TV BG",
       "lang": "bg",
       "topic": "eu"
-    },
-    {
-      "title": "Nine new projects for Ukrainian youth organisations under EU-funded Erasmus+ Programme - Донецька Обласна Державна адміністрація",
-      "desc": "Nine new projects for Ukrainian youth organisations under EU-funded Erasmus+ Programme Донецька Обласна Державна адміністрація",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLTF0R1UwUG5RVG1vSFhydTY3NW01NVY0Z3d1aEZPaWd5eFZPRDJudGhqNlN2NWpNZXo5MTZHZEt5eWJUMUZmeXpEc2RrRVRRMExuLWlRZ05fZFhkWEJ6X3Q0ZGlNV1lDMEh1a2pkVmR2R2Uxa0hfTFE2RU1FSnVKdG91YThjQ19zem1hMUI0UFJsaUlmUy1ZY21XWlRTOVRZX3FKMlRlUnJUcHVkQ3RGeDI2alBYNTZsRGNMNVVYVUZyN0E?oc=5",
-      "date": "2026-09-24",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Пристанища, жп линии, логистика: Как България да се възползва от Средния коридор",
-      "desc": "Първата лидерска среща на върха за Средния коридор, която ще се проведе в България в началото на 2027 г., е сериозен успех и признание за значението и ролята на страната ни не само по отношение на развитието на транспорта и енергетиката, но и на геополитиката на Европа. Тази среща е и сериозен тест ",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/164588-pristanishta-zhp-linii-logistika-kak-balgariya-da-se-vazpolzva-ot-sredniya-koridor",
-      "date": "2026-09-24",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Schneider Electric предлага 1.4 милиарда долара за българската компания Shelly",
-      "desc": "Schneider Electric е близо до сделка за придобиване на българската компания за умни устройства Shelly Group SE. Предложената цена е около 70 евро на акция, което оценява Shelly Group на приблизително 1,27 милиарда евро. Придобиването цели да разшири екосистемата и приходите на Schneider Electric в с",
-      "url": "https://www.bloombergtv.bg/a/2-novini/164582-schneider-electric-predlaga-14-miliarda-dolara-za-balgarskata-kompaniya-shelly",
-      "date": "2026-09-24",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
     }
   ]
 }
