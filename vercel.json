@@ -2,7 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "web/**", "use": "@vercel/static" },
-    { "src": "data/**", "use": "@vercel/static" },
+    { "src": "data/programs.json", "use": "@vercel/static" },
+    { "src": "data/eu-news.json", "use": "@vercel/static" },
     { "src": "api/*.py", "use": "@vercel/python" }
   ],
   "headers": [
