@@ -1,7 +1,52 @@
 {
-  "updated": "2026-09-27 12:06",
+  "updated": "2026-09-27 14:46",
   "count": 44,
   "items": [
+    {
+      "title": "Зорница Русинова: Почти 29% от хората в България остават в риск от бедност въпреки увеличаването на социалните разходи",
+      "desc": "Над 2,1 млрд. евро са предвидени през тази година за социални политики, плащания и подкрепа, но близо 29% от хората в България продължават да са в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zornica-Rusinova-Pochti-29-ot-horata-v-Bulgariya-ostavat-v-risk-ot-bednost-vupreki-uvelichavaneto-na-socialnite-razhodi-3031287",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Какво се случи за 20 години със съдебните съдилища: Един съд или 28 различни съдебни реалности?",
+      "desc": "През 2006 г. е направен един от големите институционални избори в съдебната власт – създава се самостоятелна система от административни съдилища. От ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kakvo-se-sluchi-za-20-godini-sus-sudebnite-sudilishta-Edin-sud-ili-28-razlichni-sudebni-realnosti-3031271",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Петър Ганев: Данъкът върху свръхпечалбата може да доведе до по-високи цени",
+      "desc": "Предложеният от правителството данък върху свръхпечалбата може да се окаже по-скъп за икономиката, отколкото изглежда на пръв поглед — чрез по-малко ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Petur-Ganev-Danukut-vurhu-svruhpechalbata-mozhe-da-dovede-do-po-visoki-ceni-3031256",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "ГЕРБ изпраща Георг Георгиев на поредното заседание по делото срещу Ива Михайлова",
+      "desc": "Народният представител Георг Георгиев отново ще присъства в Кочани на заседание по делото срещу българската гражданка Ива Михайлова. Това съобщиха от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/GERB-izprashta-Georg-Georgiev-na-porednoto-zasedanie-po-deloto-sreshtu-Iva-Mihailova-3031223",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Учредиха Асоциация на висшите училища за туризма",
+      "desc": "Асоциация на висшите училища, които подготвят кадри за туристическия сектор, беше учредена във Варна по повод Световния ден на туризма – 27 ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Uchrediha-Asociaciya-na-visshite-uchilishta-za-turizma-3031218",
+      "date": "2026-09-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
     {
       "title": "Икономисти изчислиха какво количество гориво можем да си купим спрямо заплатата",
       "desc": "Поскъпването на горивата отново поставя въпроса колко тежи зареждането върху бюджета на работещите. Цените на бензиностанциите обаче дават само част ...",
@@ -120,6 +165,15 @@
       "topic": "общи"
     },
     {
+      "title": "18 километра опашка от камиони на АМ \"Марица\" към \"Капитан Андреево\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431754-18-kilometra-opashka-ot-kamioni-na-am-maritsa-kam-kapitan-andreevo",
+      "date": "2026-09-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "Таксиметров шофьор загина при катастрофа с камион край Садово",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/431747-taksimetrov-shofyor-zagina-pri-katastrofa-s-kamion-kray-sadovo",
@@ -201,22 +255,13 @@
       "topic": "бизнес"
     },
     {
-      "title": "Борисов: Всичките мерки на Радев са как да съберат повече пари от работещите хора",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/431728-borisov-vsichkite-merki-na-radev-sa-kak-da-saberat-poveche-pari-ot-raboteshtite-hora",
-      "date": "2026-09-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Музикалните състави на БНР ще получат допълнително финансиране - sbj-bg.eu",
-      "desc": "Музикалните състави на БНР ще получат допълнително финансиране sbj-bg.eu",
+      "title": "Музикалните състави на БНР ще получат допълнително финансиране - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "desc": "Музикалните състави на БНР ще получат допълнително финансиране СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsVnh6TzIzSjlzbXNTcWJkaHVwWnNTUHJGNXhyQTJ4bjB5a3JhdXNGVG5aUi1MUkxFZjAyZjI2Ny1uVzdKYlBlSy0yZ2NBQkhm?oc=5",
       "date": "2026-09-26",
       "source": "Google News BG",
       "lang": "bg",
-      "topic": "eu"
+      "topic": "общи"
     },
     {
       "title": "Костадин Ангелов: Ако правилата не дойдат преди машината, то машината ще ги напише вместо нас!",
@@ -325,51 +370,6 @@
       "source": "Focus News",
       "lang": "bg",
       "topic": "общи"
-    },
-    {
-      "title": "Демерджиев за акцията на ГКПП \"Лесово\": Предотвратихме пласирането на хиляди дози смърт и разбити човешки съдби!",
-      "desc": "Пресякохме поредния международен канал за трафик на наркотици. Както неведнъж съм заявявал, истинското мерило за успех на МВР са разбитите мрежи и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Demerdzhiev-za-akciyata-na-GKPP-Lesovo-Predotvratihme-plasiraneto-na-hilyadi-dozi-smurt-i-razbiti-choveshki-sudbi-3030918",
-      "date": "2026-09-26",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Нешка Робева: Предлагаха ми да ме издигнат за президент",
-      "desc": "Изненадах се много, че бях спрягана за вицепрезидент на \"Възраждане\". Това заяви треньорът по художествена гимнастика Нешка Робева пред ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Neshka-Robeva-Predlagaha-mi-da-me-izdignat-za-prezident-3030914",
-      "date": "2026-09-26",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДБ предлага временна комисия в парламента за хибридни атаки и намеса на чужди специални служби",
-      "desc": "По инициатива на \"Демократична България“ народни представители внесоха предложение за създаване на временна парламентарна комисия, която да ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DB-predlaga-vremenna-komisiya-v-parlamenta-za-hibridni-ataki-i-namesa-na-chuzhdi-specialni-sluzhbi-3030907",
-      "date": "2026-09-26",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Макс Баклаян: Жените са по-добри инвеститори от мъжете",
-      "desc": "Жените са по-добри инвеститори от мъжете заради еволюционни причини. Това заяви пред Money.bg финансовият експерт и изп.-директор на Tavex Макс ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Maks-Baklayan-Zhenite-sa-po-dobri-investitori-ot-muzhete-3030904",
-      "date": "2026-09-26",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Нинова: Радев с пореден удар по пенсионерите - лишава голяма част от тях от коледни добавки",
-      "desc": "Румен Радев с пореден удар по пенсионерите - лишава голяма част от тях от коледни добавки. Това написа лидерът на \"Непокорна България\" ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ninova-Radev-s-poreden-udar-po-pensionerite-lishava-golyama-chast-ot-tyah-ot-koledni-dobavki-3030900",
-      "date": "2026-09-26",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
     },
     {
       "title": "Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU",
