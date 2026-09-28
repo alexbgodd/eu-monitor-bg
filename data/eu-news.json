@@ -1,11 +1,155 @@
 {
-  "updated": "2026-09-28 13:59",
-  "count": 31,
+  "updated": "2026-09-28 17:45",
+  "count": 41,
   "items": [
+    {
+      "title": "Корнелия Нинова: Гълъб Донев лъже!",
+      "desc": "Лидерът на \"Непокорна България\" Корнелия Нинова за пореден път атакува кабинета \"Радев\". Поводът са предложените промени в Закона ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Gulub-Donev-luzhe-3031851",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Димитър Масларов: Ще представим калкулатор за индивидуална оценка на риска от инсулт, ИИ има потенциал да подпомага медицинските специалисти",
+      "desc": "Изкуственият интелект има потенциал да подпомага медицинските специалисти не само в първите минути след настъпването на инсулт, но и при превенцията, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Dimitur-Maslarov-Shte-predstavim-kalkulator-za-individualna-ocenka-na-riska-ot-insult-II-ima-potencial-da-podpomaga-medicinskite-specialisti-3031835",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "\"Вън Радев! Вън Йотова!\": Недоволство отново изпълни Триъгълника на властта",
+      "desc": "Недоволни граждани отново се събраха в Триъгълника на властта. Този път обаче не е на прицел само премиерът Румен Радев, но и държавният глава и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vun-Radev-Vun-Iotova-Nedovolstvo-otnovo-izpulni-Triugulnika-na-vlastta-3031830",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Министър Пулев с обвинения към Спецов: Държал изкуствено ниски цените на горивата и с действията си е довел \"Лукойл\" до сериозна ликвидна криза",
+      "desc": "Румен Спецов е държал изкуствено ниски цените на горивата и с действията си е довел \"Лукойл“ до сериозна ликвидна криза. Това заяви ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Pulev-s-obvineniya-kum-Specov-Durzhal-izkustveno-niski-cenite-na-gorivata-i-s-deistviyata-si-e-dovel-Lukoil-do-seriozna-likvidna-kriza-3031829",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Министър Шишков: Обещаваха ви обход на Кърджали, а ние ще построим магистралата до Маказа!",
+      "desc": "\"Ние не сме природоубийци, но не сме и човекоубийци. За година и половина ще сме готови да дадем магистрала Русе - Маказа на концесия.“ Това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Shishkov-Obeshtavaha-vi-obhod-na-Kurdzhali-a-nie-shte-postroim-magistralata-do-Makaza-3031819",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Зам.-министър на отбраната: Европейската отбранителна готовност изисква не само увеличаване на инвестициите, но и по-добра координация",
+      "desc": "Заместник-министърът на отбраната Любомир Монов участва днес в заседанието на Съвета \"Външни работи/Отбрана“ на ЕС в Брюксел и в заседанието ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zam-ministur-na-otbranata-Evropeiskata-otbranitelna-gotovnost-iziskva-ne-samo-uvelichavane-na-investiciite-no-i-po-dobra-koordinaciya-3031818",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Александър Иванов от ГЕРБ: Лоша поличба е да се посяга на домашната ракия на хората!",
+      "desc": "Лоша поличба е да се посяга на домашната ракия на хората! Това заяви в своя публикация депутаът от ГЕРБ и зам.-председател на Комисията по ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Aleksandur-Ivanov-ot-GERB-Losha-polichba-e-da-se-posyaga-na-domashnata-rakiya-na-horata-3031817",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Бивш МВР министър и шеф на ДАНС: България няма достатъчно способности за противодействие на хибридни заплахи",
+      "desc": "България няма достатъчно способности за откриване и противодействие на хибридни заплахи, а службите за сигурност изостават технологично и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bivsh-MVR-ministur-i-shef-na-DANS-Bulgariya-nyama-dostatuchno-sposobnosti-za-protivodeistvie-na-hibridni-zaplahi-3031814",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "ит"
+    },
+    {
+      "title": "Евростат: Българите пият по-малко алкохол от средното за ЕС",
+      "desc": "Данните от изследване на Евростат сочат, че 4,8% от гражданите на Европейския съюз са пили алкохол всеки ден през 2025 година. В България процентът ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Evrostat-Bulgarite-piyat-po-malko-alkohol-ot-srednoto-za-ES-3031805",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Асен Василев започна подписка в защита на домашната ракия",
+      "desc": "\"Подпишете подписката, за да запазим българската ракия.“ С този призив във Facebook лидерът на \"Продължаваме промяната“ Асен Василев ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Asen-Vasilev-zapochna-podpiska-v-zashtita-na-domashnata-rakiya-3031801",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "МФ: Домашната ракия не е, не е била и не става обект на забрана, целта е пресичането на сивия сектор",
+      "desc": "Във връзка с широкия медиен отзвук и засиления обществен интерес към темата за съхранението на домашна ракия е необходимо да внесем яснота по фактите ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MF-Domashnata-rakiya-ne-e-ne-e-bila-i-ne-stava-obekt-na-zabrana-celta-e-presichaneto-na-siviya-sektor-3031795",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Заради сушата: Над 22 млн. евро компенсация за производителите на царевица и слънчоглед",
+      "desc": "12 451 земеделски производители на слънчоглед и царевица ще бъдат подпомогнати заради щетите от сушата и високите температури през 2025 г. Със ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zaradi-sushata-Nad-22-mln-evro-kompensaciya-za-proizvoditelite-na-carevica-i-slunchogled-3031788",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "КЗК проверява цените на горивата: Изиска данни от 7 компании и НАП",
+      "desc": "Комисията за защита на конкуренцията изиска подробна информация от седем големи дружества и Националната агенция за приходите заради продължаващата ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/KZK-proveryava-cenite-na-gorivata-Iziska-danni-ot-7-kompanii-i-NAP-3031784",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Донев към Димитър Радев за въвеждане на данък \"свръхпечалба\": Политически внушения!",
+      "desc": "Министърът на финансите Гълъб Донев упрекна управителя на БНБ Димитър Радев, че прави политически коментари, а повод за думите на ресорния министър е ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Donev-kum-Dimitur-Radev-zavuvezhdane-na-danuk-svruhpechalba-Politicheski-vnusheniya-3031777",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Заместник-министърът на правосъдието: Мобилизираме целия ресурс за сигурността на изборите за ВСС",
+      "desc": "\"Мобилизираме целия ресурс, за да се гарантира провеждането на прозрачен и честен изборен процес“, заяви заместник-министърът на правосъдието ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zamestnik-ministurut-na-pravosudieto-Mobilizirame-celiya-resurs-za-sigurnostta-na-izborite-za-VSS-3031774",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Велислава Петрова: България и Япония имат потенциал да разширят стратегическото си партньорство",
       "desc": "Министърът на външните работи Велислава Петрова проведе среща с посланика на Япония в България Чикахиса Суми. Двамата обсъдиха възможностите за ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Velislava-Petrova-Bulgariya-i-Yaponiya-imat-potencial-da-razshiryat-strategicheskoto-si-partnyorstvo-3031767",
+      "date": "2026-09-28",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Наталия Киселова: Изпийте наличната домашна ракия или я декларирайте!",
+      "desc": "Моля, без паника! Нека да уточним: 1. Данъчните закони действат занапред! Изпийте наличната домашна ракия, декларирайте я в Годишната си данъчна ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Nataliya-Kiselova-Izpiite-nalichnata-domashna-rakiya-ili-ya-deklariraite-3031766",
       "date": "2026-09-28",
       "source": "Focus News",
       "lang": "bg",
@@ -129,148 +273,94 @@
       "topic": "общи"
     },
     {
-      "title": "Политолог: Балотажът изглежда сигурен, но \"черен лебед\" може да промени картината",
-      "desc": "Рекорден брой - 28 кандидатпрезидентски двойки ще се включат в битката за \"Дондуков\" 2 на предстоящите президентски избори на 25 октомври. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Politolog-Balotazhut-izglezhda-siguren-no-cheren-lebed-mozhe-da-promeni-kartinata-3031593",
+      "title": "Хасан Адемов: Новият механизъм за минималната заплата дава повече предвидимост",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/431884-hasan-ademov-noviyat-mehanizam-za-minimalnata-zaplata-dava-poveche-predvidimost",
       "date": "2026-09-28",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Преслав Бобев и Виктор Стойкоски: Бизнес събитията се превръщат в мост между пазарите",
-      "desc": "Доброто бизнес събитие вече трудно се измерва само с броя хора в залата или имената на сцената. Публиката става все по-взискателна към съдържанието, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Preslav-Bobev-i-Viktor-Stoikoski-Biznes-subitiyata-se-prevrushtat-v-most-mezhdu-pazarite-3031559",
+      "title": "Шишков: Магистрала Русе - Маказа отива на концесия до година и половина",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431883-shishkov-magistrala-ruse-makaza-otiva-na-kontsesiya-do-godina-i-polovina",
       "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Цветомир Николов: Продажбата на активите на \"Лукойл\" се бави заради сложния процес и санкционния режим",
-      "desc": "Продажбата на международните активи на руската петролна компания \"Лукойл\" се бави заради сложността на процедурата и необходимостта от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Cvetomir-Nikolov-Prodazhbata-na-aktivite-na-Lukoil-se-bavi-zaradi-slozhniya-proces-i-sankcionniya-rezhim-3031555",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Христо Гаджев: Искате да почерпите за сватбата? Не, Гълъб Донев бди!",
-      "desc": "Искате да почерпите за сватбата? Не и в Прогресивна България! А Гълъб Донев бди!След като оправиха държавата, управляващите въвеждат драконови глоби ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Hristo-Gadzhev-Iskate-da-pocherpite-za-svatbata-Ne-Gulub-Donev-bdi-3031528",
-      "date": "2026-09-28",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Ангел Георгиев не е допуснат в РСМ за делото срещу Ива Михайлова",
-      "desc": "Председателят на парламентарната Комисия по политиките за българите извън страната Ангел Георгиев от \"Възраждане\" не е бил допуснат да ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Angel-Georgiev-ne-e-dopusnat-v-RSM-za-deloto-sreshtu-Iva-Mihailova-3031516",
+      "title": "\"Не на лъжите и вандализма за Петрохан\": Протестът пред Съдебната палата в София в СНИМКИ",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/188-gallery/431880-ne-na-lazhite-i-vandalizma-za-petrohan-protestat-pred-sadebnata-palata-v-sofiya-v-snimki",
       "date": "2026-09-28",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Задържаха марихуана за над 466 000 евро на МП Капитан Андреево",
-      "desc": "53 пакета с марихуана за 466 625 евро откриха митническите служители от отдел \"Борба с наркотрафика\" на МП Капитан Андреево при проверка на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zadurzhaha-marihuana-za-nad-466-000-evro-na-MP-Kapitan-Andreevo-3031492",
+      "title": "Събарят \"Кошарите\": Столичната община започна премахването на незаконния строеж (+СНИМКИ)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431878-sabaryat-kosharite-stolichnata-obshtina-zapochna-premahvaneto-na-nezakonniya-stroezh-snimki",
       "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "За българите в чужбина: Утре е последният срок за заявления за гласуване на президентските избори",
-      "desc": "Утре, 29 септември, изтича срокът за подаване на заявления за гласуване извън страната на предстоящите президентски избори на 25 октомври. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Za-bulgarite-v-chuzhbina-Utre-e-posledniyat-srok-za-zayavleniya-za-glasuvane-na-prezidentskite-izbori-3031490",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Скандалът с домашната ракия: Какво всъщност предлага правителството?",
-      "desc": "Ракията се оказа в центъра на разгорещен спор, след като вчера вечерта стана ясно, че Министерството на финансите предлага нови правила за ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Skandalut-s-domashnata-rakiya-Kakvo-vsushtnost-predlaga-pravitelstvoto-3031483",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Вътрешният министър след акцията на ДАНС срещу секта с шаман: Има и други подобни групи в България",
-      "desc": "Службите разполагат с информация за други групи на територията на България, които извършват дейност, сходна с тази, станала обект на последната акция ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vutreshniyat-ministur-sled-akciyata-na-DANS-sreshtu-sekta-s-shaman-Ima-i-drugi-podobni-grupi-v-Bulgariya-3031477",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кирил Петков: Нещо като Робин Худ, но на обратно - от бедните взимат, за да дадат на богатите",
-      "desc": "Тази глупост с такса от 1000 евро за шише ракия звучи като поредната грешка на правителството, която вероятно ще се наложи бързо да поправят. Това ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kiril-Petkov-Neshto-kato-Robin-Hud-no-na-obratno-ot-bednite-vzimat-za-da-dadat-na-bogatite-3031465",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Без акциз за природния газ и LPG като гориво до края на 2026 г., предлагат управляващите",
-      "desc": "Нулев акциз за природния газ и втечнения нефтен газ (LPG), използвани като моторно гориво, от 1 октомври до края на 2026 г. предлагат депутати от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bez-akciz-za-prirodniya-gaz-i-LPG-kato-gorivo-do-kraya-na-2026-g-predlagat-upravlyavashtite-3031463",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Корнелия Нинова: Всичките проблеми решиха и тръгват да търсят по две бутилки ракия, за да глобяват хората",
-      "desc": "Радевистите посегнаха и на домашната ракия. Радев пребори олигархията, както сам се похвали, и сега погва ракията. Това каза лидерът на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Vsichkite-problemi-reshiha-i-trugvat-da-tursyat-po-dve-butilki-rakiya-za-da-globyavat-horata-3031458",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Световни имена в хирургията идват в България",
-      "desc": "Световни имена в хирургията пристигат у нас за юбилейния 20-и конгрес на Българското хирургическо дружество Водещи хирурзи от десет държави ще се ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Svetovni-imena-v-hirurgiyata-idvat-v-Bulgariya-3031453",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мисия на МВФ пристига в София днес",
-      "desc": "Мисия на Международния валутен фонд (МВФ), ръководена от г-н Фабиан Борнхорст, ще посети София днес. Това съобщиха от пресцентъра на Фонда. Визитата ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Misiya-na-MVF-pristiga-v-Sofiya-dnes-3031438",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Имен ден празнуват българи с интересни имена!",
-      "desc": "На 28 септември православната църква почита паметта на преподобни Харитон Изповедник и свети пророк Варух. Преподобният Харитон Изповедник живял в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Imen-den-praznuvat-bulgari-s-interesni-imena-3031395",
-      "date": "2026-09-28",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "НИМХ обяви жълт код в няколко области на България",
-      "desc": "Днес ще преобладава слънчево време. Около и след обяд над Източна България облачността ще се увеличи и вплътни. На отделни места там ще има валежи от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/NIMH-obyavi-zhult-kod-v-nyakolko-oblasti-na-Bulgariya-3031392",
-      "date": "2026-09-28",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общини"
+    },
+    {
+      "title": "Тестват сирените в София на 1 октомври, няма място за безпокойство",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431876-testvat-sirenite-v-sofiya-na-1-oktomvri-nyama-myasto-za-bezpokoystvo",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Данък \"свръхпечалба\": Удря ли държавата по бизнеса и ще поскъпнат ли банковите лихви?",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/431874-danak-svrahpechalba-udrya-li-darzhavata-po-biznesa-i-shte-poskapnat-li-bankovite-lihvi",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Властта няма да посяга на домашната ракия, санкции - само за незаконна търговия (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431870-vlastta-nyama-da-posyaga-na-domashnata-rakiya-sanktsii-samo-za-nezakonna-targoviya-video",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Евростат: Българите пият по-малко алкохол всеки ден от средното за ЕС",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431867-evrostat-balgarite-piyat-po-malko-alkohol-vseki-den-ot-srednoto-za-es",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "По-скъпи таксита в София от 2027 г.: Шофьори и клиенти срещу новите цени (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431866-po-skapi-taksita-v-sofiya-ot-2027-g-shofyori-i-klienti-sreshtu-novite-tseni-video",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Донев: Управителят на БНБ си позволява внушения и намеса в политическата ситуация",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/431865-donev-upravitelyat-na-bnb-si-pozvolyava-vnusheniya-i-namesa-v-politicheskata-situatsiya",
+      "date": "2026-09-28",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Музикалните състави на БНР ще получат допълнително финансиране - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
