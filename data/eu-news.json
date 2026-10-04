@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04 12:25",
-  "count": 48,
+  "updated": "2026-10-04 14:55",
+  "count": 38,
   "items": [
     {
       "title": "България се обяви против орязване на еврофондовете за фермерите и регионите",
@@ -10,6 +10,24 @@
       "source": "Dnevnik.bg",
       "lang": "bg",
       "topic": "eu"
+    },
+    {
+      "title": "Наркотиците, улицата и малките победи: Как \"Розовата къща\" помага на хора със зависимости",
+      "desc": "Когато говорим за наркотиците, много често говорим за забрани, полиция, наказания и превенция. Но има едно място, в което разговорът започва от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Narkoticite-ulicata-i-malkite-pobedi-Kak-Rozovata-kushta-pomaga-na-hora-sus-zavisimosti-3034580",
+      "date": "2026-10-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Задръстване на АМ \"Тракия\" заради катастрофа",
+      "desc": "Задръстване на АМ \"Тракия\" в посока София заради катастрофа. Движението при км 35 на АМ \"Тракия\" в посока столицата временно се ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zadrustvane-na-AM-Trakiya-zaradi-katastrofa-3034547",
+      "date": "2026-10-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "След задържането на Юлиян Янков - Картофа: Георги Кандев вече заведе дело за клевета",
@@ -85,7 +103,7 @@
     },
     {
       "title": "Стефан Димитров: Лесно е да забраниш празни клетки, истинският тест е да защитиш животните, когато е трудно",
-      "desc": "Близо две седмици доброволци се редуват на 12-часови смени в клетка пред парламента заради съдбата на хиляди новородени телета. Вече близо две ...",
+      "desc": "Вече близо две седмици пред Народното събрание има човек в клетка. Не еднократно, не символично за няколко часа, а денонощно доброволци се редуват на ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Stefan-Dimitrov-Lesno-e-da-zabranish-prazni-kletki-istinskiyat-test-e-da-zashtitish-zhivotnite-kogato-e-trudno-3034453",
       "date": "2026-10-04",
       "source": "Focus News",
@@ -228,96 +246,6 @@
       "topic": "общи"
     },
     {
-      "title": "Поклонението пред Илиян Филипов ще бъде на 7 октомври в Пловдив",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432498-poklonenieto-pred-iliyan-filipov-shte-bade-na-7-oktomvri-v-plovdiv",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Йотова: В новия бюджет трябват средства за защита от бедствия",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/432495-yotova-v-noviya-byudzhet-tryabvat-sredstva-za-zashtita-ot-bedstviya",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Поклонението пред Самуил: Дълга опашка се вие пред \"Света София\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432488-poklonenieto-pred-samuil-dalga-opashka-se-vie-pred-sveta-sofiya",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "В Северна Македония: Останките на цар Самуил са фалшиви",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432486-v-severna-makedoniya-ostankite-na-tsar-samuil-sa-falshivi",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кабинетът готви бюджет с 3,5% дефицит за догодина",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432483-kabinetat-gotvi-byudzhet-s-35-defitsit-za-dogodina",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Донев очаква поскъпването на цените да се забави",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432480-donev-ochakva-poskapvaneto-na-tsenite-da-se-zabavi",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Катастрофа затвори пътя Асеновград - Кърджали край Новаково",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432478-katastrofa-zatvori-patya-asenovgrad-kardzhali-kray-novakovo",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Стара Загора посреща честната глава на Св. Климент Охридски",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432472-stara-zagora-posreshta-chestnata-glava-na-sv-kliment-ohridski",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Света София\" приема граждани за поклонение пред цар Самуил",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432470-sveta-sofiya-priema-grazhdani-za-poklonenie-pred-tsar-samuil",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "България и още 16 държави се обявиха срещу орязването на средствата от ЕС за земеделие",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432462-balgariya-i-oshte-16-darzhavi-se-obyaviha-sreshtu-oryazvaneto-na-sredstvata-ot-es-za-zemedelie",
-      "date": "2026-10-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
       "title": "България влезе в коалиция от 17 страни срещу орязването на евробюджета - Новини СЕГА",
       "desc": "България влезе в коалиция от 17 страни срещу орязването на евробюджета Новини СЕГА",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcmNXYW92bXhDNEctMGxxSVRGOXVtREJyeEYwaDk2clk4TVNOMEc0TDJZQ1E2Q04yS0M0QlhvME1neEZJLXB3UGpQVHZFeGpLalNrZTQyNVJPbUpKS1U3a1hQRDU0SVN3WUZCd3dCSDg4ZllPRmgtSWxoWmhPenBzUWxrOHZJeUlQcHBYNVpOQWNEc3NZYTd5V1UySnB0UEZJMUZ3SWZTV0ZSNnFDLVZQRDNxZ2oyTWRW?oc=5",
@@ -372,26 +300,8 @@
       "topic": "общи"
     },
     {
-      "title": "Патриарх Даниил: Има пречки цар Самуил да бъде обявен за светец",
-      "desc": "България днес посреща костите на своя владетел - цар Самуил, който е отдал живота си за страната. Това заяви българският патриарх Даниил по време на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Patriarh-Daniil-Ima-prechki-car-Samuil-da-bude-obyaven-za-svetec-3034234",
-      "date": "2026-10-03",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Фармацевти поискаха 25% увеличение за рецептите по НЗОК и нови правила за разплащане",
-      "desc": "Над 650 собственици на семейни аптеки в България приеха декларация за бъдещето на лекарствоснабдяването и призоваха за национален анализ на аптечната ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Farmacevti-poiskaha-25-uvelichenie-za-receptite-po-NZOK-i-novi-pravila-za-razplashtane-3034211",
-      "date": "2026-10-03",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "EU Commission grants three cross-border renewable projects CEF funding eligibility - ieu-monitoring.com",
-      "desc": "EU Commission grants three cross-border renewable projects CEF funding eligibility ieu-monitoring.com",
+      "title": "EU Commission grants three cross-border renewable projects CEF funding eligibility - INSIGHT EU MONITORING",
+      "desc": "EU Commission grants three cross-border renewable projects CEF funding eligibility INSIGHT EU MONITORING",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUUh2Mlk4S2F3T3VpbnVJZ0ZINThNZUtKZFVuc0tTUzRxT2lOb3JyNWFTOThUUHJzTFdIRFNDYjh3eUJVTDItdzFjeVJwLVQ4eTFVU19nQlBmNDVsN2J4dlJzMl92RzNfNG9tY205VFRwT1ZvWWs2RVVEc1loSzlGdDB2UE5kaERNWkRvMUlHUmJjeHNxUy1RbV81NWRKU1JlQ3gzS2FpQWxyWmFxeDN2dWpDYkV1TEpaNlV4Vmo5c1h4Uk8yZENvUUFtQ3pnNkc5bDZESVRLS1ZVN0oybGpISC1QMA?oc=5",
       "date": "2026-10-02",
       "source": "Google News EN",
@@ -399,8 +309,8 @@
       "topic": "eu"
     },
     {
-      "title": "European Commission approves 170M euro in state aid for Bulgarian farmers - The Sofia Globe",
-      "desc": "European Commission approves 170M euro in state aid for Bulgarian farmers The Sofia Globe",
+      "title": "European Commission approves 170M euro in state aid for Bulgarian farmers - sofiaglobe.com",
+      "desc": "European Commission approves 170M euro in state aid for Bulgarian farmers sofiaglobe.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZWFwbXYtX3kweEJKSDZ6QmhLNUtLdk56RElfRi1rWEduTkJrQjFpXzk4NE8zUlNFY0FYc3g1VWwtN0taRGQ5cFN6VUYweU5ySzMteVlJeHhOQ2NJUFZSZ1E5Uzk4amxCMGZQZ0x6TTZSWWRHLTB0Vml4Q2UzTGFEMExVay1WWnBVT25ST3N2WGJUY1lZcUt1ZzJkZE5TTVNtU2dqTFQzbE9YdjFq?oc=5",
       "date": "2026-10-02",
       "source": "Google News EN",
