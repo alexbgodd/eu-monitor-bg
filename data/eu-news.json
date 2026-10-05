@@ -1,7 +1,16 @@
 {
-  "updated": "2026-10-05 14:43",
-  "count": 48,
+  "updated": "2026-10-05 18:43",
+  "count": 50,
   "items": [
+    {
+      "title": "България и 16 държави от ЕС бранят парите за земеделие - fakti.bg",
+      "desc": "България и 16 държави от ЕС бранят парите за земеделие fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYmtDdmhtQXh4VzB0SlNLM21LQTBSV0JFWERDTnhaU2drekZmMENPR0Fuci1lclpvNTZweUxucmM5MkdfeDQ5b2F5eE9VNVRQeW85d003cGxnZndVLUo3WUo2STVCX2RPTzBaQVVqSzk3cEdlVGVETUFvVk1QTGJQUVNfeTZlM2dPUWRPaEJhc2hsUQ?oc=5",
+      "date": "2026-10-05",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
     {
       "title": "Щангистите ще получат финансиране за Световното първенство - vratsa.eu",
       "desc": "Щангистите ще получат финансиране за Световното първенство vratsa.eu",
@@ -15,6 +24,15 @@
       "title": "Културният сектор скочи срещу Милошев и поиска промяна - News24sofia.eu",
       "desc": "Културният сектор скочи срещу Милошев и поиска промяна News24sofia.eu",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmRQckVzTVMwSzVmRkdQWkVlNTk4NGtzRFpoSTkyM3pQWEtYeko4ZWpzY0hKOTZWZ3AyQ3NKdXU4RE1sRm9tTEpTbnlrdVFabWtUMzkxUjRrX0toSEhMZGk0czlMQXlqb1RjbE1pMklMcFlnbmVjak9pUmpsRHQtd1oxVTFwbGJj?oc=5",
+      "date": "2026-10-05",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "България иска единен газов коридор за целия регион - News24sofia.eu",
+      "desc": "България иска единен газов коридор за целия регион News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEVy00SmgwOEhBbFJnQ3BiTnhLNmZRZTRDMENnWlA4RVlNTVN2MUxXenpnTVJuNV9wNDM2V1lva1c5bElPV3lWYkFneFdDenJqenZsZlVPRnRCYzY3VmctU0xKZC1iMEs3RDBwU3Q3N2kzendOeFdPNU82SXhIdw?oc=5",
       "date": "2026-10-05",
       "source": "Google News BG",
       "lang": "bg",
@@ -46,6 +64,114 @@
       "source": "European Commission",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Министър: Повече никой в България няма да може да казва сирене на това, което не е сирене",
+      "desc": "Повече никой в България няма да може да казва сирене на това, което не е сирене по българското законодателство. Това заяви министърът на земеделието ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Poveche-nikoi-v-Bulgariya-nyama-da-mozhe-da-kazva-sirene-na-tova-koeto-ne-e-sirene-3035240",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "Президентът на КНСБ: На хората вече им се изчака чакането, може да излязат на протест",
+      "desc": "Храната поскъпва с 8,6% за година. Потребителската кошница вече струва над 62 евро. Според президента на КНСБ Пламен Димитров външните фактори са ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prezidentut-na-KNSB-Na-horata-veche-im-se-izchaka-chakaneto-mozhe-da-izlyazat-na-protest-3035221",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Светослав Малинов: Балотажът ще е между Гюров/Кандев и Йотова/Вълчев",
+      "desc": "Балотажът зависи от 2 неща. Резултатите на първите две двойки - първата да няма над 50%, и общото гласуване трябва да бъде над 50%. Това заяви ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Svetoslav-Malinov-Balotazhut-shte-e-mezhdu-GyurovKandev-i-IotovaVulchev-3035220",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Независим културен сектор\": От май месец очакваме г-н Милошев и неговия кабинет да заработят, искаме да се вземат мерки, ако не излизаме на протест",
+      "desc": "Като реакция на последните събития от страна на Министерство на културата - сменянето на един временно изпълняващ директор с друг временно ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Nezavisim-kulturen-sektor-Ot-mai-mesecochakvame-g-n-Miloshev-i-negoviya-kabinet-da-zarabotyat-iskame-da-se-vzemat-merki-ako-ne-izlizame-na-protest-3035217",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Мика Зайкова: Такова животно като \"свръхпечалба\" в икономическия зоопарк - няма! Това е държавен рекет!",
+      "desc": "Такова животно като \"свръхпечалба\" в икономическия зоопарк - няма. Това коментира икономистът и бивш народен представител Мика Зайкова в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Mika-Zaikova-Takova-zhivotno-kato-svruhpechalba-v-ikonomicheskiya-zoopark-nyama-Tova-e-durzhaven-reket-3035214",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Лекар: Вирусът е като прашинка, бактерията – като грахово зърно",
+      "desc": "Лекарят Аспарух Илиев обясни разликата между вирус (Ковид, грип) и бактерия (коклюш, чума, колибактерии) чрез публикация във Фейсбук. Какво е ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Lekar-Virusut-e-kato-prashinka-bakteriyata-kato-grahovo-zurno-3035213",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Юлиян Петров: Не са много капките, които могат да прелеят чашата на недоволството",
+      "desc": "Исканията на протестиращите гимназисти във Франция се релавантни с проблемите, които съществуват и в българската образователна система. Това заяви в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Yuliyan-Petrov-Ne-sa-mnogo-kapkite-koito-mogat-da-preleyat-chashata-na-nedovolstvoto-3035201",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Евелина Милтенова: 50% от хората, кандидатствали до момента, са се насочили към динамичния подфонд за втората си пенсия",
+      "desc": "Парите във втория пенсионен стълб са лична собственост на осигурените лица, инвестират се и могат да нарастват с доходността от тези ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Evelina-Miltenova-50-ot-horata-kandidatstvali-do-momenta-sa-se-nasochili-kum-dinamichniya-podfond-za-vtorata-si-pensiya-3035197",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Големият пожар в Източните Родопи премина в Гърция",
+      "desc": "Големият пожар в Източните Родопи засегна около 3000 декара гори, храсти и тревна растителност в землището на село Горно Луково. Това община ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Golemiyat-pozhar-v-Iztochnite-Rodopi-premina-v-Gurciya-3035180",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "127 български фирми ще получат близо 62 млн. евро",
+      "desc": "Общо 127 български компании ще получат близо 62 млн. евро за разработване и валидиране на иновативни решения за зелена и цифрова трансформация. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/127-bulgarski-firmi-shte-poluchat-blizo-62-mln-evro-3035178",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Циклон удря Балканите, може да засегне и България",
+      "desc": "Според последните прогнози на европейския модел се очертава развитие на циклон на Балканите около 11–12 октомври, която потенциално може да окаже ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ciklon-udrya-Balkanite-mozhe-da-zasegne-i-Bulgariya-3035175",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Почина рокаджията Ицо Петрофф",
+      "desc": "Отиде си известният български музикант Ицо Петрофф. Той си отиде на 74-годишна възраст. Новината беше съобщена в неговия личен профил във Facebook. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Pochina-rokadzhiyata-Ico-Petroff-3035172",
+      "date": "2026-10-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Пореден триумф на български ученици: Донесоха пет медала от на олимпиадата по астрономия във Виетнам",
@@ -210,112 +336,76 @@
       "topic": "социални"
     },
     {
-      "title": "Докато чакал помилване от Йотова, \"болният\" наркотрафикант се бие в затворническата болница",
-      "desc": "Видеозапис, разпространен в социалните мрежи, показва мъж, за когото се твърди, че е наркотрафикантът, помилван от Илияна Йотова - в отлична ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Dokato-chakal-pomilvane-ot-Iotova-bolniyat-narkotrafikant-se-bie-v-zatvornicheskata-bolnica-3034991",
+      "title": "Пандов: ВСС може да промени тъжното състояние на съдебната система",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/432637-pandov-vss-mozhe-da-promeni-tazhnoto-sastoyanie-na-sadebnata-sistema",
       "date": "2026-10-05",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
-      "topic": "социални"
+      "topic": "общи"
     },
     {
-      "title": "Корнелия Нинова: Средната класа ще бъде жестоко пометена",
-      "desc": "Убиват малките и средни фирми. В това правителство няма нито един мислещ, икономически грамотен и хуманен човек. Нито един. Ден след ден ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Srednata-klasa-shte-bude-zhestoko-pometena-3034984",
+      "title": "Данъкът върху свръхпечалбата може да оскъпи кредитите, предупреди икономист",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/432636-danakat-varhu-svrahpechalbata-mozhe-da-oskapi-kreditite-predupredi-ikonomist",
       "date": "2026-10-05",
-      "source": "Focus News",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пламен Димитров: Хората обедняват и може да излязат на протест",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/432631-plamen-dimitrov-horata-obednyavat-i-mozhe-da-izlyazat-na-protest",
+      "date": "2026-10-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Циклон идва към Балканите: Дъжд и застудяване в България след 11 октомври",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/432629-tsiklon-idva-kam-balkanite-dazhd-i-zastudyavane-v-balgariya-sled-11-oktomvri",
+      "date": "2026-10-05",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Цената на несигурността за бизнеса: Кой поема риска от скъпия ток тази зима?",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/432624-tsenata-na-nesigurnostta-za-biznesa-koy-poema-riska-ot-skapiya-tok-tazi-zima",
+      "date": "2026-10-05",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "бизнес"
     },
     {
-      "title": "Вреден ли е рентгенът за деца и възрастни?",
-      "desc": "\"Рентгенът вреден ли е?“ Това е един от най-честите въпроси, които пациентите задават, когато лекарят им назначи рентгеново изследване. Особено ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vreden-li-e-rentgenut-za-deca-i-vuzrastni-3034970",
+      "title": "Доц. Кунчев разясни за пика на грипа, ваксините и чумата в Русия",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/432623-dots-kunchev-razyasni-za-pika-na-gripa-vaksinite-i-chumata-v-rusiya",
       "date": "2026-10-05",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Върнаха 23 кученца на границата със Сърбия заради липса на чипове и документи",
-      "desc": "Българската агенция по безопасност на храните (БАБХ) не допусна на територията на страната 23 кучета, влизащи от Република Сърбия през ГКПП ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vurnaha-23-kuchenca-na-granicata-sus-Surbiya-zaradi-lipsa-na-chipove-i-dokumenti-3034964",
+      "title": "МОН пусна безплатна платформа с готови уроци и проекти за учениците",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/432622-mon-pusna-bezplatna-platforma-s-gotovi-urotsi-i-proekti-za-uchenitsite",
       "date": "2026-10-05",
-      "source": "Focus News",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "\"Мяра\" за изборите: 46,9% одобрение за Йотова и Вълчев, 25,3% за Гюров и Кандев",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/432619-myara-za-izborite-469-odobrenie-za-yotova-i-valchev-253-za-gyurov-i-kandev",
+      "date": "2026-10-05",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
-    },
-    {
-      "title": "Рекордно количество оръжия задържаха митническите служители през 2026 г.",
-      "desc": "Рязък ръст на задържаните огнестрелни оръжия отчита Агенция \"Митници“ през 2026 г. За първите девет месеца са спрени 479 оръжия при опити за ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Rekordno-kolichestvo-oruzhiya-zadurzhaha-mitnicheskite-sluzhiteli-prez-2026-g-3034949",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Визата за дългосрочно пребиваване може да поскъпне: МВнР с мерки срещу миграционния натиск",
-      "desc": "МВнР предлага таксата за виза за дългосрочно пребиваване в България да бъде увеличена с 20% - от 100 на 120 евро. Това предвижда проект на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vizata-za-dulgosrochno-prebivavane-mozhe-da-poskupne-MVnR-s-merki-sreshtu-migracionniya-natisk-3034937",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Без валидна лична карта? Ето как ще можете да гласувате на 25 октомври",
-      "desc": "Гражданите без валиден документ за самоличност ще могат да получат удостоверение, с което да гласуват на президентските избори на 25 октомври. Това ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bez-validna-lichna-karta-Eto-kak-shte-mozhete-da-glasuvate-na-25-oktomvri-3034918",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Иван Шишков: Участъкът Мездра-Ботевград ще бъде завършен в рамките на една година",
-      "desc": "Участъкът Мездра-Ботевград ще бъде завършен в рамките на една година. Министерството на регионалното развитие работи активно по строителството и вече ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ivan-Shishkov-Uchastukut-Mezdra-Botevgrad-shte-bude-zavurshen-v-ramkite-na-edna-godina-3034902",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Сигнали за бомбени заплахи и евакуации в цялата страна, полицията е на крак",
-      "desc": "Множество сигнали за бомбени заплахи в институции в цялата страна са подадени около 9:30 ч. тази сутрин, потвърдиха от МВР за ФОКУС. Служителите са ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Signali-za-bombeni-zaplahi-i-evakuacii-v-cyalata-strana-policiyata-e-na-krak-3034891",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Овощари чакат близо пет месеца за забавено подпомагане, БКПЗ настоява за незабавно плащане",
-      "desc": "Националната браншова камара \"Плодове и зеленчуци“ (БКПЗ) настоява за незабавно изплащане на забавеното подпомагане за Кампания 2025 на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ovoshtari-chakat-blizo-pet-meseca-za-zabaveno-podpomagane-BKPZ-nastoyava-za-nezabavno-plashtane-3034855",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Д-р Венцислав Везенков: Антибиотиците нямат противовирусна активност, спокойствието е първото лекарство",
-      "desc": "С началото на есента идва и грипният сезон, а тази година за първи път у нас държавата осигурява безплатна противогрипна имунизация за деца от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/D-r-Vencislav-Vezenkov-Antibioticite-nyamat-protivovirusna-aktivnost-spokoistvieto-e-purvoto-lekarstvo-3034851",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Румен Радев: България заема високо място на световната карта на изкуствения интелект",
-      "desc": "Талантливите български деца вече могат да останат в България и да получат развитие на световно ниво, съпоставимо или дори над това, което биха ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-Bulgariya-zaema-visoko-myasto-na-svetovnata-karta-na-izkustveniya-intelekt-3034849",
-      "date": "2026-10-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "култура"
     },
     {
       "title": "Йотова: Риск от мигрантски вълни от Африка, ако спрат търговските кораби през Черно море",
@@ -330,78 +420,6 @@
       "title": "БАБХ започва извънреден контрол върху продажбата на картофи в търговските вериги",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/432611-babh-zapochva-izvanreden-kontrol-varhu-prodazhbata-na-kartofi-v-targovskite-verigi",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кандев: Държавата е изгубила контрол върху разпространението на наркотици",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/432610-kandev-darzhavata-e-izgubila-kontrol-varhu-razprostranenieto-na-narkotitsi",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Пътна полиция\" затяга контрола в населените места, следи за телефони и колани",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432609-patna-politsiya-zatyaga-kontrola-v-naselenite-mesta-sledi-za-telefoni-i-kolani",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Подозират местни ловци за големия пожар край Ивайловград",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432608-podozirat-mestni-lovtsi-za-golemiya-pozhar-kray-ivaylovgrad",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Голям пожар край Ямбол: Над 100 декара гора и храсти горят на Бакаджика",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432602-golyam-pozhar-kray-yambol-nad-100-dekara-gora-i-hrasti-goryat-na-bakadzhika",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шишков: Търсим европейски средства за пътя от Монтана до Враца",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432594-shishkov-tarsim-evropeyski-sredstva-za-patya-ot-montana-do-vratsa",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Футболист почина по време на мач в Чипровци",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432590-futbolist-pochina-po-vreme-na-mach-v-chiprovtsi",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ваксините ги няма: Забавя се назалната имунизация на децата (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432583-vaksinite-gi-nyama-zabavya-se-nazalnata-imunizatsiya-na-detsata-video",
-      "date": "2026-10-05",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "С молебен и нов почетен гражданин, Стара Загора чества своя празник (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/432582-s-moleben-i-nov-pocheten-grazhdanin-stara-zagora-chestva-svoya-praznik-video",
       "date": "2026-10-05",
       "source": "BG ON AIR",
       "lang": "bg",
