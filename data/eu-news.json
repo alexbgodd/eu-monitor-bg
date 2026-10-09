@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09 13:20",
+  "updated": "2026-10-09 16:25",
   "count": 59,
   "items": [
     {
@@ -10,6 +10,69 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "МОН реши: 26 октомври ще е неучебен ден за всички ученици",
+      "desc": "Учениците няма да имат учебни часове на 26 октомври, понеделник, но ще могат да посещават училище. Това съобщиха от пресцентъра на Министерството на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MON-reshi-26-oktomvri-shte-e-neucheben-den-za-vsichki-uchenici-3037295",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "МОСВ: Няма замърсяване на морската вода след атаката срещу кораби в Черно море",
+      "desc": "Пробите от три точки не показват наличие на нефтопродукти. Това съобщиха от МОСВ относно извънредните проверки на морската вода след атаката с ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MOSV-Nyamazamursyavane-na-morskata-voda-sled-atakata-sreshtu-korabi-v-Cherno-more-3037290",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "МФ към ГЕРБ: Твърденията за манипулирани документи в АПИ са политически интриги",
+      "desc": "Министерството на финансите отхвърли твърденията на ГЕРБ за манипулации с документи и сертификати в Агенция \"Пътна инфраструктура\" (АПИ), ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MF-kum-GERB-Tvurdeniyata-za-manipulirani-dokumenti-v-API-sa-politicheski-intrigi-3037271",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Николина Ангелкова стана посланик на Световния съвет за пътувания и туризъм",
+      "desc": "Николина Ангелкова бе избрана за посланик на Световния съвет за пътувания и туризъм (WTTC) за Източна Европа. Отличието бе обявено по време на 26-ата ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Nikolina-Angelkova-stana-poslanik-na-Svetovniya-suvet-za-putuvaniya-i-turizum-3037270",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Мамят възрастни хора в държавен санаториум: КЗП и МЗ с общи мерки",
+      "desc": "С министъра на здравеопазването предприемаме общи действия срещу измами от фирма спрямо пациенти в държавен санаториум. Това съобщи председателят на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Mamyat-vuzrastni-hora-v-durzhaven-sanatorium-KZP-i-MZ-s-obshti-merki-3037263",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Радев за срещата с Буданов: Крайно време е да се даде път на пълния потенциал на дипломацията",
+      "desc": "Ясно е, че усилията за възстановяване на мира в Украйна заслужават нашата подкрепа и прекратяването на военните действия е от изключителен интерес не ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Radev-za-sreshtata-s-Budanov-Kraino-vreme-e-da-se-dade-put-na-pulniya-potencial-nadiplomaciyata-3037253",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Следваща спирка: Грижа\": Кампания за бездомните животни обхваща над 140 общини",
+      "desc": "Организацията за защита на животните \"Четири лапи“ и Националната компания \"Железопътна инфраструктура“ започват съвместна национална ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Sledvashta-spirka-Grizha-Kampaniya-za-bezdomnite-zhivotni-obhvashta-nad-140-obshtini-3037245",
+      "date": "2026-10-09",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
     },
     {
       "title": "Гълъб Донев участва в заседанията на Еврогрупата и на ЕКОФИН в Люксембург",
@@ -94,7 +157,7 @@
     },
     {
       "title": "Корнелия Нинова: Не вярвайте и на една дума! Всичко е измама!",
-      "desc": "Лидерът на \"Непокорна България\" Корнелия Нинова отправи поредна остра критика към минстър-председателя Румен Радев. Този път поводът е ...",
+      "desc": "Лидерът на \"Непокорна България\" Корнелия Нинова отправи поредна остра критика към министър-председателя Румен Радев. Този път поводът е ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Ne-vyarvaite-i-na-edna-duma-Vsichko-e-izmama-3037161",
       "date": "2026-10-09",
       "source": "Focus News",
@@ -219,153 +282,90 @@
       "topic": "общи"
     },
     {
-      "title": "Комисарят на ромите в България със сигнал до институциите: Роза е била \"омъжвана\" два пъти, когато е била приблизително на 10–12 години",
-      "desc": "Какво става с принудителните бракове на 10–12-годишни деца? Как е възможно деца, които трябва да бъдат в училище, да бъдат изправени пред брак и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Komisaryat-na-romite-v-Bulgariya-sus-signal-do-instituciite-Roza-e-bila-omuzhvana-dva-puti-kogato-e-bila-priblizitelno-na-1012-godini-3036975",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "Вигенин: Корупцията отнема пари от болници, училища и социални услуги",
-      "desc": "\"Корупцията е реален проблем. Тя подкопава доверието в демокрацията и отклонява средства от болници, училища, инфраструктура и социални услуги. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vigenin-Korupciyata-otnema-pari-ot-bolnici-uchilishta-i-socialni-uslugi-3036973",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Адв. Атанас Костов: Всеки може да защити гласа и образа си от злоупотреби с изкуствен интелект",
-      "desc": "Изкуственият интелект създава все повече възможности за злоупотреба с чужди гласове и изображения. Засегнатите лица обаче могат да потърсят правата ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Adv-Atanas-Kostov-Vseki-mozhe-da-zashtiti-glasa-i-obraza-si-ot-zloupotrebi-s-izkustven-intelekt-3036969",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "\"Мяра\": Все повече българи очакват подкрепа за хората с психични разстройства",
-      "desc": "Нагласите към професионалната помощ остават сравнително устойчиви, но очакванията за реакцията на обществото и отношението към психичните затруднения ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Myara-Vse-poveche-bulgari-ochakvat-podkrepa-za-horata-s-psihichni-razstroistva-3036962",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Теменужка Петкова: Сигнализирахме ЕК за манипулации при одита на АПИ, няма фактури в чекмеджета",
-      "desc": "ГЕРБ-СДС е подал сигнал до Европейската комисия за предполагаеми манипулации с данни и документи при извънредния одит на Агенция \"Пътна ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Temenuzhka-Petkova-Signalizirahme-EK-za-manipulacii-pri-odita-na-API-nyama-fakturi-v-chekmedzheta-3036952",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Откриха реликварий с образа на Богородица от X-XI век на Перперикон",
-      "desc": "Археологическото лято на Перперикон приключва с ценно откритие от епохата на цар Самуил. Дни след завръщането на тленните останки на владетеля в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Otkriha-relikvarii-s-obraza-na-Bogorodica-ot-X-XI-vek-na-Perperikon-3036951",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Осем външни експерти ще проверяват машините за президентските избори",
-      "desc": "Осем външни експерти се включват в работата на екипите в Министерството на иновациите и дигиталната трансформация (МИДТ) по процеса по удостоверяване ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Osem-vunshni-eksperti-shte-proveryavat-mashinite-za-prezidentskite-izbori-3036946",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "ит"
-    },
-    {
-      "title": "Голям пожар пламна в близост до вилната зона на село Изворище",
+      "title": "Тежка катастрофа в Кресненското дефиле, изпратиха медицински хеликоптер",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433071-golyam-pozhar-plamna-v-blizost-do-vilnata-zona-na-selo-izvorishte",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433098-tezhka-katastrofa-v-kresnenskoto-defile-izpratiha-meditsinski-helikopter",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Буданов поискал пълна конфиденциалност за посещението си в София",
+      "title": "Има ли следи от нефт в Черно море след инцидента с двата кораба?",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433064-budanov-poiskal-palna-konfidentsialnost-za-poseshtenieto-si-v-sofiya",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433097-ima-li-sledi-ot-neft-v-cherno-more-sled-intsidenta-s-dvata-koraba",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Военен хеликоптер и фрегата обследваха ударения от дрон кораб \"Ейбъл\" в Черно море",
+      "title": "Опасни препарати с доставка до 24 часа: Първи актове и глоби до 38 000 евро",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433055-voenen-helikopter-i-fregata-obsledvaha-udareniya-ot-dron-korab-eybal-v-cherno-more",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433096-opasni-preparati-s-dostavka-do-24-chasa-parvi-aktove-i-globi-do-38-000-evro",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "НЗОК установи нарушения за над 1 млн. евро при проверки в 21 аптеки",
+      "title": "26 октомври ще е неучебен, но присъствен ден",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433053-nzok-ustanovi-narusheniya-za-nad-1-mln-evro-pri-proverki-v-21-apteki",
-      "date": "2026-10-09",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Демерджиев допусна връзка между бомбените заплахи и полетите на Пеевски",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433049-demerdzhiev-dopusna-vrazka-mezhdu-bombenite-zaplahi-i-poletite-na-peevski",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433095-26-oktomvri-shte-e-neucheben-no-prisastven-den",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "ЦИК показва как се дава вот с машина: \"Научих се и с удоволствие ще гласувам\"",
+      "title": "НАП затвори бар в София за 30 дни, проверяват и стриптийз клуб",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/433048-tsik-pokazva-kak-se-dava-vot-s-mashina-nauchih-se-i-s-udovolstvie-shte-glasuvam",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433093-nap-zatvori-bar-v-sofiya-za-30-dni-proveryavat-i-striptiyz-klub",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Кой и защо е посрещнал Буданов у нас? Политически лидери поискаха обяснения",
+      "title": "Софийският маратон затваря ключови улици и променя градския транспорт през уикенда",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433042-koy-i-zashto-e-posreshtnal-budanov-u-nas-politicheski-lideri-poiskaha-obyasneniya",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433091-sofiyskiyat-maraton-zatvarya-klyuchovi-ulitsi-i-promenya-gradskiya-transport-prez-uikenda",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Трагедията край Плевен: Автомобилът прелетял през разделителната ивица и ударил насрещна кола",
+      "title": "Шест нарушения и 2 години и половина стаж има оцелелият шофьор от трагедията край Плевен",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433039-tragediyata-kray-pleven-avtomobilat-preletyal-prez-razdelitelnata-ivitsa-i-udaril-nasreshtna-kola",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433090-shest-narusheniya-i-2-godini-i-polovina-stazh-ima-otseleliyat-shofyor-ot-tragediyata-kray-pleven",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Костадинов: Поругаването на чужди държавни символи е абсолютно недопустимо",
+      "title": "Буданов в София: Радев иска да се даде \"път на дипломацията\"",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/433037-kostadinov-porugavaneto-na-chuzhdi-darzhavni-simvoli-e-absolyutno-nedopustimo",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433089-budanov-v-sofiya-radev-iska-da-se-dade-pat-na-diplomatsiyata",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Пеевски: Демерджиев нощем вместо да мисли за съпругата си, мисли за мен",
+      "title": "Радев за атаката в Черно море: Чух всякакви хипотези, но няма нито едно доказателство",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433036-peevski-demerdzhiev-noshtem-vmesto-da-misli-za-saprugata-si-misli-za-men",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433087-radev-za-atakata-v-cherno-more-chuh-vsyakakvi-hipotezi-no-nyama-nito-edno-dokazatelstvo",
+      "date": "2026-10-09",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БАБХ откри ново огнище на шарка по овцете и козите в Хасковско",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433085-babh-otkri-novo-ognishte-na-sharka-po-ovtsete-i-kozite-v-haskovsko",
       "date": "2026-10-09",
       "source": "BG ON AIR",
       "lang": "bg",
@@ -408,18 +408,18 @@
       "topic": "eu"
     },
     {
-      "title": "European Court of Auditors: Estimated 3.8% of the EU budget was misspent in 2025 - The Sofia Globe",
-      "desc": "European Court of Auditors: Estimated 3.8% of the EU budget was misspent in 2025 The Sofia Globe",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdzRhTTIyWldYd1llUlJWSTlqeG9XVWxWaFZUeElRUzFnNXpRSzgyUlpzd2R1S0RHeVdSNlNhVlAwV1BCRDJSN0hCUlhNZVA1X2xBSV9ZNnlCQmJBbW13bWFZOERrR0tQa2JoaXpVOGlNaUowamVEOUVkejJwN29YXzAzbm9GQ1hXQ0hsMUFNU2lGNm5FQ3FnTUFseVU4OUZ0amgwY3hIcjladWhCR3NDTlJ5NA?oc=5",
+      "title": "About 100 firms to get €61.5m in EU grants to make defence goods - BurgasMedia",
+      "desc": "About 100 firms to get €61.5m in EU grants to make defence goods BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlp6N1NXeThSUU1lbmRkUGYxRzZtTEstUHFsV3AzR1FRcDRJUm56Y3M4NkNZcFdGbTg2REliVlZtYkEtN1JFSmZvMHREVUU1RnJCWDl5SnU0WHVrMEQzazBjdTdnQXptLXg4aFRvT3BvZjk0Y19YNDg5Mm94NkxlTWs2MXdUN3NqX2wwb2ZqWW1wX1hwa1ZqWjZoWU5fX21rT1JhX0g2YlJlNHFfbXVCNzJnd3VrenVlQmZr0gG7AUFVX3lxTE1SWno3U1d5OFJRTWVuZGRQZjFHNm1MSy1QcWxXcDNHUVFwNElSbnpjczg2Q1lwV0ZtODZESWJWVm1iQS03UkVKZm8wdERVRTVGckJYOXlKdTRYdWswRDNrMGN1N2dBem0teDhoVG9PcG9mOTRjX1g0ODkyb3g2TGVNazYxd1Q3c2pfbDBvZmpZbXBfWHBrVmpaNmhZTl9fbWtPUmFfSDZiUmU0cV9tdUI3Mmd3dWt6dWVCZms?oc=5",
       "date": "2026-10-08",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "About 100 firms to get €61.5m in EU grants to make defence goods - BurgasMedia",
-      "desc": "About 100 firms to get €61.5m in EU grants to make defence goods BurgasMedia",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlp6N1NXeThSUU1lbmRkUGYxRzZtTEstUHFsV3AzR1FRcDRJUm56Y3M4NkNZcFdGbTg2REliVlZtYkEtN1JFSmZvMHREVUU1RnJCWDl5SnU0WHVrMEQzazBjdTdnQXptLXg4aFRvT3BvZjk0Y19YNDg5Mm94NkxlTWs2MXdUN3NqX2wwb2ZqWW1wX1hwa1ZqWjZoWU5fX21rT1JhX0g2YlJlNHFfbXVCNzJnd3VrenVlQmZr0gG7AUFVX3lxTE1SWno3U1d5OFJRTWVuZGRQZjFHNm1MSy1QcWxXcDNHUVFwNElSbnpjczg2Q1lwV0ZtODZESWJWVm1iQS03UkVKZm8wdERVRTVGckJYOXlKdTRYdWswRDNrMGN1N2dBem0teDhoVG9PcG9mOTRjX1g0ODkyb3g2TGVNazYxd1Q3c2pfbDBvZmpZbXBfWHBrVmpaNmhZTl9fbWtPUmFfSDZiUmU0cV9tdUI3Mmd3dWt6dWVCZms?oc=5",
+      "title": "European Court of Auditors: Estimated 3.8% of the EU budget was misspent in 2025 - The Sofia Globe",
+      "desc": "European Court of Auditors: Estimated 3.8% of the EU budget was misspent in 2025 The Sofia Globe",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdzRhTTIyWldYd1llUlJWSTlqeG9XVWxWaFZUeElRUzFnNXpRSzgyUlpzd2R1S0RHeVdSNlNhVlAwV1BCRDJSN0hCUlhNZVA1X2xBSV9ZNnlCQmJBbW13bWFZOERrR0tQa2JoaXpVOGlNaUowamVEOUVkejJwN29YXzAzbm9GQ1hXQ0hsMUFNU2lGNm5FQ3FnTUFseVU4OUZ0amgwY3hIcjladWhCR3NDTlJ5NA?oc=5",
       "date": "2026-10-08",
       "source": "Google News EN",
       "lang": "en",
