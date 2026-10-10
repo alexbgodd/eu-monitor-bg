@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10 12:35",
-  "count": 57,
+  "updated": "2026-10-10 15:30",
+  "count": 58,
   "items": [
     {
       "title": "Türkiye Opens EU-Backed Railway Link to Boost Europe-Central Asia Connectivity - The Astana Times",
@@ -10,6 +10,78 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Нейнски: Да бъдат наречени ударите в Черно море неприемливи е доста странна оценка",
+      "desc": "Неприемлив може да бъде езикът на едно дете към родителите му, но да наречеш удар в изключителната икономическа зона на България, при който два ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Neinski-Da-budat-narecheni-udarite-v-Cherno-more-nepriemlivi-e-dosta-stranna-ocenka-3037692",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Фройд влиза в НВО-то по БЕЛ за 10. клас: Ето какво ще питат учениците",
+      "desc": "Зигмунд Фройд влиза в НВО-то по БЕЛ след 10. клас. Това стана ясно след като просветното ведомство публикува модели за предстоящия изпит. Фройд ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Froid-vliza-v-NVO-to-po-BEL-za-10-klas-Eto-kakvo-shte-pitat-uchenicite-3037690",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Учениците няма да учат на 16 октомври, но денят е присъствен за всички",
+      "desc": "26 октомври (понеделник) ще бъде неучебен, но присъствен ден за всички ученици. Това е разписано в заповед на министъра на образованието и науката ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Uchenicite-nyama-da-uchat-na-16-oktomvri-no-denyat-e-prisustven-za-vsichki-3037675",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "\"Лукойл\": България няма основание да се опасява от недостиг на дизел",
+      "desc": "България разполага с достатъчно гориво за вътрешното си потребление, а евентуалните ограничения върху износа крият рискове за икономиката. Това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Lukoil-Bulgariya-nyama-osnovanie-da-se-opasyava-ot-nedostig-na-dizel-3037667",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Тагарев: Чакат да потъне корабът и не правят обследване, за да не би да излязат допълнителни доказателства, че атаката е от руска страна",
+      "desc": "Няма никакъв проблем България, заедно със съюзниците си от НАТО, да гарантира корабоплаването в Черно море. Това заяви бившият военен министър ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Tagarev-Chakat-da-potune-korabut-i-ne-pravyat-obsledvane-za-da-ne-bi-da-izlyazat-dopulnitelni-dokazatelstva-che-atakata-e-ot-ruska-strana-3037644",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Корнелия Нинова: Някой знае ли къде е България, какво иска, с кого преговаря?",
+      "desc": "В Европа тече ключов дебат за съдбата ни до 2034 година. Това коментира лидерът на \"Непокорна България\" Корнелия Нинова. ФОКУС публикува ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Nyakoi-znae-li-kude-e-Bulgariya-kakvo-iska-s-kogo-pregovarya-3037625",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Диян Стаматов предлага голяма промяна: Неучебните, но присъствени дни трябва да бъдат прекратени",
+      "desc": "Практиката на \"неучебните, но присъствени дни“ трябва да бъде прекратена в обществените училища. За пише във Фейсбук Диян Стаматов, който ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Diyan-Stamatov-predlaga-golyama-promyana-Neuchebnite-no-prisustveni-dni-tryabva-da-budat-prekrateni-3037615",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Лятна жега през есента: До 32 градуса отчетоха днес термометрите",
+      "desc": "Необичайно високи температури за 10 октомври са измерени днес. Живакът е преминал 30 градуса. Термометрите в Русе са показали 32 градуса, а в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Lyatna-zhega-prez-esenta-Do-32-gradusa-otchetoha-dnes-termometrite-3037609",
+      "date": "2026-10-10",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "След 3 години забавяне: Започна основният ремонт на Дюлинския проход",
@@ -138,6 +210,33 @@
       "topic": "общи"
     },
     {
+      "title": "Двама души загинаха при челен сблъсък на пътя Бургас – Айтос",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433166-dvama-dushi-zaginaha-pri-chelen-sblasak-na-patya-burgas-aytos",
+      "date": "2026-10-10",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Пулев: Подкрепяме най-уязвимите групи и осигуряваме ликвидност за индустрията",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433165-pulev-podkrepyame-nay-uyazvimite-grupi-i-osiguryavame-likvidnost-za-industriyata",
+      "date": "2026-10-10",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Проф. Кантарджиев: Забавянето на противогрипните ваксини ще затрудни здравната система",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433154-prof-kantardzhiev-zabavyaneto-na-protivogripnite-vaksini-shte-zatrudni-zdravnata-sistema",
+      "date": "2026-10-10",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
       "title": "Йотова: Стига с политиката, че пазарът ще реши всичко, трябва да спасим българските села",
       "desc": "",
       "url": "https://www.bgonair.bg/a/227-izbori-2026/433153-yotova-stiga-s-politikata-che-pazarat-shte-reshi-vsichko-tryabva-da-spasim-balgarskite-sela",
@@ -201,33 +300,6 @@
       "topic": "социални"
     },
     {
-      "title": "\"Искаме истина, не оправдания\": Четири бели кръста в памет на загиналите край Плевен",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433128-iskame-istina-ne-opravdaniya-chetiri-beli-krasta-v-pamet-na-zaginalite-kray-pleven",
-      "date": "2026-10-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Борисов скочи срещу Радев: Докато другите пазят горивата си, ние ги изнасяме",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433126-borisov-skochi-sreshtu-radev-dokato-drugite-pazyat-gorivata-si-nie-gi-iznasyame",
-      "date": "2026-10-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Маратон София 2026\" затваря ключови булеварди: Пълният списък с ограниченията",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433124-maraton-sofiya-2026-zatvarya-klyuchovi-bulevardi-palniyat-spisak-s-ogranicheniyata",
-      "date": "2026-10-10",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "EU-funded railway project opens, linking Istanbul to Bulgaria in major push - The Brussels Times",
       "desc": "EU-funded railway project opens, linking Istanbul to Bulgaria in major push The Brussels Times",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMFk4NEEwSFMyY25aUENmTkFyMElmTndmdzcwYnBscTJra2NLVVNERzdGcVNucGdDZzdyOGRDYjY3OXdKblowSENWWXNZRnhxSmc1LVdUU1lKVTMtQnIzUlZ0ZTVJcWdySy10OU93Qi1HczZrWXN2MzNwbEV2T0dKbXBlZDREQjk5eEhjUUVvNXkzd0ZDWjljcjZfZmk3R19hNkVqSGpqNTlwYVBBcW9kQzRKRXZOR3EtVTFqYjk4bXM?oc=5",
@@ -237,18 +309,18 @@
       "topic": "eu"
     },
     {
-      "title": "Insurance broker premiums are €744m, up 10% year-on-year - BurgasMedia",
-      "desc": "Insurance broker premiums are €744m, up 10% year-on-year BurgasMedia",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS1JZZ1lHcXRyOGV4aURLM1djUkdOaW1NclZTb2FYajMzZXFaRG0ySWdqclEyY1NoOFVXVXlvdFZPVXJOZXJDa3hCaUx6a2RkY0RjT0dkcU5wc3lDaWlrOGNxT2JfYnRFOWJISmpWRmxFVmlxc0ZRQWtoempmNmwxSDF2eEFDY3dHTHJZMnFhUnZJalJvZS1VNGZ1RHFHTXVobzdpU2JFclR6ZDFIT1k0NXNjcVRiZ2ZK0gG4AUFVX3lxTFBLUllnWUdxdHI4ZXhpREszV2NSR05pbU1yVlNvYVhqMzNlcVpEbTJJZ2pyUTJjU2g4VVdVeW90Vk9Vck5lckNreEJpTHprZGRjRGNPR2RxTnBzeUNpaWs4Y3FPYl9idEU5YkhKalZGbEVWaXFzRlFBa2h6amY2bDFIMXZ4QUNjd0dMclkycWFSdklqUm9lLVU0ZnVEcUdNdWhvN2lTYkVyVHpkMUhPWTQ1c2NxVGJnZko?oc=5",
+      "title": "Open Call for New Ventures in Creative Tech Spark Incubation - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Open Call for New Ventures in Creative Tech Spark Incubation fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFdScTN0NFc0QjhHdTVQMG44TFYxSC1XVmJUWnFaMXdxWDZ3Sk9Pam5XdU82dEtkRmVHSDVucnZEbWd4SGtva25ra1NQWGlzWGtBUFZmRGxtbzJ5TGpRM1BWdnVuVHBhNG1aamZuSTRVZWMya0o0Vnd2Y19BT0YxUUJ1Nmx5NnZVNzcxWldUWEJVb09mMExIdWtsV01VcFk0aS1VVDVnakQtQdIBqgFBVV95cUxQOFdScTN0NFc0QjhHdTVQMG44TFYxSC1XVmJUWnFaMXdxWDZ3Sk9Pam5XdU82dEtkRmVHSDVucnZEbWd4SGtva25ra1NQWGlzWGtBUFZmRGxtbzJ5TGpRM1BWdnVuVHBhNG1aamZuSTRVZWMya0o0Vnd2Y19BT0YxUUJ1Nmx5NnZVNzcxWldUWEJVb09mMExIdWtsV01VcFk0aS1VVDVnakQtQQ?oc=5",
       "date": "2026-10-09",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Open Call for New Ventures in Creative Tech Spark Incubation - fundsforNGOs - Grants and Resources for Sustainability",
-      "desc": "Open Call for New Ventures in Creative Tech Spark Incubation fundsforNGOs - Grants and Resources for Sustainability",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOFdScTN0NFc0QjhHdTVQMG44TFYxSC1XVmJUWnFaMXdxWDZ3Sk9Pam5XdU82dEtkRmVHSDVucnZEbWd4SGtva25ra1NQWGlzWGtBUFZmRGxtbzJ5TGpRM1BWdnVuVHBhNG1aamZuSTRVZWMya0o0Vnd2Y19BT0YxUUJ1Nmx5NnZVNzcxWldUWEJVb09mMExIdWtsV01VcFk0aS1VVDVnakQtQdIBqgFBVV95cUxQOFdScTN0NFc0QjhHdTVQMG44TFYxSC1XVmJUWnFaMXdxWDZ3Sk9Pam5XdU82dEtkRmVHSDVucnZEbWd4SGtva25ra1NQWGlzWGtBUFZmRGxtbzJ5TGpRM1BWdnVuVHBhNG1aamZuSTRVZWMya0o0Vnd2Y19BT0YxUUJ1Nmx5NnZVNzcxWldUWEJVb09mMExIdWtsV01VcFk0aS1VVDVnakQtQQ?oc=5",
+      "title": "Insurance broker premiums are €744m, up 10% year-on-year - BurgasMedia",
+      "desc": "Insurance broker premiums are €744m, up 10% year-on-year BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS1JZZ1lHcXRyOGV4aURLM1djUkdOaW1NclZTb2FYajMzZXFaRG0ySWdqclEyY1NoOFVXVXlvdFZPVXJOZXJDa3hCaUx6a2RkY0RjT0dkcU5wc3lDaWlrOGNxT2JfYnRFOWJISmpWRmxFVmlxc0ZRQWtoempmNmwxSDF2eEFDY3dHTHJZMnFhUnZJalJvZS1VNGZ1RHFHTXVobzdpU2JFclR6ZDFIT1k0NXNjcVRiZ2ZK0gG4AUFVX3lxTFBLUllnWUdxdHI4ZXhpREszV2NSR05pbU1yVlNvYVhqMzNlcVpEbTJJZ2pyUTJjU2g4VVdVeW90Vk9Vck5lckNreEJpTHprZGRjRGNPR2RxTnBzeUNpaWs4Y3FPYl9idEU5YkhKalZGbEVWaXFzRlFBa2h6amY2bDFIMXZ4QUNjd0dMclkycWFSdklqUm9lLVU0ZnVEcUdNdWhvN2lTYkVyVHpkMUhPWTQ1c2NxVGJnZko?oc=5",
       "date": "2026-10-09",
       "source": "Google News EN",
       "lang": "en",
@@ -327,78 +399,6 @@
       "topic": "туризъм"
     },
     {
-      "title": "Мамят възрастни хора в държавен санаториум: КЗП и МЗ с общи мерки",
-      "desc": "С министъра на здравеопазването предприемаме общи действия срещу измами от фирма спрямо пациенти в държавен санаториум. Това съобщи председателят на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Mamyat-vuzrastni-hora-v-durzhaven-sanatorium-KZP-i-MZ-s-obshti-merki-3037263",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Радев за срещата с Буданов: Крайно време е да се даде път на пълния потенциал на дипломацията",
-      "desc": "Ясно е, че усилията за възстановяване на мира в Украйна заслужават нашата подкрепа и прекратяването на военните действия е от изключителен интерес не ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Radev-za-sreshtata-s-Budanov-Kraino-vreme-e-da-se-dade-put-na-pulniya-potencial-nadiplomaciyata-3037253",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Следваща спирка: Грижа\": Кампания за бездомните животни обхваща над 140 общини",
-      "desc": "Организацията за защита на животните \"Четири лапи“ и Националната компания \"Железопътна инфраструктура“ започват съвместна национална ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Sledvashta-spirka-Grizha-Kampaniya-za-bezdomnite-zhivotni-obhvashta-nad-140-obshtini-3037245",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Гълъб Донев участва в заседанията на Еврогрупата и на ЕКОФИН в Люксембург",
-      "desc": "Съветът на Европейския съюз по икономически и финансови въпроси (ЕКОФИН) постигна съгласие по Пакета за пазарна интеграция и надзор, който е ключов ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Gulub-Donev-uchastva-v-zasedaniyata-na-Evrogrupata-i-na-EKOFIN-v-Lyuksemburg-3037214",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "След проверки на ИАЛ: Установени са над 30 онлайн платформи за продажба на незаконни лекарства",
-      "desc": "До момента от Изпълнителна агенция по лекарствата (ИАЛ) са извършени близо 70 проверки, като са установени над 30 онлайн платформи, чрез които се ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Sled-proverki-na-IAL-Ustanoveni-sa-nad-30-onlain-platformi-za-prodazhba-na-nezakonni-lekarstva-3037212",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Защо две държави забраниха използването на българската БЦЖ ваксина срещу морбили?",
-      "desc": "БЦЖ ваксината е най-добрият и конвертируем български продукт за всички времена. Това е продуктът, който изнасяме от десетилетия, който за първи път е ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zashto-dve-durzhavi-zabraniha-izpolzvaneto-na-bulgarskata-BCZh-vaksina-sreshtu-morbili-3037198",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Къщата гори, преди да се е видял дим\": Проданов отговори на обвиненията на ГЕРБ",
-      "desc": "Нека да изчакаме официалните резултати от одита, който сме възложили на Сметната палата. Той трябва да приключи и резултатите да бъдат представени до ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kushtata-gori-predi-da-se-e-vidyal-dim-Prodanov-otgovori-na-obvineniyata-na-GERB-3037192",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Военният министър от Варна: Не можем да кажем какъв е бил дронът, не намерихме останки от него",
-      "desc": "Направен е оглед на кораба ABLE, който се носи по течението на около 55 морски мили североизточно от нос Емине. \"Не намерихме остатъци от дрон. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Voenniyat-ministur-ot-Varna-Ne-mozhem-da-kazhem-kakuv-e-bil-dronut-ne-namerihme-ostanki-ot-nego-3037190",
-      "date": "2026-10-09",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "туризъм"
-    },
-    {
       "title": "Данък \"свръхпечалба\" ще свие потенциала на банките да покрепят икономиката",
       "desc": "Намаляването на банковия капитал чрез допълнително фискално облагане ще постави под знак въпросителна капацитета на сектора да финансира публично-частни партньорства, предупреждава Борислав Бангеев, изпълнителен директор на УниКредит Булбанк, в предаването \"Бизнес старт\" с водещ Христо Николов. План",
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/165256-danak-svrahpechalba-shte-svie-potentsiala-na-bankite-da-pokrepyat-ikonomikata",
@@ -413,6 +413,15 @@
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/165249-unikredit-bulbank-shte-ima-ohlazhdane-pri-zhilishtnoto-stroitelstvo",
       "date": "2026-10-09",
       "source": "Bloomberg TV BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Новата КПК остана без сграда, финансиране и достатъчно служители - News24sofia.eu",
+      "desc": "Новата КПК остана без сграда, финансиране и достатъчно служители News24sofia.eu",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNU9LMm1wSVl5Um00UnljQ09MMS05MzhsSjFEVjdiaHVJdUpjdDVaeDM5UGwwQjlKRTkxQndHVnVsajZVQXBvcm85dnllSUZPaDRDbU5vcV9xUjM0OHllSVl6SHVjdnJCT3lRVDhoMnJna0g1a1kwZ0dYMThVcEp6M19FTll4dE50SmhEVmNqYm0?oc=5",
+      "date": "2026-10-08",
+      "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
