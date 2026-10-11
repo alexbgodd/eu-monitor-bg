@@ -1,5 +1,96 @@
 [
   {
+    "id": "https://www.mig.government.bg/category/inovaczii-i-rastezh/",
+    "title": "ИНОВАЦИИ И РАСТЕЖ",
+    "source": "Министерство на иновациите и растежа",
+    "category": "бизнес",
+    "url": "https://www.mig.government.bg/category/inovaczii-i-rastezh/",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:51"
+  },
+  {
+    "id": "https://www.eufunds.bg/bg/indicative-annual-work-programmes",
+    "title": "Индикативни годишни работни програми",
+    "source": "Еврофондове.бг",
+    "category": "общи",
+    "url": "https://www.eufunds.bg/bg/indicative-annual-work-programmes",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "https://eumis2020.government.bg/bg/s/Procedure/Active",
+    "title": "Отворени процедури",
+    "source": "Еврофондове.бг",
+    "category": "общи",
+    "url": "https://eumis2020.government.bg/bg/s/Procedure/Active",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "https://www.eufunds.bg/bg/tender-procedures",
+    "title": "Процедури за избор на изпълнител",
+    "source": "Еврофондове.бг",
+    "category": "общи",
+    "url": "https://www.eufunds.bg/bg/tender-procedures",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "https://www.mrrb.bg/bg/infrastruktura-i-programi/programi-za-teritorialno-sutrudnichestvo-2014-2020/",
+    "title": "Програми за териториално сътрудничество 2014-2020",
+    "source": "Еврофондове.бг",
+    "category": "общи",
+    "url": "https://www.mrrb.bg/bg/infrastruktura-i-programi/programi-za-teritorialno-sutrudnichestvo-2014-2020/",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "https://www.mzh.government.bg/bg/politiki-i-programi/",
+    "title": "Политики и програми",
+    "source": "Министерство на земеделието",
+    "category": "земеделие",
+    "url": "https://www.mzh.government.bg/bg/politiki-i-programi/",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "https://programs.ncf.bg",
+    "title": "Активни програми",
+    "source": "Национален фонд Култура",
+    "category": "култура",
+    "url": "https://programs.ncf.bg",
+    "deadline": "",
+    "type": "fund",
+    "found_at": "2026-10-11 12:52"
+  },
+  {
+    "id": "ocds-e82gsb-612860",
+    "title": "”Доставка на лекарствени продукти, извън ПЛС за нуждите на СБАЛПФЗ СОФИЯ ОБЛАСТ ЕООД”",
+    "source": "ЦАИС ЕОП — Обявления",
+    "category": "здравеопазване",
+    "url": "https://app.eop.bg/today/612860",
+    "deadline": "2026-10-19",
+    "type": "tender",
+    "authority": "СПЕЦИАЛИЗИРАНА БОЛНИЦА ЗА АКТИВНО ЛЕЧЕНИЕ ПО ПНЕВМО-ФТИЗИАТРИЧНИ ЗАБОЛЯВАНИЯ - СОФИЯ ОБЛАСТ ЕООД",
+    "found_at": "2026-10-10",
+    "code": "612860",
+    "value": 11155.24,
+    "currency": "EUR",
+    "cpv": "33600000",
+    "cpv_desc": "Фармацевтични продукти",
+    "nuts": "BG",
+    "procedure": "Ограничена процедура по ДСП",
+    "contract_type": "Доставки",
+    "buyer_id": "000770225",
+    "procurement_no": "04290-2026-0001"
+  },
+  {
     "id": "ocds-e82gsb-565845",
     "title": "Изготвяне на обследване по чл. 176в ЗУТ за установяване на техническите характеристики, свързани с чл. 169, ал. 1 ЗУТ, обследване за ен. еф-ст и архитектурно заснемане на сградите на ОДМВР Силистра",
     "source": "ЦАИС ЕОП — Обявления",
@@ -26322,54 +26413,6 @@
     "contract_type": "Услуги",
     "buyer_id": "2016174760073",
     "procurement_no": "02709-2026-0032"
-  },
-  {
-    "id": "ocds-e82gsb-600747",
-    "title": "ДОСТАВКА НА КАМИОН САМОСВАЛ ДО 3.5 ТОНА",
-    "source": "ЦАИС ЕОП — Обявления",
-    "category": "търгове",
-    "url": "https://app.eop.bg/today/600747",
-    "deadline": "",
-    "type": "tender",
-    "authority": "ОБЩИНА ГАБРОВО",
-    "found_at": "2026-09-10",
-    "code": "600747"
-  },
-  {
-    "id": "ocds-e82gsb-543747",
-    "title": "Изпълнение на СМР на обект „Реконструкция и разширяване на съществуващ пристан за малки плавателни съдове на остров “Света Анастасия\"",
-    "source": "ЦАИС ЕОП — Обявления",
-    "category": "инфраструктура",
-    "url": "https://app.eop.bg/today/543747",
-    "deadline": "",
-    "type": "tender",
-    "authority": "ОБЩИНА БУРГАС",
-    "found_at": "2026-09-10",
-    "code": "543747"
-  },
-  {
-    "id": "ocds-e82gsb-601017",
-    "title": "„Доставка на електрическа лодка с дължина до 9 м, за обезпечаване нуждите на ОП „Общински имоти“, във връзка с дейностите по управление на лодкостоянка „Ченгене Скеле“, рибарско пристанище „Сарафово“ ",
-    "source": "ЦАИС ЕОП — Обявления",
-    "category": "общини",
-    "url": "https://app.eop.bg/today/601017",
-    "deadline": "",
-    "type": "tender",
-    "authority": "ОБЩИНА БУРГАС",
-    "found_at": "2026-09-10",
-    "code": "601017"
-  },
-  {
-    "id": "ocds-e82gsb-603137",
-    "title": "„Организиране на пилотни зелени/бели училища (лагери) – организирани образователни процеси, съчетаващи спорт, дигитални умения и природни науки на открито (5 дни) с участието на ученици от двете стран",
-    "source": "ЦАИС ЕОП — Обявления",
-    "category": "ит",
-    "url": "https://app.eop.bg/today/603137",
-    "deadline": "",
-    "type": "tender",
-    "authority": "ОБЩИНА БЕРКОВИЦА",
-    "found_at": "2026-09-10",
-    "code": "603137"
   },
   {
     "id": "ocds-e82gsb-597282",
