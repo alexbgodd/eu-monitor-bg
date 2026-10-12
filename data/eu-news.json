@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12 15:29",
-  "count": 59,
+  "updated": "2026-10-12 19:12",
+  "count": 60,
   "items": [
     {
       "title": "България влиза в топ 10 на Европа по привлечени технологични инвестиции през септември - Profit.bg",
@@ -24,6 +24,15 @@
       "title": "RFAs: Demonstrating Place-Based Innovation Spaces for Scaling EU Missions - fundsforNGOs - Grants and Resources for Sustainability",
       "desc": "RFAs: Demonstrating Place-Based Innovation Spaces for Scaling EU Missions fundsforNGOs - Grants and Resources for Sustainability",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWXBrclZxU19lMzJOa2t5VGhxSVo0WFNoNVJxSnM1RTF6aWMyYU9lWTdPdUU3b3VEaUVnamhjOHRBNWdsWHNVYXFMMXJxMmxaZmo3V0tvcGlQaFhZTFVHYWFwYkw3ZXBRZy1vbjhuYWV2NW5DQUIzOUZlUl9Sa0h2bWp1Yi1sNHdyenFYNGNrN2lMUE8xY1poajZKZU5VUnJKNjljNE5tNkxfVjczWUpfRllueEZaZTNHbUHSAboBQVVfeXFMTVlwa3JWcVNfZTMyTmtreVRocUlaNFhTaDVScUpzNUUxemljMmFPZVk3T3VFN291RGlFZ2poYzh0QTVnbFhzVWFxTDFycTJsWmZqN1dLb3BpUGhYWUxVR2FhcGJMN2VwUWctb244bmFldjVuQ0FCMzlGZVJfUmtIdm1qdWItbDR3cnpxWDRjazdpTFBPMWNaaGo2SmVOVVJySjY5YzRObTZMX1Y3M1lKX0ZZbnhGWmUzR21B?oc=5",
+      "date": "2026-10-12",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Development bank to manage about €330m to renovate 630 apartment blocks - BurgasMedia",
+      "desc": "Development bank to manage about €330m to renovate 630 apartment blocks BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMzMwQ1Q1c1dXMlR0RVROSFJlWi1yY25adDZrM0ZmRTVJZVQ1dHVubzFFMUZ6WGxuRWdPeWd0S3BUQUt5TndfMVhNdGlzODR6TENCZkVpMzE3T3ViVjdDYUVvVUUzLTlINGFVUUZPYW83RnJhNjQ2dWN2emhfREFpajRadU4wUW13S2ZHZVUwRWlPckEwNmdpRm55TV93cnEtUVZOSG83ckNrd9IBrwFBVV95cUxOSUJFZkNDOUxXc0NnMFlLZTEyUk1rRWN6aU1laXR2ZmdrWGtXa3A2SWkwcGgxeGY3UFQzd1l1MFJrWHN1U3JJZUptNXVtdk5DNXFRV2Q3OF9ra3g0N3JCVlNqWmMycjE2aThrWkkzZmxBTFJ4TTNRbEw5c2pkdzR6UXlMcGtlWjJ2UlU1YmMxcFE3a2hFT2t2eHZTWmN5VjJRclBoeWJkN2pjcm5JTFU0?oc=5",
       "date": "2026-10-12",
       "source": "Google News EN",
       "lang": "en",
@@ -118,6 +127,105 @@
       "source": "European Commission",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Слави Трифонов за надценките на хранителни продукти: Трябва да се ядосаме, това е единственият начин",
+      "desc": "Погледнах в сайта на КЗП и това, което видях, ме шокира. Това, което видях, би шокирало всеки нормален човек. Не се изразявам правилно. Това, което ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Slavi-Trifonov-za-nadcenkite-na-hranitelni-produkti-Tryabva-da-se-yadosame-tova-e-edinstveniyat-nachin-3038755",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Ако нещо ми се случи, искам да даря органите си. Обичам те\": Лекар изпрати емоционално съобщение на дъщеря си",
+      "desc": "За последната година нямаме нито една трансплантация от жив донор, което е ужасно“, каза д-р Александър Симидчиев от \"Демократична България“ ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ako-neshto-mi-se-sluchi-iskam-da-darya-organite-si-Obicham-te-Lekar-izprati-emocionalno-suobshteniena-dushterya-si-3038737",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ивайло Мирчев: Подпалиха 11 антени за връзка със сателитите на Мъск в секретен обект край София",
+      "desc": "В секретен обект около София са подпалени умишлено 11 антени за комуникация със Starlink (комуникационната система на SpaceX). Запалените антени ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ivailo-Mirchev-Podpaliha-11-anteni-za-vruzka-sus-satelitite-na-Musk-v-sekreten-obekt-krai-Sofiya-3038735",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Доц. Кайчев: Казусът с пристигането на Ива Михайлова в България не бива да влошава отношенията между София и Скопие",
+      "desc": "Казусът с пристигането на Ива Михайлова в България не бива да влошава отношенията между София и Скопие. На първо място трябва да бъде здравето ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Doc-Kaichev-Kazusut-s-pristiganeto-na-Iva-Mihailova-v-Bulgariya-ne-biva-da-vloshava-otnosheniyata-mezhdu-Sofiya-i-Skopie-3038728",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Родители на 6-годишно момче искат да има протокол за лечение у нас",
+      "desc": "Семейство на 6-годишно момче с рядкото заболяване – синдром PANDAS – с апел към здравните власти: В България да бъде изготвен протокол за лечение, за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Roditeli-na-6-godishno-momche-iskat-da-ima-protokol-za-lechenie-u-nas-3038726",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Отиде си дългогодишен режисьор в БНТ",
+      "desc": "Почина дългогодишният кинооператор и режисьор в Българската национална телевизия Румен Смилевски. Той посвещава 40 години от професионалния си път на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Otide-si-dulgogodishen-rezhisyor-v-BNT-3038723",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Доц. Щерьо Ножаров: Определянето на МРЗ на горната граница крие средносрочен капан за бюджета",
+      "desc": "Новата формула за определяне на минималната работна заплата дойде на мястото на механизъм, който беше изкривен. Това каза финансовият анализатор и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Doc-Shteryo-Nozharov-Opredelyaneto-na-MRZna-gornata-granica-kriesrednosrochen-kapan-za-byudzheta-3038721",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Андрей Ковачев за РСМ: Не можем да бъдем наричани фашисти, окупатори и т.н. и в същото време да има добосъседство",
+      "desc": "Изненада ме този развой с Ива Михайлова. Ние всички български евродепутати сме се обединили в подкрепа за нея. Това е хуманитарен въпрос, тя има ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Andrei-Kovachev-za-RSM-Ne-mozhem-da-budem-narichani-fashisti-okupatori-i-tn-i-v-sushtoto-vreme-da-ima-dobosusedstvo-3038688",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Румен Радев изпрати писмо до ЕС и НАТО, поиска помощ след атаката срещу двата търговски кораба в Черно море",
+      "desc": "България поиска техническа помощ от ЕС и НАТО за продължаване на разследването на атаката с дронове срещу два търговски кораба в българската ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-izprati-pismo-do-ES-i-NATO-poiska-pomosht-sled-atakata-sreshtudvata-turgovski-koraba-v-Cherno-more-3038683",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Стотици български овощари ще получат подпомагане, забавено с близо 5 месеца",
+      "desc": "Държавен фонд \"Земеделие“ ще изплати до края на утрешния ден, 13 октомври 2026 г., забавеното подпомагане на 400 земеделски производители. Това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Stotici-bulgarski-ovoshtari-shte-poluchat-podpomagane-zabaveno-s-blizo-5-meseca-3038679",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "земеделие"
+    },
+    {
+      "title": "Александър Сиди: Прибирането на Ива Михайлова абсолютно не е случайно, въпрос на сделка е",
+      "desc": "Първо, абсолютно не е случайно и това е въпрос на сделка. Въпросът е какво сме дали ние и какво сме обещали, за да се случи това. Какво сме дали и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Aleksandur-Sidi-Pribiraneto-na-Iva-Mihailovaabsolyutno-ne-e-sluchaino-vupros-na-sdelka-e-3038678",
+      "date": "2026-10-12",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Променят правилата за прием в детските градини след имунизация в чужбина",
@@ -291,189 +399,90 @@
       "topic": "общи"
     },
     {
-      "title": "Как се променят навиците на потребителите при онлайн пазаруване?",
-      "desc": "Онлайн пазаруването се променя не само заради новите технологии, но и заради начина, по който потребителите вземат решения. Очакванията към ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kak-se-promenyat-navicite-na-potrebitelite-pri-onlain-pazaruvane-3038542",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "ит"
-    },
-    {
-      "title": "Министър Вълчев: Образованието е надпартийна кауза",
-      "desc": "Държавата и общините трябва да вървят в една посока, за да се постигат по-добри резултати в образованието. Това каза министър Георги Вълчев по ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Vulchev-Obrazovanieto-e-nadpartiina-kauza-3038540",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "НС заседава извънредно за помилването на \"Пeтричкия Ескобар\"",
-      "desc": "Народното събрание ще заседава извънредно на 13 октомври, вторник, от 9 ч., за да изясни обстоятелствата около помилването на Огнян Атанасов, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/NS-zasedava-izvunredno-za-pomilvaneto-na-Petrichkiya-Eskobar-3038539",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Станчо Шукеров: Автосалонът в Париж изживява ренесанс с електрически автомобили и ретро носталгия",
-      "desc": "Логично е да започнем с това, което прави впечатление в изложението, а именно най-вече електрически автомобили и една носталгия, ретронамигване в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Stancho-Shukerov-Avtosalonut-v-Parizh-izzhivyava-renesans-s-elektricheski-avtomobili-i-retro-nostalgiya-3038537",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Представиха новия механизъм за определяне и оценка на минималната заплата",
-      "desc": "Националният съвет за тристранно сътрудничество (НСТС) обсъди проекта за промени в Наредбата за структурата и организацията на работната заплата, с ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Predstaviha-noviya-mehanizum-za-opredelyane-i-ocenka-na-minimalnata-zaplata-3038522",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Социолог: Очакват се под 2,5 млн. души да гласуват на президентските избори",
-      "desc": "Очакваната избирателна активност на президентските избори на 25 октомври ще бъде под 2,5 млн. души, а кампанията засега не успява да привлече ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Sociolog-Ochakvat-se-pod-2-5-mln-dushi-da-glasuvat-na-prezidentskite-izbori-3038521",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ивайло Иванов: Руската стратегия в Черно море цели икономическо задушаване и натиск над НАТО и ЕС",
-      "desc": "Нападението от 6 октомври срещу двата търговски кораба в изключителната икономическа зона на България не е случайност, а целенасочена и планирана ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ivailo-Ivanov-Ruskata-strategiya-v-Cherno-more-celi-ikonomichesko-zadushavane-i-natisk-nad-NATO-i-ES-3038519",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Безсъние, тревожност и напрежение: Какви прегледи и лекарства покрива НЗОК при психични проблеми?",
-      "desc": "Никога не сте имали проблеми със съня, а изведнъж започвате да се будите по няколко пъти през нощта или трудно заспивате. Кога това състояние се ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bezsunie-trevozhnost-i-naprezhenie-Kakvi-pregledi-i-lekarstva-pokriva-NZOK-pri-psihichni-problemi-3038518",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Омбудсманът събира експерти заради рисковете от изкуствения интелект",
-      "desc": "Омбудсманът Велислава Делчева организира международната конференция \"Въздействието на изкуствения интелект върху основните права и ролята на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ombudsmanut-subira-eksperti-zaradi-riskovete-ot-izkustveniya-intelekt-3038517",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "Корнелия Нинова: Броят на депутатите трябва да се намали до 120 и да им се премахне имунитетът",
-      "desc": "Депутатите се преработиха и пак излизат ваканция - предизборна. Откъде накъде!? Да не са 240 кандидат- президенти? Това коментира лидерът на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Korneliya-Ninova-Broyat-na-deputatite-tryabva-da-se-namali-do-120-ida-im-se-premahne-imunitetut-3038499",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "МВнР: Не сме уведомени предварително за действията на Ива Михайлова",
-      "desc": "МВнР не е било предварително уведомено за действията на Ива Михайлова, семейството и адвоката &#1117;, довели до пристигането &#1117; в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/MVnR-Ne-sme-uvedomeni-predvaritelno-za-deistviyata-na-Iva-Mihailova-3038485",
-      "date": "2026-10-12",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Нов модел на пенсионно осигуряване от 2027 г.: Как ще се управляват парите ни?",
+      "title": "Издирват 34-годишна жена от Шумен, възможно е да е по Южното Черноморие",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433343-nov-model-na-pensionno-osiguryavane-ot-2027-g-kak-shte-se-upravlyavat-parite-ni",
-      "date": "2026-10-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "РСМ обвини България, че подкопава добросъседските отношения заради Ива Михайлова",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433342-rsm-obvini-balgariya-che-podkopava-dobrosasedskite-otnosheniya-zaradi-iva-mihaylova",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433363-izdirvat-34-godishna-zhena-ot-shumen-vazmozhno-e-da-e-po-yuzhnoto-chernomorie",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Синдикатите се разделиха за формулата за минималната заплата",
+      "title": "Справедливост или отмъщение: Трябва ли България да върне смъртната присъда?",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433341-sindikatite-se-razdeliha-za-formulata-za-minimalnata-zaplata",
+      "url": "https://www.bgonair.bg/a/157-direktno/433362-spravedlivost-ili-otmashtenie-tryabva-li-balgariya-da-varne-smartnata-prisada",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Затвориха механа в Бобошево след съмнение за отравяне с храна за погребение",
+      "title": "Защо кметовете нямат свободата сами да определят развитието на общините?",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433340-zatvoriha-mehana-v-boboshevo-sled-samnenie-za-otravyane-s-hrana-za-pogrebenie",
+      "url": "https://www.bgonair.bg/a/157-direktno/433361-zashto-kmetovete-nyamat-svobodata-sami-da-opredelyat-razvitieto-na-obshtinite",
+      "date": "2026-10-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Вълканов за храните: Ако КЗП иска да фиксира надценки и да глобява, това ще падне в съда",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/433359-valkanov-za-hranite-ako-kzp-iska-da-fiksira-nadtsenki-i-da-globyava-tova-shte-padne-v-sada",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Йотова: Работим България да бъде остров на стабилност и развитие",
+      "title": "Радев: ЕС се нуждае от инвестиции в технологиите и сигурността",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/433339-yotova-rabotim-balgariya-da-bade-ostrov-na-stabilnost-i-razvitie",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433358-radev-es-se-nuzhdae-ot-investitsii-v-tehnologiite-i-sigurnostta",
+      "date": "2026-10-12",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Каракачанов за Ива Михайлова: Не вярвам на политиците от Скопие",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/433357-karakachanov-za-iva-mihaylova-ne-vyarvam-na-polititsite-ot-skopie",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "БАБХ започва масови проверки в предприятията за олио в цялата страна",
+      "title": "Илия Лазаров: Охрана за Ива Михайлова, поведението на Скопие е хулиганско",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433336-babh-zapochva-masovi-proverki-v-predpriyatiyata-za-olio-v-tsyalata-strana",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/433356-iliya-lazarov-ohrana-za-iva-mihaylova-povedenieto-na-skopie-e-huligansko",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "КЗП: Надценките на храните стигат над 140%",
+      "title": "Данък \"свръхпечалба\" за банките - много неизвестни и някои рискове, смята Каримански",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433333-kzp-nadtsenkite-na-hranite-stigat-nad-140",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/433355-danak-svrahpechalba-za-bankite-mnogo-neizvestni-i-nyakoi-riskove-smyata-karimanski",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Йотова: Образованието и критичното мислене са ключови в борбата с езика на омразата",
+      "title": "Държавата изгражда поне 6 полигона за обучение на шофьорите",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/227-izbori-2026/433331-yotova-obrazovanieto-i-kritichnoto-mislene-sa-klyuchovi-v-borbata-s-ezika-na-omrazata",
-      "date": "2026-10-12",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "Задушлива миризма и замърсяване: Откриха нарушения в ТЕЦ \"Република\" в Перник",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433328-zadushliva-mirizma-i-zamarsyavane-otkriha-narusheniya-v-tets-republika-v-pernik",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433349-darzhavata-izgrazhda-pone-6-poligona-za-obuchenie-na-shofyorite",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Ваксината срещу грип не действа веднага - кога се изгражда имунитетът",
+      "title": "Радев поиска техническа помощ от ЕС и НАТО за разследване на атаката в Черно море",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433327-vaksinata-sreshtu-grip-ne-deystva-vednaga-koga-se-izgrazhda-imunitetat",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433348-radev-poiska-tehnicheska-pomosht-ot-es-i-nato-za-razsledvane-na-atakata-v-cherno-more",
       "date": "2026-10-12",
       "source": "BG ON AIR",
       "lang": "bg",
