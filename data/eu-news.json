@@ -1,11 +1,245 @@
 {
-  "updated": "2026-10-16 14:06",
-  "count": 59,
+  "updated": "2026-10-17 10:47",
+  "count": 63,
   "items": [
+    {
+      "title": "North Macedonia puts railway to Bulgaria to tender - https://megaproject.com/",
+      "desc": "North Macedonia puts railway to Bulgaria to tender https://megaproject.com/",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd29BNkY4TV9oWi03TFFOeHl2cE5scVZnREhBb2ZKZURHU2tYVHM3MXFwdmpRQ3NmX2NxaU9fSG9FNlFoZ2dub0N1dmtfSnVHRDJpbTRGalZ6em5USzRuT2xQV1dfc0tCY2pZSlRibE9JMEtQWDhFd2xXVlJHSWZlNE0waXZQWEdLLU9YanV1Ry0?oc=5",
+      "date": "2026-10-17",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Петър Ганев и какво ще каже Европа за свръхдефицита – Бюджет 2027 вече е в ръцете на ЕК",
+      "desc": "България представи своя Проект на бюджетен план за 2027 г. пред Европейската комисия и Еврогрупата. Това е документ, който страните в еврозоната ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Petur-Ganev-i-kakvo-shte-kazhe-Evropa-za-svruhdeficita-Byudzhet-2027-veche-e-v-rucete-na-EK-3041259",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Ваня Стефанова: С над 500 присъстващи магистрати стартира изборът за нов временно изпълняващ функциите главен прокурор",
+      "desc": "Общото събрание на прокурорите за избор на членове на Висшия съдебен съвет започна в 11.00 ч. Форумът откри Ваня Стефанова – временно изпълняващ ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vanya-Stefanova-S-nad-500-prisustvashti-magistrati-startira-izborut-za-novvremenno-izpulnyavasht-funkciite-glaven-prokuror-3041247",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Интензивен трафик на два гранични пункта, ограничения предстоят на Дунав мост",
+      "desc": "Трафикът е силно интензивен на граничните контролно-пропускателни пунктове (ГКПП) \"Капитан Андреево“ и \"Лесово“ на изход за товарни ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Intenziven-trafik-na-dva-granichni-punkta-ogranicheniya-predstoyat-na-Dunav-most-3041235",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Шефът на Гранична полиция: Няма данни Ива Михайлова да е преминавала през българо-македонските гранични пунктове",
+      "desc": "Няма данни Ива Михайлова да е преминавала през българо-македонските гранични пунктове. Това заяви директорът на Главна дирекция \"Гранична ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Shefut-na-Granichna-policiya-Nyama-danni-Iva-Mihailova-da-e-preminavala-prez-bulgaro-makedonskite-granichni-punktove-3041226",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кои са най-платежоспособните кандидати за президент на България?",
+      "desc": "Над 378 хил. евро са договорените средства за медийна реклама през първите 20 дни от президентската кампания, показват данните от мониторинга на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Koi-sa-nai-platezhosposobnite-kandidati-za-prezident-na-Bulgariya-3041223",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "От \"Възраждане\" обвиниха МОСВ в лицемерие, а \"Прогресивна България\" в противоречие по темата \"Оползотворяване на отпадъците\"",
+      "desc": "Мнозинството на \"Прогресивна България“ отхвърли предложенията на \"Възраждане“ за засилване на контрола върху дейностите по оползотворяване ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ot-Vuzrazhdane-obviniha-MOSV-v-licemerie-a-Progresivna-Bulgariya-v-protivorechie-po-temata-Opolzotvoryavane-na-otpaducite-3041211",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Лъчезар Богданов и рискът за българската икономика: Потопените кораби в Черно море вече повишават значително застрахователните премии, оскъпяват и превозите",
+      "desc": "Все по-осезаем е рискът българската икономика да бъде откъсната от външните си пазари. Потопените товарни кораби в Черно море през последната седмица ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Luchezar-Bogdanov-i-riskut-za-bulgarskata-ikonomika-Potopenite-korabi-v-Cherno-more-veche-povishavat-znachitelno-zastrahovatelnite-premii-oskupyavat-i-prevozite-3041193",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Военен пилот: Българската армия не може да осигури пълна защита на морската граница",
+      "desc": "Пораженията по моторния кораб \"Челси 3“ в Черно море сочат целенасочена атака, като е възможно плавателният съд да е бил предварително изчакван ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Voenen-pilot-Bulgarskata-armiya-ne-mozhe-da-osiguri-pulna-zashtita-na-morskata-granica-3041183",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "КНСБ поиска среща с Румен Радев: С 25 евро човек не може да направи дори един пазар",
+      "desc": "На този етап тези 5% предизвикват изключително високо социално напрежение. То избива още от началото на тази седмица с протести в отделни градове, в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/KNSB-poiska-sreshta-s-Rumen-Radev-S-25-evro-chovek-ne-mozhe-da-napravi-dori-edin-pazar-3041177",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Икономическият и социален съвет с предложения за Бюджета на ЕС /2028–2034 г./",
+      "desc": "Икономическият и социален съвет (ИСС) настоява за ускоряване на преговорния процес на Многогодишната финансова рамка (МФР) 2028–2034 г. с цел ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ikonomicheskiyat-i-socialen-suvet-s-predlozheniya-za-Byudzheta-na-ES-20282034-g-3041167",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Изтеглиха кораба \"Челси 3\", министър Пеев заяви: Най-вероятно заплахата и атаката е дошла от Русия",
+      "desc": "След сложна спасителна операция при тежки метеорологични условия, поразеният от дрон моторен кораб \"Челси 3“ беше успешно изтеглен до Бургас. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Iztegliha-koraba-Chelsi-3-ministur-Peev-zayavi-Nai-veroyatno-zaplahata-i-atakata-e-doshla-ot-Rusiya-3041119",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Икономисти: Стига ли пенсията в България?",
+      "desc": "От 1 септември до 30 ноември 2026 г. осигурените във втория пенсионен стълб могат да избират между динамичен, балансиран и консервативен подфонд за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ikonomisti-Stiga-li-pensiyata-v-Bulgariya-3041115",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Данъчните облекчения за деца през 2026: Кои родители и по колко ще получат",
+      "desc": "Размерът на облекчението за деца за 2026 г. се определя в зависимост от броя на децата, като за едно ненавършило пълнолетие дете е 3067,75 евро ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Danuchnite-oblekcheniya-za-deca-prez-2026-Koi-roditeli-i-po-kolko-shte-poluchat-3041107",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Минус 10 градуса бяха измерени тази сутрин в България. Утрото започва с мъгли",
+      "desc": "Днес в сутрешните часове на места в котловините и низините ще има мъгла. Облачността ще бъде променлива, по-често значителна. Слаби превалявания от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Minus-10-gradusa-byaha-izmereni-tazi-sutrin-v-Bulgariya-Utroto-zapochva-s-mugli-3041096",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Румен Гълъбинов: Инвестициите у нас трябва да съответстват на националния ни интерес и политиките на ЕС",
+      "desc": "България има нужда от инвестиции и инвеститори. Трябва обаче да подхождаме към всяко предложение особено грижливо и внимателно, като същевременно ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Gulubinov-Investiciite-u-nas-tryabva-da-suotvetstvat-na-nacionalniya-ni-interes-i-politikite-na-ES-3040977",
+      "date": "2026-10-17",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "1570 прокурори ще изслушат 25-ма претенденти за ВСС",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433815-1570-prokurori-shte-izslushat-25-ma-pretendenti-za-vss",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Над 200 тона отпадъци събраха доброволци в София при есенното почистване",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433814-nad-200-tona-otpadatsi-sabraha-dobrovoltsi-v-sofiya-pri-esennoto-pochistvane",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "12 бизнес истории разкриват \"ДНК на успеха\" в новото издание на \"Предприемчивите\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433813-12-biznes-istorii-razkrivat-dnk-na-uspeha-v-novoto-izdanie-na-predpriemchivite",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Зов за помощ: 19-годишният Алекси се бори с агресивен рак в болница в Хюстън",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433812-zov-za-pomosht-19-godishniyat-aleksi-se-bori-s-agresiven-rak-v-bolnitsa-v-hyustan",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Георги Пеев: Вероятно Русия е атакувала кораба \"Chelsea-3\" край Бяла",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433807-georgi-peev-veroyatno-rusiya-e-atakuvala-koraba-chelsea-3-kray-byala",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Терзиев: Държавата дължи близо 20 млн. евро на София",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433804-terziev-darzhavata-dalzhi-blizo-20-mln-evro-na-sofiya",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Корабът \"Chelsea-3\" акостира в Бургас, започват огледи и експертизи",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433794-korabat-chelsea-3-akostira-v-burgas-zapochvat-ogledi-i-ekspertizi",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето днес: Дъжд на места в страната и силен вятър по Черноморието",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433789-vremeto-dnes-dazhd-na-mesta-v-stranata-i-silen-vyatar-po-chernomorieto",
+      "date": "2026-10-17",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Дългът на ЕС расте: Европейската сметна палата предупреждава за нарастващи разходи за финансиране - Epoch Times Bulgaria",
+      "desc": "Дългът на ЕС расте: Европейската сметна палата предупреждава за нарастващи разходи за финансиране Epoch Times Bulgaria",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRW13V0g1MUJENTVVS2Z4cUMteWF6Y3VScXZXZlNIeVA2TWREYjNyamhMTWhQNDNMNjZXM2NsMFJWM0FON2dGamlFdk51ZnRCdU1MSm44MzY3eDA5UWs5ZXRKRGVsdFQ5NllPUUN2RmlRclRmeVlWb2VWZDJFODRUeElOSnJ6ZlM1LWpaSmI5ek5xS045bGdqOU84b2o1NERHd2s1S0ViamVjTHR2WW92bjVPem1EQ0FJN3BQdEdwTQ?oc=5",
+      "date": "2026-10-16",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
     {
       "title": "North Macedonia puts railway to Bulgaria to tender - RailFreight.com",
       "desc": "North Macedonia puts railway to Bulgaria to tender RailFreight.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcU9HN181ZVZieWxFalBMZ2twcXdGdXM3anExX0d4eERoYXA5bGVHWWx1eHU0YWJ1RmZWLXlHdmhXY1RpcWdFRTQ0Z1lNOUlFSmUwYk1vV21lRVluaElUdTJFU1BUMjJaMDh3VWhTOHhoSW5IcDZubEFTdHZ0N05DM2x1LW9INGxiaE9tYjU1ZmdIb05adnlCZVJPOGZkUXFhYmg2SVp2VHM?oc=5",
+      "date": "2026-10-16",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "The budget for the irrigation system modernisation projects is supplemented by a European grant - logos-pres.md",
+      "desc": "The budget for the irrigation system modernisation projects is supplemented by a European grant logos-pres.md",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNekd2Q2Zsc2h5djJZdTdkTlI2bk9VTXBRVmkyRWpNWXhjb2lDcHRnT2I3Z1BRVlJXamJzS3d0TG03VUpNSHcySWNxb2txNlhUWEE0TzFHWUlycHhBNHVvYlZnTWdwYWFPSXFBTGZTZW9OcE9BTU1lU0RiTmVzZmo5WUlsQXNvY1JrWmJWWDMyaXdPTFZkaUZLXy1KdElya3hpZlNPd0JhRXZoTGxCQ0NCNTZGRTE4RzNLOTRwUTZ5SFozU3pm?oc=5",
       "date": "2026-10-16",
       "source": "Google News EN",
       "lang": "en",
@@ -21,22 +255,130 @@
       "topic": "eu"
     },
     {
-      "title": "Sign up for the RailFreight Week - RailFreight.com",
-      "desc": "Sign up for the RailFreight Week RailFreight.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWDBsbDBfd2poYUt4a0hUdzBzMXZpd2FGeFh0ZkhkUVFuRS16WFY3a01HeFplNlZzQkoxZmNRZVc0ODdwR0J2NGF6TWliMjROblYxTlk0eG1nQmYyM21FdTRoM2FucEh2amg5UE95UThFd1kxV21rOEVfOXdtRmJVdjg4RQ?oc=5",
+      "title": "Smaller EU budget means less money for Bulgaria, DB says - BurgasMedia",
+      "desc": "Smaller EU budget means less money for Bulgaria, DB says BurgasMedia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNzZNQ3lLOVQwMkRPTXpidERfVHRNcVRwclBGNFdvcVFqdF82VlBubEFaNFFTeHBQazVPNDhJOFc2M0lSRDQxYjIwMVhycHBiOTVBVmlkYmxsZU9ZbDQxVGQ5azI0ZkVDRV9DclRtQ2lPdzZYemtJVkJ6TjVDR2ZLNzkyR1RwVktTQmlIQ2d0S2pDRjhYdmdYVmhCcDBBNHBnT3hmclVR0gGrAUFVX3lxTE81ZWl2dC1tMzdJbC14bTVCUENIVDA1Xzh6T2Zjcm50bkF0Y1VMbW1WV1VDVGNlc3J5Z05SVHY4bGJSaktuRlQySXBuai1OWVBWRVlCX1pFVkdzdkVvTDBnRERheFQ2dVBzXzBKSHRlRVpBVmV5SGZSTlR4cGJRQk01Z1VPQ0dGSXlnRzlzdjBwUkItQTBaTl9KVFU4WlVzTjFYNHJtVjA2ZXd6TQ?oc=5",
       "date": "2026-10-16",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "ЕС ще притиска още Русия, готви нови санкции",
-      "desc": "Председателят на Еврокомисията анонсира, че ЕС работи върху 22-и пакет от санкции срещу Русия. Преди срещата на президента Володимир Зеленски с европейските лидери в Брюксел Урсула фон дер Лайен заяви, че \"трябва да засилим натиска...",
-      "url": "https://www.dnevnik.bg/burzi-novini/2026/10/16/4967226_es_shte_pritska_oshte_rusiia_gotvi_novi_sankcii/?ref=rss",
+      "title": "Bulgaria participates in a joint purchase of missiles for IRIS-T ᐉ News from Fakti.bg - Bulgaria - Fakti.bg",
+      "desc": "Bulgaria participates in a joint purchase of missiles for IRIS-T ᐉ News from Fakti.bg - Bulgaria Fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeEdUaTVFSDR3bWdJLWNPX3BHVWdpdWhDWWNiNFB1Mkx0TEVVS2oyTjc4aEZHaURvZWpLaDVjQURfSW9RSWVLa2xMN3JudmQwcUtIVkhKTzY0d3VBelZ6TTlDdnkwSUVVdHU4WFdKUXlyVGN4Um5UUEZ6LUJza1dLalRpaHg0ZFNlQWJ2RzMyb0prOV9maXA5d2tISmVIUVNjOGdZ?oc=5",
       "date": "2026-10-16",
-      "source": "Dnevnik.bg",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Important news in FACTS on 10/16/2026 ᐉ News from Fakti.bg - Bulgaria - Fakti.bg",
+      "desc": "Important news in FACTS on 10/16/2026 ᐉ News from Fakti.bg - Bulgaria Fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTEpqd1JUTFpPOS1YQ1djckZwSU0tVjVJaGEydXZURzhJQmYwdEp4XzZfemdfY2VyajJLRExYVF9SNmx3ZzgxU3dsQ1lnN2M1MHB4eU9HaFdSd1FyZWszeXhwcW5LaEcyNFJtcXZvWjNHczRvVTM3LUh2ems0c1k?oc=5",
+      "date": "2026-10-16",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Над 6 часа блокада по АМ \"Хемус\": Тапата остава километрична и след 22:00 часа",
+      "desc": "Над 6 часа продължават сериозните задръствания по автомагистрала \"Хемус\" в посока Варна. Около 22:00 ч. шофьори съобщават в социалните ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Nad-6-chasa-blokada-po-AM-Hemus-Tapata-ostava-kilometrichna-i-sled-22-00-chasa-3041020",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "2 часа и половина за 35 км: Тапата по \"Хемус\" продължава да расте",
+      "desc": "Огромното задръстване по автомагистрала \"Хемус\" продължава и в двете посоки, като ситуацията в посока Варна е по-страшна. За това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/2-chasa-i-polovina-za-35-km-Tapata-po-Hemus-produlzhava-da-raste-3040979",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Даниел Митов: Сигурността на България не може да зависи от надеждата някой в Кремъл да прояви благосклонност",
+      "desc": "Правителството трябва ясно да посочи Русия като източник на нестабилност и заплаха за сигурността в Черно море и активно да задейства механизмите на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Daniel-Mitov-Sigurnostta-na-Bulgariya-ne-mozhe-da-zavisi-ot-nadezhdata-nyakoi-v-Kremul-da-proyavi-blagosklonnost-3040978",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Прокуратурата разследва нападението на кораба \"Челси - 3\" в Черно море",
+      "desc": "Военно-окръжна прокуратура-София образува досъдебно производство във връзка с постъпил сигнал, съдържащ твърдения за извършено престъпление в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prokuraturata-razsledva-napadenieto-nakoraba-Chelsi-3-v-Cherno-more-3040965",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Атанас Пеканов: Дефицитът в края на годината ще бъде значително над 3%",
+      "desc": "България настоява за по-голям бюджет на Европейския съюз и запазване на средствата за регионално развитие. В същото време страната ни се ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Atanas-Pekanov-Deficitut-v-kraya-na-godinata-shte-bude-znachitelno-nad-3-3040959",
+      "date": "2026-10-16",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "eu"
+    },
+    {
+      "title": "Предлагат нови правила за конкурсите и командироването на магистрати",
+      "desc": "Министерството на правосъдието публикува за обществено обсъждане изменения и допълнения в Закона за съдебната власт (ЗСВ), регламентиращи нови ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Predlagat-novi-pravila-za-konkursite-i-komandirovaneto-na-magistrati-3040957",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Огромно задръстване на автомагистрала \"Хемус\"!",
+      "desc": "Голямо задръстване се е образувало на автомагистрала \"Хемус\" в района преди Ботевград, съобщават шофьори в групата \"Пътна обстановка в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ogromno-zadrustvane-na-avtomagistrala-Hemus--3040942",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Скандал в Берлин: Разследват изнасилване на студентка от български клисар",
+      "desc": "Властите в Германия разследват дали млада българка е била изнасилена от дипломат, който междувременно е и клисар Българската православна църковна ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Skandal-v-Berlin-Razsledvat-iznasilvane-na-studentka-ot-bulgarski-klisar-3040936",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Подготовка за изборите: Приключиха проверките на машините за гласуване",
+      "desc": "Приключи удостоверяването на типа технически устройства за машинно гласуване (ТУМГ), които ще се използват на изборите за президент и вицепрезидент ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Podgotovka-za-izborite-Priklyuchiha-proverkite-na-mashinite-za-glasuvane-3040933",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "БНБ: Годишна инфлация до 5.2% в края на 2026 г., 3.1% през 2027 г. и 2.9% през 2028 г.",
+      "desc": "Годишната инфлация ще се ускори до 5.2% в края на 2026 г., докато средногодишната инфлация се очаква да възлезе на 4.6% през 2026 г., 3.1% през ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/BNB-Godishna-inflaciya-do-52-v-kraya-na-2026-g-31-prez-2027-g-i-29-prez-2028-g-3040923",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ново трасе ще свързва Свищов с АМ \"Русе - Велико Търново\", АПИ обяви обществена поръчка",
+      "desc": "Агенция \"Пътна инфраструктура“ обяви обществена поръчка за избор на изпълнител за изработване на разширен идеен проект с извършване на пълни ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Novo-trase-shte-svurzva-Svishtov-s-AM-Ruse-Veliko-Turnovo-API-obyavi-obshtestvena-poruchka-3040908",
+      "date": "2026-10-16",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общини"
     },
     {
       "title": "Транспортният министър даде кратък срок за финализиране на подготовката относно влаковете, които \"Ивкони Експрес\" ще предостави",
@@ -75,328 +417,22 @@
       "topic": "социални"
     },
     {
-      "title": "\"5% не са достатъчни\": КНСБ поиска по-високи заплати с протест и автошествие в София",
-      "desc": "Национален протест под надслов \"За по-високи доходи!“ събра представители на различни професионални сектори в центъра на София днес. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/5-ne-sa-dostatuchni-KNSB-poiska-po-visoki-zaplati-s-protest-i-avtoshestvie-v-Sofiya-3040827",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Капанът на тоталната забрана: Защо новата атака срещу хазартната реклама може да удари държавата, а не нелегалните оператори",
-      "desc": "Две години след като Народното събрание единодушно прие голямата забрана на хазартната реклама, същите политици, които тогава говореха за окончателна ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kapanut-na-totalnata-zabrana-Zashto-novata-ataka-sreshtu-hazartnata-reklama-mozhe-da-udari-durzhavata-a-ne-nelegalnite-operatori-3040826",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Близо 86 тона незаконни продукти за растителна защита са установени от началото на годината в рамките на международна операция на Европол",
-      "desc": "Българската агенция по безопасност на храните (БАБХ) установи близо 86 тона незаконни продукти за растителна защита (ПРЗ) от началото на годината. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Blizo-86-tona-nezakonni-produkti-za-rastitelna-zashtita-sa-ustanoveni-ot-nachaloto-na-godinata-v-ramkite-na-mezhdunarodna-operaciya-na-Evropol-3040821",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Нова размяна на обвинения в сагата Шишков, ДПС и мантинелите",
-      "desc": "ДПС настоява за изясняване на обстоятелствата около договорите за мантинели и твърди, че прилагането на т.нар. магическа формула е довело до ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Nova-razmyana-na-obvineniya-v-sagata-Shishkov-DPS-i-mantinelite-3040817",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "144 убити жени в България за шест години: Организации настояват за по-ефективна защита",
-      "desc": "Гражданските организации настояват за по-ефективна защита на пострадалите, работеща национална информационна система и по-добра координация между ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/144-ubiti-zheni-v-Bulgariya-za-shest-godini-Organizacii-nastoyavat-za-po-efektivna-zashtita-3040810",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Очертава ли се проблем с изплащането на пенсиите – от първа ръка подуправителя на НОИ",
-      "desc": "Основното предизвикателство пред ДОО не е текущата събираемост на осигурителните вноски, а дългосрочният натиск върху разходите, обусловен най-вече ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ochertava-li-se-problem-s-izplashtaneto-na-pensiite-ot-purva-ruka-podupravitelya-na-NOI-3040805",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "България и Франция разширяват обмена между университетите и учените",
-      "desc": "България и Франция ще задълбочат партньорството си в науката, висшето образование и STEM обучението. Това информираха от Министерството на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgariya-i-Franciya-razshiryavat-obmena-mezhdu-universitetite-i-uchenite-3040795",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "образование"
-    },
-    {
-      "title": "Министър Абровски го обясни със сложни думи: България като тероар е страна, която произвежда уникални продукти",
-      "desc": "България като тероар е с характеристики на държава, която може и произвежда уникални продукти. Затова ролята и целта на Министерството на земеделието ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Abrovski-go-obyasni-sus-slozhni-dumi-Bulgariya-kato-teroar-e-strana-koyato-proizvezhda-unikalni-produkti-3040794",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
-      "title": "ПБ: Подготвя се 10 пъти по-ниска продуктова такса за колите втора ръка",
-      "desc": "Подготвя се поне десетократно намаление на продуктовата такса за автомобилите втора употреба. Това заявиха представители на \"Прогресивна ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/PB-Podgotvya-se-10-puti-po-niska-produktova-taksa-za-kolite-vtora-ruka-3040771",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Две огнища на шарка по овцете и козите в областите София и Хасково",
-      "desc": "Българската агенция по безопасност на храните (БАБХ) констатира първично възникнало огнище на шарка по овцете и козите в животновъден обект със 180 ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Dve-ognishta-na-sharka-po-ovcete-i-kozite-v-oblastite-Sofiya-i-Haskovo-3040763",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
-      "title": "Петър Петров от \"Възраждане\" попита: Увеличението с 30% на винетките, ще доведе ли до по-безопасни пътища",
-      "desc": "От \"Възраждане\" с множество въпроси за жертвите на пътя и докъде ще доведе по-скъпата винетка. Питанията бяха отправени от парламентарната ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Petur-Petrov-ot-Vuzrazhdane-popita-Uvelichenieto-s30-na-vinetkite-shte-dovedeli-do-po-bezopasni-putishta-3040758",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДПС: Шишков, Донев и Демерджиев да не се крият страхливо",
-      "desc": "Опитът на министър Шишков да замете въпросите, които ДПС подаде към прокуратурата за съмнителни схеми за оскъпяване на поръчките за мантинели със ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DPS-Shishkov-Donev-i-Demerdzhiev-da-ne-se-kriyat-strahlivo-3040754",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Пламен Димитров: Предлагаме увеличение с 10% на заплатите в Бюджет 2027",
-      "desc": "Бюджетът за 2027 г. се подготвя при планиран дефицит от 3,5% от брутния вътрешен продукт на касова основа и 4,3% на начислена основа. Предвиждат се ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Plamen-Dimitrov-Predlagame-uvelichenie-s-10-na-zaplatite-v-Byudzhet-2027-3040738",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Криминален психолог: Агресията сред децата е тревожен сигнал за проблеми в семейството и обществото",
-      "desc": "Нарастващата агресия сред подрастващите е сериозен проблем, който не може да бъде разглеждан единствено като лична вина на извършителите. Зад подобни ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kriminalen-psiholog-Agresiyata-sred-decata-e-trevozhen-signal-za-problemi-v-semeistvoto-i-obshtestvoto-3040711",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мирослав Първанов: Неправилната употреба на антибиотици при животните може да застраши и хората",
-      "desc": "Българският ветеринарен съюз превръща борбата с антимикробната резистентност във водещ приоритет в своята дейност. Според данни на СЗО антимикробната ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Miroslav-Purvanov-Nepravilnata-upotreba-na-antibiotici-pri-zhivotnite-mozhe-da-zastrashi-i-horata-3040707",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Болка, сълзене и зачервяване на очите: Кога да потърсим офталмолог и какво поема НЗОК?",
-      "desc": "Очите са един от органите, за които често се сещаме едва когато започнем да виждаме по-зле. Замъгленото виждане, главоболието, усещането за ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bolka-sulzene-i-zachervyavane-na-ochite-Koga-da-potursim-oftalmolog-i-kakvo-poema-NZOK-3040706",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Румен Радев: Засилването на охраната на външните граници на ЕС е от ключово значение за сигурността на Европа",
-      "desc": "Засилването на охраната на външните граници на ЕС е от ключово значение за сигурността на Европа и изисква солидарност и подкрепа за държавите ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-Zasilvaneto-na-ohranata-na-vunshnite-granici-na-ES-e-ot-klyuchovo-znachenie-za-sigurnostta-na-Evropa-3040696",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Според КТ: Хората на първа работа нямат право на болничен половин година",
-      "desc": "Знаехте ли, че ако се млад човек, който за първи път подписва трудов договор, нямате право да се разболеете? Това е абстрактно казано, защото ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Spored-KT-Horata-na-purva-rabota-nyamat-pravo-na-bolnichen-polovin-godina-3040686",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "ДБ предупреди за 5% дефицит в Бюджет 2027 и предложи компенсация за горивата",
-      "desc": "Позицията на България в преговорите за дългосрочния бюджет на Европейския съюз е абсурдна, опасна и необяснима. Това заяви евродепутатът Радан Кънев ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DB-predupredi-za-5-deficit-v-Byudzhet-2027-i-predlozhi-kompensaciya-za-gorivata-3040672",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Ген. Русев: Българските F-16 вече събират информация от въздуха",
-      "desc": "Подготовката на българските пилоти за изтребителите F-16 Block 70 напредва с добри темпове, а самолетите вече участват активно в тренировъчни полети ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Gen-Rusev-Bulgarskite-F-16-veche-subirat-informaciya-ot-vuzduha-3040669",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "България поиска от Китай: Повече инвестиции и съвместни производства",
-      "desc": "Китай е важен партньор с потенциал за разширяване на сътрудничеството ни в редица индустриални сектори. Това заяви заместник-министърът на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgariya-poiska-ot-Kitai-Poveche-investicii-i-suvmestni-proizvodstva-3040664",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Български учени от БАН сред първите 2% в света",
-      "desc": "Общо 74 учени, свързани с Българската академия на науките (БАН), са включени в тазгодишните световни класации на водещите изследователи, съобщиха от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgarski-ucheni-ot-BAN-sred-purvite-2-v-sveta-3040655",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "БЛС връчва наградите \"Лекар на годината 2026\" на 19 октомври",
-      "desc": "Българският лекарски съюз има удоволствието да Ви покани на тържествената церемония по връчването на наградите \"Лекар на годината 2026\", ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/BLS-vruchva-nagradite-Lekar-na-godinata-2026-na-19-oktomvri-3040653",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДФЗ захрани сметките на част от земеделските стопани с близо 63 млн. евро",
-      "desc": "Държавен фонд \"Земеделие“ (ДФЗ) предостави финансово подпомагане от 62 796 740 евро на производителите в секторите \"Вино“, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DFZ-zahrani-smetkite-na-chast-ot-zemedelskite-stopani-s-blizo-63-mln-evro-3040622",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
-      "title": "Военният министър: България поиска от НАТО бойна авиация и системи за противодействие на дронове",
-      "desc": "Както виждате, интензитетът на ударите в Черно море се засилва с всеки изминал ден. Вчера имаше ситуация, при която бяха нанесени удари в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Voenniyat-ministur-Bulgariya-poiska-ot-NATO-boina-aviaciya-i-sistemi-za-protivodeistvie-na-dronove-3040620",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Над 34 хил. повиквания на 112 за седмица – с 17,8% повече спрямо 2025 г.",
-      "desc": "Общо 34 469 регламентирани повиквания са регистрирани на единния европейски номер за спешни повиквания 112 за периода от 7:00 ч. на 9 октомври до ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Nad-34-hil-povikvaniya-na-112-za-sedmica-s-17-8-poveche-spryamo-2025-g-3040599",
-      "date": "2026-10-16",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Нов път до 33 км ще свързва Свищов с АМ \"Русе - Велико Търново\"",
+      "title": "Chelsea-3 потегли на буксир към Бургас, очакват го в 7:00 часа",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433748-nov-pat-do-33-km-shte-svarzva-svishtov-s-am-ruse-veliko-tarnovo",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433779-chelsea-3-potegli-na-buksir-kam-burgas-ochakvat-go-v-700-chasa",
       "date": "2026-10-16",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "БАБХ иззе 86 тона незаконни препарати за растителна защита",
+      "title": "Цигарите поскъпват от 1 март, увеличение ще има и през 2028 г.",
       "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433747-babh-izze-86-tona-nezakonni-preparati-za-rastitelna-zashtita",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433776-tsigarite-poskapvat-ot-1-mart-uvelichenie-shte-ima-i-prez-2028-g",
       "date": "2026-10-16",
       "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
-    },
-    {
-      "title": "Ефремова: Стремим се минималната заплата да е максимално близо до горната граница",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433737-efremova-stremim-se-minimalnata-zaplata-da-e-maksimalno-blizo-do-gornata-granitsa",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шишков: Не се готвим да крадем, от нашата работа ще произтичат инвестиции",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433736-shishkov-ne-se-gotvim-da-kradem-ot-nashata-rabota-shte-proiztichat-investitsii",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Здравният министър съобщи кога ще има противогрипни ваксини у нас",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433723-zdravniyat-ministar-saobshti-koga-shte-ima-protivogripni-vaksini-u-nas",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Протестът на КНСБ в София в СНИМКИ",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/188-gallery/433721-protestat-na-knsb-v-sofiya-v-snimki",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "БАБХ констатира огнища на шарка по овцете и козите в областите София и Хасково",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433720-babh-konstatira-ognishta-na-sharka-po-ovtsete-i-kozite-v-oblastite-sofiya-i-haskovo",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общини"
-    },
-    {
-      "title": "Протестът на КНСБ: \"Искаме 10% по-високи заплати, нищо не ни е обещано\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433716-protestat-na-knsb-iskame-10-po-visoki-zaplati-nishto-ne-ni-e-obeshtano",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Поискахме военна помощ от НАТО: Авиация, зенитно-ракетни комплекси и антидрон системи",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433715-poiskahme-voenna-pomosht-ot-nato-aviatsiya-zenitno-raketni-kompleksi-i-antidron-sistemi",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Словесни сблъсъци в парламента заради промените в Закона за отпадъците",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/433712-slovesni-sblasatsi-v-parlamenta-zaradi-promenite-v-zakona-za-otpadatsite",
-      "date": "2026-10-16",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "екология"
     },
     {
       "title": "Евровизия е уникална възможност да покажем българските артисти",
@@ -444,6 +480,15 @@
       "topic": "eu"
     },
     {
+      "title": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYkJ4dnpqX2tBUXFaSWNUX0xBd2t1RUlrajEzYzlIc3RXWGdqVTFnb185UXlTY01obUJMdEZKWmt3V0dxZVBLVjQyZ3dOcWl4Q2pvekZEbDc0ZDM4ckdJaFZDbW5sam1ZbWhHYk9ESWFoempaSi10Z1JxNDJtbXFfVDRXd05OS1Y5SUd2MHFyU3AzemRMWDEwOHhBZF9xc0NFWUhCTjhyTkxiaGVEWnBRZVRYenRRdzTSAbcBQVVfeXFMT2JCeHZ6al9rQVFxWkljVF9MQXdrdUVJa2oxM2M5SHN0V1hnalUxZ29fOVF5U2NNaG1CTHRGSlprd1dHcWVQS1Y0Mmd3TnFpeENqb3pGRGw3NGQzOHJHSWhWQ21ubGptWW1oR2JPRElhaHpqWkotdGdScTQybW1xX1Q0V3dOTktWOUlHdjBxclNwM3pkTFgxMDh4QWRfcXNDRVlIQk44ck5MYmhlRFpwUWVUWHp0UXc0?oc=5",
+      "date": "2026-10-15",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "Europe’s Cheapest Startup Visas Ranked by Minimum Capital - IMI Daily",
       "desc": "Europe’s Cheapest Startup Visas Ranked by Minimum Capital IMI Daily",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONVdLVUY1bERvODZyMnFXbzZmNnJ5RV9zMTZITnlNMHRMc3U1MHdWcWZ2RGtwekFkUjN1ZmZ1VUZwMTdfdW51bkRwWmhfeXVxcFVrME1ITE1oSmFsS0p6amtUNnpiSlVNakxtd0d4MkF4UkNGMFNZenRDcHdheFhWeGd1RUNlWnBkem1jWWxrSm5QcUxMSFE?oc=5",
@@ -462,18 +507,18 @@
       "topic": "eu"
     },
     {
-      "title": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE - fundsforNGOs - Grants and Resources for Sustainability",
-      "desc": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE fundsforNGOs - Grants and Resources for Sustainability",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYkJ4dnpqX2tBUXFaSWNUX0xBd2t1RUlrajEzYzlIc3RXWGdqVTFnb185UXlTY01obUJMdEZKWmt3V0dxZVBLVjQyZ3dOcWl4Q2pvekZEbDc0ZDM4ckdJaFZDbW5sam1ZbWhHYk9ESWFoempaSi10Z1JxNDJtbXFfVDRXd05OS1Y5SUd2MHFyU3AzemRMWDEwOHhBZF9xc0NFWUhCTjhyTkxiaGVEWnBRZVRYenRRdzTSAbcBQVVfeXFMT2JCeHZ6al9rQVFxWkljVF9MQXdrdUVJa2oxM2M5SHN0V1hnalUxZ29fOVF5U2NNaG1CTHRGSlprd1dHcWVQS1Y0Mmd3TnFpeENqb3pGRGw3NGQzOHJHSWhWQ21ubGptWW1oR2JPRElhaHpqWkotdGdScTQybW1xX1Q0V3dOTktWOUlHdjBxclNwM3pkTFgxMDh4QWRfcXNDRVlIQk44ck5MYmhlRFpwUWVUWHp0UXc0?oc=5",
+      "title": "90-minute Istanbul run needs 76 km more as Türkiye opens line to Bulgaria - Railway Supply",
+      "desc": "90-minute Istanbul run needs 76 km more as Türkiye opens line to Bulgaria Railway Supply",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3kyOWJyVVNrWUl5NlVNTmZWekp3ZmljS1NSdTVMS21IbHpZTk1JZTI0c0VBRFVoX1JCMkJNQ3lDbjlMM3dUOS1JR0Q4ckUtbnVTbmRLMnlFM3ZEODFxWG1CdHpoeWsyNG1VTXJpeVh2Tzlfb1hZdUNFcUthSlVCSHRlbkNhVmwwZVdPUjJuN0pCbkNSM19WUTVGOHp2NXJfQldz?oc=5",
       "date": "2026-10-15",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "90-minute Istanbul run needs 76 km more as Türkiye opens line to Bulgaria - Railway Supply",
-      "desc": "90-minute Istanbul run needs 76 km more as Türkiye opens line to Bulgaria Railway Supply",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3kyOWJyVVNrWUl5NlVNTmZWekp3ZmljS1NSdTVMS21IbHpZTk1JZTI0c0VBRFVoX1JCMkJNQ3lDbjlMM3dUOS1JR0Q4ckUtbnVTbmRLMnlFM3ZEODFxWG1CdHpoeWsyNG1VTXJpeVh2Tzlfb1hZdUNFcUthSlVCSHRlbkNhVmwwZVdPUjJuN0pCbkNSM19WUTVGOHp2NXJfQldz?oc=5",
+      "title": "Open Call: Automated Scientific Discovery for Food Systems - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Open Call: Automated Scientific Discovery for Food Systems fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZGs2Q18xSlVQcHhHMU1mSlRBRkIxZUFfMXVzX3dhQ2Y4NV9hSXB5dUlzSDdFM3VvMmZ0RmpFQkVQdEFjMWw3MkhWOWs3MWFEREdrSldpT3ptTVc4ZGNBa1F0c0NkUXNWbVI1Q3RfYlZld055ZWdHOWNSYVNuX1dHVEp6aUFBbHZsbzZFZ0hzUll1cFRkeUhrbU1VYzUwWHBoUVI2VWU0SEVBUEdCd3ZjREFHVdIBswFBVV95cUxPZGs2Q18xSlVQcHhHMU1mSlRBRkIxZUFfMXVzX3dhQ2Y4NV9hSXB5dUlzSDdFM3VvMmZ0RmpFQkVQdEFjMWw3MkhWOWs3MWFEREdrSldpT3ptTVc4ZGNBa1F0c0NkUXNWbVI1Q3RfYlZld055ZWdHOWNSYVNuX1dHVEp6aUFBbHZsbzZFZ0hzUll1cFRkeUhrbU1VYzUwWHBoUVI2VWU0SEVBUEdCd3ZjREFHVQ?oc=5",
       "date": "2026-10-15",
       "source": "Google News EN",
       "lang": "en",
@@ -498,6 +543,15 @@
       "topic": "eu"
     },
     {
+      "title": "CFAs: Transformative Change towards a Nature-positive Economy and Society Program - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "CFAs: Transformative Change towards a Nature-positive Economy and Society Program fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMGVPMmFEc2NZb1E5TTZUSmdBZjZLak8wWXE1WkllbHdjSEhCNTlGTEd6RXRDNTVhaGc0bUticEVMa253cWc4b0hMclNfN1E5aXRMNjhFNFVBZlh3bzBmTUFCT09tN3psQTFkTXpMWVpVNERDR214RGtCWl95QkxiNHdtMFZSZi1GUGltX2R0Mk16UFdOODRhZEE2Y3AwU2hfMWl2Z1VpWWlWNVdmV3BZ0gGvAUFVX3lxTE0wZU8yYURzY1lvUTlNNlRKZ0FmNktqTzBZcTVaSWVsd2NISEI1OUZMR3pFdEM1NWFoZzRtS2JwRUxrbndxZzhvSExyU183UTlpdEw2OEU0VUFmWHdvMGZNQUJPT203emxBMWRNekxZWlU0RENHbXhEa0JaX3lCTGI0d20wVlJmLUZQaW1fZHQyTXpQV044NGFkQTZjcDBTaF8xaXZnVWlZaVY1V2ZXcFk?oc=5",
+      "date": "2026-10-15",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "CFAs: Innovative Solutions to Fight Wildlife Trafficking and Reduce Invasion of Invasive Alien Species - fundsforNGOs - Grants and Resources for Sustainability",
       "desc": "CFAs: Innovative Solutions to Fight Wildlife Trafficking and Reduce Invasion of Invasive Alien Species fundsforNGOs - Grants and Resources for Sustainability",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMFNITVE5MlI0NjBSbVV3c0E2cWlZQnpSc0Q2cFpxT3pEVTB3Z1VTZkRnck0zd3NDSklNZUEtWUc1MnhvOTNHNEhEejhnanQ3WXd4Q3hLVFM0azZLaDl5N19kdjA0VjU3LWk2N2JZeWJuSFM5TnVqVHJ4cjB3MGtodUQtZG10dUYwV09jVXBKVzlEenEwSl94SWNsZEJkU0xaY0JfTlFtQ09id9IBqgFBVV95cUxPMFNITVE5MlI0NjBSbVV3c0E2cWlZQnpSc0Q2cFpxT3pEVTB3Z1VTZkRnck0zd3NDSklNZUEtWUc1MnhvOTNHNEhEejhnanQ3WXd4Q3hLVFM0azZLaDl5N19kdjA0VjU3LWk2N2JZeWJuSFM5TnVqVHJ4cjB3MGtodUQtZG10dUYwV09jVXBKVzlEenEwSl94SWNsZEJkU0xaY0JfTlFtQ09idw?oc=5",
@@ -512,24 +566,6 @@
       "url": "https://www.bloombergtv.bg/a/16-biznes-start/165487-tehnologichnoto-badeshte-na-varna-mezhdu-sinyata-ikonomika-i-inovatsiite",
       "date": "2026-10-15",
       "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Румен Радев: Бюджет 2027 не предлага лесни решения, но задава посока към разумно управление на публичните средства и инвестиции в хората - Министерски съвет",
-      "desc": "Румен Радев: Бюджет 2027 не предлага лесни решения, но задава посока към разумно управление на публичните средства и инвестиции в хората Министерски съвет",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQR2JrQl9ZVHhUc2wwaDFnMG1Sbk5JZ2hjYmlfNmQ4akQtNW03T3h6bEJBRW5pbGhQLXJGSW93VHFNN1c0NXl5V1dFbjVtck9rY0FBc3hlU1ZITkZkQmlvcVhZR1poYVI2Q1BSVXB6U0JqTERwVDl4ZFI4TDdxbG5aMGl3MFpPNk00UnhVZmpNalYtaTZNZFZKZkU1ZmlkNGwyMFdQMzlSWjZvc0R1VTNCc3N4LXJHSkNEcUdLOVZESENVaGVPZllOOU9mUGt4RDF4MHhuaHpTZjNZVkZkdHl1UU1QREN3dW5mX3BIVGtnc3VpcV93ZDlCaFByWmFYZ29ob2Jhd21sVUNHcTY4MlE?oc=5",
-      "date": "2026-10-14",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Сирия обвини Израел във финансиране на въоръжени милиции - News24sofia.eu",
-      "desc": "Сирия обвини Израел във финансиране на въоръжени милиции News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWFhPZXRHbzdheVUzdW5mT3o0bFNCMDJKYlZ3djdUNFh2UkhpdTgwRHpTQk5xWGt6dFM2UDlKMnRITm00eDE3ajkybWhfWVd2TnV0UVhuM0xwRXJibVNTYzR4QUxQTFNUQ3pZand0eEFBT3VYcGhFRDdWMldtekFCdEFhbHFqdw?oc=5",
-      "date": "2026-10-14",
-      "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     }
