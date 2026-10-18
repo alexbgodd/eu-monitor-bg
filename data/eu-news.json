@@ -1,7 +1,25 @@
 {
-  "updated": "2026-10-18 11:09",
-  "count": 43,
+  "updated": "2026-10-18 13:24",
+  "count": 53,
   "items": [
+    {
+      "title": "Ивайло Мирчев: Властта мълчи за пожара в обект на Starlink",
+      "desc": "Съпредседателят на \"Да, България“ Ивайло Мирчев обвини правителството, че е забавило оповестяването на пожар в обект, свързан със сателитната ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ivailo-Mirchev-Vlastta-mulchi-za-pozhara-v-obekt-na-Starlink-3041692",
+      "date": "2026-10-18",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Заради скока на горивата: Шивашка индустрия у нас е в криза",
+      "desc": "Шивашката индустрия в страната се е свила с приблизително 40% през последните две години. Според Българската асоциация за текстил, облекло и кожи ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zaradi-skoka-na-gorivata-Shivashka-industriya-u-nas-e-v-kriza-3041674",
+      "date": "2026-10-18",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "The Guardian: Черно море става все по-опасно, България на първа линия на ескалиращия конфликт",
       "desc": "Шест атаки срещу кораби само за десет дни, извършени от предполагаеми руски дронове. Докато световното внимание бе насочено към рисковете за ...",
@@ -138,6 +156,96 @@
       "topic": "общи"
     },
     {
+      "title": "85-годишен мъж с колело загина при катастрофа с кола в Габрово",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433884-85-godishen-mazh-s-kolelo-zagina-pri-katastrofa-s-kola-v-gabrovo",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Шивашката индустрия у нас се е свила с 40% за две години",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433877-shivashkata-industriya-u-nas-se-e-svila-s-40-za-dve-godini",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Стоянов: България очаква подкрепа от НАТО за отбрана в Черно море",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433876-stoyanov-balgariya-ochakva-podkrepa-ot-nato-za-otbrana-v-cherno-more",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Политически сблъсък за сигурността в Черно море и доставките на горива (ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433875-politicheski-sblasak-za-sigurnostta-v-cherno-more-i-dostavkite-na-goriva-video",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Малорад избира нов кмет след случая с шофиралия дрогиран Иво Иванов",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/433874-malorad-izbira-nov-kmet-sled-sluchaya-s-shofiraliya-drogiran-ivo-ivanov",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Изключително ниска избирателна активност на частичните избори в Мало Конаре",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/227-izbori-2026/433872-izklyuchitelno-niska-izbiratelna-aktivnost-na-chastichnite-izbori-v-malo-konare",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Овощарите у нас са изправени пред ниски изкупни цени и пренасищане на пазара",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433870-ovoshtarite-u-nas-sa-izpraveni-pred-niski-izkupni-tseni-i-prenasishtane-na-pazara",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Борисов: При Радев дизелът е 2,19 евро, а при мен беше 1,80 лева",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433869-borisov-pri-radev-dizelat-e-219-evro-a-pri-men-beshe-180-leva",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Вселенският патриарх Вартоломей: Светът има изключителна нужда от мир (+ВИДЕО)",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433863-vselenskiyat-patriarh-vartolomey-svetat-ima-izklyuchitelna-nuzhda-ot-mir-video",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето в неделя: Облачно и дъждовно с температури до 18 градуса",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/433854-vremeto-v-nedelya-oblachno-i-dazhdovno-s-temperaturi-do-18-gradusa",
+      "date": "2026-10-18",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "Eastern Bulgaria could get EU funds for dual-use, says NSORB - BurgasMedia",
       "desc": "Eastern Bulgaria could get EU funds for dual-use, says NSORB BurgasMedia",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTXJsN3l6czFuQXZORnlRY0lPeWhRdHJvWDdyYmlWREVRS0ZGUEc3SFZXdXFpa3FuWmk4SnR1VU5QUEN6WjMzc0h3NHdDMWljcVBZdnhjZlNET3hIcU1sNVdjdWZNMjZrODhyYmF2TmNDYjdDaVJ1LW5FenV2VVJ1b3F0M1ZqdmpUS3Btc2VwNkp6RGlPRHZFUGhyRnBiTmVHMlFPZlVzc1h6a1hsVHY5UktvMGl1aE5yMDV0d0lMYmViR3VFNThnVNIByAFBVV95cUxOTXJsN3l6czFuQXZORnlRY0lPeWhRdHJvWDdyYmlWREVRS0ZGUEc3SFZXdXFpa3FuWmk4SnR1VU5QUEN6WjMzc0h3NHdDMWljcVBZdnhjZlNET3hIcU1sNVdjdWZNMjZrODhyYmF2TmNDYjdDaVJ1LW5FenV2VVJ1b3F0M1ZqdmpUS3Btc2VwNkp6RGlPRHZFUGhyRnBiTmVHMlFPZlVzc1h6a1hsVHY5UktvMGl1aE5yMDV0d0lMYmViR3VFNThnVA?oc=5",
@@ -267,24 +375,6 @@
       "title": "Ваня Стефанова: С над 500 присъстващи магистрати стартира изборът за нов временно изпълняващ функциите главен прокурор",
       "desc": "Общото събрание на прокурорите за избор на членове на Висшия съдебен съвет започна в 11.00 ч. Форумът откри Ваня Стефанова – временно изпълняващ ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Vanya-Stefanova-S-nad-500-prisustvashti-magistrati-startira-izborut-za-novvremenno-izpulnyavasht-funkciite-glaven-prokuror-3041247",
-      "date": "2026-10-17",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Интензивен трафик на два гранични пункта, ограничения предстоят на Дунав мост",
-      "desc": "Трафикът е силно интензивен на граничните контролно-пропускателни пунктове (ГКПП) \"Капитан Андреево“ и \"Лесово“ на изход за товарни ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Intenziven-trafik-na-dva-granichni-punkta-ogranicheniya-predstoyat-na-Dunav-most-3041235",
-      "date": "2026-10-17",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шефът на Гранична полиция: Няма данни Ива Михайлова да е преминавала през българо-македонските гранични пунктове",
-      "desc": "Няма данни Ива Михайлова да е преминавала през българо-македонските гранични пунктове. Това заяви директорът на Главна дирекция \"Гранична ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Shefut-na-Granichna-policiya-Nyama-danni-Iva-Mihailova-da-e-preminavala-prez-bulgaro-makedonskite-granichni-punktove-3041226",
       "date": "2026-10-17",
       "source": "Focus News",
       "lang": "bg",
