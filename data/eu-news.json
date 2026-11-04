@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04 14:35",
-  "count": 73,
+  "updated": "2026-11-04 17:24",
+  "count": 54,
   "items": [
     {
       "title": "БЮДЖЕТ 2027 ИЗЛИЗА В ПЕТЪК! Пеканов предупреди, че проблемите с дефицита няма да се решат за година - News24sofia.eu",
@@ -84,6 +84,96 @@
       "topic": "eu"
     },
     {
+      "title": "Доц. Щерьо Ножаров: Страхът от реформи в администрацията не бива да се компенсира с по-високи данъци и осигуровки",
+      "desc": "Първо да кажем откъде идва проблемът и защо правителството се опитва по всякакви дори по звучащи екзотично начини да решава този проблем. Проблемът ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Doc-Shteryo-Nozharov-Strahut-ot-reformi-v-administraciyata-ne-biva-da-se-kompensira-s-po-visoki-danuci-i-osigurovki-3051381",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Подкрепата за електроинтензивната индустрия се увеличава от 50 на 70%",
+      "desc": "Постигнато е съгласие интензитетът на подкрепа за електроинтензивната индустрия да бъде увеличен от 50 на 70%, в рамките на допустимото от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Podkrepata-za-elektrointenzivnata-industriya-se-uvelichava-ot-50-na-70-3051379",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Гарантирането на мира е общ приоритет за България и Саудитска Арабия",
+      "desc": "Гарантирането на мира и сигурността е общ приоритет за България и Саудитска Арабия. Това беше общата позиция, която изразиха днес ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Garantiraneto-na-mira-e-obsht-prioritet-za-Bulgariya-i-Sauditska-Arabiya-3051366",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Министърът Шишков направи оглед на ремонта в участъка при Владая",
+      "desc": "Както беше анонсирано вчера, днес в 10:30 сутринта участъкът от разклона за Владая до гара Владая бе затворен за ремонт. Той предвижда обновяване на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ministurut-Shishkov-napravi-ogled-na-remonta-v-uchastuka-pri-Vladaya-3051364",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "НИМХ: Застудяването продължава, по високите части на Западна България ще превали сняг",
+      "desc": "През нощта ще е облачно. Валежите ще спират, но на места в западните и централните райони все още ще превалява дъжд. Утре облачността ще се разкъсва, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/NIMH-Zastudyavaneto-produlzhava-po-visokite-chasti-na-Zapadna-Bulgariya-shte-prevali-snyag-3051362",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "КЗП: Търговците нямат право да продават бира с добавяне на отделна цена за бутилката, нарушителите се глобяват",
+      "desc": "Търговските обекти нямат право да продават бира с допълнително начисляване на отделна цена за бутилката, защото това е нелоялна търговска практика и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/KZP-Turgovcite-nyamat-pravo-da-prodavat-bira-s-dobavyane-na-otdelna-cena-za-butilkata-narushitelite-se-globyavat-3051357",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Транспортното министерство следи танкера \"Ментор\", който превозва около 11 000 тона слънчогледово олио",
+      "desc": "Министерството на транспорта и съобщенията следи ситуация с танкера \"Ментор“, който по предварителни данни превозва около 11 000 тона ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Transportnoto-ministerstvo-sledi-tankera-Mentor-koito-prevozva-okolo-11-000-tona-slunchogledovo-olio-3051334",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Андрей Янкулов: Правосъдието е в криза, от която държавността трябва да намери изход",
+      "desc": "Кандидатът за член на Прокурорската колегия на Висшия съдебен съвет (ВСС) от парламентарната квота Андрей Янкулов определи състоянието на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Andrei-Yankulov-Pravosudieto-e-v-kriza-ot-koyato-durzhavnostta-tryabva-da-nameri-izhod-3051331",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Шефът на КЕВР: Гражданите да са спокойни - цените на парното и тока няма да се увеличават",
+      "desc": "Нямаше как цената на природния газ да не се увеличи, тъй като това е борсова стока. Ние, като държава, която не добива собствен природен газ, трябва ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Shefut-na-KEVR-Grazhdanite-da-sa-spokoini-cenite-na-parnoto-i-toka-nyama-da-se-uvelichavat-3051325",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "екология"
+    },
+    {
+      "title": "Държавата няма да поема здравните осигуровки на майките през двете години майчинство, реши социалната комисия на първо четене",
+      "desc": "Държавата няма да поема здравните осигуровки на майките по време на двете години майчинство. Това реши Комисията по труда, демографската и социалната ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Durzhavata-nyama-da-poema-zdravnite-osigurovki-na-maikite-prez-dvete-godini-maichinstvo-reshi-socialnata-komisiya-na-purvo-chetene-3051320",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
       "title": "Нови данъчни бонуси за родители: 2000 евро за развитието на дете",
       "desc": "Правителството предлага ново данъчно облекчение за детско развитие и по-висок размер на съществуващите данъчни облекчения за деца. Проектът на Закон ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Novi-danuchni-bonusi-za-roditeli-2000-evro-za-razvitieto-na-dete-3051317",
@@ -118,6 +208,15 @@
       "source": "Focus News",
       "lang": "bg",
       "topic": "социални"
+    },
+    {
+      "title": "Радан Кънев: Европа трябва да поеме по-голяма отговорност за собствената си сигурност след изборите в САЩ",
+      "desc": "Краят на икономическия национализъм, засилването на изолационизма и нерешеният проблем с миграцията са трите основни извода от американските избори ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Radan-Kunev-Evropa-tryabva-da-poeme-po-golyama-otgovornost-za-sobstvenata-si-sigurnost-sled-izborite-v-SASht-3051303",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "До 200 евро за ваучери за храна на месец вече е факт, но с данък",
@@ -228,6 +327,15 @@
       "topic": "eu"
     },
     {
+      "title": "ARPharM: Потребностите от съвременно лекарствено лечение ще нараснат с 14% през 2027 г.",
+      "desc": "Допълнителни 160 млн. евро са необходими в бюджета на НЗОК за оригинални лекарства през 2027 г., за да се запази сегашното съотношение между ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/ARPharM-Potrebnostite-ot-suvremenno-lekarstveno-lechenie-shte-narasnat-s-14-prez-2027-g-3051209",
+      "date": "2026-11-04",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
       "title": "Зам.-министър Карадимова: Изграждаме условия за нови високотехнологични производства и инвестиции",
       "desc": "Работим активно за това България да бъде не просто привлекателна дестинация за инвестиции, а държава, в която се създават технологии, изграждат се ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Zam-ministur-Karadimova-Izgrazhdame-usloviya-za-novi-visokotehnologichni-proizvodstva-i-investicii-3051198",
@@ -246,218 +354,11 @@
       "topic": "бизнес"
     },
     {
-      "title": "Пеканов: Предстоят месеци на дискусии, за да изготвим един план, който отговаря на националните нужди",
-      "desc": "През следващата седмица ще направим първа среща официално с всички министерства, ще дадем текущите насоки, моментните насоки на Европейската комисия ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Pekanov-Predstoyat-meseci-na-diskusii-za-da-izgotvim-edin-plan-koito-otgovarya-na-nacionalnite-nuzhdi-3051165",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "КРИБ предупреди: Забраната на хазартната реклама може да бъде много опасна за българския пазар и бизнес!",
-      "desc": "Конфедерацията на работодателите и индустриалците в България (КРИБ) предупреждава, че предложенията за почти пълна забрана на рекламата на хазартни ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/KRIB-predupredi-Zabranata-na-hazartnata-reklama-mozhe-da-bude-mnogo-opasna-za-bulgarskiya-pazar-i-biznes-3051161",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Петър Витанов: Няма да променяме вноските във втория пенсионен стълб, но според мен трябва да се намалят таксите на фондовете",
-      "desc": "Предизборната кампания беше черна и компроматна и не съответстваше на демократичните практики на XXI век. По-скоро беше тъмна и балканска. Това заяви ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Petur-Vitanov-Nyama-da-promenyame-vnoskite-vuv-vtoriya-pensionen-stulb-no-spored-men-tryabva-da-se-namalyat-taksite-na-fondovete-3051159",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Лекарство за лечение на рак на простатата липса по аптеките",
-      "desc": "Отново се стигна до липса на важно лекарство у нас. Става дума за медикамент, използван при лечение на рак на простатата. Кои са липсващите ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Lekarstvo-za-lechenie-na-rak-na-prostatata-lipsa-po-aptekite-3051157",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Мирчев: Правителството лъже, още през октомври е предложило на ЕК част от вноските във втория пенсионен стълб да бъдат пренасочени към НОИ!",
-      "desc": "Министерството на финансите е предложило през октомври на Европейската комисия 3% от вноските във втория пенсионен стълб да бъдат пренасочени към ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Mirchev-Pravitelstvoto-luzhe-oshte-prez-oktomvri-e-predlozhilo-na-EK-chast-ot-vnoskite-vuvvtoriya-pensionen-stulb-da-budat-prenasocheni-kum-NOI-3051152",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Костадинов: Държавните институции трябва да имат надписи само на български и кирилица",
-      "desc": "Няма как да не изразя задоволството си от това, че един законопроект, който вече близо 20 години е предлаган в поредица от Народни събрания, за първи ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadinov-Durzhavnite-institucii-tryabva-da-imat-nadpisi-samo-na-bulgarski-i-kirilica-3051129",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Проф. Екатерина Михайлова: Риск за България има!",
-      "desc": "Риск за промяна на европейската и евроатлантическата посока на България има, затова гражданите трябва да бъдат будни и да следят действията на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Ekaterina-Mihailova-Risk-za-Bulgariya-ima-3051110",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Велислав Величков: Забавянето на избора на ВСС може да отложи назначаването на нов главен прокурор",
-      "desc": "Изслушванията на кандидатите за парламентарната квота във Висшия съдебен съвет (ВСС) са били проведени в неподходящ формат, а съществува риск изборът ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Velislav-Velichkov-Zabavyaneto-na-izbora-na-VSS-mozhe-da-otlozhi-naznachavaneto-na-nov-glaven-prokuror-3051102",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Новият ни работодател ще има достъп до трудовото ни досие",
-      "desc": "Работодателите и органите по назначаването в държавната администрация вече ще имат пълен достъп до информацията от електронния трудов запис на своите ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Noviyat-ni-rabotodatel-shte-ima-dostup-do-trudovoto-ni-dosie-3051055",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Румен Радев за втория пенсионен стълб: Манипулациите трябва да спрат",
-      "desc": "Предизборната кампания приключи, манипулациите трябва да спрат, заяви премиерът Румен Радев относно втория пенсионен стълб, предаде репортер на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-za-vtoriya-pensionen-stulb-Manipulaciite-tryabva-da-sprat-3051053",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "ДБ: Йотова обещаваше, че няма да изпрати български войници в Украйна, сякаш някой предлага обратното",
-      "desc": "Изборите приключиха. Страхът, лъжите и разделението, които генерира кампанията, не изчезват след тази неделя. Изборната победа не освобождава никого ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DB-Iotova-obeshtavashe-che-nyama-da-izprati-bulgarski-voinici-v-Ukraina-syakash-nyakoi-predlaga-obratnoto-3051049",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Божидар Божанов се отказа от имунитета си",
-      "desc": "Народният представител от парламентарната група на \"Демократична България“ Божидар Божанов отново доброволно се отказа от депутатския си ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bozhidar-Bozhanov-se-otkaza-ot-imuniteta-si-3051046",
-      "date": "2026-11-04",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Правителството вдига тавана на фирмените ваучери за храна до 200 евро",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435658-pravitelstvoto-vdiga-tavana-na-firmenite-vaucheri-za-hrana-do-200-evro",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Мирчев извади документи за втората пенсия и обвини кабинета \"Радев\" в лъжа",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435653-mirchev-izvadi-dokumenti-za-vtorata-pensiya-i-obvini-kabineta-radev-v-lazha",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Пеканов даде старт на подготовката за европейските средства до 2034 г.",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435646-pekanov-dade-start-na-podgotovkata-za-evropeyskite-sredstva-do-2034-g",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "НАП откри нарушения в 60% от проверените 24 медицински заведения в София",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435642-nap-otkri-narusheniya-v-60-ot-proverenite-24-meditsinski-zavedeniya-v-sofiya",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Свлачища след пороите блокираха пътища към 16 села в Смолянско",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435637-svlachishta-sled-poroite-blokiraha-patishta-kam-16-sela-v-smolyansko",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Задействаха BG-ALERT в Бургаско заради опасност от наводнения",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435636-zadeystvaha-bg-alert-v-burgasko-zaradi-opasnost-ot-navodneniya",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Опозицията и мнозинството в НС се захапаха заради пенсиите и тока",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435634-opozitsiyata-i-mnozinstvoto-v-ns-se-zahapaha-zaradi-pensiite-i-toka",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "ЦИК отчете спокойни избори: Близо 40 000 протокола са обработени без грешки",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435626-tsik-otchete-spokoyni-izbori-blizo-40-000-protokola-sa-obraboteni-bez-greshki",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Бедственото положение в Шабла остава в сила, пътят за Тюленово е затворен",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/435623-bedstvenoto-polozhenie-v-shabla-ostava-v-sila-patyat-za-tyulenovo-e-zatvoren",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Липсва лекарство за рак на простатата, противогрипите ваксини пристигат между 9 и 13 ноември",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/36-sutreshen-blok/435622-lipsva-lekarstvo-za-rak-na-prostatata-protivogripite-vaksini-pristigat-mezhdu-9-i-13-noemvri",
-      "date": "2026-11-04",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Българската Dronamics ще дебютира на Nasdaq с оценка от близо $500 млн.",
-      "desc": "Dronamics се оценява на 400 млн. долара преди сливането със SPAC компанията GPAT. Сделката може да осигури 100 млн. долара за разширяване на производството и навлизане на пазара в САЩ. Българският производител на товарни дронове Dronamics обяви сключването на окончателно споразумение за бизнес комби",
-      "url": "https://www.bloombergtv.bg/a/2-novini/166413-balgarskata-dronamics-shte-debyutira-na-nasdaq-s-otsenka-ot-blizo-500-mln",
-      "date": "2026-11-04",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Инфлацията в еврозоната вече е два пъти по-голяма от целта на ЕЦБ",
-      "desc": "Ускоряване на инфлацията: През октомври инфлацията в еврозоната достига 4% на годишна база, което е два пъти над целта на ЕЦБ и най-високото ниво от септември 2023 г. насам. Сигнали за повишение на лихвите: Представители на ЕЦБ дават индикации за възможно ново увеличение на лихвените проценти още пр",
-      "url": "https://www.bloombergtv.bg/a/2-novini/166411-inflatsiyata-v-evrozonata-veche-e-dva-pati-po-golyama-ot-tselta-na-etsb",
-      "date": "2026-11-04",
-      "source": "Bloomberg TV BG",
+      "title": "Колегиум на членовете на Комисията - Европейска комисия - European Commission",
+      "desc": "Колегиум на членовете на Комисията - Европейска комисия European Commission",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5weHBOS3A1NndRTlZpN1ZkRE10dUFMdC1SRkFWS1ktR3BubElQZXVOdHV4VERMSWVKYU9OWnpldm8yY3BwdWJEYmIwVzctNTlHZzhuelZqNjBuM0ZneTdVT0ZUUXdWVHN6TnRydmtwQzVlVlNvUGpUbVZYNGo?oc=5",
+      "date": "2026-11-03",
+      "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
     },
@@ -474,6 +375,15 @@
       "title": "MEPs push €47.39 billion Erasmus+ budget, topping Commission’s €40.8 billion - ETIAS.com",
       "desc": "MEPs push €47.39 billion Erasmus+ budget, topping Commission’s €40.8 billion ETIAS.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYmxsdGRpRHd1ZWhvZ0QzWU5xbURNRmtQLWxtSnRZQzV6QjZrMDVJdVVYTklyQVhEWEQxTlBFT1IyTkJaYWwydzdOcU53UGdyV1Z5aEp2UDM3ZDZwd1FDZ2dGTDhOQ1l6ZFRoNU1nckN1blJEa1R3djBMOGJ3RzFCVnRXa19kUlJJYlZ2SFQ0WWNYR0poZDR3R1dLUEZ0bGQ5WV93MmgwdGRvMjR0TDZlamNkVDNvN2NBUl8wWUM0M3pyV3p6?oc=5",
+      "date": "2026-11-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Beyond Horizon: Science and competitiveness brief - Science|Business",
+      "desc": "Beyond Horizon: Science and competitiveness brief Science|Business",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd2FMZllMNVJONnVTeXNtcEIzbFpobzltak5NdGtVVG43QktlNjFDdE9zdm11UjlWdjJGR2ZSUnNNZ09jZndWZm9Cbm93SkdWdmw5eEIxQ1VJbFJCS0NqSUV1MjVTcW1hTTNrWVo5bDJNaWc0STJpVHBDZjRuWjhFRldsZTY4REFYLVd1RkMxWnRHc3ROZ21hZUpIelh4ck4tWnZfeWl0ZTdnQ1FYaEtmZ3RnUnNZQVpxZUE?oc=5",
       "date": "2026-11-03",
       "source": "Google News EN",
       "lang": "en",
@@ -543,60 +453,6 @@
       "topic": "eu"
     },
     {
-      "title": "UNOPS launches Blueing the Black Sea initiative with World Bank and GEF to cut marine pollution across the Black Sea region - fundsforNGOs News",
-      "desc": "UNOPS launches Blueing the Black Sea initiative with World Bank and GEF to cut marine pollution across the Black Sea region fundsforNGOs News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaDhlZk5oYTV0SWhhZGwyZVdFNnh1UXpYdFdzQXgteGxmNTVtUmhEck5NNjNFN0tjZHFDM3BRMEZ1MkRYYWhhZ0ptTDNvZ0FPNEFDR1NiZ3hEQ1F4aGR6cGVuS0NDaTNPWTZGUjBiWUJpYU5mbEw5WkVyRmF6SzlxREF2X2VzcGJjZG1uN2dfSHFFQzVOdWZoR0Vaa2lFMlUwVnZGWDBtLWlURHE1emc?oc=5",
-      "date": "2026-11-03",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Радев: Инфлационният натиск в еврозоната може да се окаже по-продължителен",
-      "desc": "Европейската централна банка (ЕЦБ) трябва да запази готовност за допълнително затягане на паричната политика, тъй като енергийният шок може да поддържа инфлацията над целевото равнище от 2% по-дълго от очакваното. Въпреки че базисната инфлация остава относително стабилна, прогнозите за 2027 г. вече ",
-      "url": "https://www.bloombergtv.bg/a/9-bulgaria/166374-radev-inflatsionniyat-natisk-v-evrozonata-mozhe-da-se-okazhe-po-prodalzhitelen",
-      "date": "2026-11-03",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Imoti.net организира бизнес форум за новата реалност на пазара на недвижими имоти във Варна",
-      "desc": "На 5 ноември 2026 г. от 14:00 ч. Imoti.net ще събере представители на бизнеса и водещи експерти от сектора на недвижимите имоти на бизнес форум във Варна. Събитието ще се проведе в хотел-галерия &bdquo;Графит&ldquo; и ще постави във фокуса промените, които преобразяват пазара, и стратегиите, с които",
-      "url": "https://www.bloombergtv.bg/a/9-bulgaria/166372-imotinet-organizira-biznes-forum-za-novata-realnost-na-pazara-na-nedvizhimi-imoti-vav-varna",
-      "date": "2026-11-03",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Нова атака срещу Иран може да изстреля цените на газа до 120 евро за мегаватчас",
-      "desc": "Европейският газов пазар е изправен пред нов ценови шок, като котировките могат да достигнат 123 евро за мегаватчас в краткосрочен план. Конфликтът в Иран, сривът на доставките на втечнен природен газ от Катар и ниските запаси в европейските хранилища засилват риска от поскъпване. Не се очаква същес",
-      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/166360-nova-ataka-sreshtu-iran-mozhe-da-izstrelya-tsenite-na-gaza-do-120-evro-za-megavatchas",
-      "date": "2026-11-03",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Край на еднообразната мода? Дрехите втора употреба печелят позиции",
-      "desc": "Дрехите втора употреба постепенно се превръщат от бюджетна алтернатива в осъзнат избор за потребителите, които търсят собствен стил и възможност да се отличават от масовата мода. Все повече млади хора откриват потенциала на този пазар, а инфлуенсъри и модни тенденции допринасят за промяната в общест",
-      "url": "https://www.bloombergtv.bg/a/17-v-razvitie/166352-kray-na-ednoobraznata-moda-drehite-vtora-upotreba-pechelyat-pozitsii",
-      "date": "2026-11-03",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Дацов: България няма стратегия за овладяване на дефицита",
-      "desc": "България няма ясна дългосрочна стратегия за справяне със структурния бюджетен дефицит, който надхвърля 4% от брутния вътрешен продукт. Предвидената фискална корекция от 0,3-0,5% от БВП годишно няма да бъде достатъчна за постигане на необходимия резултат в рамките на четиригодишен период. Междувремен",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/166333-datsov-balgariya-nyama-strategiya-za-ovladyavane-na-defitsita",
-      "date": "2026-11-03",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
       "title": "35 more firms to get over €46m in EU funding for defence production - BurgasMedia",
       "desc": "35 more firms to get over €46m in EU funding for defence production BurgasMedia",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3hXR2x2TXBrTElhZ0kxc3NRYUNlS1RXblBFS3oyVnpJdW9MYnZNTHM0TlRHVlBzeGdFU1BNR2JYNUpUcHptRUkwSVYzOGo1N3JzSmJ0dU1zVWtKRFozU0FPT3U3NTUyRTVWMi1hblZpa1dna0tuZUc4bVNSdExYei1YTXozLXN4bjhPci1lSTVHWlRFYnpKVFEwakhXSm9LU3pBR2ZRa0xQOXdLclJtbkV2R2UwZjDSAbwBQVVfeXFMT0ZtbHpaYW5lR3VTSzBBcGZUOEdIUS0tNGdJQ1daMzFQaE55WGsycmRYMS1wd0RfSndvOFR4MU43VGFycDVsQ1RVb0prZ25ucl81YmJRM0p3M18tWkM0YXJFeXRLaWx2ZXp4WDNLSXZMMUhQcEx4R2k4QWJFODJNd0Z3OUdHSW10MmZXSGM0Zy1KLVpHOEpqS3gyMEhpeG1UNXN2N2tvR2FhMkFUYVN6enUxQWtOdDhxSkZaV3o?oc=5",
@@ -631,33 +487,6 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Стартъп екосистемата в България е първа по растеж в Европа",
-      "desc": "България демонстрира впечатляващ икономически и технологичен импулс през последната година, като привличането на чуждестранни инвестиции и развитието на рисковия капитал бележат нови върхове. Това коментира Макс Гурвиц, управляващ партньор във &bdquo;Витоша Венчърс II&ldquo;, в предаването \"Бизнес с",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/166274-startap-ekosistemata-v-balgariya-e-parva-po-rastezh-v-evropa",
-      "date": "2026-11-02",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Бизнесът към властта: Резки данъчни промени ще имат непредвидими последствия",
-      "desc": "България има яснота за политическото си ръководство след балотажа за президент, но остава въпросът какъв хоризонт се открива пред икономиката и в частност пред малкия и среден бизнес. Бизнес средата остава обвързана с множество неясноти и предизвикателства, коментира Елеонора Негулова, председател н",
-      "url": "https://www.bloombergtv.bg/a/16-biznes-start/166271-biznesat-kam-vlastta-rezki-danachni-promeni-shte-imat-nepredvidimi-posledstviya",
-      "date": "2026-11-02",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "ЦИК при 99.68% обработени протоколи: Йотова побеждава с 18%",
-      "desc": "Илияна Йотова ще е следващият президент на България, според официалните данни от сайта на ЦИК при 99.68% обработени секционни протоколи. Двойката Илияна Йотова и Кирил Вълчев е спечелила 57.661% от гласовете на балотажа за президент (1 091 206 гласа), който се проведе на 1 ноември. Двойката Андрей Г",
-      "url": "https://www.bloombergtv.bg/a/2-novini/166261-tsik-pri-9968-obraboteni-protokoli-yotova-pobezhdava-s-18",
-      "date": "2026-11-02",
-      "source": "Bloomberg TV BG",
-      "lang": "bg",
-      "topic": "общи"
     }
   ]
 }
