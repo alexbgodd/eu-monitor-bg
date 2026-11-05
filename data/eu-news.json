@@ -1,7 +1,25 @@
 {
-  "updated": "2026-11-05 14:42",
-  "count": 55,
+  "updated": "2026-11-05 17:31",
+  "count": 61,
   "items": [
+    {
+      "title": "Датската European Energy планира вятърни паркове за 1 GW в Североизточна България - Economic.bg",
+      "desc": "Датската European Energy планира вятърни паркове за 1 GW в Североизточна България Economic.bg",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUjlNR091V2Zsby1JckZLOTVqMGdiUlVfdXZ4enAxY24yN3U1cUprdHJPX2ZsOHQ3SEQwbzctNEpnc243U2VFMVp6S1FtRlY0dzN4TFlvdUZYaDVKY1ctYWZ4eUtCMUp6c3AyMWRhTDJXNGFaVTVLbE9jUEkzYTRBVGNULTBmOFowMUhBTV9MdjJHeE5Hai1VNEtpdnZUcF9QLUJ0UGhjdTN6b29IVTJnNWhzTUM2U1NHR3c?oc=5",
+      "date": "2026-11-05",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Финансовото министерство представя Бюджет 2027 в УНСС - https://vratsa.eu/",
+      "desc": "Финансовото министерство представя Бюджет 2027 в УНСС https://vratsa.eu/",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU0NZVEFYX2FFcHlYY1p3aTRQeEo5OUloOWZYeHdmMEZRcXdIUHVwd0IyTXcwLWpJQTR6bFVIa041RHNHYk9ya2xSMVlUZnN0NHdLNl9DSGVpUEI1QUo2eGpidFpFd09jUW9hbnZsT05CWTdqUEV5QTFCMUJxZEM5bnpmX2IycDdpZlllTVIzSUVzazVqbGdGdFJ3?oc=5",
+      "date": "2026-11-05",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
     {
       "title": "Готвят нов прием по „Избирам България“ за студенти с български произход - News24sofia.eu",
       "desc": "Готвят нов прием по „Избирам България“ за студенти с български произход News24sofia.eu",
@@ -39,6 +57,15 @@
       "topic": "eu"
     },
     {
+      "title": "ILO Türkiye convenes Ankara workshop on just transition ahead of COP31, supported through EU project on social partner capacity - fundsforNGOs News",
+      "desc": "ILO Türkiye convenes Ankara workshop on just transition ahead of COP31, supported through EU project on social partner capacity fundsforNGOs News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYlplTkpSMmhjN2VrS256bDlsbGFjZThhd3UxWHkwN3BlV1dtX1dPM3FyQW9TUVZuWTJYWl9JLS12ZElKeFhGXzF5aUxyVFk1Q3BpbEttbmJxamtuODZBU0JLMVQ5ZmEtbm12V3ZiazR3MHBSaGVObWZXQWZsMVU5V3VKY2RFRGpSalVHaGFSbXR3NzhYeDFUSWtNa1hMT3NNODdUbFhLRQ?oc=5",
+      "date": "2026-11-05",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "European Commission adopts 2027 innovation funding plan for strategic technologies - Traders Union",
       "desc": "European Commission adopts 2027 innovation funding plan for strategic technologies Traders Union",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmRKd09EWERsMmZUZVB0bDN4ZjZJdHB0eGU1cldYTklNUl9WajQwT1Zick4yM2hhUERhZjdleXctVXN0WWlpYmpJR2Z3QWdjT1IxdGdCYnBwdkVVS0c1bnZpWWUxaHotM19XLTlXcWhvV04xQWRTRS02TkZodVRUdVNsbExzS3dpbi1wLXR3Qy1IUWotcS1EQw?oc=5",
@@ -55,6 +82,96 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Удължават престоя на френския морски патрулен самолет в Черно море",
+      "desc": "Френският морски патрулен самолет в Черно море ще удължи престоя си с още няколко седмици. Това обяви командирът му в четвъртък, цитиран от Reuters. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Udulzhavat-prestoya-na-frenskiya-morski-patrulen-samolet-v-Cherno-more-3051933",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Ивайло Мирчев: Следват глоба от ЕК, спиране на европейските фондове и щети за милиарди евро",
+      "desc": "Съпредседателят на \"Да, България\" Ивайло Мирчев коментира предупреждението на ЕК към България, касаещо свръхразходите в Бюджет 2027 г. и се ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ivailo-Mirchev-Sledvat-globa-ot-EK-spirane-na-evropeiskite-fondove-i-shteti-za-miliardi-evro-3051931",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Брюксел предупреди България: Разходите излизат извън контрол и през 2027 г.",
+      "desc": "Европейската комисия има забележки към бюджетния план на България за 2027 г. и настоява финансовото министерство да обясни как страната ще се вмести ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bryuksel-predupredi-Bulgariya-Razhodite-izlizat-izvun-kontrol-i-prez-2027-g-3051929",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "\"Решението ни да представим ясно и прозрачно новия бюджет е скандално и непростимо\": Пеканов отговори на критиките за УНСС",
+      "desc": "Разбирам, че решението ни да представим ясно, прозрачно и в детайл новия бюджет в най-големия икономически университет в България, вместо отделени и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Reshenieto-ni-da-predstavim-yasno-i-prozrachno-noviya-byudzhet-e-skandalno-i-neprostimo-Pekanovotgovori-na-kritikite-za-UNSS-3051928",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Дарин Костов е новият директор на ГДБОП",
+      "desc": "Новият директор на Главна дирекция \"Борба с организираната престъпност“ (ГДБОП) е Дарин Костов, съобщиха от МВР. До момента той заемаше поста ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Darin-Kostov-e-noviyat-direktor-na-GDBOP-3051922",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Радан Кънев иска отговор от ЕК заради спора около втория пенсионен стълб",
+      "desc": "Лидерът на ДСБ и евродепутат Радан Кънев внесе въпрос за писмен отговор до Европейската комисия относно подготвяното пренасочване на част от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Radan-Kunev-iska-otgovor-ot-EK-zaradi-spora-okolo-vtoriya-pensionen-stulb-3051912",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Данни за пенсионните фондове за първите 6 месеца на годината – какви са сумите и колко са осигурените лица",
+      "desc": "Към 30.06.2026 г. участниците в управляваните от ПОД фондове са общо 5 214 166 души, като 5 165 576 от тях са осигурени лица във ФДПО, 37 278 са ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Danni-za-pensionnite-fondove-za-purvite-6-meseca-na-godinata-kakvi-sa-sumite-i-kolko-sa-osigurenite-lica-3051911",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Борислав Цеков: Идеята на Румен Радев бюджетът да се представи в университет или на площада в Куртово Конаре - ерозира демократичния конституционен ред!",
+      "desc": "Приемането на държавния бюджет е в изключителната компетенция на Народното събрание. Това е най-висшето представително учреждение, в което участват ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Borislav-Cekov-Ideyata-na-Rumen-Radev-byudzhetut-da-se-predstavi-v-universitet-ili-na-ploshtada-v-Kurtovo-Konare-erozira-demokratichniya-konstitucionen-red-3051902",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Измама с \"Евровизия 2027\"! Фалшиви сайтове продават билети",
+      "desc": "Българската национална телевизия предупреждава хората да не се доверяват на фалшиви публикации и оферти, свързани с \"Евровизия 2027\" в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Izmama-s-Evroviziya-2027-Falshivi-saitove-prodavat-bileti-3051900",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Евростат постави България на трето място в Европа по скок на цените на електроенергията",
+      "desc": "През първото полугодие на 2026 г. средната цена на електроенергията за небитови потребители в ЕС е била 0,18 евро за киловатчас (kWh). Това показват ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Evrostat-postavi-Bulgariya-na-treto-myasto-v-Evropa-po-skok-na-cenite-na-elektroenergiyata-3051889",
+      "date": "2026-11-05",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Увеличават заплатите в EVN България след синдикален натиск",
@@ -237,94 +354,13 @@
       "topic": "култура"
     },
     {
-      "title": "Еюп Темиз, обвинен за убийството на Слави Бинев, остава в ареста",
-      "desc": "Еюп Темиз, обвинен за умишлено убийство на бизнесмена Слави Бинев остава с постоянна мярка за неотклонение \"задържане под стража\". Това ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Eyup-Temiz-obvinen-za-ubiistvoto-na-Slavi-Binev-ostava-v-aresta-3051733",
-      "date": "2026-11-05",
-      "source": "Focus News",
+      "title": "Групата на ЕНП изпълнява обещанието си да отмени забраната за двигателите с вътрешно горене - EPP Group in the European Parliament",
+      "desc": "Групата на ЕНП изпълнява обещанието си да отмени забраната за двигателите с вътрешно горене EPP Group in the European Parliament",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekYtb2tGUEZkeGxieWRHWENlOXFmU1AyeUs1TUZIWWV0OGVUaHZYSk5LYmQwdGRVX25DMHdQTmVLMlFHM2JDNFJndThlYjFWVVpjME83ZFNXeG9Wd0hpdGs3MDczSTNMN0I0NXFsY1dHc3p2ektYbThvd2dXUXgtR2JLV0pyZ2d2MlN2NDIxVzg2d3N5TUsyZV9TNFVlNmh2aEN3WlpBVi1JSWd2VTMxMjhBX0l6WXJ4QTFB?oc=5",
+      "date": "2026-11-04",
+      "source": "Google News BG",
       "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Гл. комисар Пелтеков: Четирима са задържани за незаконно следене с тракери в Гурково",
-      "desc": "Четирима души на възраст между 31 и 54 години са задържани във връзка с акцията в Гурково Разследването е за незаконно използване на специални ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Gl-komisar-Peltekov-Chetirima-sa-zadurzhani-za-nezakonno-sledene-s-trakeri-v-Gurkovo-3051728",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Представят проектобюджета за 2027 в УНСС",
-      "desc": "Проектобюджетът за 2027 г. ще бъде представен в УНСС. Това ще се случи утре, 6 ноември, от 13:00 ч. в аула \"Максима\", съобщиха от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Predstavyat-proektobyudzheta-za-2027-v-UNSS-3051727",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Анастасов определи Комисията по досиетата като \"демократично постижения, на което се изгражда скъсването с комунизма\"",
-      "desc": "Едно от демократичните постижения, на което се изгражда скъсването с комунистическото минало и осъждането на престъпленията на тоталитарния режим. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Anastasov-opredeli-Komisiyata-po-dosietata-kato-demokratichno-postizheniya-na-koeto-se-izgrazhda-skusvaneto-s-komunizma-3051705",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Държавен фонд \"Земеделие\" с важно съобщение към стопаните",
-      "desc": "Държавен фонд \"Земеделие“ (ДФЗ) информира земеделските стопани, че уведомителните писма за извършените плащания по агроекологичните и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Durzhaven-fond-Zemedelie-s-vazhno-suobshtenie-kum-stopanite-3051693",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
-      "title": "Възрастта, заболяванията и начинът на живот влияят върху репродуктивното здраве и на двамата партньори",
-      "desc": "Един на всеки шестима души в света се сблъсква с инфертилитет, сочат данни на СЗО. В България 6,5% от децата се раждат след асистирана репродукция, а ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vuzrastta-zabolyavaniyata-i-nachinut-na-zhivot-vliyayat-vurhu-reproduktivnoto-zdrave-i-na-dvamata-partnyori-3051691",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Проучвания на СЗО в България: Висок обхват на задължителните имунизации, но колебания за HPV ваксината",
-      "desc": "Две паралелни проучвания, възложени от СЗО в България, установяват широко разпространена задължителна имунизация сред подрастващите, но значително ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Prouchvaniya-na-SZO-v-Bulgariya-Visok-obhvat-na-zadulzhitelnite-imunizacii-no-kolebaniya-za-HPV-vaksinata-3051689",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Цончо Ганев: Не сме нито монархия, нито диктатура, бюджетът трябва да мине през парламента",
-      "desc": "Неуважение към парламента, трябва първо да дойде в парламента. В крайна сметка сме парламентарна република и би било редно всичко да започва и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Concho-Ganev-Ne-sme-nito-monarhiya-nito-diktatura-byudzhetut-tryabva-da-mine-prez-parlamenta-3051685",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Костадинов: В законопроекта за българския език няма изискване имената на министерствата да се изписват на латиница",
-      "desc": "В законопроекта за българския език няма текст, който да предвижда имената на министерствата да се изписват на латиница. Това заяви лидерът на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadinov-V-zakonoproekta-za-bulgarskiya-ezik-nyama-iziskvane-imenata-na-ministerstvata-da-se-izpisvat-na-latinica-3051684",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Четирима митничари, двама от тях ръководители, са задържани във Варна за схема с внос на стоки от Китай",
-      "desc": "Четирима митничари са задържани при специализирана акция срещу данъчни престъпления, свързани с вноса на стоки от Китай. Двама от арестуваните са на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Chetirima-mitnichari-dvama-ot-tyah-rukovoditeli-sa-zadurzhani-vuv-Varna-za-shema-s-vnos-na-stoki-ot-Kitai-3051681",
-      "date": "2026-11-05",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "екология"
+      "topic": "eu"
     },
     {
       "title": "Евроодиторите предупреждават за сериозни пропуски в новия бюджет на ЕС - News24sofia.eu",
@@ -381,6 +417,15 @@
       "topic": "eu"
     },
     {
+      "title": "€ 10 million grant to implement project for promotion of sustainable trade between European Union and Sri Lanka - Island.lk",
+      "desc": "€ 10 million grant to implement project for promotion of sustainable trade between European Union and Sri Lanka Island.lk",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUVRMYTR2ZlhpcW1YOU83aHRTZ3VodXFUNGo1NlFvUzN4VW9NekJiOUQtVmxnUkR5QlpiNC1veEk3QnB0azM2ZGZsTHdRR0NXSGpldnJ5TkktaEVnamdOTmhzNUg0MVp1aTFIR29KSHF0S2dMalRVWkhWNU93THN4aV9GSU9xeEZYZXdLc2FLc2xaQmRaVTFQcVRDVnRHZVdmUkt3cEdPWjM1UGFVbHFHTTZPM1pjODVfbGRUYkFwUDdCZW9kWGxJMTVR?oc=5",
+      "date": "2026-11-04",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "Horizon Europe Grants for Monoclonal Antibody Development Against Emerging Viral Infections - fundsforNGOs",
       "desc": "Horizon Europe Grants for Monoclonal Antibody Development Against Emerging Viral Infections fundsforNGOs",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObGdkalk0ZU1BVG1EWlNtQmZfQTNtSkR2QmFLM0dHV2dvYnEtdzEydzFNRnNTTkZHRE9MMmtvZGp0cE1peWVNVHdOQXg1Q0pHT25kTDZQVF91Qld0OGlVWHVnVFJkeHRiT2pPNlllWTRncXdsbHgzdloyclR4cHY1SDE3SnhZajdDblVKTTlkZ05UdTNndVpsc1JwV1NkVVliZXNWTlJyaHp0enFRQ0ZfVnRnQjhaUdIBtgFBVV95cUxObGdkalk0ZU1BVG1EWlNtQmZfQTNtSkR2QmFLM0dHV2dvYnEtdzEydzFNRnNTTkZHRE9MMmtvZGp0cE1peWVNVHdOQXg1Q0pHT25kTDZQVF91Qld0OGlVWHVnVFJkeHRiT2pPNlllWTRncXdsbHgzdloyclR4cHY1SDE3SnhZajdDblVKTTlkZ05UdTNndVpsc1JwV1NkVVliZXNWTlJyaHp0enFRQ0ZfVnRnQjhaUQ?oc=5",
@@ -417,15 +462,6 @@
       "topic": "eu"
     },
     {
-      "title": "€ 10 million grant to implement project for promotion of sustainable trade between European Union and Sri Lanka - Island.lk",
-      "desc": "€ 10 million grant to implement project for promotion of sustainable trade between European Union and Sri Lanka Island.lk",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUVRMYTR2ZlhpcW1YOU83aHRTZ3VodXFUNGo1NlFvUzN4VW9NekJiOUQtVmxnUkR5QlpiNC1veEk3QnB0azM2ZGZsTHdRR0NXSGpldnJ5TkktaEVnamdOTmhzNUg0MVp1aTFIR29KSHF0S2dMalRVWkhWNU93THN4aV9GSU9xeEZYZXdLc2FLc2xaQmRaVTFQcVRDVnRHZVdmUkt3cEdPWjM1UGFVbHFHTTZPM1pjODVfbGRUYkFwUDdCZW9kWGxJMTVR?oc=5",
-      "date": "2026-11-04",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
       "title": "Одитите на Сметната палата разкриха проблеми с публичните финанси и управлението на АПИ - https://vratsa.eu/",
       "desc": "Одитите на Сметната палата разкриха проблеми с публичните финанси и управлението на АПИ https://vratsa.eu/",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPODRPbnRRZ29ZWlhZTHQxVTBTbktzN0NqVXRjbDg2Y3M3NnFNSDF3VExvREFHVkVGQ3dpWC1jMklSRURVRjlZWjB4MlFwMm94OVQ4ZEp5c1owS2NSTUtEdmROaWNSbTBKMGtXS3AwREg2eFlQLUJmT05JUVJNbk5uQUo0dzJYVWg5VGx6WVhfVlY1bmJ6QnZpXzdEWldsWlB1bTlQNFhyeFBBVDdaSDF5TVBzZjFnLUNkaGtBejlLbEpaSlNO?oc=5",
@@ -433,6 +469,24 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "общи"
+    },
+    {
+      "title": "MEPs push €47.39 billion Erasmus+ budget, topping Commission’s €40.8 billion - ETIAS.com",
+      "desc": "MEPs push €47.39 billion Erasmus+ budget, topping Commission’s €40.8 billion ETIAS.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYmxsdGRpRHd1ZWhvZ0QzWU5xbURNRmtQLWxtSnRZQzV6QjZrMDVJdVVYTklyQVhEWEQxTlBFT1IyTkJaYWwydzdOcU53UGdyV1Z5aEp2UDM3ZDZwd1FDZ2dGTDhOQ1l6ZFRoNU1nckN1blJEa1R3djBMOGJ3RzFCVnRXa19kUlJJYlZ2SFQ0WWNYR0poZDR3R1dLUEZ0bGQ5WV93MmgwdGRvMjR0TDZlamNkVDNvN2NBUl8wWUM0M3pyV3p6?oc=5",
+      "date": "2026-11-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Open Call: Advancing Monoclonal Antibody Therapies Against Emerging Flavivirus Infections - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Open Call: Advancing Monoclonal Antibody Therapies Against Emerging Flavivirus Infections fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMWdVM0U3Tk1GcVE0Ny1xSnR3azY3aUlSMzVCdTBlOWpWVl9LM2t1TGl3UFlZRHY1emhYdl81Z0xMMzQwaXVkd3VkeFk2eC1WTmt6T3lZOENTcnBES0dDY3Nqa2xtUFVvblh4WUJ6bGc2QU41cG5ONWVkMGtHYVluYktFRFYyeFplRXR1ZU9rYUhmOHdQSkVnSEdJM3NmSThCTi0yUG5YUXFoSmhQTkdDb3dJRXpRSmZlN1FMbWNPYXk3b3puX2NWOXhrbmRTcjdfYjZv0gHTAUFVX3lxTFAxZ1UzRTdOTUZxUTQ3LXFKdHdrNjdpSVIzNUJ1MGU5alZWX0sza3VMaXdQWVlEdjV6aFh2XzVnTEwzNDBpdWR3dWR4WTZ4LVZOa3pPeVk4Q1NycERLR0Njc2prbG1QVW9uWHhZQnpsZzZBTjVwbk41ZWQwa0dhWW5iS0VEVjJ4WmVFdHVlT2thSGY4d1BKRWdIR0kzc2ZJOEJOLTJQblhRcWhKaFBOR0Nvd0lFelFKZmU3UUxtY09heTdvem5fY1Y5eGtuZFNyN19iNm8?oc=5",
+      "date": "2026-11-03",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     },
     {
       "title": "Beyond Horizon: Science and competitiveness brief - Science|Business",
@@ -444,18 +498,18 @@
       "topic": "eu"
     },
     {
-      "title": "Baltic states may renew request for EU funding for anti-drone defence - Baltic News Network",
-      "desc": "Baltic states may renew request for EU funding for anti-drone defence Baltic News Network",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRUtVd0c1bmhhaVNmMzRMMzVOOWtBZFkwWDd3N1BNelBnV0lfOURpbjF6Zzl4LXBzQUpCalQ2R2k0ZzZQblpGekxka0U3bzNuXzJlMUJhdHpITm9kQ05sclVYajlJbmFESm5ic21xNG9jY0h5clN1VVZMZ0I0U0x0aHN3d2dmbHg1NEJzQW1jNEd6ZFJBSUxFb1JVQnh4Q29IVnJnc3BCUmJxUQ?oc=5",
+      "title": "EU and UK spent millions on Israeli phone cracking tech despite risks - Statewatch",
+      "desc": "EU and UK spent millions on Israeli phone cracking tech despite risks Statewatch",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHliN21Qa3FaNEkxaHZma3lEcmRORDVWQi10bjUyVk9Td2JOZFBhbUs3STNhVHBOR1NkWWRxQ09jZVp4eXZNYmJFR0RBZW96cWFmTUV1UksxZjFFeU1pNHZ0SmFvSGtGMjNHN0FrNDlVSmh5Z1FlZUl1YnZxVU9HbkJIR0VLR1h6LUFNM3BLWGMtWXE0TXlnMjd6SGExR2paZEdzUG1jel84R29GTW5YQ05LSkE2Sl9DNEtRTHVNNFJQS0U?oc=5",
       "date": "2026-11-03",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Open Call: Advancing Monoclonal Antibody Therapies Against Emerging Flavivirus Infections - fundsforNGOs - Grants and Resources for Sustainability",
-      "desc": "Open Call: Advancing Monoclonal Antibody Therapies Against Emerging Flavivirus Infections fundsforNGOs - Grants and Resources for Sustainability",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMWdVM0U3Tk1GcVE0Ny1xSnR3azY3aUlSMzVCdTBlOWpWVl9LM2t1TGl3UFlZRHY1emhYdl81Z0xMMzQwaXVkd3VkeFk2eC1WTmt6T3lZOENTcnBES0dDY3Nqa2xtUFVvblh4WUJ6bGc2QU41cG5ONWVkMGtHYVluYktFRFYyeFplRXR1ZU9rYUhmOHdQSkVnSEdJM3NmSThCTi0yUG5YUXFoSmhQTkdDb3dJRXpRSmZlN1FMbWNPYXk3b3puX2NWOXhrbmRTcjdfYjZv0gHTAUFVX3lxTFAxZ1UzRTdOTUZxUTQ3LXFKdHdrNjdpSVIzNUJ1MGU5alZWX0sza3VMaXdQWVlEdjV6aFh2XzVnTEwzNDBpdWR3dWR4WTZ4LVZOa3pPeVk4Q1NycERLR0Njc2prbG1QVW9uWHhZQnpsZzZBTjVwbk41ZWQwa0dhWW5iS0VEVjJ4WmVFdHVlT2thSGY4d1BKRWdIR0kzc2ZJOEJOLTJQblhRcWhKaFBOR0Nvd0lFelFKZmU3UUxtY09heTdvem5fY1Y5eGtuZFNyN19iNm8?oc=5",
+      "title": "Baltic states may renew request for EU funding for anti-drone defence - Baltic News Network",
+      "desc": "Baltic states may renew request for EU funding for anti-drone defence Baltic News Network",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRUtVd0c1bmhhaVNmMzRMMzVOOWtBZFkwWDd3N1BNelBnV0lfOURpbjF6Zzl4LXBzQUpCalQ2R2k0ZzZQblpGekxka0U3bzNuXzJlMUJhdHpITm9kQ05sclVYajlJbmFESm5ic21xNG9jY0h5clN1VVZMZ0I0U0x0aHN3d2dmbHg1NEJzQW1jNEd6ZFJBSUxFb1JVQnh4Q29IVnJnc3BCUmJxUQ?oc=5",
       "date": "2026-11-03",
       "source": "Google News EN",
       "lang": "en",
