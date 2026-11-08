@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08 13:28",
-  "count": 41,
+  "updated": "2026-11-08 16:09",
+  "count": 43,
   "items": [
     {
       "title": "Потребителското доверие в България се понижава, домакинствата са по-предпазливи към големи покупки - News24sofia.eu",
@@ -10,6 +10,51 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "eu"
+    },
+    {
+      "title": "ДСБ: Радев и Донев се страхуват от реформи, цената ще платят работещите и следващите поколения",
+      "desc": "Страхлив бюджет. Предложеният бюджет показва липса на политическа воля за реформи, за ограничаване на трайните дефицити и за овладяване на растящия ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/DSB-Radev-i-Donev-se-strahuvat-ot-reformi-cenata-shte-platyat-raboteshtite-i-sledvashtite-pokoleniya-3053356",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Демерджиев за убийството на Илиян Филипов: Събрани са много и безспорни доказателства срещу Славчо Мегеров",
+      "desc": "Балистичната експертиза е потвърдила категорично, че откритото от разследващите оръжие е използвано при убийството на пловдивския бизнесмен Илиян ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Demerdzhiev-za-ubiistvoto-na-Iliyan-Filipov-Subrani-sa-mnogo-i-bezsporni-dokazatelstva-sreshtu-Slavcho-Megerov-3053348",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "НИМХ обяви седмичната прогноза: Постепенно затопляне с температури до 20° в петък, после следва ново застудяване",
+      "desc": "През нощта от запад облачността ще се увеличи и вплътни. В отделни западни райони ще превали слаб дъжд. Ще бъде почти тихо. Минималните температури ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/NIMH-obyavi-sedmichnata-prognoza-Postepenno-zatoplyane-s-temperaturi-do-20-v-petuk-posle-sledva-novo-zastudyavane-3053324",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Поевтиняват ли горивата? Бензинът падна под 1,60 евро, но автогазът скочи рязко",
+      "desc": "Динамични промени на пазара на горива у нас отчитат статистическите данни за последния месец, показващи различна тенденция при традиционните горива и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Poevtinyavat-li-gorivata-Benzinut-padna-pod-1-60-evro-no-avtogazut-skochi-ryazko-3053287",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Десетки пияни и дрогирани шофьори засечени при полицейска операция в страната",
+      "desc": "22-ма шофьори са установени да управляват автомобили след употреба на алкохол, а други седем са засечени под въздействието на наркотици при ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Desetki-piyani-i-drogirani-shofyori-zasecheni-pri-policeiska-operaciya-v-stranata-3053279",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "МВР почете полицаите, рискуващи живота си в защита на гражданите",
@@ -42,6 +87,15 @@
       "title": "Илияна Йотова: Споделям болката на полския народ",
       "desc": "Президентът Илияна Йотова изрази съпричастност към Полша след трагичното нападение в Краков, при което загинаха шестима души, а десетки бяха ранени. ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Iliyana-Iotova-Spodelyam-bolkata-na-polskiya-narod-3053223",
+      "date": "2026-11-08",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Проф. Светослав Малинов: Недоволството от управлението може да нарасне след Нова година",
+      "desc": "Правителството на Румен Радев ще бъде изправено пред сериозни икономически предизвикателства през следващите месеци, като очакваното поскъпване на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Svetoslav-Malinov-Nedovolstvoto-ot-upravlenieto-mozhe-da-narasne-sled-Nova-godina-3053200",
       "date": "2026-11-08",
       "source": "Focus News",
       "lang": "bg",
@@ -255,60 +309,6 @@
       "topic": "общи"
     },
     {
-      "title": "Приключи гласуването за новите членове на ВСС, очакват се резултатите",
-      "desc": "Приключи гласуването за новите членове на Висшия съдебен съвет (ВСС) от съдийската квота. В момента тече преброяването на гласовете, съобщават от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Priklyuchi-glasuvaneto-za-novite-chlenove-na-VSS-ochakvat-se-rezultatite-3053011",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Божидар Божанов: Гълъб Донев не просто лъже, а подменя документи",
-      "desc": "Гълъб Донев не просто лъже, а подменя документи. Колкото повече задълбават в лъжата, толкова по-грозно става. Това написа съпредседателят на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bozhidar-Bozhanov-Gulub-Donev-ne-prosto-luzhe-a-podmenya-dokumenti-3053009",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДБ поиска обяснение за две различни версии на писмото на Гълъб Донев до ЕК",
-      "desc": "Скандалът с втория пенсионен стълб придобива ново измерение. Вече не става въпрос само за опита на правителството да пренасочи част от бъдещите ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DB-poiska-obyasnenie-za-dve-razlichni-versii-na-pismoto-na-Gulub-Donev-do-EK-3053003",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Нов призив за помощ от собственичката на убитото куче Кнопа",
-      "desc": "Собственичката на убитото куче Кнопа - Снежана Кишчук, благодари на всички, които са подкрепили семейството &#1117; след трагичния случай в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Nov-priziv-za-pomosht-ot-sobstvenichkata-na-ubitoto-kuche-Knopa-3052989",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "България, Румъния и Турция с обща противоминна мисия в Черно море",
-      "desc": "Започна тринадесетата активация на Военноморската противоминна група в Черно море (MCM BLACK SEA), съобщават от Министерство на отбраната. В ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgariya-Rumuniya-i-Turciya-s-obshta-protivominna-misiya-v-Cherno-more-3052985",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "туризъм"
-    },
-    {
-      "title": "Обновена сграда на бивше училище ще осигурява грижа за 35 възрастни хора",
-      "desc": "Нов Дом за стари хора с капацитет 35 потребители беше открит в самоковското село Ковачевци, съобщиха от Община Самоков. За социалната услуга е ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Obnovena-sgrada-na-bivshe-uchilishte-shte-osiguryava-grizha-za-35-vuzrastni-hora-3052964",
-      "date": "2026-11-07",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
       "title": "Реформите в Унгария предизвикват призиви за прекратяване на процедурата по член 7 - EPP Group in the European Parliament",
       "desc": "Реформите в Унгария предизвикват призиви за прекратяване на процедурата по член 7 EPP Group in the European Parliament",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYVJ1RWo5Yk9LcEI0MFpDU1E0MFlja3pJZGI2VDdRamdKMXAzU0g1SEFabWZyVmpGWGxrQUJSX1NDRG81bTUzSHVUUXl1aEJWOWFyLS1hZkMxakhWd3d0YzQwS2NzTlEyTTQyVHpEQkZwMWdUY3dHSGx1VVY2N2tNTW9ZLTlmYXlVVk81VU4wTEZ5QV9fZ1RyV0EzVXVkdjVkT210c3ZJRkw5OEYta2FmM19DbTBERHk5R0xiSw?oc=5",
@@ -336,6 +336,15 @@
       "topic": "общи"
     },
     {
+      "title": "Бюджет 2027: Гълъб Донев залага дефицит от 3,5%, без увеличение на данъците - https://vratsa.eu/",
+      "desc": "Бюджет 2027: Гълъб Донев залага дефицит от 3,5%, без увеличение на данъците https://vratsa.eu/",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa0pqelFLejcwVWc5LVJYN3VnR1hsYU9RVzM3ZFJJTTI1cUVGRGFYUWpQWklyVENia0JKLUIzRVE2WC1UZXphSkdWVlhhUzJTVmdZdjVkaXRldDFfeDg0QzRjdjdnc19Wc1ZWVXhhOFJPdFROSE9OZDZfN0FjSzBfZG5oa2dYY0o5LWZjS2IxMEw1WlRCc3IxTGlOYWNrcnZGR2VSUXVmbnhSRVo1NXItOFNlUGg?oc=5",
+      "date": "2026-11-06",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
       "title": "Кабинетът представя Бюджет 2027 НА ЖИВО - https://vratsa.eu/",
       "desc": "Кабинетът представя Бюджет 2027 НА ЖИВО https://vratsa.eu/",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR19RSHlwUFZ4bjdCY0xOTGMtUzVKdG9ISzVmYkZlRWxzS3IzVEFlaUhGcWNOcTdyU2RRVERuXzhLRW16UzZYWTNHUHlzeWtEdWhiZmRqd1VKbUp0T2ZfNUl0d0txTU54R2hWbmpKRTJrNGNYSEgtYjJMd0ljT0gycXhmTUktX2Y0?oc=5",
@@ -343,6 +352,15 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "общи"
+    },
+    {
+      "title": "REPowerEU - European Commission",
+      "desc": "REPowerEU European Commission",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tZkVmTXRzMVFiMVIyemJTNzdqT3BEcTFuYWVpY28zSTAtbnpjbEdiOHFCQ3hIN3JoVmNrUl9jeHg3emxkRGdabExzMlhjTkM0XzBUc3daSDJxZVV0dURtUzB4RGhyZw?oc=5",
+      "date": "2026-11-06",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
     },
     {
       "title": "Bulgaria’s 2027 Budget Explained: Not a Catastrophe, Not a Cure (DETAILED) - Novinite.com",
