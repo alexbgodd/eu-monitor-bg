@@ -1,7 +1,331 @@
 {
-  "updated": "2026-11-10 17:12",
-  "count": 50,
+  "updated": "2026-11-11 14:25",
+  "count": 47,
   "items": [
+    {
+      "title": "Колегиум на членовете на Комисията - Европейска комисия - European Commission",
+      "desc": "Колегиум на членовете на Комисията - Европейска комисия European Commission",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5weHBOS3A1NndRTlZpN1ZkRE10dUFMdC1SRkFWS1ktR3BubElQZXVOdHV4VERMSWVKYU9OWnpldm8yY3BwdWJEYmIwVzctNTlHZzhuelZqNjBuM0ZneTdVT0ZUUXdWVHN6TnRydmtwQzVlVlNvUGpUbVZYNGo?oc=5",
+      "date": "2026-11-11",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Русия трябва да върне отвлечените украински деца - EPP Group in the European Parliament",
+      "desc": "Русия трябва да върне отвлечените украински деца EPP Group in the European Parliament",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVGszZHZhUUlyeUd3M1daNTFXRnZ3VVlVSTNUQTVONGExZGRaV0pScVRKYU5TWDdMeVFCRW1wNEFQeFYwMGVqY1NNUkJfc29qYXBNZDBKXzdEV1g5MzlBMjI3WHh3SUtlbU1LUEJRa05ESkNBZlpMVDlmdW1SMmxlZ2wtTEFYYlJMOG9FVFhDQQ?oc=5",
+      "date": "2026-11-11",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "ЕС договори бюджета си за 2027 г. за 199,7 млрд. евро - Fakti.bg",
+      "desc": "ЕС договори бюджета си за 2027 г. за 199,7 млрд. евро Fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ01JNk5GUG9McVhSZDhrVWtrNHk1c1JBT3FfMW52TE81VXprdTNiUEM2bVEtOTdIdFROZXZHMEJfbzVlV05yWTRwVlpVVWdreFhVenBLR0hJOG96YlUtanR5QUhMcUhremF0Wk5MbkNaY3dOdVZsTjNUWjRVZnA2dXA2REZ5bXRM?oc=5",
+      "date": "2026-11-11",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "President von der Leyen travels to Black Sea region and reaffirms EU's solidarity with Romania and Bulgaria in ‘testing times'",
+      "desc": "European Commission News Brussels, 11 Nov 2026 President of the Commission Ursula von der Leyen was in Romania and Bulgaria on 9 and 10 November on a visit to the Black Sea region to reiterate the Commissio...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2416",
+      "date": "2026-11-11",
+      "source": "European Commission",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Daily News 11 / 11 / 2026",
+      "desc": "European Commission Daily news Brussels, 11 Nov 2026 Commission to advance Ukraine's recovery, reconstruction, and modernisation at EU-Ukraine Investment Conference On 12 and 13 November, the European Commission, ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2411",
+      "date": "2026-11-11",
+      "source": "European Commission",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Посолството на Украйна у нас спусна знамето си наполовина",
+      "desc": "Посолството на Украйна спусна знамето си наполовина в знак на солидарност с България след катастрофата вчера на Тракия, на която загинаха 11 души, а ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Posolstvoto-na-Ukraina-u-nas-spusna-znameto-si-napolovina-3054889",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "АПИ е натрупала над 700 млн. евро задължения за пътна поддръжка без осигурено финансиране",
+      "desc": "Над 700 млн. евро са задълженията на Агенция \"Пътна инфраструктура“ (АПИ) за възложена и извършена, но неразплатена работа по поддръжката на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/API-e-natrupala-nad-700-mln-evro-zadulzheniya-za-putna-poddruzhka-bez-osigureno-finansirane-3054871",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Манолова към ЕРП-тата: Опитате ли се да надпишете отново потреблението в сметките на клиентите, КЗП ще реагира с целия обем на правомощията си",
+      "desc": "На заседанието на КЕВР председателят на КЗП Мая Манолова подчерта, че \"мистерията“ с надписаното потребление в сметките на клиентите миналата ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Manolova-kum-ERP-tata-Opitate-li-se-da-nadpishete-otnovo-potreblenieto-v-smetkite-na-klientite-KZP-shte-reagira-s-celiya-obem-na-pravomoshtiyata-si-3054868",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "В Бюджет 2027 са предвидени средства за изграждане на система за предупреждение на шофьорите по магистралите, каза Шишков",
+      "desc": "Електронни табели за предварително предупреждение по магистралите, които да информират шофьорите за опасности на пътя, включително при намалена ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/V-Byudzhet-2027-sa-predvideni-sredstva-za-izgrazhdane-na-sistema-za-preduprezhdenie-na-shofyorite-po-magistralite-kaza-Shishkov-3054860",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Алибегов: На хората парите вече не им стигат, а данъкът \"свръхпечалба\" ще удари директно крайните потребители",
+      "desc": "Автоматично този данък \"свръхпечалба\" секторите ще го разпределят надолу към потребителите. Банките ще вдигнат веднага таксите. Ще ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Alibegov-Na-horata-parite-veche-ne-im-stigat-a-danukut-svruhpechalba-shte-udari-direktno-krainite-potrebiteli-3054818",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Психолози на МВР оказали помощ в трагедията на АМ \"Тракия\"",
+      "desc": "Служители на Института по психология на МВР са оказали помощ на мястото на тежките катастрофи от автомагистрала \"Тракия“. Експерти от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Psiholozi-na-MVR-okazali-pomosht-v-tragediyata-na-AM-Trakiya-3054816",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "МВнР изказа съболезнования към близките на загиналите при тежките катастрофи на АМ \"Тракия\"",
+      "desc": "Днес, в Деня на национален траур, свеждаме глави в памет на загиналите при тежките катастрофи на АМ \"Тракия\". Министърът на външните работи ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MVnR-izkaza-suboleznovaniya-kum-blizkite-na-zaginalite-pri-tezhkite-katastrofi-na-AM-Trakiya-3054815",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Темз Арабаджиева: Искрено вярвам, че книгите са нещото, което възпитава емпатия",
+      "desc": "Беше ми трудно да намеря думи, с които да открием рубриката \"С книги под завивките\", след трагедията на магистрала \"Тракия\". В ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Temz-Arabadzhieva-Iskreno-vyarvam-che-knigite-sa-neshtoto-koeto-vuzpitava-empatiya-3054759",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "558,08 евро е средната пенсия у нас, за година увеличението е 40,70 евро",
+      "desc": "Общата сума на приходите по консолидирания бюджет на държавното обществено осигуряване към септември 2026 г. възлиза на 6 203,8 млн. евро, което ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/558-08evro-e-srednata-pensiya-u-nas-za-godina-uvelichenieto-e40-70-evro-3054758",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Посолството на Италия изрази съпричастност към България в деня на траур",
+      "desc": "Италианското посолство в България изрази съпричастност към близките на загиналите при катастрофата край Ямбол и към цялата страна по повод обявения ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Posolstvoto-na-Italiya-izrazi-suprichastnost-kum-Bulgariya-v-denya-na-traur-3054732",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Километрично задръстване на АМ \"Струма\" заради разлив на масло",
+      "desc": "Голямо задръстване се образувало на автомагистрала \"Струма\" при изхода за София, съобщават шофьори във Facebook. Полицията отклонява ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kilometrichno-zadrustvane-na-AM-Struma-zaradi-razliv-na-maslo-3054729",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Статистиката отчете 14% ръст на приходите от нощувки на годишна база. За септември говорим за 167.6 млн. евро",
+      "desc": "През септември 2026 г. в страната са функционирали 3 373 обекта с 10 или повече легла - хотели, мотели, къмпинги, хижи и други места за краткосрочно ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Statistikata-otchete-14-rust-na-prihodite-ot-noshtuvki-na-godishna-baza-Za-septemvri-govorim-za1676-mln-evro-3054728",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Какво да направите, ако посегнат на вашия любимец – съветите на адвокатите",
+      "desc": "В България темата за правата на животните отдавна не е табу, защото убийството или тежкото нараняване на животно може да бъде престъпление с реални ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kakvo-da-napravite-ako-posegnat-na-vashiya-lyubimec-suvetite-na-advokatite-3054718",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "5000 евро за едно дете и 15 000 евро за три: Увеличават данъчните облекчения",
+      "desc": "Със 191 гласа \"за\" Народното събрание прие на първо четене промените в Закона за данъците върху доходите на физическите лица, с които се ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/5000-evro-za-edno-dete-i-15-000-evro-za-tri-Uvelichavat-danuchnite-oblekcheniya-3054711",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Социалният министър: Семействата на загиналите в тежкия инцидент на \"Тракия\" ще получат еднократна помощ в размер на 8000 евро",
+      "desc": "На заседанието на Министерски съвет взехме решение, че ще бъдат изплатени еднократни помощи на всички семейства и наследниците на загиналите в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Socialniyat-ministur-Semeistvata-na-zaginalite-v-tezhkiya-incident-na-Trakiya-shte-poluchat-ednokratna-pomosht-v-razmer-na-8000-evro-3054710",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Цяла Европа скърби с България: Знамената на ЕС са спуснати наполовина след трагедията на АМ \"Тракия\"",
+      "desc": "Днес знамената на ЕС пред централата на Европейската комисия в Брюксел и в представителствата на ЕК в държавите членки са спуснати наполовина в знак ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Cyala-Evropa-skurbi-s-Bulgariya-Znamenata-na-ES-sa-spusnati-napolovina-sled-tragediyata-na-AM-Trakiya-3054703",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Аркади Шарков: Здравната вноска от 8% не е достатъчна, има скрит дефицит от около 700 млн. евро",
+      "desc": "Здравната вноска от 8% не е достатъчна. Това заяви здравният икономист Аркади Шарков в предаването \"Утрото на фокус\" на Радио ФОКУС с водещ ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Arkadi-Sharkov-Zdravnata-vnoska-ot-8-ne-e-dostatuchna-ima-skrit-deficit-ot-okolo-700-mln-evro-3054699",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Синът на пострадалия румънец в тежката катастрофа: Ще бъде в медикаментозна кома няколко дни, повече информация нямаме засега",
+      "desc": "Най-тежко остава състоянието на ръмунския гражданин, който пострада в ужасяващата катастрофа на магистрала \"Тракия\". Когато попада в тежкия ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Sinut-na-postradaliya-rumunec-v-tezhkata-katastrofa-Shte-bude-v-medikamentozna-koma-nyakolko-dni-poveche-informaciya-nyamame-zasega-3054667",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Полицаят, затворил първи \"Тракия\": Три коли и камион щяха да ме блъснат, докато обезопасявам пътя!",
+      "desc": "Бургаският полицай Иван Георгиев публикува разтърсващ пост в социалните мрежи, разказвайки за това как е първият служител на МВР, пристигнал на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Policayat-zatvoril-purvi-Trakiya-Tri-koli-i-kamion-shtyaha-da-me-blusnat-dokato-obezopasyavam-putya-3054662",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Румен Радев: Магистралата не е писта, не залагайте живота си на хазарта на обстоятелствата",
+      "desc": "Магистралата не е писта. Какъв е смисълът да печелим минути, ако рискуваме да загубим живота си, заяви премиерът Румен Радев в началото на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-Magistralata-ne-e-pista-ne-zalagaite-zhivota-si-na-hazarta-na-obstoyatelstvata-3054643",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Очевидец на ужаса на \"Тракия\": Две 15-годишни момичета се опитваха да помогнат на свой приятел, който се гърчеше с нечовешки болки",
+      "desc": "Инстинктивно излязох от нашия автомобил и реших да отида напред, за да разбера какво се е случило. Нямаше и 30 крачки напред и изведнъж се сблъсках с ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ochevidec-na-uzhasa-na-Trakiya-Dve-15-godishni-momicheta-se-opitvaha-da-pomognat-na-svoi-priyatel-koito-se-gurcheshe-s-nechoveshki-bolki-3054637",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Вълна от съпричастност след трагедията на АМ \"Тракия\": Опашки от кръводарители в помощ на пострадалите",
+      "desc": "Тежките верижни катастрофи на автомагистрала \"Тракия\", отнели живота на 11 души и оставили над 50 ранени, предизвикаха вълна от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vulna-ot-suprichastnost-sled-tragediyata-na-AM-Trakiya-Opashki-ot-kruvodariteli-v-pomosht-na-postradalite-3054610",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Борисов: За много по-малки катастрофи съм отстранявал трима министри",
+      "desc": "Лидерът на ГЕРБ Бойко Борисов изказа съболезнования на близките на загиналите при тежката катастрофа на АМ \"Тракия\" и изрази съчувствие към ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Borisov-Za-mnogo-po-malki-katastrofi-sum-otstranyaval-trima-ministri-3054601",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "С едноминутно мълчание в памет на загиналите при тежката катастрофа на АМ \"Тракия\" започна пленарният ден",
+      "desc": "Днешното заседание на 52-рото Народно събрание започна с едноминутно мълчание в памет на загиналите при тежката верижна катастрофа на АМ ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/S-ednominutno-mulchanie-v-pamet-na-zaginalite-pri-tezhkata-katastrofa-na-AM-Trakiya-zapochna-plenarniyat-den-3054595",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Данъчните облекчения за децата, предложени в Бюджет 2027, може и да не останат в този си вид",
+      "desc": "След вчерашното заседание на Комисията по бюджет и финанси стана ясно, че данъчните облекчения за деца, предложени в Бюджет 2027 може и да не останат ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Danuchnite-oblekcheniya-za-decata-predlozheni-v-Byudzhet-2027-mozhe-i-da-ne-ostanat-v-tozi-si-vid-3054594",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "ИПБ отново с критика след трагедията на \"Тракия\": Управляващите удободно пропускат най-важния въпрос",
+      "desc": "Мъглата не е оправдание. Тя е риск, който трябва да се управлява. Това заявяват в официална позиция от Института за пътна безопасност. По думите на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/IPB-otnovo-s-kritika-sled-tragediyata-na-Trakiya-Upravlyavashtite-udobodno-propuskat-nai-vazhniya-vupros-3054592",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Костадин Костадинов: Глобата на \"Кауфланд\" дори е малка. Довиждане!",
+      "desc": "Глобата, наложена от КЗК на \"Кауфланд\" за нарушения на българското законодателство, дори е малка за европейските стандарти. Разглезените ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadin-Kostadinov-Globata-na-Kaufland-dori-e-malka-Dovizhdane-3054574",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Здравният министър: Ако не беше бързата и адекватна координация, може би жертвите щяха да бъдат повече",
+      "desc": "Ако не беше бързата координация между МЗ, МВР И МО, може би жертвите щяха да бъдат повече, заяви здравният министър Катя Ивкова пред БНТ. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zdravniyat-ministur-Ako-ne-beshe-burzata-i-adekvatna-koordinaciya-mozhe-bi-zhertvite-shtyaha-da-budat-poveche-3054570",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Задържан е шофьорът на камиона, предизвикал едната катастрофа при трагедията на \"Тракия\"",
+      "desc": "Задържан е шофьорът на камиона, предизвикал едната верижна катастрофа на автомагистрала \"Тракия\". Това стана ясно от думите на директора на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zadurzhan-e-shofyorut-na-kamiona-predizvikal-ednata-katastrofa-pri-tragediyata-na-Trakiya-3054550",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Властите: За 10 минути са пристигнали линейките на АМ \"Тракия\"",
+      "desc": "В рамките на 10 минути са пристигнали линейките на АМ \"Тракия“. Това заяви областният управител на Ямбол Георги Чалъков за тежката трагедия на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vlastite-Za-10-minuti-sa-pristignali-lineikite-na-AM-Trakiya-3054520",
+      "date": "2026-11-11",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общини"
+    },
+    {
+      "title": "Парламентът одобрява предложението на Драги за изследователска програма на стойност 200 млрд. евро - EPP Group in the European Parliament",
+      "desc": "Парламентът одобрява предложението на Драги за изследователска програма на стойност 200 млрд. евро EPP Group in the European Parliament",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUnd6UGhDTHZMMUNDaWpmUTFsaHEyVHQtTGd6V1Uwd2JjNC04UzdtSmFpTUI2c0wwbWZwQUdJeXU1MkVyR0tfSXQ4TlJFVm13SmJNN28yRjJ0NWw5akxRVktSU2xJSEkxUUZseW11eE9yQTh5M3VhMHlnUGpDWTJvRnJ6aXFub1UtcVZhcHkzRnU3aVBqS19VcThNOXdvczlZMXJvaVg4Y3R5QmxGaDI1U0FvclVUUW82S3NQWTRfWTlNYkhzRlVkMUdTczctZTQ?oc=5",
+      "date": "2026-11-10",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "eu"
+    },
     {
       "title": "НА ЖИВО Урсула фон дер Лайен от Варна: Европа твърдо подкрепя България! 50 млн. евро за сигурността в Черно море ВИДЕО - marica.bg",
       "desc": "НА ЖИВО Урсула фон дер Лайен от Варна: Европа твърдо подкрепя България! 50 млн. евро за сигурността в Черно море ВИДЕО marica.bg",
@@ -21,310 +345,22 @@
       "topic": "eu"
     },
     {
-      "title": "Germany Threatens EU Budget Block Unless Bulgaria Funds Ukraine Aid - Novinite.com",
-      "desc": "Germany Threatens EU Budget Block Unless Bulgaria Funds Ukraine Aid Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRms4UFdMaC1kSU1uLU9ndG1uQ1ZYLUw2aDJkb1J1OGpVX0NIOXVSNElVZTlDVEJpOTY5TTV4Vm9XZTc2ZWFmVTlIclpoOFBqUVdWcU5qcUtRazlVMHB1VWZheFcwZW5JU3hwRTV3V25mYzNKNTlEb3dvdmhINmoxeFJGWFZXSlcyaGNTOFR0ZW5iRGx0X1pvN3JwTmNDNFdVcXgxZmg2QVpNWng1?oc=5",
+      "title": "EU approves final €59m tranche in Luxembourg's €241m pandemic recovery plan - The Brussels Times",
+      "desc": "EU approves final €59m tranche in Luxembourg's €241m pandemic recovery plan The Brussels Times",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVzVPZzNxbjBPNkhmbFFGWTVEV0Rva1ltSzBWOVZGQ2EtV0xkRlRnbGRRcEVzYjlENGZkdHdVc252eGhzNV9UdGsyVWRCU2I5QmhXajZDcHFmaG0zdWhsVkJwZEsyRWMyaEQ0dktaOWxkX2FSRlFVTEtNbDR5X1RPM1I5ZjZzT2VEakZBNVZnU0xYUjhPZWtEQ2s1bExkUzJjckpyMC1YclJ3dks4U2xpMjlNRUd5Z2dLdW0zenhKU1Y?oc=5",
       "date": "2026-11-10",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Statement by President von der Leyen with Bulgarian Prime Minister Radev",
-      "desc": "European Commission Statement Varna, 10 Nov 2026 Dear Prime Minister, Dear Rumen, I also want to express my deepest condolences to the victims of the multiple cars crash, the wounded, their families, but also ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2392",
+      "title": "Serbia SMEs tap EBRD-EU green financing to expand capacity and competitiveness - Traders Union",
+      "desc": "Serbia SMEs tap EBRD-EU green financing to expand capacity and competitiveness Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFBjZGFoU3Z3U3JjSkVXSFNfaEZSZmdmOGh5aUkya2djSllsQWRoQlJUQlBaNW5oUUhxR3JIdEV1d0JLR2J4WXJ1Ym5lZzhRM0ZmZ283T1dFcUEwamZnd1ZoM0NCTkhqM05JeFB6ZmFuRUtKMHlPUlV2QXdzbFBqMDdaZ25QMlJqeUN4ZDFKclA2REZLSHJB?oc=5",
       "date": "2026-11-10",
-      "source": "European Commission",
+      "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Commission greenlights Luxembourg's final payment request for €59 million under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 10 Nov 2026 Today, the European Commission positively assessed Luxembourg's fourth and final payment request for €59 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2388",
-      "date": "2026-11-10",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Commission greenlights Estonia's final payment request for €190.6 million under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 10 Nov 2026 Today, the European Commission greenlighted Estonia's fifth and final payment request for €190.6 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2387",
-      "date": "2026-11-10",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Инж. Венцислав Ангелов, АПИ: Ще бъдат взети проби от настилката и ще бъдат изследвани видимите деформации на мястото на инцидента на АМ \"Тракия\"",
-      "desc": "Преди 2 г. е извършен превантивен ремонт преасфалтиране на активната лента в този участък. Към момента ще се вземат проби от настилката, моментното ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Inzh-Vencislav-Angelov-API-Shte-budat-vzeti-probi-ot-nastilkata-i-shte-budat-izsledvani-vidimite-deformacii-na-myastoto-na-incidenta-na-AM-Trakiya-3054415",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Св. Синод изрази своите съболезнования на семействата и близките на загиналите в тежкия инцидент на АМ \"Тракия\"",
-      "desc": "С дълбока скръб и болка приехме вестта за двете тежки пътнотранспортни произшествия, станали в ранните часове на 10 ноември на автомагистрала ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Sv-Sinod-izrazi-svoite-suboleznovaniya-na-semeistvata-i-blizkite-na-zaginalite-v-tezhkiya-incident-na-AM-Trakiya-3054414",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Шефът на АПИ: Мъглата има огромна вина. Състоянието на настилката и маркировката на АМ \"Тракия\" е дорбо",
-      "desc": "Тепърва ще се изяснява причината за трагичния инцидент на АМ \"Тракия\". Със сигурност според мен мъглата има огромна вина. Състоянието на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Shefut-na-API-Muglata-ima-ogromna-vina-Sustoyanieto-na-nastilkata-i-markirovkata-na-AM-Trakiya-e-dorbo-3054412",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Възраждане\" иска изслушване на регионалния министър и директора на АПИ в парламента",
-      "desc": "Пуснали сме искане утре, 11 септември, в парламента да бъдат изслушани регионалния министър и директора на АПИ. Това съобщи депутат от ПГ на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vuzrazhdane-iska-izslushvane-na-regionalniya-ministur-i-direktora-na-API-v-parlamenta-3054411",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Жечо Станков: По-високи сметки за ток за бизнеса ще намерят отражение в етикетите на стоките и услугите в магазините",
-      "desc": "По-високи сметки за ток за бизнеса ще намерят отражение в етикетите на стоките и услугите в магазините. Бизнесът няма да остави себе си да фалира, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zhecho-Stankov-Po-visoki-smetki-za-tok-za-biznesa-shte-nameryat-otrazhenie-v-etiketite-na-stokite-i-uslugite-v-magazinite-3054408",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "МВнР с предупреждение: Издадоха червен код за опасна буря в Португалия",
-      "desc": "МВнР с предупреждение за пътуващите или сънародниците, намиращи се в Португалия заради бурята \"Чарлз\". Правителството на Португалия обяви ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/MVnR-s-preduprezhdenie-Izdadoha-cherven-kod-za-opasna-burya-v-Portugaliya-3054401",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ГЕРБ иска оставката на Радев и на министрите заради катастрофите на \"Тракия\"",
-      "desc": "ГЕРБ иска оставката на премиера Румен Радев и на министрите, отговорни за трагедията на магистрала \"Тракия\", съобщи Даниел Митов на брифинг ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/GERB-iska-ostavkata-na-Radev-i-na-ministrite-zaradi-katastrofitena-Trakiya-3054395",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Председателят на КЗК за санкцията на \"Кауфланд България\": Прилагаме закона еднакво спрямо всички компании, няма да има компромиси",
-      "desc": "Развитието на българското земеделско производство и насърчаването на обединение в сектора ще укрепи позициите на производителите на пазара на храни и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Predsedatelyat-na-KZK-za-sankciyata-na-Kaufland-Bulgariya-Prilagame-zakona-ednakvo-spryamo-vsichki-kompanii-nyama-da-ima-kompromisi-3054380",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Румен Радев: Всички пострадали, приети в болницата в Ямбол след двете верижни катастрофи, са стабилизирани",
-      "desc": "Всички пациенти, приети в болницата в Ямбол след двете верижни катастрофи на АМ \"Тракия\", са стабилизирани. Ако има пациенти в критично ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Rumen-Radev-Vsichki-postradali-prieti-v-bolnicata-v-Yambol-sled-dvete-verizhni-katastrofi-sa-stabilizirani-3054376",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "БАБХ спря над 4,6 тона пипер от Албания с наднормени остатъци от пестициди",
-      "desc": "Българската агенция по безопасност на храните (БАБХ) не допусна до пазара на Европейския съюз пипер от Албания с наднормено съдържание на остатъци от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/BABH-sprya-nad-4-6-tona-piper-ot-Albaniya-s-nadnormeni-ostatuci-ot-pesticidi-3054370",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "НСлС поема разследването на трагедията на АМ \"Тракия\": Назначени са експертизи и се извършва повторен оглед с дрон",
-      "desc": "От Прокуратурата дадоха повече информация за действията на държавното обвинение след тежката катастрофа на АМ \"Тракия\". От там ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/NSlS-poema-razsledvaneto-na-tragediyata-na-AM-Trakiya-Naznacheni-sa-ekspertizi-i-se-izvurshva-povtoren-ogled-s-dron-3054360",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ГДБОП с предупреждение за промоциите на Черен петък: Големите намаления крият и големи измами!",
-      "desc": "Отстъпки до 95%, невероятни оферти и цени, на които трудно можете да устоите. Но зад примамливите предложения може да се крият киберизмамници, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/GDBOP-s-preduprezhdenie-za-promociite-na-Cheren-petuk-Golemite-namaleniya-kriyat-i-golemi-izmami-3054355",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Костадин Костадинов: Урсула донесе смърт на България!",
-      "desc": "Урсула дойде само за 3 часа в България, но по стечение на обстоятелствата точно в това време стана чудовищна катастрофа на АМ \"Тракия\", ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadin-Kostadinov-Ursula-donese-smurt-na-Bulgariya-3054348",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Делян Пеевски: Кошмарът на магистрала \"Тракия\" е тест за властта",
-      "desc": "Кошмарът на магистрала “Тракия\" е трагедия за десетки семейства и тест за способността на властта да се справи с трагедията и последиците от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Delyan-Peevski-Koshmarut-na-magistrala-Trakiya-e-test-za-vlastta-3054342",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Lidl след затварянето на техен магазин: Инспектори споделят за натиск \"по поръчка от високо ниво\"!",
-      "desc": "\"Лидл Бългapия\" ocпopи зaтвapянeтo нa мaгaзинa cи във Bидин cлeд пpoвep&#312;a, пpи &#312;oятo cпopeд Бългapc&#312;aтa aгeнция ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Lidl-sled-zatvaryaneto-na-tehen-magazin-Inspektori-spodelyat-za-natisk-po-poruchka-ot-visoko-nivo--3054341",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "МЗ откри гореща линия за пострадалите при катастрофите на АМ \"Тракия\"",
-      "desc": "Здравното министерство пусна горещ телефон за информация относно пострадалите при тежкия инцидент на автомагистрала \"Тракия\" днес. Чрез ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/MZ-otkri-goreshta-liniya-za-postradalite-pri-katastrofite-na-AM-Trakiya-3054333",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Транспортният министър прекъсва визитата си в Турция и свиква извънредно заседание",
-      "desc": "Министърът на транспорта и съобщенията Георги Пеев прекратява участието си в Конференцията на страните (COP31) към Рамковата конвенция на ООН по ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Transportniyat-ministur-prekusva-vizitatasi-v-Turciya-i-svikva-izvunredno-zasedanie-3054323",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Във Варна: Ще се проведе годишен семинар за учителите по религия",
-      "desc": "С благословението на Негово Високопреосвещенство Варненския и Великопреславски митрополит Йоан на 14 ноември (събота) от 10.00 часа в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vuv-Varna-Shte-se-provede-godishenseminar-za-uchitelite-po-religiya-3054321",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Оцелял при катастрофата на \"Тракия\": Дори не знам как се измъкнах",
-      "desc": "Всичко се случи много бързо. Имаше много гъста мъгла, изключително гъста, и това причини инцидента отпред. Това разказа очевидец на трагедията на АМ ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ocelyal-pri-katastrofatana-Trakiya-Dori-ne-znam-kak-se-izmuknah-3054319",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "СЕМ към медиите: Въздържайте се от сензационност, като отразявате тежката катастрофа на АМ \"Тракия\"",
-      "desc": "Съветът за електронни медии (СЕМ) призова медиите да се въздържат от сензационност при отразяването на тежката катастрофа на автомагистрала ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/SEM-kum-mediite-Vuzdurzhaite-se-ot-senzacionnost-kato-otrazyavate-tezhkata-katastrofa-na-AM-Trakiya-3054313",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Meteo Balkans: България се готви за първата по-сериозна фьонова обстановка от началото на ноември, идват температури до 25 градуса",
-      "desc": "България се готви за първата по-сериозна фьонова обстановка от началото на ноември. В периода 12–14 ноември южният вятър ще доведе до чувствително ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Meteo-Balkans-Bulgariya-se-gotvi-za-purvata-po-seriozna-fyonova-obstanovka-ot-nachaloto-na-noemvri-idvat-temperaturi-do-25-gradusa-3054308",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кметът на Варна Коцев каза къде в града може да дарите кръв за пострадалите при ужаса на АМ \"Тракия\"",
-      "desc": "Мислите ми са с близките на загиналите и с всички пострадали в тежкия инцидент на автомагистрала \"Тракия“. Изказвам искрените си съболезнования ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kmetut-na-Varna-Kocev-kaza-kude-v-grada-mozhe-da-darite-kruv-za-postradalite-pri-uzhasa-na-AM-Trakiya--3054300",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общини"
-    },
-    {
-      "title": "Прокурорите за Бюджет 2027: Икономиите не могат да започват от хората, които получават най-малко и без които правосъдието спира",
-      "desc": "Само седмици след като Конституционният съд обяви за противоконституционна промяната в механизма за определяне на магистратските възнаграждения, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Prokurorite-za-Byudzhet-2027-Ikonomiite-ne-mogat-da-zapochvat-ot-horata-koito-poluchavat-nai-malko-i-bez-koito-pravosudieto-spira-3054299",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Продължаваме промяната\" призова за кръводаряване след трагедията на АМ \"Тракия\"",
-      "desc": "\"Продължаваме промяната“ призова гражданите да дарят кръв за пострадалите при тежката верижна катастрофа на автомагистрала \"Тракия“. Част ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Produlzhavame-promyanata-prizova-za-kruvodaryavane-sled-tragediyata-na-AM-Trakiya-3054294",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Министър Ивкова с нова информация за състоянието на пострадалите при катастрофата на АМ \"Тракия\"",
-      "desc": "51 души са транспортирани до болници след тежките верижни катастрофи на автомагистрала \"Тракия“. От тях 13 са с тежки наранявания, а един от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ministur-Ivkova-s-nova-informaciya-za-sustoyanieto-na-postradalite-pri-katastrofata-na-AM-Trakiya-3054293",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "БЧК оказва помощ и психосоциална подкрепа на пострадалите на магистрала \"Тракия\"",
-      "desc": "Екипи на Българския Червен кръст за реакция при бедствия и кризи от Сливен и Ямбол са на терен след ужасяващите тежки верижни катастрофи на АМ ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/BChK-okazva-pomosht-i-psihosocialna-podkrepa-na-postradalite-na-magistrala-Trakiya-3054288",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Поптодорова за посещението на Урсула фон дер Лайен: Правят се първи стъпки към засилване и на отбранителните способности на страната",
-      "desc": "Една от задачите на Европейския съюз и на НАТО е да се засили способността за наблюдение върху Черно море, което означава прихващане на дронове, на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Poptodorova-za-poseshtenieto-naUrsula-fon-der-Laien-Pravyat-se-purvi-stupki-kumzasilvane-i-na-otbranitelnite-sposobnosti-na-stranata-3054284",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Загиналите на АМ \"Тракия\" вече са 12: Утре ще бъде ден на траур в памет на жертвите",
-      "desc": "Дванадесет души са загинали при тежките верижни катастрофи на автомагистрала \"Тракия“ край пътен възел \"Зимница“. Това каза премиерът Румен ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zaginalite-na-AM-Trakiya-veche-sa-12-Utre-shte-bude-den-na-traur-v-pamet-na-zhertvite-3054282",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Иван Демерджиев: Ако имаше информационни табла, реакцията на \"Тракия\" можеше да бъде превантивна",
-      "desc": "Липсата на връзка между камерите на АПИ и пътната полиция е един от сериозните проблеми в системата за пътна безопасност. Това заяви Иван Демерджиев ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ivan-Demerdzhiev-Ako-imashe-informacionni-tabla-reakciyata-na-Trakiya-mozheshe-da-bude-prevantivna-3054281",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Откриха гореща телефоннна линия за пострадалите на АМ \"Тракия\"",
-      "desc": "Министерството на здравеопазването откри гореща телефонна линия за информация за пострадалите при катастрофата на АМ \"Тракия“. Хората могат да ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Otkriha-goreshta-telefonnna-liniya-za-postradalite-na-AM-Trakiya-3054274",
-      "date": "2026-11-10",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
     },
     {
       "title": "„Не на обедняването!“: В седем града насрочиха протести срещу Бюджет 2027 - https://vratsa.eu/",
@@ -345,72 +381,18 @@
       "topic": "eu"
     },
     {
-      "title": "Залагат над 724 милиона евро за здравеопазване в Бюджет 2027 - https://vratsa.eu/",
-      "desc": "Залагат над 724 милиона евро за здравеопазване в Бюджет 2027 https://vratsa.eu/",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUjF6RGhjTG95S2lXQ2N3US12WDRkekRYX2RfLVVmLUZKY3lkd2FTVU5RY242TG03dW1DclRjS1ZUS2VyRWc5NWZJdThyMUpWRjJRcDhNVDMtMTJxdXA4aUFXTEcyZ3dTRVRBWlFSVnlZVU5mcV95ekpiYkM2Um9JVWxFUkh4ZXd6dlRqZG5iU0M0NjU3MEVuNVg0WlNqTzZEa0E?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "„Огнеборец“ се обяви срещу замразените заплати в Бюджет 2027 - News24sofia.eu",
-      "desc": "„Огнеборец“ се обяви срещу замразените заплати в Бюджет 2027 News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhESF80SUJDRERZeXl6Y2o3Wm0yc29pWFc1U0g4aGlISTg1elhqTWFWMVJRZldkTTBTWk9VQzl1R1ZmWExSeVpKbkFZeThYcDRUTWpMS0RkNFlFU0haOS02VlJKSXVVcURraDFjUmw2UHVOSFRKV1BXZVRROFI4elgxeTZSQWxDRHJPbw?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "ДБ ИСКА ОСТАВКАТА НА ГЪЛЪБ ДОНЕВ! Мартин Димитров предупреди за тежка рецесия с Бюджет 2027 - News24sofia.eu",
-      "desc": "ДБ ИСКА ОСТАВКАТА НА ГЪЛЪБ ДОНЕВ! Мартин Димитров предупреди за тежка рецесия с Бюджет 2027 News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHAtbDdaMTllX0NTX3JQMjJqakVPRFJDb3lPTHJseS1tUjdUaGJlUDhCTDA0YWVFOWJYUzItQ0xvbnFoek9rVFpoX1NMemQ2aXdBS19EYm03R25nSTFQUUpYbkZMNExWSk8tX0U5UlRrYS00Q2RYX1FKVGZYbXRXSTRCMjVoS0V1STJjQ3VRMlNSY29aeUhheDE4bVozTGtYN25US3RrdjFLME9rR3ZmZ3V0T3I?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "РИСК ОТ НОВ СВРЪХДЕФИЦИТ! Любомир Дацов предупреждава, че България може отново да стигне дотам през 2031 г. - News24sofia.eu",
-      "desc": "РИСК ОТ НОВ СВРЪХДЕФИЦИТ! Любомир Дацов предупреждава, че България може отново да стигне дотам през 2031 г. News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRlB0M3M2Z25BeklnYmpXNlg1SkNxRktoVFFLRVJfUVpCSUY2eDRmSUJjSXl6TWRzak1Pa1NiZ2lObjc2OE9udmJKTlVOY0w5djNmWkFpRkQtQzk0elp0TVlJNWpINGZORjBLczFQT25jNUMzamw5ZkhwSWphdzQtYkFJdHRjdXhoNDRCTFhZeG5DWHR2cmNlSEMzSWl4NWVSdzRSTDdub1BaV1pLUGltNkpJQnJQNk1XellfdnloVU5lN1dMQVFwQQ?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "„БЮДЖЕТ НА ФИНАНСОВИЯ КОЛАПС“! Асен Василев предупреди, че проектът за 2027 г. води към рецесия - News24sofia.eu",
-      "desc": "„БЮДЖЕТ НА ФИНАНСОВИЯ КОЛАПС“! Асен Василев предупреди, че проектът за 2027 г. води към рецесия News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYVMyQ1h2S241Yk94eWo0SkduX011U0J5OHNBT09vOW1nNXMzVC1Ga0NOdVBaWHhKSFlBQm04NXhnT2R1VFZnMmktUUtoVW1JNDk0NWljclMwdTZZNDg0Z2Zsb081UlpIS1lwN3pBUUVHWDhYdWJJeVRLcWRFZVp4a3EwdXlMWUFDeDh5SVhDVGxFRDFqeExPblo2dTh1TVc1SG13SVVvSnVMUTJYRkpvbmJNa2w2UQ?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Рязък ръст на смъртните случаи с фентанил в България - News24sofia.eu",
-      "desc": "Рязък ръст на смъртните случаи с фентанил в България News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTms3V1Etc0ZiQkVtZUNETFNsZUo3NHN3Vm1iQ3E0WmozNnNnSmw3cnp0LVBYdGJFY2F5RVhiM2VHMGxIVmpkbmdYMFNSUVVFSDZQQjVzVGxfbEhCNzFTM1VfU3VWbWRvZ2ZCVkg3dGZJMVZjUkZodVJYVkJrTnZGZHpn?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "EU awards Calogena SMR grant - Nuclear Engineering International",
-      "desc": "EU awards Calogena SMR grant Nuclear Engineering International",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uSnR2SGVjS1RwQVBtbDlhRG5oWm54cUNJSWlKY0ItOTNTMnFZNnFYMzh6c1lxUGloNGdhbzF5aEs3UC1EN0JFaHQ5S19ZLVFta2xMUVVzVW1FM21uQ0ZXa1RXUFNoMXpwM1BkWGdjUQ?oc=5",
+      "title": "Bulgaria's BlackPeak Capital reaches €125 million first close for new Southeast Europe growth fund - EU-Startups",
+      "desc": "Bulgaria's BlackPeak Capital reaches €125 million first close for new Southeast Europe growth fund EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRjhKODVrR0ZLR2FUU1h4UEplMHZrUE9PNElxZGpYT3RuOF9oZkltSFNjVDdXcmxQMXpWMHczcWJKdmVCQ244Mmd0TTJEU2tGUFExRDA5cjVQOXRCUGdKTlhxU245TjBiTEh0bmZMVmdaQURiRzhNVXNGb192VXdLYTUwaXBYTWllQTdxWThmNDBOeDBOYWhyWHZUaFhra3VqbVNDOUFCdUNLMlFVZ0JTYkF6aEJqbkt4d0JsTTM4TXZWSkpzdDhrQW9hZHppZEE?oc=5",
       "date": "2026-11-09",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
     },
     {
-      "title": "Bulgaria's BlackPeak Capital reaches €125 million first close for new Southeast Europe growth fund - EU-Startups",
-      "desc": "Bulgaria's BlackPeak Capital reaches €125 million first close for new Southeast Europe growth fund EU-Startups",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRjhKODVrR0ZLR2FUU1h4UEplMHZrUE9PNElxZGpYT3RuOF9oZkltSFNjVDdXcmxQMXpWMHczcWJKdmVCQ244Mmd0TTJEU2tGUFExRDA5cjVQOXRCUGdKTlhxU245TjBiTEh0bmZMVmdaQURiRzhNVXNGb192VXdLYTUwaXBYTWllQTdxWThmNDBOeDBOYWhyWHZUaFhra3VqbVNDOUFCdUNLMlFVZ0JTYkF6aEJqbkt4d0JsTTM4TXZWSkpzdDhrQW9hZHppZEE?oc=5",
+      "title": "EU awards Calogena SMR grant - Nuclear Engineering International",
+      "desc": "EU awards Calogena SMR grant Nuclear Engineering International",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uSnR2SGVjS1RwQVBtbDlhRG5oWm54cUNJSWlKY0ItOTNTMnFZNnFYMzh6c1lxUGloNGdhbzF5aEs3UC1EN0JFaHQ5S19ZLVFta2xMUVVzVW1FM21uQ0ZXa1RXUFNoMXpwM1BkWGdjUQ?oc=5",
       "date": "2026-11-09",
       "source": "Google News EN",
       "lang": "en",
@@ -429,15 +411,6 @@
       "title": "The EU Commission allocates 10 million to Romania to support operations in the Black Sea - Eunews",
       "desc": "The EU Commission allocates 10 million to Romania to support operations in the Black Sea Eunews",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNGNzdnRwS0UxYVVZanRsS2RQVmtYUUlzaXpibzVLVXU0VGpvSTl0bnpjSFl3UFNJRlZ3Zk1feTVISDg0OXR0TzB5REs1RG1IN3ZJXzEzeFJOdjJPcmYxLUVEQ2NKQy1hYUxpTlF0aXc0T1EwUjhUb2VlYmRISWIyZkFLZTVXR0FjaFlBWkhrWF9RTEV1blFaMkFjMGVBYkFRYU1UOUxyajBHblFhZXhGZUJiRlFEVHVGczMzeDE2cFNFSjA?oc=5",
-      "date": "2026-11-09",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "She’s Next: Three years of supporting the growth of women-led businesses in Romania - Business Review",
-      "desc": "She’s Next: Three years of supporting the growth of women-led businesses in Romania Business Review",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWlpXQzBCZW05aF96WTdtQkJ0X0lBM3NXc0ZfMlZkdXlRd1Z0NWk1YTlpQllfaGN5aXB5VWZMLXVybE1hb0ZWS2czNFp3aWNWeGdHZEZxVWVRcF9hR0ZSSDU5S3JRZ1QwV1NPN3U3STZHNXNzbnJod3FSMDdOdlFMMEF1M3AtTkxJM0g0X1pzRUhGbkc1WXZqaDJacFRFZUstdXIyVlpsWjBRc3FkV2MyV1BjN25LZUR0WnhObWM3UGNvQlE1TFNjLVR2bE4zSG84WS1UZWJWOHJQWDlWNDRGYg?oc=5",
       "date": "2026-11-09",
       "source": "Google News EN",
       "lang": "en",
