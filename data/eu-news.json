@@ -1,15 +1,123 @@
 {
-  "updated": "2026-11-14 13:34",
-  "count": 45,
+  "updated": "2026-11-14 15:55",
+  "count": 46,
   "items": [
     {
-      "title": "Agrees to Everything, Believes in Nothing: Radev’s Bulgaria in Europe - Novinite.com",
-      "desc": "Agrees to Everything, Believes in Nothing: Radev’s Bulgaria in Europe Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS3RCdm5JY09aRXRPclRvQ2NUY1djb3RkVlJPVEdxOUxBdEZLYkJHSkpFV0E0TTNMeFZ6TExERWlUUmxfREFqa2F1YkNCUGdYWlkyeG9TQkFpTHZTTkNtV1ZzVlNYdmpPMlZYM09vSm03Ty1CUXI4QU5sbzdNbUZ2d0V1dUpVbkhJaFhqRkZ1OXk4a1VDa2ZUTk9SV0hqam54NG5iRTB5SW5zRHctcjlFM2JSZ2FGQTRJTmZORjRmWQ?oc=5",
+      "title": "Евгений Кънев: В новия бюджет липсват индикации за промяна на порочния модел - https://vratsa.eu/",
+      "desc": "Евгений Кънев: В новия бюджет липсват индикации за промяна на порочния модел https://vratsa.eu/",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORG02NWxNX0dpMHU3MF94RG9kTUY2MVBybmJuR21kSk1YT2NDa1VKNlZERG5uc1VPUzctR1kxMl94RXNJQXJKU0t4ZjRXN094Tk5vUFBvbmJldWN5RUNUTFI4WnBGcFVUSm9sX3RFSUZCVHJNdmRDdTA2ODZKZ0FVRjRQdFNMSUttRHFjUGluMS1hcWFRdlJQNlEzRGM1clhleTdiUzJUVkNBbHlzdlpPM1BybmEyTVhfNE55NA?oc=5",
+      "date": "2026-11-14",
+      "source": "Google News BG",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "EU demands Israel grant ‘immediate, unimpeded’ flood aid to Gaza - The Times of Israel",
+      "desc": "EU demands Israel grant ‘immediate, unimpeded’ flood aid to Gaza The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDg2WjhZeTJ4SkdQYlk2SHpla2VfR2hkcVRZMm03bDJhXzNJREtVSjd0TnZiQ2N1N3pYZHpFRGc0ZUZwSllzN05meEJ6WGoyS3VFWEFxWlFoWGpRaFhaWk1XaGVxY3ZkV29pZXhnWFI2OENIaGRLblZhYkI0WEo3RGtCT0wxbnlUdjJ2SHF1d2otU2lFUmd2NUhRWnV0RU1vaExfbnhWdmM5c1E?oc=5",
       "date": "2026-11-14",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Христанов: Глобата за \"Кауфланд\" може да бъде прехвърлена върху потребителите и доставчиците",
+      "desc": "Санкцията от близо 76 млн. евро, наложена на \"Кауфланд“ от Комисията за защита на конкуренцията, може да доведе до натиск върху доставчиците или ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Hristanov-Globata-za-Kaufland-mozhe-da-bude-prehvurlena-vurhu-potrebitelite-i-dostavchicite-3056533",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Илхан Кючюк: Изкуственият интелект не трябва да е източник на нови неравенства",
+      "desc": "Технологичният напредък сам по себе си не гарантира обществено-социален напредък. За да се превърне изкуственият интелект в двигател на развитие, той ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ilhan-Kyuchyuk-Izkustveniyat-intelekt-ne-tryabva-da-e-iztochnik-na-novi-neravenstva-3056528",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "култура"
+    },
+    {
+      "title": "Диана Русинова: Безобразни и нагли сте! Пълна свинщина на гърба на човешкия живот",
+      "desc": "Спрете да политиканствате, безобразни и нагли сте! Така започна своята поредна публикация във Facebook председателят на Европейския център за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Diana-Rusinova-Bezobrazni-i-nagli-stePulna-svinshtina-na-gurba-na-choveshkiya-zhivot-3056504",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "След анализа на S&P: ДБ настоява за пренаписване на бюджета за 2027 г. с дефицит под 3% от БВП",
+      "desc": "След анализа на S&P: ДБ настоява за пренаписване на бюджета за 2027 г. с дефицит под 3% от БВП Заради очакването на реформи преди шест ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Sled-analiza-naS-P-DB-nastoyavaza-prenapisvane-na-byudzheta-za-2027-g-s-deficit-pod-3-ot-BVP-3056490",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Иван Янев за законопроекта за личната помощ: Да, може би това не беше най-грациозната стъпка",
+      "desc": "Днес съм народен представител. Това е временна позиция. Мандатите започват и свършват, политическите роли се променят, но аз съм и ще остана човек с ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ivan-Yanev-zazakonoproekta-za-lichnata-pomosht-Da-mozhe-bi-tova-ne-beshe-nai-gracioznata-stupka-3056487",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Костадинов: Просто още едно от хилядите предимства на членството в еврозоната, които ни сполетяха",
+      "desc": "Рейтинговата агенция \"Стандард енд Пуърс\" днес понижи кредитния рейтинг на България. Нищо изненадващо - просто още едно от хилядите ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadinov-Prosto-oshte-edno-ot-hilyadite-predimstva-na-chlenstvoto-v-evrozonata-koito-ni-spoletyaha-3056486",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Българин сметна какво можеш да купиш в Англия и какво в България за една и съща цена – Обединеното кралство дори е извън ЕС",
+      "desc": "Днес реших и аз да се включа в дебата за цените. Това е случайна извадка на част от моментната стойност за деня – на средната потребителска кошница ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgarin-smetna-kakvo-mozhesh-da-kupish-v-Angliya-i-kakvo-v-Bulgariya-za-edna-i-sushta-cena-Obedinenoto-kralstvo-dori-e-izvun-ES-3056482",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Кирил Петков: Русия иска да ни превърне във втора категория член на ЕС и НАТО",
+      "desc": "Бившият премиер на България Кирил Петков разкритикува искането на Русия за изтегляне на войските на НАТО от собствените й граници. Припомняме, че ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Kiril-Petkov-Rusiya-iska-da-ni-prevurne-vuv-vtora-kategoriya-chlen-na-ES-i-NATO-3056474",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "МРРБ категорично отрече медийни спекулации, свързани с доставката на мантинели",
+      "desc": "Твърдението, разпространено в медийни публикации, че с \"инхаус\" процедура правителството ще възложи с 32% по-висока цена за доставка и ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/MRRB-kategorichno-otreche-mediini-spekulacii-svurzani-s-dostavkatana-mantineli-3056473",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Георги Господинов: Ние откриваме скритите признаци, които след определена възраст става много трудно първо да се открият, второ да се лекуват",
+      "desc": "Началото на движението лайънс е поставено преди повече от 100 години от Мелвин Джоунс в Чикаго, САЩ, а в своята история организацията е дала много на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Georgi-Gospodinov-Nie-otkrivameskritite-priznaci-koito-sled-opredelena-vuzrast-stava-mnogo-trudno-purvo-da-se-otkriyat-vtoro-da-se-lekuvat-3056472",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Теменужка Петкова: Надявам се правителството да не прояви традиционната си арогантност, да се запознае с оценката на Standard and Poor's и да не въвлече страната ни в кризи и проблеми",
+      "desc": "Надявам се правителството на Румен Радев да не прояви традиционната си арогантност, да се запознае с оценката на Standard and Poor's и да не ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Temenuzhka-Petkova-Nadyavam-se-pravitelstvoto-da-ne-proyavi-tradicionnata-si-arogantnost-da-se-zapoznae-s-ocenkata-na-Standard-and-Poors-i-da-ne-vuvleche-stranata-ni-v-krizi-i-problemi-3056471",
+      "date": "2026-11-14",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Борислав Вълов - Ей Бо, само 4 дни след трагедията на АМ \"Тракия\": Току-що на магистралата профуча, скъпа кола с поне 180 км/ч, а настилката е мокра",
@@ -21,7 +129,7 @@
       "topic": "общи"
     },
     {
-      "title": "Калин Стоянов: Замислих са кой от двамата Ивановци, отговорни за трагедията на АМ \"Тракия - Шишков и Демерджиев, е по-нагъл?",
+      "title": "Калин Стоянов: Замислих са кой от двамата Ивановци, отговорни за трагедията на АМ \"Тракия\" - Шишков и Демерджиев, е по-нагъл?",
       "desc": "Невероятна арогантност!!! Слушайки това интервю, се замислих кой от двамата Ивановци, отговорни за трагедията (Шишков и Демерджиев), е по-нагъл? Това ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Kalin-Stoyanov-Zamislih-sa-koi-ot-dvamata-Ivanovci-otgovorni-za-tragediyata-na-AM-Trakiya-Shishkov-i-Demerdzhiev-e-po-nagul-3056452",
       "date": "2026-11-14",
@@ -183,51 +291,6 @@
       "topic": "общи"
     },
     {
-      "title": "Здравното осигуряване при безработните: Кой плаща, кога губите права и как да ги запазите",
-      "desc": "Оставането без работа носи редица предизвикателства, а едно от най-важните пера, за които трябва да помислим навреме е да не загубим ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zdravnoto-osiguryavane-pri-bezrabotnite-Koi-plashta-koga-gubite-prava-i-kak-da-gi-zapazite-3056261",
-      "date": "2026-11-14",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Цените на изкуствените елхи удариха 500 евро. Потребител: Живеете в Нарния! Събудете се!",
-      "desc": "Драги приятели, искам да ви покажа едно сравнение. България VS Испания. Коледни елхички, пластмасови. И не не е майтап, качвам ви реални цени на един ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Cenite-na-izkustvenite-elhi-udariha-500-evro-Potrebitel-Zhiveete-v-Narniya-Subudete-se-3056259",
-      "date": "2026-11-14",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "Времето в събота: Дъжд, гръмотевици и два пъти по-ниски температури от вчерашния ден",
-      "desc": "Днес облачността над страната ще бъде значителна, в сутрешните часове в равнините ще бъде мъгливо. На много места ще има валежи от дъжд. В Централна ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vremeto-v-subota-Duzhd-grumotevici-i-dva-puti-po-niski-temperaturi-ot-vcherashniya-den-3056254",
-      "date": "2026-11-14",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Психолог: Годините на изолация, несигурност и постоянни заплахи, превключиха нервната система на почти всички хора в режим на оцеляване",
-      "desc": "Ежедневно ставаме свидетели на новини за много тежки престъпления, убийства, прояви на жестокост. Миналата седмица имаше убийство с нож в Сливен и ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Psiholog-Godinite-na-izolaciya-nesigurnost-i-postoyanni-zaplahi-prevklyuchiha-nervnata-sistema-na-pochti-vsichki-hora-vrezhim-na-ocelyavane-3056250",
-      "date": "2026-11-14",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Експерт и финансов анализатор: Цените в магазина не са се качили, парите ни са загубили покупателната си сила, а банките продължават да отпускат кредити",
-      "desc": "Въпросът за инфлацията е всъщност въпросът за покупателната сила на парите. Това заяви финансовият анализатор, председател на партия \"България ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ekspert-i-finansov-analizator-Cenite-v-magazina-ne-sa-se-kachili-parite-ni-sa-zagubili-pokupatelnata-si-sila-a-bankite-produlzhavat-da-otpuskat-krediti-3056239",
-      "date": "2026-11-14",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "EU approves €286m Hamburg port aid to address decayed quay walls - Howl.Link",
       "desc": "EU approves €286m Hamburg port aid to address decayed quay walls Howl.Link",
       "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9vcjVCWFprSUUzek9UWXZKbkNIQmpxZW4xSXQ5MEw1QVg4TDNhREpseF9vaW10RkYyRVk0?oc=5",
@@ -280,60 +343,6 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
-    },
-    {
-      "title": "Вълна от съпричастност към семейството на Иван Димитров от Стралджа след трагичния инцидент на АМ \"Тракия\"",
-      "desc": "Стотици изразиха съпричастност към семейството на Иван Димитров от Стралджа, загинал при катастрофата на АМ \"Тракия“. 16-годишният му син ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Vulna-ot-suprichastnostkum-semeistvotona-Ivan-Dimitrov-ot-Straldzha-sled-tragichniya-incident-na-AM-Trakiya-3056183",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Новият шеф на \"Кауфланд\" в България е жена",
-      "desc": "Петя Владимирова поема ръководството на \"Кауфланд България“ след незабавното напускане на Михаил Петров. Досега тя беше член на Управителния ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Noviyat-shef-na-Kaufland-v-Bulgariya-e-zhena-3056182",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Андрей Велчев: Санкциите, които хранителните вериги получават, са обидни за гражданите, защото са изключителни ниски",
-      "desc": "Призив за едноседмичен потребителски бойкот на търговската верига Кауфланд\" се разпространява в социалните мрежи. Инициативата е провокирана от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Andrei-Velchev-Sankciite-koito-hranitelnite-verigi-poluchavat-sa-obidni-za-grazhdanite-zashtoto-sa-izklyuchitelni-niski-3056162",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Михаил Петров се оттегля като изпълнителен директор на \"Кауфланд\", компанията се разграничава от изказванията му",
-      "desc": "Михаил Петров напуска компанията Kaufland България като председател на Управителния съвет, считано от веднага. Ръководството на компанията поема Петя ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Mihail-Petrov-se-otteglya-kato-izpulnitelen-direktor-na-Kaufland-kompaniyata-se-razgranichava-ot-izkazvaniyata-mu-3056147",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "бизнес"
-    },
-    {
-      "title": "Милен Керемедчиев: Резервите на Румен Радев към декларацията са без значение - важен е подписът",
-      "desc": "В крайна сметка важен е подписът и това, че са изразени резерви няма да влезе в окончателния текст на декларацията. Това каза бившият ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Milen-Keremedchiev-Rezervite-na-Rumen-Radev-kum-deklaraciyata-sa-bez-znachenie-vazhen-e-podpisut-3056135",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Нинова към майките на деца с увреждания: Ако бяхате замълчали, безумният закон на още по-безумните прогресисти щеше да стане факт!",
-      "desc": "Браво на майките! Ако си бяха замълчали, безумният закон на още по-безумните прогресисти щеше да стане факт. Сега е оттеглен. Майките направиха ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ninova-kum-maikite-na-deca-s-uvrezhdaniya-Ako-byahate-zamulchali-bezumniyat-zakon-na-oshte-po-bezumnite-progresisti-shteshe-da-stane-fakt-3056129",
-      "date": "2026-11-13",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
     },
     {
       "title": "Необходими мерки за изграждането на 10 милиона жилища - EPP Group in the European Parliament",
