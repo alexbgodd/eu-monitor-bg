@@ -1,38 +1,245 @@
 {
-  "updated": "2026-11-20 17:55",
-  "count": 72,
+  "updated": "2026-11-21 14:41",
+  "count": 59,
   "items": [
     {
-      "title": "Евтим Милошев ще представи културните приоритети на България пред ЕС - Ruse news",
-      "desc": "Евтим Милошев ще представи културните приоритети на България пред ЕС Ruse news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORUM1ZTU2NW5sY1B1aTVqU3JFQlgzdjV2U1FPbFZtY2Zsc2tDMlNrWTl1SHVZY3R5dkhUU0JsajQ1YWI1NU9IYUNYbC0xTnZrTWZUcy1RSWE1cUYwOWNvSXpUV1N6eHkxS2lZZTkxVS01Z1FpWFFZN3RpRWJxYVZQc3NOd2xqbFNRMlZvbkdkZHpyV2dkWHFvLTFKMXlHWV9WLXY4VlZ0MzhOaElIUjV0bWpBdmZULUlvby1qdWJBSmZFUQ?oc=5",
-      "date": "2026-11-20",
-      "source": "Google News BG",
+      "title": "EC approves Bulgaria’s final payment request under NextGenerationEU 2026 | JUSTICE - IUSTITIA.BG 2025 - iustitia.bg",
+      "desc": "EC approves Bulgaria’s final payment request under NextGenerationEU 2026 | JUSTICE - IUSTITIA.BG 2025 iustitia.bg",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLXowcGREcXBDOGVfam5ITUEyRkJVQWcwWFNsLWo5NG41c0FhMVF4RlpzbGhZN0VIdFBGYnN0WkJSWENoUWp2VTJMWklFQUJnRG55U1VBMk5WNUlvV2FUM2FWbmstLTRPSGJqRVExYXZkdkF4SzBNc2dLdEVFVkVUZGV2dlk0UQ?oc=5",
+      "date": "2026-11-21",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Проф. Касчиев за спада на мощността в шести блок на АЕЦ \"Козлодуй\": Небрежност, липса на действия и на контрол",
+      "desc": "Една от главните циркулационни помпи (ГЦП) на реактора се е изключила, което е довело до автоматично рязко намаляване на топлинната мощност. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Prof-Kaschiev-za-spada-na-moshtnostta-v-shesti-blok-na-AEC-Kozlodui-Nebrezhnost-lipsa-na-deistviya-i-na-kontrol-3059935",
+      "date": "2026-11-21",
+      "source": "Focus News",
       "lang": "bg",
-      "topic": "култура"
+      "topic": "общи"
+    },
+    {
+      "title": "Педиатър: Наблюдавайте за дълбоката и честа кашлица, затрудненото дишане и свирене в гърдите",
+      "desc": "Респираторно-синцитиалният вирус е сред най-сериозните заплахи за здравето на малките деца през есенно-зимния сезон и водеща причина за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Pediatur-Nablyudavaite-za-dulbokata-i-chesta-kashlica-zatrudnenoto-dishane-i-svirene-v-gurdite-3059931",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Магнитна буря ни връхлита до дни",
+      "desc": "Земята може да бъде засегната от коронално изхвърляне на маса от Слънцето на 23 ноември. Според нова прогноза на Националната администрация за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Magnitna-burya-ni-vruhlita-do-dni-3059929",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Тайната на доброто общуване вече има и дизайнерска статуетка",
+      "desc": "Вчера се проведоха XIV Награди за бизнес и туризъм “Bright Awards\", на които отличие в категория “Услуги\" получи Академия “Познание\". ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Tainata-na-dobroto-obshtuvane-veche-ima-i-dizainerska-statuetka-3059928",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "В Деня на християнското семейство: Костадинов събра средства за закупуване на кувьоз за варненска болница",
+      "desc": "Костадин Костадинов съобщи, че само за един ден е събрана сумата за закупуване на кувьоз за Отделението по неонатология в СБАГАЛ \"Проф. д-р ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/V-Denya-na-hristiyanskoto-semeistvo-Kostadinov-subra-sredstva-za-zakupuvane-na-kuvyoz-za-varnenska-bolnica-3059927",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Илиана Раева: Целият свят се тресе от агресия. Откачени лидери от всички посоки на света ни занимават с вродената си лудост",
+      "desc": "Не мога да повярвам все още, в каква държава и свят живея. Всеки ден насилствена смърт и престъпления, пубери престъпници, необразованост, агресия, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Iliana-Raeva-Celiyat-svyat-se-trese-ot-agresiya-Otkacheni-lideri-ot-vsichki-posoki-na-sveta-ni-zanimavat-s-vrodenata-si-ludost-3059925",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "образование"
+    },
+    {
+      "title": "Българска компания разширява бизнеса си с нова база в Албания и увеличава капацитета си в Словакия и България",
+      "desc": "Българската fulfillment компания BigArena продължава развитието на международната си складова мрежа с навлизане на нов пазар и увеличаване на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgarska-kompaniya-razshiryava-biznesa-si-s-nova-baza-v-Albaniya-i-uvelichava-kapaciteta-si-v-Slovakiya-i-Bulgariya-3059924",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Любослав Костов: Без приет бюджет не наказваш политическите опоненти, а лекарите, учителите, майките и бизнеса",
+      "desc": "Бюджет за 2027 г. трябва да има. Когато нямаш приета финансова рамка, ти не наказваш политическите си опоненти. Наказваш лекаря в спешното, учителя в ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Lyuboslav-Kostov-Bez-priet-byudzhet-ne-nakazvash-politicheskite-oponenti-a-lekarite-uchitelite-maikite-i-biznesa-3059904",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "Поредно километрично задръстване на АМ \"Хемус\": Пътуващите се движат с около 10 км/ч",
+      "desc": "Поредно километрично задръстване на АМ \"Хемус\", преди тунела \"Топли дол\" в посока Варна, съобщават пътуващи по аутобана. ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Poredno-kilometrichno-zadrustvane-na-AM-Hemus-Putuvashtite-se-dvizhat-s-okolo-10-kmch-3059892",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Петър Ганев: България рискува бюджетна санкция от Брюксел",
+      "desc": "България не е достатъчно смела в усилията си да овладее бюджетния дефицит и вече е изправена пред съвсем реален риск от финансова санкция. Това ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Petur-Ganev-Bulgariya-riskuva-byudzhetna-sankciya-ot-Bryuksel-3059872",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Социалният министър: Подготвяме промени в системата за подкрепа на хората с увреждания",
+      "desc": "Министерството на труда и социалната политика подготвя промени в системата за подкрепа на хората с увреждания. Целта е средствата да се насочват ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Socialniyat-ministur-Podgotvyame-promeni-v-sistemata-za-podkrepa-na-horata-s-uvrezhdaniya-3059818",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Общото събрание на следователите избира представител във ВСС",
+      "desc": "Общото събрание на следователите избира член на Висшия съдебен съвет от тяхната професионална квота. Кандидатите са Бойко Атанасов от Следствения ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Obshtoto-subranie-na-sledovatelite-izbira-predstavitel-vuv-VSS-3059735",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Въведение Богородично е - Ден на християнското семейство",
+      "desc": "Въведение Богородично e – Денят на християнското семейство. На този ден родителите на Света Богородица – Йоаким и Ана изпълнили обещанието, което ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vuvedenie-Bogorodichno-e-Den-na-hristiyanskoto-semeistvo-3059724",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Облачна събота с превалявания от дъжд",
+      "desc": "Днес ще има променлива облачност, по-значителна над планинските, западните и южните райони, където на места ще има превалявания от дъжд. Ще духа слаб ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Oblachna-subota-s-prevalyavaniya-ot-duzhd-3059720",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Цветлин Йовчев за ситуацията в Черно море: Трябва бързо да се промени законът и да се разшири обхватът на ВС",
+      "desc": "В съвместно изявление след срещата в Берлин европейските лидери от Коалицията на желаещите отхвърлиха възможността Русия да диктува условията за ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Cvetlin-Iovchev-za-situaciyata-v-Cherno-more-Tryabva-burzo-da-se-promeni-zakonut-i-da-se-razshiri-obhvatut-na-VS-3059664",
+      "date": "2026-11-21",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "eu"
+    },
+    {
+      "title": "Затварят част от Околовръстното на София заради повреден мост",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437350-zatvaryat-chast-ot-okolovrastnoto-na-sofiya-zaradi-povreden-most",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Тежка катастрофа в Мездра: Шофьор се удари в линейка и загина",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437339-tezhka-katastrofa-v-mezdra-shofyor-se-udari-v-lineyka-i-zagina",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Малчугани изненадаха родителите си за Деня на християнското семейство в Ръжена",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437337-malchugani-iznenadaha-roditelite-si-za-denya-na-hristiyanskoto-semeystvo-v-razhena",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Свещеник на Въведение Богородично: \"Правилата отпреди 1000 години имат значение и днес\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437336-sveshtenik-na-vavedenie-bogorodichno-pravilata-otpredi-1000-godini-imat-znachenie-i-dnes",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Глоби за шофьорите, паркиращи по тротоари и кръстовища в Стара Загора",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437335-globi-za-shofyorite-parkirashti-po-trotoari-i-krastovishta-v-stara-zagora",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "\"Нова сглобка\" или политическо съгласие - спорът около избора на ВСС продължава",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437333-nova-sglobka-ili-politichesko-saglasie-sporat-okolo-izbora-na-vss-prodalzhava",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Опасно шофиране край Велико Търново: Карат в насрещното по еднопосочен път",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437332-opasno-shofirane-kray-veliko-tarnovo-karat-v-nasreshtnoto-po-ednoposochen-pat",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Сарафов: Четиригодишното безвремие в съдебната система не можеше да продължи",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437331-sarafov-chetirigodishnoto-bezvremie-v-sadebnata-sistema-ne-mozheshe-da-prodalzhi",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Денят на християнското семейство: Какво повеляват традициите на 21 ноември",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437329-denyat-na-hristiyanskoto-semeystvo-kakvo-povelyavat-traditsiite-na-21-noemvri",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Времето днес, 21 ноември: Облаци, дъжд и температури до 19 градуса",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437312-vremeto-dnes-21-noemvri-oblatsi-dazhd-i-temperaturi-do-19-gradusa",
+      "date": "2026-11-21",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Bulgaria's Medina Med launches 16.7 mln euro plant expansion project - SeeNews",
       "desc": "Bulgaria's Medina Med launches 16.7 mln euro plant expansion project SeeNews",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNEFtbDF0S3RXQmpaUHNkRHcyaFB6azRJNFh5VnJ0ZWdqdTAtdlZ3aTNybXpvZzUxaUJVVExST2x4SXE0a2JzZk5jZ21rbkhTejBDS0liYWNkV0NMV2ZzRU9sTU9HM2tiQWN0ZlBrRElaa0N2N1N0aDliS0pvRUhacWlTMDNZM3BwU2hCYnlQVmR3ZWFqd09jek8yN0JVcWlVTUE?oc=5",
-      "date": "2026-11-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EC approves Bulgaria’s final payment request under NextGenerationEU - The Sofia Globe",
-      "desc": "EC approves Bulgaria’s final payment request under NextGenerationEU The Sofia Globe",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejRES0VYR2E2ZVZDN2Y3enV0ak5kaUY4M05XeHZ6OHlVZ0R6ZFJZbUlxWVdtY0x2bFZpM0pGeFd0X1NlMm9jbUd6T0tuV1Z3NEd0YUVzdjUyNjV0ZDd0YXUwd2RGMmJQX1U2d2g1bzFBcjAzY2lMdXRkVUVGZ0x4amcwUWpKNFNmY2hxSjA5RGhUU3RjdFViNXYwNnNjbUIzckVj?oc=5",
-      "date": "2026-11-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EIB grant to support Medusa Jordan extension - Developing Telecoms",
-      "desc": "EIB grant to support Medusa Jordan extension Developing Telecoms",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUlQwRzhLTUNNQXBnYnhKalhYZ3dHTDBwbzh3MDU1OW1GQ1BVbHRNVFZsSjBydnBNbnRNaGdMRmVaTjRDTERRdW1qbU5keWU4RXlObzUxNFNUYVdCdVFheTNoYXhwM1ZSc2NkeTh4aVg1RXZucGVkSVh6VVVxSk5fd2d2Rm54cFJxWnJSdm5ubVpWdlVsa2FhdlJHZk1XN2Q2SWR4c0R0c3lCeDI0WmpXLTFZUWFZX09XeFJ3ZE1tTXR1WUQtcXNYNG1B?oc=5",
       "date": "2026-11-20",
       "source": "Google News EN",
       "lang": "en",
@@ -48,6 +255,24 @@
       "topic": "eu"
     },
     {
+      "title": "EIB grant to support Medusa Jordan extension - Developing Telecoms",
+      "desc": "EIB grant to support Medusa Jordan extension Developing Telecoms",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUlQwRzhLTUNNQXBnYnhKalhYZ3dHTDBwbzh3MDU1OW1GQ1BVbHRNVFZsSjBydnBNbnRNaGdMRmVaTjRDTERRdW1qbU5keWU4RXlObzUxNFNUYVdCdVFheTNoYXhwM1ZSc2NkeTh4aVg1RXZucGVkSVh6VVVxSk5fd2d2Rm54cFJxWnJSdm5ubVpWdlVsa2FhdlJHZk1XN2Q2SWR4c0R0c3lCeDI0WmpXLTFZUWFZX09XeFJ3ZE1tTXR1WUQtcXNYNG1B?oc=5",
+      "date": "2026-11-20",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria - Economic.bg",
+      "desc": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria Economic.bg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFdXVUdWMGk1SG4zT2xHMkI4bUdxLUZHRnJEdWlzRXUzUXA3RUlTZmZjOExsY3FOSzhmQmFlcld6bGIyQVRvd1FQN2RIdUpScXEzT2kyZTFkaVQwSW9VMndhRExrS0lwZEtUUkpNSVpUaXJuOC1McW9CcVAwNTBCdDFHOXJTVmg4S1RXMG9wd1JCOWgyU1oxeGU1bzRvVkdoajY3U0p1R3lxUmhMcm9CMw?oc=5",
+      "date": "2026-11-20",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "BT analysis: EU funds — 20 years of investment in Romania’s development - Banca Transilvania",
       "desc": "BT analysis: EU funds — 20 years of investment in Romania’s development Banca Transilvania",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0NheV8xUDF3UjVnQUs3TmcxRFMxQXdsdjJ0MTRUTGxZWl9MSk9hVDJlNjZhOGFvZU9tR21PdEQtNUVkTnJtSFRLcmF5TW4zd1lYZ2pReHUzZXRoLWNrNEVpakhKWU1XT1JlOWpWX01KOUFOQnJrWk5nT2sxTUo4U052c0JuUllONlFtb3dmY1k2aENiVTZsS2dtb0dhcXRpV3EwRGc2djZuV0ptV0dHMEw2elZGRUIzWGt2ODFWV2dQRTlUa0pXbGFQd3JicldZVTRCVg?oc=5",
@@ -57,9 +282,9 @@
       "topic": "eu"
     },
     {
-      "title": "European prosecutors charge individual in 213.7M euro fraud probe into rail modernisation in Bulgaria 2026 - iustitia.bg",
-      "desc": "European prosecutors charge individual in 213.7M euro fraud probe into rail modernisation in Bulgaria 2026 iustitia.bg",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMzJkYVU0aC14elVPWmNVWlZTYlIxNGR1SjFGSEZDVmdTeWtSdUE2UFYxLXZ2OWY0VW5zdmx3Y0czTlMxNlFwUDZ2QV9xY2dUcnBDSlhRTkRQWDNvUUNaS2d6WkhOLWNURGZuZkpXeUF2TnphcXNjWVVPd1A3YzlOVVZqMDBHUQ?oc=5",
+      "title": "EU Approves €1.7 Billion Payment to Bulgaria Under Recovery Plan - Novinite.com",
+      "desc": "EU Approves €1.7 Billion Payment to Bulgaria Under Recovery Plan Novinite.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV2Rrc1VVSzZoMVNXRXZiSVJ6YWV6bWRjNlhGX2J1Q2ZVNUZRa1FuUEdtcFJzbmgyRk9wU2ZsRGtkT3o2NWNhZmswdjRIbmsxS2xVZUZoSTdFWTFyckE4ODJnUVNZS3Y0RUJZTWJRTHIycWZsbENuNDcxSnNyRGQ2bldheDNiekpmR0hvSTdOeWtIOHVXZUFabGFYbDJ0eEVhTEVBZVZpalIxeGZEOU5JQm9yOA?oc=5",
       "date": "2026-11-20",
       "source": "Google News EN",
       "lang": "en",
@@ -84,67 +309,40 @@
       "topic": "eu"
     },
     {
-      "title": "Commission greenlights Ireland's final payment request for €225 million under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Ireland's fifth and final payment request for €225 million under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
+      "title": "Мая Манолова удря голяма банка, рент-а-кар компания, туроператор и търговец на ваканционни имоти заради нелоялни клаузи",
+      "desc": "Комисията за защита на потребителите (КЗП) завежда четири колективни иска срещу банка, рент-а-кар компания, туроператор и търговец на ваканционни ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Maya-Manolova-udryagolyama-banka-rent-a-kar-kompaniya-turoperator-i-turgovec-na-vakancionni-imoti-zaradi-neloyalni-klauzi-3059672",
       "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
     },
     {
-      "title": "Commission partially greenlights Poland's final payment request for €12.7 billion under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Poland's sixth and final payment request for €12.7 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
+      "title": "Едно обаждане от Борисов вкарало българите в албанския закон за малцинствата за минути",
+      "desc": "Няма причина за нов спор между България и Северна Македония, тъй като необходимостта българското малцинство да бъде вписано в конституцията на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Edno-obazhdane-ot-Borisov-vkaralo-bulgarite-v-albanskiya-zakon-za-malcinstvata-za-minuti-3059667",
       "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
-      "title": "Commission partially greenlights Hungary's first and final payment request for €10 billion under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission partially greenlighted Hungary's first and final payment request for €10 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
+      "title": "България ще помага на Украйна с хуманитарна помощ, но няма да предоставя оръжия",
+      "desc": "България няма да блокира европейските решения, свързани с Украйна, но няма да предоставя средства за въоръжаване. Това заяви вицепремиерът Атанас ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgariya-shte-pomaga-na-Ukraina-s-humanitarna-pomosht-no-nyama-da-predostavya-oruzhiya-3059662",
       "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Daily News 20 / 11 / 2026",
-      "desc": "European Commission Daily news Brussels, 20 Nov 2026 Commission greenlights over €16 billion in payment requests for Belgium, Bulgaria, Greece, Slovenia and the Netherlands Today, the European Commission approved...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2543",
-      "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Commission greenlights Slovenia's seventh and final payment request for €271.8 million under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Slovenia's seventh payment request worth €271.8 million under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
-      "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Commission greenlights Greece's final payment requests for €11.32 billion under NextGenerationEU",
-      "desc": "European Commission Press release Brussels, 20 Nov 2026 Today, the European Commission greenlighted Greece's eighth and ninth payment requests, amounting to €11.32 billion, under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
-      "date": "2026-11-20",
-      "source": "European Commission",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Брюксел изпрати рекорден транш от 8 млрд. евро на Киев",
-      "desc": "Еврокомисията изпрати 7.9 млрд. евро на Украйна за заплати и други бюджетни разходи. Това е най-голямото плащане за цивилните нужди на Киев, след като в понеделник 1.7 млрд. бяха преведени за дронове, ракети и други военни разходи....",
-      "url": "https://www.dnevnik.bg/burzi-novini/2026/11/20/4982572_brjuksel_izprati_rekorden_transh_ot_8_mlrd_evro_na_kiev/?ref=rss",
-      "date": "2026-11-20",
-      "source": "Dnevnik.bg",
+      "source": "Focus News",
       "lang": "bg",
       "topic": "eu"
+    },
+    {
+      "title": "Мирчев за избора на ВСС: ГЕРБ и ДПС са в истерия за някаква \"нова сглобка\" – сами гласуваха с мнозинство, макар да нямаше нужда от гласовете им",
+      "desc": "ГЕРБ и ДПС са в истерия за някаква \"нова сглобка“ при избора на ВСС. Особено странно е, че те сами гласуваха с мнозинството, макар да нямаше ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Mirchev-za-izbora-na-VSS-GERB-i-DPS-sa-v-isteriya-za-nyakakva-nova-sglobka-sami-glasuvaha-s-mnozinstvo-makar-da-nyamashe-nuzhda-ot-glasovete-im-3059649",
+      "date": "2026-11-20",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Световен ден на детето: Сградата на Народното събрание бе осветна в синьо срещу насилието над и между деца",
@@ -177,6 +375,15 @@
       "title": "Костадин Костадинов за ВСС: Формацията на Радев се превърна в маргинална партия, която скоро ще се бори да мине четирипроцентовата бариера",
       "desc": "Изборът на Висш съдебен съвет с гласовете на ПП, ДБ, ГЕРБ и ДПС превърна формацията на Радев в маргинална партия, която скоро ще се бори да мине ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Kostadin-Kostadinov-za-VSS-Formaciyata-na-Radev-se-prevurnav-marginalna-partiya-koyato-skoro-shte-se-bori-da-mine-chetiriprocentovata-bariera-3059624",
+      "date": "2026-11-20",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Александър Димитров за избора на ВСС: Не очаквам пълна независимост на съдебната система",
+      "desc": "Парламентът избра своята квота във Висшия съдебен съвет. Любопитното е, че от 21 кандидати, 11-те избрани бяха съобщени два часа преди гласуването от ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Aleksandur-Dimitrov-za-izbora-na-VSS-Ne-ochakvam-pulna-nezavisimost-na-sudebnata-sistema-3059619",
       "date": "2026-11-20",
       "source": "Focus News",
       "lang": "bg",
@@ -237,279 +444,9 @@
       "topic": "общи"
     },
     {
-      "title": "Андрей Гюров вярва на бившите си министри Дечев и Янкулов, че ще бъдат независими във ВСС",
-      "desc": "Бившият служебен премиер Андрей Гюров заяви, че вярва на бившите си министри Емил Дечев и Андрей Янкулов, че ще бъдат независими членове на Висшия ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Andrei-Gyurov-vyarva-na-bivshite-si-ministri-Dechev-i-Yankulov-che-shte-budat-nezavisimi-vuv-VSS-3059557",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ДБ започна разговори за промени в Конституцията",
-      "desc": "Към настоящия момент е твърде рано да се говори за хронограма за приемане на Конституция. Това заяви председателят на парламентарната група на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/DB-zapochna-razgovori-za-promeni-v-Konstituciyata-3059548",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Златин Младенски за лекаря, прегазил кучето Мая: Държавната болница, която се издържа от нашите данъци, не може да отстрани това лице. Защо той е толкова ценен?",
-      "desc": "Неколкократно през тази една година с прокуратурата и не получавахме задоволителни отговори. В момента се чака експертиза и затова делото не е ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Zlatin-Mladenski-za-lekarya-pregazil-kucheto-Maya-Durzhavnata-bolnica-koyato-se-izdurzha-ot-nashite-danuci-ne-mozhe-da-otstrani-tova-lice-Zashto-toi-e-tolkova-cenen-3059546",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "\"Продължаваме промяната\": Очакваме новите членове на ВСС да устоят на натиска",
-      "desc": "Очакваме новите членове на ВСС да устоят на натиска, заявиха на брифинг от \"Продължаваме промяната\" след като Народното събрание избра ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Produlzhavame-promyanata-Ochakvame-novite-chlenove-na-VSS-da-ustoyat-na-natiska-3059535",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Организират пореден протест срещу Румен Радев и Илияна Йотова",
-      "desc": "Пореден протест срещу правителството на Румен Радев и президентът Илияна Йотова ще бъде организиран в София. Мотото на шествието е описано като ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Organizirat-poreden-protest-sreshtu-Rumen-Radev-i-Iliyana-Iotova-3059533",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ГЕРБ: От днес сглобката вече не е порок, а добродетел",
-      "desc": "Заявихме чрез нашето гласуване отговорност за това, колко е важно да бъде обновен съставът на ВСС и да функционира нормално съдебната власт. Това ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/GERB-Ot-dnes-sglobkata-veche-ne-e-porok-a-dobrodetel-3059530",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ЕРП Север отчита 92% по-ниска смъртност на птиците след прилагане на природозащитни мерки в Североизточна България",
-      "desc": "Прилагането на природозащитни мерки по електроразпределителната мрежа на ЕРП Север е довело до 92% намаление на смъртността на птиците в обследваните ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/ERP-Sever-otchita-92-po-niska-smurtnost-na-pticite-sled-prilagane-na-prirodozashtitni-merki-v-Severoiztochna-Bulgariya-3059517",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "екология"
-    },
-    {
-      "title": "Техническа неизправност в АЕЦ \"Козлодуй\" намали временно мощността на 6-и блок",
-      "desc": "Техническа неизправност в АЕЦ \"Козлодуй\" намали временно мощността на 6-и блок, съобщиха от Енергийното министерство. \"На 19 ноември ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Tehnicheska-neizpravnost-v-AEC-Kozlodui-namali-vremenno-moshtnostta-na-6-i-blok-3059511",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Доцова: Вижда се, че НС, с воля и желание, може и осъществява своите конституционни правомощия",
-      "desc": "Днес Народното събрание изпълни своето конституционно правомощие – избра 11 членове от парламентарната квота в състава на ВСС. Сега действащият ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Docova-Vizhda-se-che-NS-s-volya-i-zhelanie-mozhe-i-osushtestvyava-svoite-konstitucionni-pravomoshtiya-3059499",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Депутатите отложиха парламентарния контрол",
-      "desc": "Депутатите отложиха парламентарния контрол за тази седмица. Предложението направи председателят на парламентарната група на \"Прогресивна ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Deputatite-otlozhiha-parlamentarniya-kontrol-3059493",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ето кои кандидати за ВСС не избра Народното събрание",
-      "desc": "Народното събрание избра окончателно 11-те нови членове на Висшия съдебен съвет (ВСС) от парламентарната квота. Над 160 гласа получиха кандидатите ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Eto-koi-kandidati-za-VSS-ne-izbra-Narodnoto-subranie-3059490",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "ПБ: Няма сглобка, има преговори!",
-      "desc": "Няма сглобка, има проведени преговори в рамките на този процес. Тази преговори се водеха на принципна основа, а не по ъглите на залите. Това ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/PB-Nyama-sglobka-ima-pregovori-3059488",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Костадинов: Главният прокурор ще бъде избран със същата безпринципна и нечистоплътна политическа схема",
-      "desc": "Почти целият състав на ВСС беше избран от всички партии в парламента без \"Възраждане\" и активното съдействие на ГЕРБ и ДПС. Станахме ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Kostadinov-Glavniyatprokuror-shte-bude-izbran-sus-sushtata-bezprincipna-inechistoplutna-politicheska-shema-3059473",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Делян Пеевски: Признаваме майсторството на ПБ - да си уловят ПП и ДБ да си ги сложат в аквариум",
-      "desc": "Признаваме майсторството на управляващите да си уловят като един голям рибар ПП и ДБ да си ги сложат в аквариум. Опозиция вече нямат в тяхно ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Delyan-Peevski-Priznavame-maistorstvoto-na-PB-da-si-ulovyat-PP-i-DB-da-si-gi-slozhat-v-akvarium-3059467",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Ограничения за камионите и обходни маршрути по АМ \"Тракия\" заради ремонтите на \"Топли дол\"",
-      "desc": "Временно ще се ограничава движението на тежкотоварни камиони над 12 тона в петък, неделя и понеделник заради ремонта на тунел \"Топли дол\" ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ogranicheniya-za-kamionite-i-obhodni-marshruti-po-AM-Trakiya-zaradi-remontite-na-Topli-dol-3059465",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Народното събрание избра новите членове на ВСС от парламентарната квота",
-      "desc": "Народното събрание избра новия състав на Висшия съдебен съвет от парламентарната квота. Депутатите гласуваха новите членове след многочасови ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Narodnoto-subranie-izbra-novite-chlenove-na-VSS-ot-parlamentarnata-kvota-3059464",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Министерство на земеделието публикува концепция за дългосрочно ползване на земеделската земя",
-      "desc": "Министерството на земеделието и храните публикува Концепция за дългосрочно ползване на земеделската земя в България, с която поставя началото на ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ministerstvo-na-zemedelietopublikuva-koncepciya-za-dulgosrochno-polzvane-na-zemedelskata-zemya-3059441",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "земеделие"
-    },
-    {
-      "title": "Д-р Мирослав Ненков: Много внимавам с пациентите си",
-      "desc": "Много внимавам с пациентите си. Това каза общопрактикуващият лекар и бивш министър на здравеопазването д-р Мирослав Ненков в рубриката ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/D-r-Miroslav-Nenkov-Mnogo-vnimavam-s-pacientite-si-3059432",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "социални"
-    },
-    {
-      "title": "Рядък червен спрайт се появи в небето над Румъния край Дунав",
-      "desc": "Страхотен, рядък ноемврийски улов на червен спрайт (Red sprite) от метеорната станция на Планетариум Габрово. За това съобщават от Meteo Balkans. ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Ryaduk-cherven-sprait-se-poyavi-v-nebeto-nad-Rumuniya-krai-Dunav-3059416",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Прокуратурата прекрати делото срещу Румен Гайтански-Вълка и Стоян Мавродиев",
-      "desc": "Софийската градска прокуратура е прекратило делото за длъжностно присвояване срещу Румен Гайтански - Вълка, бившият директор на Българската банка за ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Prokuraturata-prekrati-deloto-sreshtu-Rumen-Gaitanski-Vulka-i-Stoyan-Mavrodiev-3059412",
-      "date": "2026-11-20",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Концертите на Джанага в София и Пловдив под въпрос след два отказа за виза",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/163-lyubopitno/437292-kontsertite-na-dzhanaga-v-sofiya-i-plovdiv-pod-vapros-sled-dva-otkaza-za-viza",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "култура"
-    },
-    {
-      "title": "Силният вятър в София повали дървета и повреди светофари, общината получи над 90 сигнала (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437288-silniyat-vyatar-v-sofiya-povali-darveta-i-povredi-svetofari-obshtinata-poluchi-nad-90-signala-video",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общини"
-    },
-    {
-      "title": "Политически сблъсък след избора на ВСС - нова \"сглобка\" или съдебна реформа?",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437285-politicheski-sblasak-sled-izbora-na-vss-nova-sglobka-ili-sadebna-reforma",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Хамид Хамид за избора на ВСС: \"Тайни срещи в нечии кабинети\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437282-hamid-hamid-za-izbora-na-vss-tayni-sreshti-v-nechii-kabineti",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "\"Големите последици\": Кибератаки, 123 години \"Майчин дом\" и Руслан Мъйнов на 50",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437279-golemite-posleditsi-kiberataki-123-godini-maychin-dom-i-ruslan-maynov-na-50",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "ит"
-    },
-    {
-      "title": "Съдът оправда Нено Димов по делото за водната криза в Перник",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437278-sadat-opravda-neno-dimov-po-deloto-za-vodnata-kriza-v-pernik",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Два поразени търговски кораба все още дрейфат край Калиакра, останките на трети потънаха край Шабла",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437271-dva-porazeni-targovski-koraba-vse-oshte-dreyfat-kray-kaliakra-ostankite-na-treti-potanaha-kray-shabla",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Kак AI навлиза в живота ни - гледайте новата поредица на Bloomberg AI IRL по Bloomberg TV Bulgaria",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/5-science/437269-kak-ai-navliza-v-zhivota-ni-gledayte-novata-poreditsa-na-bloomberg-ai-irl-po-bloomberg-tv-bulgaria",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Остри реакции и обвинения след избора на членовете на ВСС",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437268-ostri-reaktsii-i-obvineniya-sled-izbora-na-chlenovete-na-vss",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "В квартала е абсолютна тъмница: Кога ще заработи уличното осветление?",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437267-v-kvartala-e-absolyutna-tamnitsa-koga-shte-zaraboti-ulichnoto-osvetlenie",
-      "date": "2026-11-20",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Кирил Вълчев обяви оставката си като генерален директор на БТА и поиска увеличение на заплатите в обществените медии - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "desc": "Кирил Вълчев обяви оставката си като генерален директор на БТА и поиска увеличение на заплатите в обществените медии СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jNktTc3pseGczZ1RIcmdMY2NaY0VONDFESHBCZC1aZFItNVA0bGVSNUgzWnRTa2dGSDVBSS1FT0VJczNwNzVzaEVodVV6b3Bk?oc=5",
+      "title": "СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ - СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "desc": "СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ СЪЮЗ НА БЪЛГАРСКИТЕ ЖУРНАЛИСТИ",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tbzczc19oaUxIVGJrZDktSTU5SmZmT0lyeTRFdkstdTJfSEllN0FuTzRZcnRyZENGbTNFTktyLTZ1T3pZQkVGa2QwbHRsS204aHpYYUkzRWxIaFB0Z3c?oc=5",
       "date": "2026-11-19",
       "source": "Google News BG",
       "lang": "bg",
@@ -534,27 +471,27 @@
       "topic": "eu"
     },
     {
-      "title": "Bulgaria Passes 6-Month Presence Rule for Permanent Residents, Exempts Golden Visa Investors - IMI Daily",
-      "desc": "Bulgaria Passes 6-Month Presence Rule for Permanent Residents, Exempts Golden Visa Investors IMI Daily",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpuczI2dVctdzM4a0IwSTZ2WllXTWtoX3RNem5NUUtXbnJ2amZla0VVamFaQnVtR2NQZzEwd1FsTDBUSmxJMXBIbjNnRDZzN09kRmp2VUNQdFdaN29yQ0VtcGpuRUdySlZqNGViVEN0T2dqUUVqODV5SlgwNUJMVjU0Y3BiNHNlcE1zRnhKRzNLc2VPenVfWjh3X2tkQ21EU09CZ1RuTQ?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EU prosecutors indict suspect in €213.7 million Bulgarian railway fraud probe - Brussels Signal",
-      "desc": "EU prosecutors indict suspect in €213.7 million Bulgarian railway fraud probe Brussels Signal",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNldoUU9DRkpGcUFDZEZkNi15T0VJWWFtaE5YT2FRQXZoVGhhbllQaEJhSVE3U0kyN2lfWVphVFBUMmpyTFFyanVHMG5BLS02NEtzd3BlQWpldHEwOVlaQURhSEpRNHBhYkUzbzVYWVhhTlNCWklLZC1NMGFwQ2tCV0lJVW1xQ0U3SU5QTUZUdWkydkZobFpMODhYT0NsRVFBSmJMUjZuNTB3ZkMwaTROM0V3?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
       "title": "Bulgaria: EPPO indicts individual in €213.7 million fraud investigation involving the modernisation of the railway infrastructure - The independent public prosecution office of the EU",
       "desc": "Bulgaria: EPPO indicts individual in €213.7 million fraud investigation involving the modernisation of the railway infrastructure The independent public prosecution office of the EU",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMER0YV9kTFZhN3ZtZW1WWm02ZmZ5UGl2Q0tyQmo0bFRpTDk2Z3k5TnltbGtCRkoxTklEek9IM1pqOGNrMERwS2RPREtjNFk0THYtbFlJWXdycGJmUGNrdk94ZEV3b2ZmTDlYeXp5T1FjcV9UOGNrckZLdlBWNDlrT2lMUG1kejBiQmtHTDBqVzczSHpLN09XUTF4NzZ6T2tvU0gtN01QeWxLejZOaXpDTmkyR19VaTk1dFEtZVJFOHJVYTJ3R1dJUDVwRFFwRFF3UUpvT1dzTVFGSGc2aXdKdk1RU3NEYmM?oc=5",
+      "date": "2026-11-19",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Apply for Photonics Partnership Advanced Integrated Photonic Devices for Extended Features and Ultra-Low Power Consumption - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Apply for Photonics Partnership Advanced Integrated Photonic Devices for Extended Features and Ultra-Low Power Consumption fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMmJvdnFjMW12VExwRWcwNVM5R1FNZ25WM2dHUXFJZjdxbnVrZFBMT1RfNm02T3JNNEJ3TC12d3dyWnhEQll1dWhRLUJOdlZLWGhKWTlVc1M3MVBMeU53VFVQb2JicDJUM3hKYkZGT3lLenlBa1U1QWpPX0FsSE1fcG1rcnlwMGQ1b29jaE16UEJBZEpSeXJDOVg2UGFFa2NkN2hLRDJJMkd4N3VSYWJmYzN2eEJPYk1HcTExTXVoTFVna0pFel9DLXlDTUpaOTJaSG5rS1doTnFKMGEyQXY0eFVXVUVxaGwwekc5SmdvNVhDbWlKZlEyMEFfczPSAfwBQVVfeXFMTTJib3ZxYzFtdlRMcEVnMDVTOUdRTWduVjNnR1FxSWY3cW51a2RQTE9UXzZtNk9yTTRCd0wtdnd3clp4REJZdXVoUS1CTnZWS1hoSlk5VXNTNzFQTHlOd1RVUG9iYnAyVDN4SmJGRk95S3p5QWtVNUFqT19BbEhNX3Bta3J5cDBkNW9vY2hNelBCQWRKUnlyQzlYNlBhRWtjZDdoS0QySTJHeDd1UmFiZmMzdnhCT2JNR3ExMU11aExVZ2tKRXpfQy15Q01KWjkyWkhua0tXaE5xSjBhMkF2NHhVV1VFcWhsMHpHOUpnbzVYQ21pSmZRMjBBX3Mz?oc=5",
+      "date": "2026-11-19",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Bulgaria Passes 6-Month Presence Rule for Permanent Residents, Exempts Golden Visa Investors - IMI Daily",
+      "desc": "Bulgaria Passes 6-Month Presence Rule for Permanent Residents, Exempts Golden Visa Investors IMI Daily",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpuczI2dVctdzM4a0IwSTZ2WllXTWtoX3RNem5NUUtXbnJ2amZla0VVamFaQnVtR2NQZzEwd1FsTDBUSmxJMXBIbjNnRDZzN09kRmp2VUNQdFdaN29yQ0VtcGpuRUdySlZqNGViVEN0T2dqUUVqODV5SlgwNUJMVjU0Y3BiNHNlcE1zRnhKRzNLc2VPenVfWjh3X2tkQ21EU09CZ1RuTQ?oc=5",
       "date": "2026-11-19",
       "source": "Google News EN",
       "lang": "en",
@@ -570,82 +507,28 @@
       "topic": "eu"
     },
     {
+      "title": "EU prosecutors indict suspect in €213.7 million Bulgarian railway fraud probe - Brussels Signal",
+      "desc": "EU prosecutors indict suspect in €213.7 million Bulgarian railway fraud probe Brussels Signal",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNldoUU9DRkpGcUFDZEZkNi15T0VJWWFtaE5YT2FRQXZoVGhhbllQaEJhSVE3U0kyN2lfWVphVFBUMmpyTFFyanVHMG5BLS02NEtzd3BlQWpldHEwOVlaQURhSEpRNHBhYkUzbzVYWVhhTlNCWklLZC1NMGFwQ2tCV0lJVW1xQ0U3SU5QTUZUdWkydkZobFpMODhYT0NsRVFBSmJMUjZuNTB3ZkMwaTROM0V3?oc=5",
+      "date": "2026-11-19",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
+      "title": "Call for Applications: EU Humanitarian Partnership Certificate Programme 2028-2034 - fundsforNGOs - Grants and Resources for Sustainability",
+      "desc": "Call for Applications: EU Humanitarian Partnership Certificate Programme 2028-2034 fundsforNGOs - Grants and Resources for Sustainability",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUmV5SG1YLV9WaWlkSVItVGxWdl9iOXl2TEpSM3pVU2ZfMlJYcW5fYk5jUUdob1ZCTkNaZzZTNDFheHpGeDZTNVM4NFE4MEMzeHdKaGtxMXNVcklQQkJtejZZWTBuS1pJT0Nsa1BxR05idHg5bDNiTU1BRlFBZUxPR0ZtN3ZWekJJcWVsaDVjbUFSRUlOaEhXZlJaTzZkc3Y5bnh2MGJfSUhZSkZYTE5rczcyS1RzS3Y3OE9WVnZZVmh4WDd1YW52MlJPclRucG1EYnlYctIB1AFBVV95cUxNUmV5SG1YLV9WaWlkSVItVGxWdl9iOXl2TEpSM3pVU2ZfMlJYcW5fYk5jUUdob1ZCTkNaZzZTNDFheHpGeDZTNVM4NFE4MEMzeHdKaGtxMXNVcklQQkJtejZZWTBuS1pJT0Nsa1BxR05idHg5bDNiTU1BRlFBZUxPR0ZtN3ZWekJJcWVsaDVjbUFSRUlOaEhXZlJaTzZkc3Y5bnh2MGJfSUhZSkZYTE5rczcyS1RzS3Y3OE9WVnZZVmh4WDd1YW52MlJPclRucG1EYnlYcg?oc=5",
+      "date": "2026-11-19",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "EPPO Charges Spanish National in €213.7 Million Bulgarian Railway Funding Fraud - Novinite.com",
       "desc": "EPPO Charges Spanish National in €213.7 Million Bulgarian Railway Funding Fraud Novinite.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NSDJZd3hLT2lSakFYNzhmek9iQkpVcVBaYWw4OEZ2bGtIS2ZTZFJ0aHFLbFlFZHl1SC1oNlRJS2tqTWxCUWQ5N0RmOGYzRm43dVlTcXJQMVpvcS0tODc5cTVYQ2xaN05ocjZadlpseEJXSkdkQTlV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa3V3cTdFRWlaamFSb29VZjdia0NvN3FyTzZ5SmxlalVBeThEckZKM01NNFhGUVRad0xQWVZMc0FVNnJqZFBlWDZCQVU5RTRpcXhxSFVaZU10bmRrSU15eF9ZSU5WQzNHQ2t0bUhLU2IwYkkwTU5Ga0pudGFHT2huTHE0NTYxYWFSbnFkVG1jTklfeTZqYkUyMkZBM2syV0JQdGQzYTd0UW1lX2xLVTJaWXBTdlQyVzVsMThaaHo3dkppUHhoSzd3?oc=5",
       "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EU prosecutors file indictment over fraud with EU funds on Sofia–Plovdiv rail line - BurgasMedia",
-      "desc": "EU prosecutors file indictment over fraud with EU funds on Sofia–Plovdiv rail line BurgasMedia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdkJjNW01OWxzZTN3ZnBVYmFMbGFaNnQwdWI5bEd0UUREMDNpMVdnX1gxSnVYd29KR2l2WGtPN1dQNFdOc3JsZE1iekVoRkNva3N6cEk4aG1LVGw1aENZMWZNdmZfZzgxSUN1Uy1pNFN3a3Vrb1JBOEFQWGhYOE5NMEVJWGxXLWVvT0pzaldfZktIU1ItdEhuNU4wZ3YtSDRtOVZMVThsVG9EcUlOYTVqc2Fn0gGyAUFVX3lxTFB2QmM1bTU5bHNlM3dmcFViYUxsYVo2dDB1YjlsR3RRREQwM2kxV2dfWDFKdVh3b0pHaXZYa083V1A0V05zcmxkTWJ6RWhGQ29rc3pwSThobUtUbDVoQ1kxZk12Zl9nODFJQ3VTLWk0U3drdWtvUkE4QVBYaFg4Tk0wRUlYbFctZW9PSnNqV19mS0hTUi10SG41TjBndi1ING05VkxVOGxUb0RxSU5hNWpzYWc?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Businessman Charged with €214 Million Fraud Involving EU Funds for Sofia–Plovdiv Railway Line - Fakti.bg",
-      "desc": "Businessman Charged with €214 Million Fraud Involving EU Funds for Sofia–Plovdiv Railway Line Fakti.bg",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTWJ5SzUzRmFPaG5iblhvcktBSDYyYWFEVUZ1TE1vbDl0WFBzWnZMQ2pxN0dmdUxDeWg0bk9FR0tfOGJRWGpOZW9nZUZlRVhXUkxIVkNsRUJBV1pZSXF4Ujh3NXBqRzFvY1RTTnRBWjZnbXVMZ19xNGxYVzV2QTI5NzFfOFZjTGM2YkpJNWtva1J6RHVhT0ZvRFlydFlVT21odmNpaU5McmNZUUwtM1l6YjFTNVgzRThMRUc4OTR4dUg4blJhcEM0?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "EPPO Files Indictment in EUR 213.7 Mln Fraud Investigation Involving Modernisation of Railway Infrastructure 2026 - balgarianovinite.com",
-      "desc": "EPPO Files Indictment in EUR 213.7 Mln Fraud Investigation Involving Modernisation of Railway Infrastructure 2026 balgarianovinite.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNWtPX2NkZHprazQzMm9IZ2lDWS11QjVRelI1LTViVFlRb2dJYWlkekZ6MGkwWW9VX1FPNkcxRThZWjBDVExkX1k0Z0syZVAxaHV1elhYRlg3aXpsc3ZmR05FWVVpUU5tSC1iNEtuWXd5cmxvMzVTUUc2ZGpNdW1FNWxCQ1A4UQ?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "European Commission sets up new EU Sanctions Office, appoints new EU Sanctions Envoy 2026 - iustitia.bg",
-      "desc": "European Commission sets up new EU Sanctions Office, appoints new EU Sanctions Envoy 2026 iustitia.bg",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYm1Dc0UzYUR0TkpOLW9QN2RrN2xoR0g0R2ctOXBrQUNoRm1lazBmb0JWbEwySVI4a3QxM0V0NnZ2SDZJbTVoU0p4MDN0X0Y3Sm40UVdKa2xDeGNRVGFKa2tzX1lYR2g3ZEdfMFg0UHRIbG1pWlZHbU9vNFBqUk5jQnRwZ1U?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Bulgaria Highlights Strategic Connectivity, EU Competitiveness at General Affairs Council Meeting in Brussels 2026 - balgarianovinite.com",
-      "desc": "Bulgaria Highlights Strategic Connectivity, EU Competitiveness at General Affairs Council Meeting in Brussels 2026 balgarianovinite.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTW1QZm8welIxZnR3dkpjOHNkcmlMajh5SnVmM2d4dmM4Sk1HQlN3Z1pfbVlKZlNrSFBVbS1fSlZNVDUtLXZOejlJZVRzeVFtN0VTTURmWHRUblhfVS1tODRaMFo3R2xQS29xM0gyMmdrNDM2WkIwZi1wX0lSa0c5Q3U2bWdmdw?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Bulgaria in Talks with US on Software Systems for F-16s, Defence Minister Says 2026 - balgarianovinite.com",
-      "desc": "Bulgaria in Talks with US on Software Systems for F-16s, Defence Minister Says 2026 balgarianovinite.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPREgwOUZuOXNVSi1aVUxVSk92c0I3T3I0dktrMXZEYUFiZTR3bWN4UTl1TjFCSnRfLUVfNXh4enBhd0lGOU1fU2tlY21icS1TMFVGdGJCQUdlbDNXZ2RiSGtGTEJDMF9UTHpuVXkzb1h1ZXNZb1FZVEt3YURBZHNLRFNsM1d3Zw?oc=5",
-      "date": "2026-11-19",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "България може да получи 6,2 млрд. евро от ЕС за земеделие - News24sofia.eu",
-      "desc": "България може да получи 6,2 млрд. евро от ЕС за земеделие News24sofia.eu",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZHdvQU92SjczU1BGS0pkaHZZR09GQkpNV0p1aGhwYTdSZ0lnZXFWRXdZZ2paakR5N3FuTnBtS1lab0NxZzBzS0g1bHhLWnJFYnRkSjVIUkVxNmFwb21lWEJfMTduLUVBX3pZSER4THhhSmhuLUpaQ2tJYjh2X3FEMnJzLW5oZWM?oc=5",
-      "date": "2026-11-18",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "EC proposes 45 billion euro in additional financial support for Ukraine in 2027 2026 | JUSTICE - IUSTITIA.BG 2025 - iustitia.bg",
-      "desc": "EC proposes 45 billion euro in additional financial support for Ukraine in 2027 2026 | JUSTICE - IUSTITIA.BG 2025 iustitia.bg",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc2otd2xNLTN5enpITTZWVzRqQXc2U2RVX0cyNG02SmpkTFMwdjRxWjZuOU8tcVkycWlzUF92cHQ2SXBIeVBWTTlrdDNxQjA4ZGVtMUNweWpaU0N5empfV3pPSWc4dVZucEYzVHItMGRaRVFlYTJidnZWZ3hQbTJmbFB3M2E?oc=5",
-      "date": "2026-11-18",
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
