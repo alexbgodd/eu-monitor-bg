@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22 14:37",
+  "updated": "2026-11-22 17:16",
   "count": 54,
   "items": [
     {
@@ -19,6 +19,69 @@
       "source": "Google News EN",
       "lang": "en",
       "topic": "eu"
+    },
+    {
+      "title": "Нинова обвини \"прогресистите\", че чрез НАП оказват натиск върху малкия и средния бизнес",
+      "desc": "Десетки компании сигнализират, че приходната агенция запорира банковите им сметки без предупреждение и дори за най-малки задължения. З това съобщи ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ninova-obvini-progresistite-che-chrez-NAP-okazvat-natisk-vurhu-malkiya-i-sredniya-biznes-3060423",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "бизнес"
+    },
+    {
+      "title": "3D радарна снимка показва как дъждовна облачност наближава Западна и Северозападна България",
+      "desc": "3D радарна снимка на дъждовната облачност, която приближава Западна и Северозападна България, публикува Meteo Balkans. Очаква се в близкия час да ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/3D-radarna-snimka-pokazva-kak-duzhdovna-oblachnost-nablizhava-Zapadna-i-Severozapadna-Bulgariya-3060418",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Д-р Владимир Николов за новия ВСС: Законността в съдебната система е възстановена, новият състав има потенциал",
+      "desc": "Това събитие е решаващо. То беше дългоочаквано и отлагано, но за щастие най-накрая конституционният ред и законността в нашата страна, в сферата на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/D-r-Vladimir-Nikolov-za-noviya-VSS-Zakonnostta-v-sudebnata-sistema-e-vuzstanovena-noviyat-sustav-ima-potencial-3060411",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Партията на Пеевски влезе в едно политическо семейство с Републиканската партия на САЩ и британските консерватори",
+      "desc": "Движението за права и свободи (ДПС) стана член на групата на консерваторите, християндемократите и асоциираните в Парламентарната асамблея на НАТО, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Partiyata-na-Peevski-vleze-v-edno-politichesko-semeistvo-s-Republikanskata-partiya-na-SASht-i-britanskite-konservatori-3060410",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Оранжев и жълт код за силен вятър, идват сняг и минусови температури през новата седмица",
+      "desc": "През следващото денонощие ще бъде ветровито с умерен и силен югозападен вятър, който след обяд с преминаването на студен атмосферен фронт ще се ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Oranzhev-i-zhult-kod-za-silen-vyatur-idvat-snyag-i-minusovi-temperaturi-prez-novata-sedmica-3060381",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Ирина Диамант: \"А кога ще има арести?\" и \"Ще има ли присъди?\" - въпросите вече стигнаха до най-високите етажи на държавата",
+      "desc": "Народното събрание изпълни една от важните си задачи, като избра 11-те членове на Висшия съдебен съвет (ВСС) от парламентарната квота. Това написа ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Irina-Diamant-A-koga-shte-ima-aresti-i-Shte-ima-li-prisudi-vuprosite-veche-stignaha-do-nai-visokite-etazhi-na-durzhavata-3060376",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "България и Саудитска Арабия обсъждат директна авиолиния София - Рияд и жп коридор към Европа",
+      "desc": "Възстановяване на директната въздушна линия между София и Рияд обсъдиха министърът на транспорта и съобщенията Георги Пеев и министърът на транспорта ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Bulgariya-i-Sauditska-Arabiya-obsuzhdat-direktna-avioliniya-Sofiya-Riyad-i-zhp-koridor-kum-Evropa-3060362",
+      "date": "2026-11-22",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
     },
     {
       "title": "Отменят всички полети от летище Завентем заради стачка в Белгия",
@@ -228,65 +291,29 @@
       "topic": "общи"
     },
     {
-      "title": "Митрополит Гавриил почина",
-      "desc": "Ловчанският митрополит Гавриил е починал тази сутрин, след тежко боледуване, научи ФОКУС от свои източници. Припомняме, че на 4 ноември владиката ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Mitropolit-Gavriil-pochina-3060170",
+      "title": "Изписват лекаря, пострадал във верижната катастрофа на АМ \"Тракия\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437418-izpisvat-lekarya-postradal-vav-verizhnata-katastrofa-na-am-trakiya",
       "date": "2026-11-22",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Попов за Станимир Карапетков: Оказван е натиск върху вещо лице по делото \"Сияна\"",
-      "desc": "Става въпрос за оказване на натиск над вещото лице, което беше назначено от съда да изготви автоекспертизата по делото \"Сияна\", като целта ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Popov-za-Stanimir-Karapetkov-Okazvan-e-natisk-vurhuveshto-lice-po-deloto-Siyana-3060157",
+      "title": "\"Домът е обич, не страх!\": Мотористи с послание срещу домашното насилие",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437417-domat-e-obich-ne-strah-motoristi-s-poslanie-sreshtu-domashnoto-nasilie",
       "date": "2026-11-22",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Адвокат: Санкцията на \"Кауфланд\" е безпрецедентна и в европейски мащаб",
-      "desc": "Санкцията, наложена от КЗК на \"Кауфланд\" за три нелоялни търговски практики, е безпрецедентна и това е големият проблем. Това коментира в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Advokat-Sankciyata-na-Kaufland-e-bezprecedentnai-v-evropeiski-mashtab-3060143",
+      "title": "Радев: Саудитска Арабия цени политическата ни стабилност и ще инвестира у нас",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437414-radev-sauditska-arabiya-tseni-politicheskata-ni-stabilnost-i-shte-investira-u-nas",
       "date": "2026-11-22",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "eu"
-    },
-    {
-      "title": "Църквата почита Св. Михаил воин, българин",
-      "desc": "Днес, 22 ноември, Православната църква отбелязва деветата неделя след Въздвижение. Църквата почита свети апостол Филимон и свети Михаил воин, ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Curkvata-pochita-SvMihail-voin-bulgarin-3060139",
-      "date": "2026-11-22",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Радев ще разговаря с престолонаследника на Саудитска Арабия",
-      "desc": "Премиерът Румен Радев ще се срещне днес с престолонаследника и министър-председател на Кралство Саудитска Арабия Принц Мохамед бин Салман бин ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Radev-shte-razgovarya-sprestolonaslednika-naSauditska-Arabiya-3060129",
-      "date": "2026-11-22",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Николай Попов: Ще има още арести, следващия задържан трябва да е дясната ръка на Карапетков",
-      "desc": "Следващия арестуван от МВР трябва да е дясната ръка на Карапетков- Красимир Пъргов. Това написа Николай Попов в профила си във Facebook след обиска в ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Nikolai-Popov-Shte-ima-oshtearesti-sledvashtiya-zadurzhan-tryabva-da-e-dyasnata-ruka-na-Karapetkov-3060126",
-      "date": "2026-11-22",
-      "source": "Focus News",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Прогнозата за времето за 22 ноември 2026 г.",
-      "desc": "През нощта ще бъде ясно почти над цялата страна. Ще духа слаб, в Дунавската равнина и Източна България - умерен вятър от запад-северозапад. Сутринта ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Prognozata-za-vremeto-za-22-noemvri-2026-g-3060119",
-      "date": "2026-11-22",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
@@ -354,33 +381,6 @@
       "topic": "общи"
     },
     {
-      "title": "Борисов предупреди за пълзяща диктатура и обяви ГЕРБ за единствената опозиция",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437391-borisov-predupredi-za-palzyashta-diktatura-i-obyavi-gerb-za-edinstvenata-opozitsiya",
-      "date": "2026-11-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Карапетков след акцията на ГДБОП: Искат да ме отстранят от разследването на \"Тракия\"",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437388-karapetkov-sled-aktsiyata-na-gdbop-iskat-da-me-otstranyat-ot-razsledvaneto-na-trakiya",
-      "date": "2026-11-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Тежка катастрофа с жертва затвори пътя Слънчев бряг - Бургас",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437384-tezhka-katastrofa-s-zhertva-zatvori-patya-slanchev-bryag-burgas",
-      "date": "2026-11-22",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
       "title": "Новото предложение за бюджет на ЕС ще забави развитието на Европа - EPP Group in the European Parliament",
       "desc": "Новото предложение за бюджет на ЕС ще забави развитието на Европа EPP Group in the European Parliament",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeVYxNFJVbWprTk1jRklfNGlOejhVeVVIRV9Vbm1qYUxOLWtpRXlVNnl5ZEZETkVNbVBIVEctNm1hNkx1S3l5YWRwMV9MZUZJdVR6dnZneS1RaXQzbjJzYWdKeWlXVVR6UHdnY0x6SWdyUG0xcUd6LWhkc2JYUmVsR1pMSFZrVVlmZkZVYjBldDZZa0FDRXBMc3kwWU96RFJ4OS1kdXFWa1F6eTg?oc=5",
@@ -417,9 +417,9 @@
       "topic": "eu"
     },
     {
-      "title": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria - Economic.bg",
-      "desc": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria Economic.bg",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFdXVUdWMGk1SG4zT2xHMkI4bUdxLUZHRnJEdWlzRXUzUXA3RUlTZmZjOExsY3FOSzhmQmFlcld6bGIyQVRvd1FQN2RIdUpScXEzT2kyZTFkaVQwSW9VMndhRExrS0lwZEtUUkpNSVpUaXJuOC1McW9CcVAwNTBCdDFHOXJTVmg4S1RXMG9wd1JCOWgyU1oxeGU1bzRvVkdoajY3U0p1R3lxUmhMcm9CMw?oc=5",
+      "title": "Bulgaria's Medina Med launches 16.7 mln euro plant expansion project - SeeNews",
+      "desc": "Bulgaria's Medina Med launches 16.7 mln euro plant expansion project SeeNews",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNEFtbDF0S3RXQmpaUHNkRHcyaFB6azRJNFh5VnJ0ZWdqdTAtdlZ3aTNybXpvZzUxaUJVVExST2x4SXE0a2JzZk5jZ21rbkhTejBDS0liYWNkV0NMV2ZzRU9sTU9HM2tiQWN0ZlBrRElaa0N2N1N0aDliS0pvRUhacWlTMDNZM3BwU2hCYnlQVmR3ZWFqd09jek8yN0JVcWlVTUE?oc=5",
       "date": "2026-11-20",
       "source": "Google News EN",
       "lang": "en",
@@ -444,6 +444,15 @@
       "topic": "eu"
     },
     {
+      "title": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria - Economic.bg",
+      "desc": "From Batteries to Recycling: Final €30 million for New Technologies in Bulgaria Economic.bg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFdXVUdWMGk1SG4zT2xHMkI4bUdxLUZHRnJEdWlzRXUzUXA3RUlTZmZjOExsY3FOSzhmQmFlcld6bGIyQVRvd1FQN2RIdUpScXEzT2kyZTFkaVQwSW9VMndhRExrS0lwZEtUUkpNSVpUaXJuOC1McW9CcVAwNTBCdDFHOXJTVmg4S1RXMG9wd1JCOWgyU1oxeGU1bzRvVkdoajY3U0p1R3lxUmhMcm9CMw?oc=5",
+      "date": "2026-11-20",
+      "source": "Google News EN",
+      "lang": "en",
+      "topic": "eu"
+    },
+    {
       "title": "BT analysis: EU funds — 20 years of investment in Romania’s development - Banca Transilvania",
       "desc": "BT analysis: EU funds — 20 years of investment in Romania’s development Banca Transilvania",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0NheV8xUDF3UjVnQUs3TmcxRFMxQXdsdjJ0MTRUTGxZWl9MSk9hVDJlNjZhOGFvZU9tR21PdEQtNUVkTnJtSFRLcmF5TW4zd1lYZ2pReHUzZXRoLWNrNEVpakhKWU1XT1JlOWpWX01KOUFOQnJrWk5nT2sxTUo4U052c0JuUllONlFtb3dmY1k2aENiVTZsS2dtb0dhcXRpV3EwRGc2djZuV0ptV0dHMEw2elZGRUIzWGt2ODFWV2dQRTlUa0pXbGFQd3JicldZVTRCVg?oc=5",
@@ -456,15 +465,6 @@
       "title": "EU Approves €1.7 Billion Payment to Bulgaria Under Recovery Plan - Novinite.com",
       "desc": "EU Approves €1.7 Billion Payment to Bulgaria Under Recovery Plan Novinite.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV2Rrc1VVSzZoMVNXRXZiSVJ6YWV6bWRjNlhGX2J1Q2ZVNUZRa1FuUEdtcFJzbmgyRk9wU2ZsRGtkT3o2NWNhZmswdjRIbmsxS2xVZUZoSTdFWTFyckE4ODJnUVNZS3Y0RUJZTWJRTHIycWZsbENuNDcxSnNyRGQ2bldheDNiekpmR0hvSTdOeWtIOHVXZUFabGFYbDJ0eEVhTEVBZVZpalIxeGZEOU5JQm9yOA?oc=5",
-      "date": "2026-11-20",
-      "source": "Google News EN",
-      "lang": "en",
-      "topic": "eu"
-    },
-    {
-      "title": "Three Bulgarian Regions to Receive EUR 110 Million in Just Transition Funding for Businesses 2026 - balgarianovinite.com",
-      "desc": "Three Bulgarian Regions to Receive EUR 110 Million in Just Transition Funding for Businesses 2026 balgarianovinite.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbmZlR3VyU2dLYzdvTzZxLVpwS2dyM2xDNzhwNC1JSE9vMmNicDYyN0sxaHBjVFUxODZyZVY0aTdiVXlYQTg1SWhnQlVNUGFpY1hsZ1hTWnhzaGJ1UVlTUlRaLTJvWS1mMWt0RGN4NFQ1RUFEWm83dWFTdm82STN1RWdlMmVjdw?oc=5",
       "date": "2026-11-20",
       "source": "Google News EN",
       "lang": "en",
