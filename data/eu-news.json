@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27 16:42",
-  "count": 64,
+  "updated": "2026-11-27 19:07",
+  "count": 63,
   "items": [
     {
       "title": "Сблъсъкът за двата трилиона. Как спорът за новия бюджет на ЕС засяга България - Свободна точка",
@@ -19,15 +19,6 @@
       "source": "Google News BG",
       "lang": "bg",
       "topic": "общи"
-    },
-    {
-      "title": "Билетите на хиляди туристи на път да изгорят. Водеща авиокомпания пред фалит - vratsa.eu",
-      "desc": "Билетите на хиляди туристи на път да изгорят. Водеща авиокомпания пред фалит vratsa.eu",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZWY0cW9IQm1YMEhua0JyemNrbFJiMW1reHBTUTY5TVFSbEZFU0FPbjNRNlZCUXZuVHNlX3hBaHNHNW9yR0wtYTlCYjdFdHBvbENmNE05VVJnYXlKbTdWWkgzTnJXY1hIZXdjQVVtY0tHSEdfcWVHc1lXcVdGZ2VJX2twNkd2M1ZkR1FzTGwtYWZNMTdJSm5hWmxtaU1vUGNyTTVLZGJYNGdCc1pTUzR1S2l6Q1R6LTBjcnc?oc=5",
-      "date": "2026-11-27",
-      "source": "Google News BG",
-      "lang": "bg",
-      "topic": "eu"
     },
     {
       "title": "Why Bulgaria, Czechia, Hungary, and Slovakia are complicating the latest EU push for a Ukraine loan - The Kyiv Independent",
@@ -66,9 +57,63 @@
       "topic": "eu"
     },
     {
-      "title": "Шокиращ разказ на очевидец от Марсилия: Ако полицията не беше нахлула, можеше да има смъртни случаи!",
+      "title": "Откриха профила на нападнал феновете на Левски",
+      "desc": "Феновете на Левски откриха профила във Facebook на един от хората, нападнали български почитатели в Марсилия снощи. Мехди Акаб е местен ултрас, ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Otkriha-profila-na-napadnal-fenovete-na-Levski-3063203",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Феновете на Левски протестират пред френското посолство",
+      "desc": "Насилието на френски привърженици над българските фенове на ФК \"Левски\" по време на мача срещу Олимпик Марсилия предизвика остри реакции на ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Fenovete-na-Levski-protestirat-pred-frenskoto-posolstvo-3063199",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Жената от шокиращите кадри в Марсилия от болницата: Можеше и да не съм жива",
+      "desc": "Видеоклипът за малтретираните български граждани от френски привърженици обиколи социалните мрежи и предизвика острата реакция на депутати, граждани ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zhenata-ot-shokirashtite-kadri-v-Marsiliya-ot-bolnicata-Mozheshe-i-da-ne-sum-zhiva-3063190",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "социални"
+    },
+    {
+      "title": "Васил Терзиев: Има опасност части от София да останат без парно и топла вода цяла зима",
+      "desc": "В навечерието на протести на граждани на София заради липсата на топла вода и парно вече три месеца Васил Терзиев обясни, че има реална опасност ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Vasil-Terziev-Ima-opasnost-chasti-ot-Sofiya-da-ostanat-bez-parno-i-topla-voda-cyala-zima-3063183",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Свидетел от ужаса в Марсилия: Таксиджия ни разпитваше къде е хотелът ни, след като разбра, че сме българи",
+      "desc": "Таксиджиите, може би някои от тях, са инфилтрирани фенове на Олимпик Марсилия. Веднага след като чу, че сме българи, почна да ни задава някакви ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Svidetel-ot-uzhasa-v-Marsiliya-Taksidzhiya-ni-razpitvashe-kude-e-hotelut-ni-sled-kato-razbra-che-sme-bulgari-3063181",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "туризъм"
+    },
+    {
+      "title": "Заради липсата на парно и топла вода от три месеца: Столичани блокираха \"Орлов мост\"",
+      "desc": "Проблемът с липсата на парно и топла вода от три месеца принуди столичани от засегнатите квартали да излязат на протест и да блокират едното платно ...",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Zaradi-lipsata-na-parno-i-topla-voda-ot-tri-meseca-Stolichani-blokiraha-Orlov-most-3063176",
+      "date": "2026-11-27",
+      "source": "Focus News",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Очевидец от Марсилия: Ако полицията не беше нахлула, можеше да има смъртни случаи!",
       "desc": "Беше въпрос на една-две минути. Полицията, ако не беше нахлула, тези момчета влизаха при нас и вече може би щеше да има и смъртни случаи. Казвам го с ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Shokirasht-razkaz-na-ochevidec-ot-Marsiliya-Ako-policiyata-ne-beshe-nahlula-mozheshe-da-ima-smurtni-sluchai-3063173",
+      "url": "https://www.focus-news.net/novini/Bylgaria/Ochevidec-ot-Marsiliya-Ako-policiyata-ne-beshe-nahlula-mozheshe-da-ima-smurtni-sluchai-3063173",
       "date": "2026-11-27",
       "source": "Focus News",
       "lang": "bg",
@@ -103,7 +148,7 @@
     },
     {
       "title": "Жената, бита в Марсилия: Има момче в интензивно отделение. Изпуснахме си полетите, не знаем какво ще се случи оттук нататък",
-      "desc": "Жената, която бе бита по времена фитублния мач на Левски в Марсилия Боги Жекова описва най-страшните минути от жестокото нападение над български ...",
+      "desc": "Жената, която бе бита по време на футболния мач на Левски в Марсилия Боги Жекова описва най-страшните минути от жестокото нападение над български ...",
       "url": "https://www.focus-news.net/novini/Bylgaria/Zhenata-bita-v-Marsiliya-Ima-momche-v-intenzivno-otdelenie-Izpusnahme-si-poletite-ne-znaem-kakvo-shte-se-sluchi-ottuk-natatuk-3063149",
       "date": "2026-11-27",
       "source": "Focus News",
@@ -282,56 +327,74 @@
       "topic": "общини"
     },
     {
-      "title": "НСИ: 913.5 хил. посещения на чужденци в България през октомври тази година",
-      "desc": "Пътуванията на български граждани в чужбина през октомври 2026 г. са 824.8 хил.или с 0.5% по-малко спрямо октомври 2025 година (виж фиг. 1). ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/NSI-9135-hil-poseshteniya-na-chuzhdenci-v-Bulgariya-prez-oktomvri-tazi-godina-3062953",
+      "title": "Челен удар между кола и камион ограничи движението през Прохода на Републиката",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437977-chelen-udar-mezhdu-kola-i-kamion-ogranichi-dvizhenieto-prez-prohoda-na-republikata",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Слави Трифонов: Случилото се снощи на стадиона в Марсилия е позор за Франция!",
-      "desc": "Случилото се снощи на стадиона в Марсилия е позор за Франция! Това явно вече не е Франция, а северноафриканска държава, която няма нищо общо с ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Slavi-Trifonov-Sluchiloto-se-snoshti-na-stadiona-v-Marsiliya-e-pozor-za-Franciya-3062952",
+      "title": "Биха феновете на \"Левски\" в Марсилия заради политически сценарий с Антифа, убедени са журналисти",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/437973-biha-fenovete-na-levski-v-marsiliya-zaradi-politicheski-stsenariy-s-antifa-ubedeni-sa-zhurnalisti",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Близо 628 млн. евро от бюджета отиват за транспорта: 6 бази за медицински хеликоптери и нов спасителен кораб през 2027 г.",
-      "desc": "Близо 628 млн. евро от националния бюджет са предвидени за Министерството на транспорта и съобщенията през 2027 г. Това каза ресорният министър ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Blizo-628-mln-evro-ot-byudzheta-otivat-za-transporta-6-bazi-za-medicinski-helikopteri-i-nov-spasitelen-korab-prez-2027-g-3062948",
+      "title": "\"Топлофикация София\" е фактически фалирала, купуват ѝ време, заяви Александър Николов",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/437970-toplofikatsiya-sofiya-e-fakticheski-falirala-kupuvat-vreme-zayavi-aleksandar-nikolov",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "Евгени Коцев за нападенията в Марсилия: Бащата на мой приятел – нападнат от банда маскирани и въоръжени с бухалки, защото седи и чака да започне мача!",
-      "desc": "Добре дошли в новата Европа!!! На снимката - бащата на мой приятел, пропътувал разстоянието до Марсилия, за да подкрепи любимия си отбор…нападнат от ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Evgeni-Kocev-za-napadeniyata-v-Marsiliya-Bashtata-na-moi-priyatel-napadnat-ot-banda-maskirani-i-vuoruzheni-s-buhalki-zashtoto-sedi-i-chaka-da-zapochne-macha-3062947",
+      "title": "Пострадалите левскари в Марсилия са 30-40, има хора в капан, твърди Тодор Батков-младши",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/28-denqt-on-air/437969-postradalite-levskari-v-marsiliya-sa-30-40-ima-hora-v-kapan-tvardi-todor-batkov-mladshi",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
     {
-      "title": "АПИ: При над 15 см сняг е възможно спиране на движението в части от страната утре",
-      "desc": "По преценка на областните пътни управления и Националния координационен център от утре – 28 ноември (събота), след 14 ч., е създадена готовност при ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/API-Pri-nad-15-sm-snyag-e-vuzmozhno-spirane-na-dvizhenieto-v-chasti-ot-stranata-utre-3062939",
+      "title": "Здраве на клик разстояние - пазарът на хранителни добавки крие рискове",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/157-direktno/437966-zdrave-na-klik-razstoyanie-pazarat-na-hranitelni-dobavki-krie-riskove",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
       "lang": "bg",
-      "topic": "общини"
+      "topic": "социални"
     },
     {
-      "title": "Спортното министерство: В готовност сме да окажем съдействие на всички пострадали наши сънародници",
-      "desc": "Министерството на младежта и спорта излезе с позиция след шокиращите сцени от \"Велодром“, където привърженици на Олимпик Марсилия атакуваха ...",
-      "url": "https://www.focus-news.net/novini/Bylgaria/Sportnoto-ministerstvo-V-gotovnost-sme-da-okazhem-sudeistvie-na-vsichki-postradali-nashi-sunarodnici-3062937",
+      "title": "\"23 мекици и вече сте по ДДС\" - разпален спор в парламента за прага за регистрация",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437965-23-mekitsi-i-veche-ste-po-dds-razpalen-spor-v-parlamenta-za-praga-za-registratsiya",
       "date": "2026-11-27",
-      "source": "Focus News",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Френският посланик: Осъждам с най-голяма строгост насилието срещу феновете на \"Левски\"",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/7-sport/437964-frenskiyat-poslanik-osazhdam-s-nay-golyama-strogost-nasilieto-sreshtu-fenovete-na-levski",
+      "date": "2026-11-27",
+      "source": "BG ON AIR",
+      "lang": "bg",
+      "topic": "общи"
+    },
+    {
+      "title": "Усещането за спестяване на Черния петък ни носи само моментно щастие, твърди психолог",
+      "desc": "",
+      "url": "https://www.bgonair.bg/a/2-bulgaria/437963-useshtaneto-za-spestyavane-na-cherniya-petak-ni-nosi-samo-momentno-shtastie-tvardi-psiholog",
+      "date": "2026-11-27",
+      "source": "BG ON AIR",
       "lang": "bg",
       "topic": "общи"
     },
@@ -348,78 +411,6 @@
       "title": "Козлодуй остава в бедствено положение до 6 декември заради замърсената вода",
       "desc": "",
       "url": "https://www.bgonair.bg/a/2-bulgaria/437961-kozloduy-ostava-v-bedstveno-polozhenie-do-6-dekemvri-zaradi-zamarsenata-voda",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Съдът във Варна насрочи за 30 ноември делото за отстраняването на Коцев",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437958-sadat-vav-varna-nasrochi-za-30-noemvri-deloto-za-otstranyavaneto-na-kotsev",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "София посреща снега с 339 машини, GPS контрол и 1500 евро глоба за непочистена спирка",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437954-sofiya-posreshta-snega-s-339-mashini-gps-kontrol-i-1500-evro-globa-za-nepochistena-spirka",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Погребват в Гърмен 24-годишния българин, убит в Гърция",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437952-pogrebvat-v-garmen-24-godishniya-balgarin-ubit-v-gartsiya",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Йотова: Изходът от войната в Украйна не може да бъде решен без участието на ЕС",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437949-yotova-izhodat-ot-voynata-v-ukrayna-ne-mozhe-da-bade-reshen-bez-uchastieto-na-es",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Депутатите въведоха задължителна ДДС регистрация за сделки с имоти",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437924-deputatite-vavedoha-zadalzhitelna-dds-registratsiya-za-sdelki-s-imoti",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Демерджиев поиска спешен разговор с френския си колега за нападението в Марсилия",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/2-bulgaria/437923-demerdzhiev-poiska-speshen-razgovor-s-frenskiya-sikolega-za-napadenieto-v-marsiliya",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "От първо лице за терора над феновете на \"Левски\" в Марсилия (ВИДЕО)",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/7-sport/437921-ot-parvo-litse-za-terora-nad-fenovete-na-levski-v-marsiliya-video",
-      "date": "2026-11-27",
-      "source": "BG ON AIR",
-      "lang": "bg",
-      "topic": "общи"
-    },
-    {
-      "title": "Черният петък изкара купувачите по магазините, но е под въпрос дали намаленията са истински",
-      "desc": "",
-      "url": "https://www.bgonair.bg/a/163-lyubopitno/437918-cherniyat-petak-izkara-kupuvachite-po-magazinite-no-e-pod-vapros-dali-namaleniyata-sa-istinski",
       "date": "2026-11-27",
       "source": "BG ON AIR",
       "lang": "bg",
